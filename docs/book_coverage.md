@@ -1,0 +1,137 @@
+# Compendium coverage
+
+Written by `./gradlew generateResources`; do not edit. An entry ships only when every Mariculture item, recipe and image it shows exists, so the book never advertises missing content.
+
+Shipping: 115 entries. Held back: 11 entries.
+
+## Shipping
+
+- breeding_genetics/dna_extractor
+- breeding_genetics/dna_injector
+- breeding_genetics/fish_breeding
+- breeding_genetics/fish_feeder
+- breeding_genetics/fish_traits
+- breeding_genetics/hatchery_incubator
+- construction/paintbrush
+- construction/plan_types
+- construction/sawmill_and_plans
+- construction/using_the_sawmill
+- diving_transport/air_compressor
+- diving_transport/air_pump
+- diving_transport/diving_gear
+- diving_transport/diving_introduction
+- diving_transport/fludd
+- diving_transport/scuba_gear
+- diving_transport/speed_boat
+- fishing/automatic_fisher
+- fishing/bucket_hats
+- fishing/fish_oil
+- fishing/fishing_introduction
+- fishing/fishing_rods
+- fishing/sifter_and_net
+- getting_started/aquatic_resources
+- getting_started/coral_reefs
+- getting_started/machine_settings
+- getting_started/the_vat
+- getting_started/welcome
+- integrations/blood_magic
+- integrations/botania
+- integrations/manafish
+- integrations/other_mods
+- integrations/tinkers_construct
+- machines_automation/automatic_dictionary_converter
+- machines_automation/fish_sorter
+- machines_automation/fluid_dictionary
+- machines_automation/geyser
+- machines_automation/mechanized_sponge
+- machines_automation/pressure_vessel
+- machines_automation/unpacker
+- materials_processing/advanced_materials
+- materials_processing/blacksmiths_anvil
+- materials_processing/blacksmiths_assistant
+- materials_processing/burnt_bricks
+- materials_processing/casting_metals
+- materials_processing/crucible_furnace
+- materials_processing/liquid_storage
+- materials_processing/new_materials
+- materials_processing/void_bottle_titanium_bucket
+- power/advanced_sluice
+- power/gas_turbine
+- power/power_generation
+- power/rotor_types
+- power/sluice
+- sea_magic/creation_and_repair
+- sea_magic/elemental_affinity
+- sea_magic/enchanting_jewelry
+- sea_magic/jewelry
+- sea_magic/jewelry_enchantments
+- sea_magic/magical_tools
+- sea_magic/mirrors
+- sea_magic/sea_magic_introduction
+- species/angelfish
+- species/anglerfish
+- species/bass
+- species/blaasop
+- species/blazefish
+- species/blue_tang
+- species/boneless_fish
+- species/bowfin
+- species/brown_shroom_fish
+- species/butterflyfish
+- species/catfish
+- species/chub
+- species/clownfish
+- species/cod
+- species/damselfish
+- species/dragonfish
+- species/electric_ray
+- species/enderfish
+- species/fish_species
+- species/glowfish
+- species/goldfish
+- species/jellyfish
+- species/koi
+- species/lamprey
+- species/lungfish
+- species/man_o_war
+- species/manta_ray
+- species/metal_fish
+- species/minecraft_fish
+- species/minnow
+- species/neon_tetra
+- species/netherfish
+- species/nightfish
+- species/northern_pike
+- species/perch
+- species/pickerel
+- species/piranha
+- species/pufferfish
+- species/pupfish
+- species/rainbow_trout
+- species/red_herring
+- species/red_shroom_fish
+- species/salmon
+- species/siamese_fighting_fish
+- species/spiderfish
+- species/squid
+- species/stargazer
+- species/stickleback
+- species/sting_ray
+- species/tuna
+- species/undead_fish
+- species/walleye
+- species/wild_fish
+
+## Held back (first missing references)
+
+- breeding_genetics/advanced_genetics: mechanic not implemented yet (text-only entry)
+- breeding_genetics/fish_food: item mariculture:fish_food
+- fishing/how_to_fish: mechanic not implemented yet (text-only entry)
+- getting_started/changes_from_original: item mariculture:compendium
+- integrations/alexs_caves: mechanic not implemented yet (text-only entry)
+- integrations/hephaestus: not shipped on this edition
+- integrations/neo_vitae: not shipped on this edition
+- integrations/thaumaturge: not shipped on this edition
+- power/water_turbine: mechanic not implemented yet (text-only entry)
+- species/aquatic_environment: item mariculture:aquatic_environment_analyser, recipe mariculture:aquatic_environment_analyser
+- species/biome_defaults: mechanic not implemented yet (text-only entry)
