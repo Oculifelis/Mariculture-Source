@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": ["mariculture:raw_gloomfish"],
+  "result": {
+    "id": "mariculture:fish_meal",
+    "count": 2
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "parents": [
+    "nightfish",
+    "walleye"
+  ],
+  "child": "stickleback",
+  "chance_percent": 25,
+  "conditions": [],
+  "source": "mariculture/fishery/Fish.java:374"
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["TTT", "#X#", "#R#"],
+  "key": {
+    "#": {
+      "item": "minecraft:cobblestone"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "T": {
+      "tag": "minecraft:planks"
+    },
+    "X": {
+      "item": "mariculture:aluminum_ingot"
+    }
+  },
+  "result": {
+    "id": "minecraft:piston",
+    "count": 1
+  }
+}

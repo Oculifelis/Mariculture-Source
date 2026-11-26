@@ -1,0 +1,30 @@
+{
+  "parent": "mariculture:root",
+  "display": {
+    "icon": {
+      "item": "mariculture:goldfish"
+    },
+    "title": {
+      "translate": "advancements.mariculture.live_fish.title"
+    },
+    "description": {
+      "translate": "advancements.mariculture.live_fish.description"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "has_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "mariculture:live_fish"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_0"]
+  ]
+}

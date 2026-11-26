@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "parents": [
+    "auramfin",
+    "lamprey"
+  ],
+  "child": "flux_lamprey",
+  "chance_percent": 15,
+  "conditions": [
+    {
+      "type": "fluid",
+      "is": [
+        "mariculture:brine_of_order"
+      ]
+    },
+    {
+      "type": "food",
+      "item": "thaumaturge:tainted_goo"
+    },
+    {
+      "type": "research",
+      "entry": "mariculture:flux_lamprey"
+    }
+  ],
+  "source": "Mariculture 0.8.0, Thaumaturge compat"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Advanced Sluice",
+  "icon": "mariculture:advanced_sluice",
+  "category": "mariculture:power",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Works pretty much the same as the normal sluice but produces more water. It can also be used to fill in large areas with a fluid, instead of only placing one block.",
+      "title": "Advanced Sluice"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:advanced_sluice"
+    }
+  ]
+}

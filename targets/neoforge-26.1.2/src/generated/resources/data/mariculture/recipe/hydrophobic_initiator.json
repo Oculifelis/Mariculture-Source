@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" L ", "LPL", " L "],
+  "key": {
+    "L": "minecraft:lily_pad",
+    "P": "#mariculture:pearls"
+  },
+  "result": {
+    "id": "mariculture:hydrophobic_initiator",
+    "count": 1
+  }
+}

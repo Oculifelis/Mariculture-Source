@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "plugin": "aquaculture",
+  "rods": {
+    "aquaculture:iron_fishing_rod": "good",
+    "aquaculture:gold_fishing_rod": "good",
+    "aquaculture:diamond_fishing_rod": "dire",
+    "aquaculture:neptunium_fishing_rod": "super"
+  }
+}

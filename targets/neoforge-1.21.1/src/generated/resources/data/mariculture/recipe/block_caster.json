@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["BBB", "B B", "BBB"],
+  "key": {
+    "B": {
+      "item": "mariculture:burnt_brick"
+    }
+  },
+  "result": {
+    "id": "mariculture:block_caster",
+    "count": 1
+  }
+}

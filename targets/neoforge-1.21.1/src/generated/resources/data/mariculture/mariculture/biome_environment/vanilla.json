@@ -1,0 +1,169 @@
+{
+  "schema": 1,
+  "biomes": {
+    "minecraft:beach": {
+      "salinity": "brackish",
+      "temperature": 25
+    },
+    "minecraft:desert": {
+      "salinity": "fresh",
+      "temperature": 45
+    },
+    "minecraft:windswept_hills": {
+      "salinity": "fresh",
+      "temperature": 5
+    },
+    "minecraft:forest": {
+      "salinity": "fresh",
+      "temperature": 10
+    },
+    "minecraft:frozen_ocean": {
+      "salinity": "saline",
+      "temperature": -1
+    },
+    "minecraft:deep_frozen_ocean": {
+      "salinity": "saline",
+      "temperature": -1
+    },
+    "minecraft:frozen_river": {
+      "salinity": "fresh",
+      "temperature": -1
+    },
+    "minecraft:nether_wastes": {
+      "salinity": "fresh",
+      "temperature": 80
+    },
+    "minecraft:snowy_plains": {
+      "salinity": "fresh",
+      "temperature": -1
+    },
+    "minecraft:ice_spikes": {
+      "salinity": "fresh",
+      "temperature": -1
+    },
+    "minecraft:jungle": {
+      "salinity": "fresh",
+      "temperature": 25
+    },
+    "minecraft:sparse_jungle": {
+      "salinity": "fresh",
+      "temperature": 24
+    },
+    "minecraft:mushroom_fields": {
+      "salinity": "fresh",
+      "temperature": 15
+    },
+    "minecraft:ocean": {
+      "salinity": "saline",
+      "temperature": 4
+    },
+    "minecraft:plains": {
+      "salinity": "fresh",
+      "temperature": 10
+    },
+    "minecraft:river": {
+      "salinity": "fresh",
+      "temperature": 10
+    },
+    "minecraft:the_end": {
+      "salinity": "fresh",
+      "temperature": 3
+    },
+    "minecraft:swamp": {
+      "salinity": "fresh",
+      "temperature": 8
+    },
+    "minecraft:taiga": {
+      "salinity": "fresh",
+      "temperature": 5
+    },
+    "minecraft:snowy_taiga": {
+      "salinity": "fresh",
+      "temperature": 1
+    },
+    "minecraft:snowy_beach": {
+      "salinity": "brackish",
+      "temperature": 1
+    },
+    "minecraft:stony_shore": {
+      "salinity": "brackish",
+      "temperature": 15
+    },
+    "minecraft:deep_ocean": {
+      "salinity": "saline",
+      "temperature": 2
+    },
+    "minecraft:windswept_gravelly_hills": {
+      "salinity": "fresh",
+      "temperature": 5
+    },
+    "minecraft:windswept_forest": {
+      "salinity": "fresh",
+      "temperature": 7
+    },
+    "minecraft:old_growth_pine_taiga": {
+      "salinity": "fresh",
+      "temperature": 3
+    },
+    "minecraft:old_growth_spruce_taiga": {
+      "salinity": "fresh",
+      "temperature": 2
+    },
+    "minecraft:birch_forest": {
+      "salinity": "fresh",
+      "temperature": 10
+    },
+    "minecraft:old_growth_birch_forest": {
+      "salinity": "fresh",
+      "temperature": 8
+    },
+    "minecraft:dark_forest": {
+      "salinity": "fresh",
+      "temperature": 11
+    },
+    "minecraft:savanna": {
+      "salinity": "fresh",
+      "temperature": 23
+    },
+    "minecraft:savanna_plateau": {
+      "salinity": "fresh",
+      "temperature": 22
+    },
+    "minecraft:badlands": {
+      "salinity": "fresh",
+      "temperature": 40
+    },
+    "minecraft:wooded_badlands": {
+      "salinity": "fresh",
+      "temperature": 38
+    },
+    "minecraft:eroded_badlands": {
+      "salinity": "fresh",
+      "temperature": 39
+    },
+    "minecraft:warm_ocean": {
+      "salinity": "saline",
+      "temperature": 20
+    },
+    "minecraft:lukewarm_ocean": {
+      "salinity": "saline",
+      "temperature": 12
+    },
+    "minecraft:deep_lukewarm_ocean": {
+      "salinity": "saline",
+      "temperature": 10
+    },
+    "minecraft:cold_ocean": {
+      "salinity": "saline",
+      "temperature": 2
+    },
+    "minecraft:deep_cold_ocean": {
+      "salinity": "saline",
+      "temperature": 1
+    },
+    "minecraft:mangrove_swamp": {
+      "salinity": "brackish",
+      "temperature": 25
+    }
+  }
+}

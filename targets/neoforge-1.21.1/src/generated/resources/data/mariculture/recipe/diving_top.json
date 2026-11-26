@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" C ", "C C", " C "],
+  "key": {
+    "C": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "id": "mariculture:diving_top",
+    "count": 1
+  }
+}

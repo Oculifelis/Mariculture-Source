@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "parents": [
+    "jellyfish",
+    "rainbow_trout"
+  ],
+  "child": "catfish",
+  "chance_percent": 15,
+  "conditions": [],
+  "source": "mariculture/fishery/Fish.java:399"
+}

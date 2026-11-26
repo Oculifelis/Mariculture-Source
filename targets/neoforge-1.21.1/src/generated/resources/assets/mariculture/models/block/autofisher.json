@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "mariculture:block/base_wood",
+    "up": "mariculture:block/base_wood",
+    "north": "mariculture:block/autofisher",
+    "south": "mariculture:block/autofisher",
+    "west": "mariculture:block/autofisher",
+    "east": "mariculture:block/autofisher",
+    "particle": "mariculture:block/autofisher"
+  }
+}

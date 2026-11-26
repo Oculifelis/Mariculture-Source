@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "parents": [
+    "red_herring",
+    "lamprey"
+  ],
+  "child": "electric_ray",
+  "chance_percent": 10,
+  "conditions": [],
+  "source": "mariculture/fishery/Fish.java:405"
+}

@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "parents": [
+    "electric_ray",
+    "enderfish"
+  ],
+  "child": "manafish",
+  "chance_percent": 30,
+  "conditions": [],
+  "source": "mariculture/plugins/PluginBotania.java:42-44 (electricRay + Fish.ender)"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["TDT", "HUH", "GTG"],
+  "key": {
+    "D": "minecraft:blaze_rod",
+    "G": "minecraft:gold_ingot",
+    "H": "mariculture:heating_component",
+    "T": "mariculture:titanium_ingot",
+    "U": "mariculture:advanced_heating_upgrade"
+  },
+  "result": {
+    "id": "mariculture:ultimate_heating_upgrade",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Automatic Fisher",
+  "icon": "mariculture:autofisher",
+  "category": "mariculture:fishing",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The automatic fisher does your fishing for you. Supply it with energy (FE), a fishing rod and bait that rod can use. It must sit one above a block of water (use it on still water to place it there); in the Nether it also works above lava. Lure makes it cast more often and Luck of the Sea helps the bait.",
+      "title": "Automatic Fisher"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Only RF (capacitor) and speed (hyperkinetic) upgrades work with the autofisher. RF upgrades enlarge its energy buffer and lower its energy use; speed upgrades make it faster."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:autofisher"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "parents": [
+    "squid",
+    "chub"
+  ],
+  "child": "jellyfish",
+  "chance_percent": 17.5,
+  "conditions": [],
+  "source": "mariculture/fishery/Fish.java:392"
+}

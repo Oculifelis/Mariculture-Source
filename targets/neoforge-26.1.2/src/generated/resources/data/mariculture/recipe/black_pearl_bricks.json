@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["##", "##"],
+  "key": {
+    "#": "mariculture:black_pearl_block"
+  },
+  "result": {
+    "id": "mariculture:black_pearl_bricks",
+    "count": 4
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Damselfish",
+  "icon": "mariculture:damselfish",
+  "category": "mariculture:species",
+  "sortnum": 47,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:damselfish",
+      "title": "Damselfish",
+      "text": "Catchable live in wild:   no$(br)$(l)Min Rod$(): Reed Fishing Rod$(br2)$(l)Specialty$(): Causes animals in the water to breed."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Temperature Range, Salinity, Lifespan, Fertility, Work Ethic and Water requirements of the $(thing)Damselfish$() species.",
+      "title": "Fish Data"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Products that a working $(thing)Damselfish$() can produce in a Fish Feeder.",
+      "title": "Fish Products"
+    }
+  ]
+}

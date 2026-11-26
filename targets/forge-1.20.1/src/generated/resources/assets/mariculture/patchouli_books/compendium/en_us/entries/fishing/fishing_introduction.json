@@ -1,0 +1,21 @@
+{
+  "name": "Fishing Introduction",
+  "icon": "mariculture:reed_fishing_rod",
+  "category": "mariculture:fishing",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Fishing in Mariculture, is very simple. All you need to get started is a fishing rod, and some bait. There are various different baits of varying qualities, of which only some can be used with a certain tier of fishing rod.",
+      "title": "Introduction"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Bait is obtained in a few ways, such as making bread, or catching minnow, however most of your bait, you will gather by the use of a sifter.$(br2)You are able to catch various different species of fish as well as some other random loot while fishing, you will catch different fish based upon which biome you are fishing in!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A lot of the fish that you catch will be Raw, only a few can be caught alive, and even then they have to caught without leaving the water, so fishing underwater or using an autofisher is best."
+    }
+  ]
+}

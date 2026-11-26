@@ -1,0 +1,37 @@
+{
+  "name": "Magnesium and Titanium",
+  "icon": "mariculture:titanium_ingot",
+  "category": "mariculture:materials_processing",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Magnesium is made by combining water and quicklime in a vat. It is used in a couple recipes itself. But it's main purpose is to combine it with impure titanium to Make Titanium.",
+      "title": "Magnesium and Titanium"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Magnesium is required to make Titanium which is used in some of the more advanced recipes. To obtain Magnesium you need to mix quicklime(molten limestone) with water. This will create a random dust, which you should melt in a crucible furnace. (Not all the water is used).",
+      "title": "Magnesium"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "This will most likely give you Molten Magnesium but if you have mods that add cobalt or nickel, you may get these instead."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Fluid:$() 3000mB Quicklime$(br)$(l)Fluid:$() 1000mB Water$(br)$(l)Output Fluid:$() 144mB Molten Magnesium$(br)$(l)Time:$() 5s",
+      "title": "Making Magnesium"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Titanium is made by combining Magnesium and Rutile, you must combine them in a vat. 1 Magnesium and 1 Rutile will give you 1 Titanium.",
+      "title": "Titanium"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Fluid:$() 1 ingot Molten Magnesium$(br)$(l)Fluid:$() 1 ingot Molten Rutile$(br)$(l)Output Fluid:$() 1 ingot Molten Titanium$(br)$(l)Time:$() 1s",
+      "title": "Making Titanium"
+    }
+  ]
+}

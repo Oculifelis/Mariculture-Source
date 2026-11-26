@@ -1,0 +1,6562 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "values": {
+    "#c:nuggets/aluminum": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      }
+    ],
+    "#c:nuggets/rutile": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      }
+    ],
+    "#c:nuggets/titanium": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      }
+    ],
+    "#c:nuggets/magnesium": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      }
+    ],
+    "#c:ingots/aluminum": [
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 5
+      }
+    ],
+    "#c:ingots/rutile": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:perditio",
+        "amount": 5
+      }
+    ],
+    "#c:ingots/titanium": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 20
+      },
+      {
+        "aspect": "thaumaturge:tenebrae",
+        "amount": 5
+      }
+    ],
+    "#c:ingots/magnesium": [
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:perditio",
+        "amount": 5
+      }
+    ],
+    "#c:ores/aluminum": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 10
+      }
+    ],
+    "#c:ores/rutile": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 20
+      },
+      {
+        "aspect": "thaumaturge:perditio",
+        "amount": 5
+      }
+    ],
+    "mariculture:limestone": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 5
+      }
+    ],
+    "mariculture:oyster": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 25
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 15
+      }
+    ],
+    "mariculture:white_pearl": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:vitreus",
+        "amount": 5
+      }
+    ],
+    "mariculture:green_pearl": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 5
+      }
+    ],
+    "mariculture:yellow_pearl": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      }
+    ],
+    "mariculture:orange_pearl": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:praemunio",
+        "amount": 5
+      }
+    ],
+    "mariculture:red_pearl": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 5
+      }
+    ],
+    "mariculture:gold_pearl": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 5
+      }
+    ],
+    "mariculture:brown_pearl": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:instrumentum",
+        "amount": 5
+      }
+    ],
+    "mariculture:purple_pearl": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:cognitio",
+        "amount": 5
+      }
+    ],
+    "mariculture:blue_pearl": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      }
+    ],
+    "mariculture:black_pearl": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:machina",
+        "amount": 5
+      }
+    ],
+    "mariculture:pink_pearl": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 5
+      }
+    ],
+    "mariculture:silver_pearl": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:lux",
+        "amount": 5
+      }
+    ],
+    "mariculture:bait_ant": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      }
+    ],
+    "mariculture:bait_grasshopper": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 5
+      }
+    ],
+    "mariculture:bait_maggot": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      }
+    ],
+    "mariculture:bait_worm": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 10
+      }
+    ],
+    "mariculture:bait_bee": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 10
+      }
+    ],
+    "mariculture:droplet_water": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      }
+    ],
+    "mariculture:droplet_attack": [
+      {
+        "aspect": "thaumaturge:perditio",
+        "amount": 10
+      }
+    ],
+    "mariculture:droplet_electric": [
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 10
+      }
+    ],
+    "mariculture:droplet_ender": [
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 10
+      }
+    ],
+    "mariculture:droplet_health": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 10
+      }
+    ],
+    "mariculture:droplet_magic": [
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 10
+      }
+    ],
+    "mariculture:droplet_nether": [
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 10
+      }
+    ],
+    "mariculture:droplet_poison": [
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 10
+      }
+    ],
+    "mariculture:droplet_earth": [
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 10
+      }
+    ],
+    "mariculture:droplet_frozen": [
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 10
+      }
+    ],
+    "mariculture:droplet_plant": [
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 10
+      }
+    ],
+    "mariculture:light_blue_coral": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      }
+    ],
+    "mariculture:live_light_blue_coral": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      }
+    ],
+    "mariculture:red_coral": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      }
+    ],
+    "mariculture:live_red_coral": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      }
+    ],
+    "mariculture:orange_coral": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      }
+    ],
+    "mariculture:live_orange_coral": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      }
+    ],
+    "mariculture:pink_coral": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      }
+    ],
+    "mariculture:live_pink_coral": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      }
+    ],
+    "mariculture:purple_coral": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      }
+    ],
+    "mariculture:live_purple_coral": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      }
+    ],
+    "mariculture:magenta_coral": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      }
+    ],
+    "mariculture:live_magenta_coral": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      }
+    ],
+    "mariculture:yellow_coral": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      }
+    ],
+    "mariculture:live_yellow_coral": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      }
+    ],
+    "mariculture:acid_lamprey": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 2
+      }
+    ],
+    "mariculture:adamantinefish": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 2
+      }
+    ],
+    "mariculture:alduoritefish": [
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 2
+      }
+    ],
+    "mariculture:aluminum_dust": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:perditio",
+        "amount": 2
+      }
+    ],
+    "mariculture:aluminum_sheet": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 15
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 5
+      }
+    ],
+    "mariculture:aluminumfish": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 2
+      }
+    ],
+    "mariculture:amberfin": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 2
+      }
+    ],
+    "mariculture:ancient_sand": [
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:perditio",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 2
+      }
+    ],
+    "mariculture:angelfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 2
+      }
+    ],
+    "mariculture:anglerfish": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 2
+      }
+    ],
+    "mariculture:arditefish": [
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 2
+      }
+    ],
+    "mariculture:astral_silverfish": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 2
+      }
+    ],
+    "mariculture:atlarusfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:cognitio",
+        "amount": 2
+      }
+    ],
+    "mariculture:auramfin": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:auram",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 2
+      }
+    ],
+    "mariculture:bass": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 2
+      }
+    ],
+    "mariculture:blaasop": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 2
+      }
+    ],
+    "mariculture:blazefish": [
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      }
+    ],
+    "mariculture:blood_bucket": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      }
+    ],
+    "mariculture:blue_tang": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 9
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 2
+      }
+    ],
+    "mariculture:boneless_fish": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 2
+      }
+    ],
+    "mariculture:bowfin": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 9
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 2
+      }
+    ],
+    "mariculture:bracelet": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 15
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 10
+      }
+    ],
+    "mariculture:brine_of_order_bucket": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:ordo",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      }
+    ],
+    "mariculture:brown_coral": [
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      }
+    ],
+    "mariculture:brown_shroom_fish": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 2
+      }
+    ],
+    "mariculture:bubbling_sand": [
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 2
+      }
+    ],
+    "mariculture:burnt_brick": [
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 3
+      }
+    ],
+    "mariculture:butterflyfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 2
+      }
+    ],
+    "mariculture:carmotfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 2
+      }
+    ],
+    "mariculture:catfish": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 9
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 2
+      }
+    ],
+    "mariculture:caviar": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 3
+      }
+    ],
+    "mariculture:ceruclasefish": [
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 2
+      }
+    ],
+    "mariculture:chlorophyll_bucket": [
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 15
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      }
+    ],
+    "mariculture:chocolate_catfish": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 2
+      }
+    ],
+    "mariculture:chub": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 2
+      }
+    ],
+    "mariculture:clownfish": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 9
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 2
+      }
+    ],
+    "mariculture:cobaltfish": [
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      }
+    ],
+    "mariculture:cod": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 2
+      }
+    ],
+    "mariculture:copperfish": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 2
+      }
+    ],
+    "mariculture:copperous_dust": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:perditio",
+        "amount": 2
+      }
+    ],
+    "mariculture:coral_rock": [
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      }
+    ],
+    "mariculture:custard": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      }
+    ],
+    "mariculture:custard_bucket": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      }
+    ],
+    "mariculture:damselfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      }
+    ],
+    "mariculture:deep_ironfish": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 2
+      }
+    ],
+    "mariculture:dragon_egg_item": [
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 20
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 10
+      }
+    ],
+    "mariculture:dragonfish": [
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 2
+      }
+    ],
+    "mariculture:droplet_air": [
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 1
+      }
+    ],
+    "mariculture:droplet_aluminum": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 1
+      }
+    ],
+    "mariculture:droplet_aqua": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 1
+      }
+    ],
+    "mariculture:droplet_ardite": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 1
+      }
+    ],
+    "mariculture:droplet_cobalt": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 1
+      }
+    ],
+    "mariculture:droplet_copper": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 1
+      }
+    ],
+    "mariculture:droplet_experience": [
+      {
+        "aspect": "thaumaturge:cognitio",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 1
+      }
+    ],
+    "mariculture:droplet_gold": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 1
+      }
+    ],
+    "mariculture:droplet_iron": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 1
+      }
+    ],
+    "mariculture:droplet_lead": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 1
+      }
+    ],
+    "mariculture:droplet_magnesium": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 1
+      }
+    ],
+    "mariculture:droplet_nickel": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 1
+      }
+    ],
+    "mariculture:droplet_osmium": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 1
+      }
+    ],
+    "mariculture:droplet_platinum": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 1
+      }
+    ],
+    "mariculture:droplet_rutile": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 1
+      }
+    ],
+    "mariculture:droplet_silver": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 1
+      }
+    ],
+    "mariculture:droplet_tin": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 1
+      }
+    ],
+    "mariculture:droplet_useless": [
+      {
+        "aspect": "thaumaturge:perditio",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 1
+      }
+    ],
+    "mariculture:droplet_zinc": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 1
+      }
+    ],
+    "mariculture:eldritch_gulper": [
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:tenebrae",
+        "amount": 2
+      }
+    ],
+    "mariculture:electric_ray": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 5
+      }
+    ],
+    "mariculture:enderfish": [
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 2
+      }
+    ],
+    "mariculture:eximitefish": [
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 2
+      }
+    ],
+    "mariculture:ferrofish": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:vinculum",
+        "amount": 2
+      }
+    ],
+    "mariculture:fish_dna": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:cognitio",
+        "amount": 5
+      }
+    ],
+    "mariculture:fish_eggs": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      }
+    ],
+    "mariculture:fish_food_bucket": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      }
+    ],
+    "mariculture:fish_oil_bucket": [
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      }
+    ],
+    "mariculture:flux_bucket": [
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 15
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      }
+    ],
+    "mariculture:flux_lamprey": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:vitium",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 2
+      }
+    ],
+    "mariculture:ghost_minnow": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:spiritus",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 2
+      }
+    ],
+    "mariculture:gloomfish": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:tenebrae",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 2
+      }
+    ],
+    "mariculture:glowfish": [
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:lux",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 2
+      }
+    ],
+    "mariculture:gold_sheet": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 15
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 10
+      }
+    ],
+    "mariculture:golden_dust": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:perditio",
+        "amount": 2
+      }
+    ],
+    "mariculture:golden_silk": [
+      {
+        "aspect": "thaumaturge:fabrico",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 2
+      }
+    ],
+    "mariculture:goldeneye": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 2
+      }
+    ],
+    "mariculture:goldfish": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 2
+      }
+    ],
+    "mariculture:grey_coral": [
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      }
+    ],
+    "mariculture:gulper": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 2
+      }
+    ],
+    "mariculture:gumdrop_goldfish": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 2
+      }
+    ],
+    "mariculture:half_eaten_calamari": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 2
+      }
+    ],
+    "mariculture:heat_glass": [
+      {
+        "aspect": "thaumaturge:vitreus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 3
+      }
+    ],
+    "mariculture:ignatiusfish": [
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 2
+      }
+    ],
+    "mariculture:infuscoliumfish": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 2
+      }
+    ],
+    "mariculture:ironfish": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 2
+      }
+    ],
+    "mariculture:ironic_dust": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:perditio",
+        "amount": 2
+      }
+    ],
+    "mariculture:jellyfish": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 2
+      }
+    ],
+    "mariculture:kalendritefish": [
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 2
+      }
+    ],
+    "mariculture:koi": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 9
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 2
+      }
+    ],
+    "mariculture:lamprey": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 2
+      }
+    ],
+    "mariculture:lanternjaw": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:lux",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 2
+      }
+    ],
+    "mariculture:leader_dust": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:perditio",
+        "amount": 2
+      }
+    ],
+    "mariculture:leadfish": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 2
+      }
+    ],
+    "mariculture:lemuritefish": [
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 2
+      }
+    ],
+    "mariculture:licorice_eel": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 2
+      }
+    ],
+    "mariculture:light_grey_coral": [
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      }
+    ],
+    "mariculture:liquid_dirt_bucket": [
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 15
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      }
+    ],
+    "mariculture:liquid_ender_bucket": [
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 15
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      }
+    ],
+    "mariculture:liquid_ice_bucket": [
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 15
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      }
+    ],
+    "mariculture:liquid_mana_bucket": [
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 15
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      }
+    ],
+    "mariculture:liquid_poison_bucket": [
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 15
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      }
+    ],
+    "mariculture:liquid_wind_bucket": [
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 15
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      }
+    ],
+    "mariculture:live_brown_coral": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 2
+      }
+    ],
+    "mariculture:live_fish": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      }
+    ],
+    "mariculture:live_grey_coral": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 2
+      }
+    ],
+    "mariculture:live_light_grey_coral": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 2
+      }
+    ],
+    "mariculture:live_white_coral": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 2
+      }
+    ],
+    "mariculture:lodestone_ray": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:vinculum",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 2
+      }
+    ],
+    "mariculture:lungfish": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 2
+      }
+    ],
+    "mariculture:lutetiumfish": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 2
+      }
+    ],
+    "mariculture:magnesiumfish": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 2
+      }
+    ],
+    "mariculture:man_o_war": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 2
+      }
+    ],
+    "mariculture:manafish": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 2
+      }
+    ],
+    "mariculture:manganesefish": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 2
+      }
+    ],
+    "mariculture:manta_ray": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 2
+      }
+    ],
+    "mariculture:metal_droplet": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 1
+      }
+    ],
+    "mariculture:meutoitefish": [
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 2
+      }
+    ],
+    "mariculture:midasiumfish": [
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:cognitio",
+        "amount": 2
+      }
+    ],
+    "mariculture:minecraft_fish": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 9
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:cognitio",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:fabrico",
+        "amount": 2
+      }
+    ],
+    "mariculture:minnow": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      }
+    ],
+    "mariculture:mithrilfish": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 2
+      }
+    ],
+    "mariculture:molten_aluminum_bucket": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 13
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      }
+    ],
+    "mariculture:molten_ardite_bucket": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 13
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      }
+    ],
+    "mariculture:molten_bronze_bucket": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 13
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      }
+    ],
+    "mariculture:molten_cobalt_bucket": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 13
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      }
+    ],
+    "mariculture:molten_copper_bucket": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 13
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      }
+    ],
+    "mariculture:molten_electrum_bucket": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 13
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      }
+    ],
+    "mariculture:molten_glass_bucket": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 13
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      }
+    ],
+    "mariculture:molten_gold_bucket": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 13
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      }
+    ],
+    "mariculture:molten_gunpowder_bucket": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 13
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      }
+    ],
+    "mariculture:molten_iron_bucket": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 13
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      }
+    ],
+    "mariculture:molten_lead_bucket": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 13
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      }
+    ],
+    "mariculture:molten_magnesium_bucket": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 13
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      }
+    ],
+    "mariculture:molten_nickel_bucket": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 13
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      }
+    ],
+    "mariculture:molten_osmium_bucket": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 13
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      }
+    ],
+    "mariculture:molten_platinum_bucket": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 13
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      }
+    ],
+    "mariculture:molten_rutile_bucket": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 13
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      }
+    ],
+    "mariculture:molten_salt_bucket": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 13
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      }
+    ],
+    "mariculture:molten_silver_bucket": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 13
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      }
+    ],
+    "mariculture:molten_steel_bucket": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 13
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      }
+    ],
+    "mariculture:molten_thaumium_bucket": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 13
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 5
+      }
+    ],
+    "mariculture:molten_tin_bucket": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 13
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      }
+    ],
+    "mariculture:molten_titanium_bucket": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 13
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      }
+    ],
+    "mariculture:molten_void_bucket": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 13
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:tenebrae",
+        "amount": 3
+      }
+    ],
+    "mariculture:molten_zinc_bucket": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 13
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      }
+    ],
+    "mariculture:necklace": [
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 15
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 10
+      }
+    ],
+    "mariculture:neon_tetra": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 2
+      }
+    ],
+    "mariculture:neoprene": [
+      {
+        "aspect": "thaumaturge:fabrico",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      }
+    ],
+    "mariculture:netherfish": [
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      }
+    ],
+    "mariculture:nickelfish": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 9
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 2
+      }
+    ],
+    "mariculture:nightfish": [
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:tenebrae",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 2
+      }
+    ],
+    "mariculture:northern_pike": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 2
+      }
+    ],
+    "mariculture:old_lungfish": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 2
+      }
+    ],
+    "mariculture:orichalcumfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:cognitio",
+        "amount": 2
+      }
+    ],
+    "mariculture:osmiumfish": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 2
+      }
+    ],
+    "mariculture:oureclasefish": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 2
+      }
+    ],
+    "mariculture:peppermint_pike": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 2
+      }
+    ],
+    "mariculture:perch": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 2
+      }
+    ],
+    "mariculture:pickerel": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 2
+      }
+    ],
+    "mariculture:piranha": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 9
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 2
+      }
+    ],
+    "mariculture:plastic": [
+      {
+        "aspect": "thaumaturge:fabrico",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:ordo",
+        "amount": 2
+      }
+    ],
+    "mariculture:plastic_block": [
+      {
+        "aspect": "thaumaturge:fabrico",
+        "amount": 20
+      },
+      {
+        "aspect": "thaumaturge:ordo",
+        "amount": 5
+      }
+    ],
+    "mariculture:platinumfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 2
+      }
+    ],
+    "mariculture:polished_log": [
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 15
+      },
+      {
+        "aspect": "thaumaturge:ordo",
+        "amount": 3
+      }
+    ],
+    "mariculture:polished_planks": [
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:ordo",
+        "amount": 1
+      }
+    ],
+    "mariculture:polished_stick": [
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 1
+      }
+    ],
+    "mariculture:polished_titanium": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 15
+      },
+      {
+        "aspect": "thaumaturge:praemunio",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:ordo",
+        "amount": 3
+      }
+    ],
+    "mariculture:pressurised_water_bucket": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 20
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      }
+    ],
+    "mariculture:prometheumfish": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 2
+      }
+    ],
+    "mariculture:pufferfish": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 2
+      }
+    ],
+    "mariculture:pupfish": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 2
+      }
+    ],
+    "mariculture:quicklime_bucket": [
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      }
+    ],
+    "mariculture:quicksilver_eel": [
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:permutatio",
+        "amount": 2
+      }
+    ],
+    "mariculture:rainbow_trout": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      }
+    ],
+    "mariculture:raw_acid_lamprey": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_adamantinefish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_alduoritefish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_aluminumfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_amberfin": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_angelfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_anglerfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_arditefish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_astral_silverfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_atlarusfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:cognitio",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_auramfin": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:auram",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_bass": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_blaasop": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_blazefish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      }
+    ],
+    "mariculture:raw_blue_tang": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_boneless_fish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_bowfin": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_brown_shroom_fish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_butterflyfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_carmotfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_catfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_ceruclasefish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      }
+    ],
+    "mariculture:raw_chocolate_catfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_chub": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_cobaltfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      }
+    ],
+    "mariculture:raw_copperfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_damselfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      }
+    ],
+    "mariculture:raw_deep_ironfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_dragonfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_eldritch_gulper": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:tenebrae",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_electric_ray": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 2
+      }
+    ],
+    "mariculture:raw_enderfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_eximitefish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_ferrofish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:vinculum",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_flux_lamprey": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:vitium",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_ghost_minnow": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:spiritus",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_gloomfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:tenebrae",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_glowfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:lux",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_goldeneye": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_goldfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_gulper": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_gumdrop_goldfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_ignatiusfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_infuscoliumfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_ironfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_jellyfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_kalendritefish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_koi": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_lamprey": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_lanternjaw": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:lux",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_leadfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_lemuritefish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_licorice_eel": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_lodestone_ray": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:vinculum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_lungfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_lutetiumfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_magnesiumfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_man_o_war": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_manafish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_manganesefish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_manta_ray": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_meutoitefish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_midasiumfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:cognitio",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_minecraft_fish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:cognitio",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:fabrico",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_minnow": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      }
+    ],
+    "mariculture:raw_mithrilfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_neon_tetra": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_netherfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      }
+    ],
+    "mariculture:raw_nickelfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_nightfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:tenebrae",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_northern_pike": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_old_lungfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_orichalcumfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:cognitio",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_osmiumfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_oureclasefish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_peppermint_pike": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_perch": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_pickerel": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_piranha": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_platinumfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_prometheumfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_pupfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_quicksilver_eel": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:permutatio",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_rainbow_trout": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      }
+    ],
+    "mariculture:raw_red_herring": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_red_shroom_fish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_rubraciumfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_rutilefish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 2
+      }
+    ],
+    "mariculture:raw_sanguinitefish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      }
+    ],
+    "mariculture:raw_shadow_ironfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_siamese_fighting_fish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 2
+      }
+    ],
+    "mariculture:raw_silverfish_metal": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_spiderfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_squid": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:tenebrae",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:sensus",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_stargazer": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:lux",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:sensus",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_stickleback": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_sting_ray": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_taffy_tang": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_thaumium_trout": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 2
+      }
+    ],
+    "mariculture:raw_tinfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_tuna": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_undead_fish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:exanimis",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_vulcanitefish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_vyroxeresfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 1
+      }
+    ],
+    "mariculture:raw_walleye": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 2
+      }
+    ],
+    "mariculture:raw_wisp_angler": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:lux",
+        "amount": 2
+      }
+    ],
+    "mariculture:raw_zincfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 1
+      }
+    ],
+    "mariculture:red_herring": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 2
+      }
+    ],
+    "mariculture:red_shroom_fish": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 2
+      }
+    ],
+    "mariculture:ring": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 10
+      }
+    ],
+    "mariculture:rubraciumfish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 2
+      }
+    ],
+    "mariculture:rutilefish": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 9
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 5
+      }
+    ],
+    "mariculture:salmon": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 2
+      }
+    ],
+    "mariculture:salt": [
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 1
+      }
+    ],
+    "mariculture:sanguinitefish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      }
+    ],
+    "mariculture:shadow_ironfish": [
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 2
+      }
+    ],
+    "mariculture:siamese_fighting_fish": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 4
+      }
+    ],
+    "mariculture:silverfish_metal": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 2
+      }
+    ],
+    "mariculture:silvery_dust": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:perditio",
+        "amount": 2
+      }
+    ],
+    "mariculture:smooth_limestone": [
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 5
+      }
+    ],
+    "mariculture:spiderfish": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 2
+      }
+    ],
+    "mariculture:squid": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:tenebrae",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:sensus",
+        "amount": 2
+      }
+    ],
+    "mariculture:stargazer": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:lux",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:sensus",
+        "amount": 2
+      }
+    ],
+    "mariculture:stickleback": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 2
+      }
+    ],
+    "mariculture:sting_ray": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 2
+      }
+    ],
+    "mariculture:taffy_tang": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 2
+      }
+    ],
+    "mariculture:thaumium_trout": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      }
+    ],
+    "mariculture:tinfish": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 2
+      }
+    ],
+    "mariculture:tinnic_dust": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:perditio",
+        "amount": 2
+      }
+    ],
+    "mariculture:titanium_rod": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:praemunio",
+        "amount": 2
+      }
+    ],
+    "mariculture:titanium_sheet": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 15
+      },
+      {
+        "aspect": "thaumaturge:praemunio",
+        "amount": 5
+      }
+    ],
+    "mariculture:tuna": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 9
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 2
+      }
+    ],
+    "mariculture:undead_fish": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:exanimis",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 2
+      }
+    ],
+    "mariculture:vulcanitefish": [
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 2
+      }
+    ],
+    "mariculture:vyroxeresfish": [
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 2
+      }
+    ],
+    "mariculture:walleye": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 9
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 4
+      }
+    ],
+    "mariculture:white_coral": [
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      }
+    ],
+    "mariculture:wisp_angler": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:lux",
+        "amount": 3
+      }
+    ],
+    "mariculture:xp_bucket": [
+      {
+        "aspect": "thaumaturge:cognitio",
+        "amount": 20
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 3
+      }
+    ],
+    "mariculture:zincfish": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 7
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 2
+      }
+    ]
+  }
+}

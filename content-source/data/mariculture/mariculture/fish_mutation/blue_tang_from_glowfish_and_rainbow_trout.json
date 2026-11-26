@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "parents": [
+    "glowfish",
+    "rainbow_trout"
+  ],
+  "child": "blue_tang",
+  "chance_percent": 13.5,
+  "conditions": [],
+  "source": "mariculture/fishery/Fish.java:403"
+}

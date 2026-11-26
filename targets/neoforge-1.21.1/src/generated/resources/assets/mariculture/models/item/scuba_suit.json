@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mariculture:item/scuba_suit"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "mariculture:warded": 1
+      },
+      "model": "mariculture:item/warded_scuba_suit"
+    }
+  ]
+}

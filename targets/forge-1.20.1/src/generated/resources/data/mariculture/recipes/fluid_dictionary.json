@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mariculture:copper_tank"
+    },
+    {
+      "item": "mariculture:automatic_dictionary_converter"
+    }
+  ],
+  "result": {
+    "item": "mariculture:fluid_dictionary",
+    "count": 1
+  }
+}

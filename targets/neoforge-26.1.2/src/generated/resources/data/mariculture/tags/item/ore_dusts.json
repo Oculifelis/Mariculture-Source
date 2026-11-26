@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "mariculture:aluminum_dust",
+    "mariculture:silvery_dust",
+    "mariculture:leader_dust",
+    "mariculture:tinnic_dust",
+    "mariculture:copperous_dust",
+    "mariculture:golden_dust",
+    "mariculture:ironic_dust"
+  ]
+}

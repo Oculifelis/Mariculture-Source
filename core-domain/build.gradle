@@ -1,0 +1,64 @@
+// Platform-neutral Mariculture rules. No Minecraft or loader imports allowed here:
+// all three targets compile this source into their own jar (see targets/*/build.gradle).
+plugins {
+    id 'java-library'
+}
+
+group = 'mariculture'
+version = file('../VERSION').text.trim()
+
+// Compiled by whatever JDK (17+) runs Gradle, always emitted as Java 17 bytecode and
+// checked against the Java 17 API, so the Forge 1.20.1 target can consume it.
+tasks.withType(JavaCompile).configureEach {
+    options.release = 17
+    options.encoding = 'UTF-8'
+    options.compilerArgs += ['-Xlint:all', '-Werror']
+}
+
+repositories { mavenCentral() }
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.11.4')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+test {
+    useJUnitPlatform()
+    testLogging { events 'failed'; exceptionFormat 'full' }
+}
+
+// Guard the platform-neutral boundary: fail if any domain source imports Minecraft or a loader.
+tasks.register('checkDomainPurity') {
+    def srcDir = file('src/main/java')
+    inputs.dir(srcDir)
+    doLast {
+        def banned = ~/^import\s+(net\.minecraft|net\.minecraftforge|net\.neoforged|vazkii|com\.mojang)\./
+        def offenders = []
+        srcDir.eachFileRecurse { f ->
+            if (f.name.endsWith('.java')) {
+                f.readLines().eachWithIndex { line, i -> if (line =~ banned) offenders << "${f}:${i + 1}: ${line.trim()}" }
+            }
+        }
+        if (offenders) throw new GradleException("Domain layer imports platform classes:\n" + offenders.join('\n'))
+    }
+}
+check.dependsOn checkDomainPurity
+
+// Resource exporter: generates each target's src/generated/resources from the catalog.
+// Not shipped; run `./gradlew generateResources` after changing content, and commit the output.
+sourceSets {
+    tools {
+        java.srcDir 'src/tools/java'
+        compileClasspath += sourceSets.main.output
+        runtimeClasspath += sourceSets.main.output
+    }
+}
+
+tasks.register('generateResources', JavaExec) {
+    group = 'mariculture'
+    description = 'Regenerates targets/*/src/generated/resources from the shared catalog and content-source/.'
+    classpath = sourceSets.tools.runtimeClasspath
+    mainClass = 'mariculture.tools.ResourceExporter'
+    args file('..').absolutePath
+}

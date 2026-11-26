@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["CCC", " N ", "BBB"],
+  "key": {
+    "B": "mariculture:burnt_brick",
+    "C": "mariculture:base_brick",
+    "N": "minecraft:nether_bricks"
+  },
+  "result": {
+    "id": "mariculture:anvil",
+    "count": 1
+  }
+}

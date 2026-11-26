@@ -1,0 +1,30 @@
+{
+  "name": "Automatic Dictionary Converter",
+  "icon": "mariculture:automatic_dictionary_converter",
+  "category": "mariculture:machines_automation",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "This block converts equivalent items from one to another: items that share a material tag, such as copper ingots from different mods. Other than the block all you need is one item that you would like to convert. You do not need the target item.",
+      "title": "Automatic Dictionary Converter"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "In the converter interface, place an item in the slots on the left side of the machine and it'll place a ghost item. You can then left click this item with an empty hand and it will cycle through all of the equivalent items!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Then simply place the item you want to convert in the input slot on the right and it will quickly convert the item for you, pushing it into neighbouring inventories unless you turn ejecting off. Right click to remove an item from the ghost slots."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "If you run out of room in the 24 slots, you can place item filters in the slots instead, allowing for up to 216 filters. Use a filter with an item in your other hand to add that item; sneak and use it to empty it."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:automatic_dictionary_converter",
+      "recipe2": "mariculture:item_filter"
+    }
+  ]
+}

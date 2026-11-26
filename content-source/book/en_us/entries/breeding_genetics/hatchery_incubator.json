@@ -1,0 +1,38 @@
+{
+  "name": "Hatchery and Incubator",
+  "icon": "mariculture:incubator",
+  "category": "mariculture:breeding_genetics",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Hatchery is the basic block for hatching fish, simply right click fish eggs in and overtime they will slowly hatch in to fish.",
+      "title": "Hatchery"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "If after trying to hatch all of the eggs within a Fish Eggs item, no male or female fish is produced it will create the relevant gender, so you are guaranteed to get at least one male and one female from each Fish Eggs."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:hatchery"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The Incubator is a more advanced version of the Hatchery that runs on energy (FE). It takes nine stacks of eggs and hatches several at a time into its nine output slots.$(br2)Incubators accept RF (capacitor), heating, purity, speed (hyperkinetic) and ethereal upgrades. A battery in its battery slot charges it.",
+      "title": "Incubator"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "RF upgrades give it a larger internal buffer and lower its energy use, while heating hatches more eggs each time. Purity raises the chance of a fish hatching. Speed upgrades make it work faster. Ethereal raises the mutation chance and the chance of a dragon egg giving a Dragon Spawn Egg."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Both the speed and the heating upgrades greatly increase the energy the Incubator uses.$(br2)Chicken eggs hatch into chicken spawn eggs one time in eight."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:incubator"
+    }
+  ]
+}

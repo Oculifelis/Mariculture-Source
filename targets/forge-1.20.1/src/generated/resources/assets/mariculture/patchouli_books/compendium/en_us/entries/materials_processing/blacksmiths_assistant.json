@@ -1,0 +1,21 @@
+{
+  "name": "Blacksmith's Assistant",
+  "icon": "mariculture:autohammer",
+  "category": "mariculture:materials_processing",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Blacksmith's Assistant is a way of automating the Blacksmith's Anvil. You need to place a tank full of some form of liquid xp underneath it. In Mariculture you can obtain some molten experience by melting down enchanted items in a crucible furnace (as long as that crucible furnace has an ethereal upgrade).",
+      "title": "Blacksmith's Assistant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You then must supply the appropriate side with a hammer, and it will get to work."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:autohammer"
+    }
+  ]
+}

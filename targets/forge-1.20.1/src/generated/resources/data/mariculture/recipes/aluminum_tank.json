@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["CWC", "WGW", "CWC"],
+  "key": {
+    "C": {
+      "item": "mariculture:aluminum_ingot"
+    },
+    "G": {
+      "item": "mariculture:heat_glass"
+    },
+    "W": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "mariculture:aluminum_tank",
+    "count": 1
+  }
+}

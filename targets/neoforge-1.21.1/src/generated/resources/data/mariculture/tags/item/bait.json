@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "mariculture:bait_worm",
+    "mariculture:bait_ant",
+    "mariculture:bait_maggot",
+    "mariculture:bait_grasshopper",
+    "mariculture:bait_bee"
+  ]
+}

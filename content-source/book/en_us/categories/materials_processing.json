@@ -1,0 +1,6 @@
+{
+  "name": "Materials & Processing",
+  "description": "Basic Materials & Processing: new ores and materials, the Crucible Furnace, casting, liquid storage and the Blacksmith's Anvil.",
+  "icon": "mariculture:crucible_furnace",
+  "sortnum": 1
+}

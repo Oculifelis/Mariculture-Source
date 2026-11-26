@@ -1,0 +1,6 @@
+{
+  "name": "Power",
+  "description": "Producing Redstone Flux with water turbines, rotors, generators and sluices.",
+  "icon": "mariculture:generator",
+  "sortnum": 6
+}

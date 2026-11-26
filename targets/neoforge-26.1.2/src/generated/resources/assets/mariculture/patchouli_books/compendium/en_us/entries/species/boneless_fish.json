@@ -1,0 +1,24 @@
+{
+  "name": "Boneless Fish",
+  "icon": "mariculture:boneless_fish",
+  "category": "mariculture:species",
+  "sortnum": 56,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:boneless_fish",
+      "title": "Boneless Fish",
+      "text": "Catchable live in wild:   no$(br)$(l)Min Rod$(): RF Fishing Rod$(br2)$(l)Specialty$(): Spawns Skeletons."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Temperature Range, Salinity, Lifespan, Fertility, Work Ethic and Water requirements of the $(thing)Boneless Fish$() species.",
+      "title": "Fish Data"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Products that a working $(thing)Boneless Fish$() can produce in a Fish Feeder.",
+      "title": "Fish Products"
+    }
+  ]
+}

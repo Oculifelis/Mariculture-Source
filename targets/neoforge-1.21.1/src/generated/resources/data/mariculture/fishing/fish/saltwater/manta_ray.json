@@ -1,0 +1,25 @@
+{
+  "conditions": [
+    {
+      "type": "tide:dimension",
+      "dimensions": ["minecraft:overworld"]
+    },
+    {
+      "type": "tide:fluid",
+      "fluid": "water"
+    }
+  ],
+  "fish": "mariculture:raw_manta_ray",
+  "journal_profile": {
+    "description": "journal.description.mariculture.manta_ray",
+    "group": "saltwater",
+    "location": "journal.info.location.saltwater",
+    "rarity": "uncommon"
+  },
+  "selection_weight": 25.0,
+  "size": {
+    "record_high_cm": 70.0,
+    "typical_high_cm": 50.0,
+    "typical_low_cm": 25.0
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mariculture:raw_northern_pike"
+    }
+  ],
+  "result": {
+    "item": "mariculture:fish_meal",
+    "count": 5
+  }
+}

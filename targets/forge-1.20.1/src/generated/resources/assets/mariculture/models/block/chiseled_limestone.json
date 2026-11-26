@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "mariculture:block/limestone_bordered",
+    "side": "mariculture:block/limestone_chiseled"
+  }
+}

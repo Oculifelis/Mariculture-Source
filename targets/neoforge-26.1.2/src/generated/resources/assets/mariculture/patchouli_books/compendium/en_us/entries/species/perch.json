@@ -1,0 +1,24 @@
+{
+  "name": "Perch",
+  "icon": "mariculture:perch",
+  "category": "mariculture:species",
+  "sortnum": 40,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:perch",
+      "title": "Perch",
+      "text": "Catchable live in wild:   no$(br)$(l)Min Rod$(): Reed Fishing Rod$(br2)$(l)Specialty$(): When working, acts like a bat spawner."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Temperature Range, Salinity, Lifespan, Fertility, Work Ethic and Water requirements of the $(thing)Perch$() species.",
+      "title": "Fish Data"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Products that a working $(thing)Perch$() can produce in a Fish Feeder.",
+      "title": "Fish Products"
+    }
+  ]
+}

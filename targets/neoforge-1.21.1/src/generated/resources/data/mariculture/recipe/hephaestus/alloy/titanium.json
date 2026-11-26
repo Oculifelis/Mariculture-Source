@@ -1,0 +1,28 @@
+{
+  "type": "hephaestus:alloying",
+  "inputs": [
+    {
+      "amount": 144,
+      "id": "mariculture:molten_rutile"
+    },
+    {
+      "amount": 144,
+      "id": "mariculture:molten_magnesium"
+    }
+  ],
+  "output": {
+    "amount": 90,
+    "id": "hephaestus:molten_titanium"
+  },
+  "temperature": 1000,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "hephaestus"
+    },
+    {
+      "type": "mariculture:plugin",
+      "plugin": "hephaestus"
+    }
+  ]
+}

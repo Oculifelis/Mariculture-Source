@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" D ", "RUR", "QCQ"],
+  "key": {
+    "C": {
+      "item": "mariculture:copper_battery"
+    },
+    "D": {
+      "item": "minecraft:redstone"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "R": {
+      "item": "minecraft:repeater"
+    },
+    "U": {
+      "item": "mariculture:standard_rf_upgrade"
+    }
+  },
+  "result": {
+    "item": "mariculture:advanced_rf_upgrade",
+    "count": 1
+  }
+}

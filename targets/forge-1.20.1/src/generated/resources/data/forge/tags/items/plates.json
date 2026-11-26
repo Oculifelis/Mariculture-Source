@@ -1,0 +1,4 @@
+{
+  "replace": false,
+  "values": ["#forge:plates/aluminum", "#forge:plates/titanium", "#forge:plates/gold"]
+}

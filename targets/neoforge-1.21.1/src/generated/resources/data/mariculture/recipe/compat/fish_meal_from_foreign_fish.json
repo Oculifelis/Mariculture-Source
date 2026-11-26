@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "mariculture:foreign_fish"
+    }
+  ],
+  "result": {
+    "id": "mariculture:fish_meal",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "mariculture:foreign_fish"
+      }
+    }
+  ]
+}

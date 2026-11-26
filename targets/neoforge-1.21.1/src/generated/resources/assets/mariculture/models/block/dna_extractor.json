@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "mariculture:block/titanium_block",
+    "up": "mariculture:block/titanium_block",
+    "north": "mariculture:block/dna_extractor",
+    "south": "mariculture:block/dna_extractor",
+    "west": "mariculture:block/dna_extractor",
+    "east": "mariculture:block/dna_extractor",
+    "particle": "mariculture:block/dna_extractor"
+  }
+}

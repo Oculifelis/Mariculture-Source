@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "legacy_name": "mariculture:stingray",
+  "legacy_id": 15,
+  "since": "1.2.4",
+  "dominant": true,
+  "temperature": {
+    "base": 24,
+    "tolerance": 8
+  },
+  "salinity": {
+    "base": "brackish",
+    "tolerance": 1
+  },
+  "lifespan_minutes": 25,
+  "fertility": 1,
+  "productivity": 1,
+  "food_consumption": 1,
+  "requires_food": true,
+  "water_required": 20,
+  "valid_fluids": [
+    "minecraft:water"
+  ],
+  "ignores_salinity": false,
+  "lava": false,
+  "active_time": "any",
+  "light": 0,
+  "area_of_effect": {
+    "up": 0,
+    "down": 0,
+    "north": 0,
+    "east": 0,
+    "south": 0,
+    "west": 0
+  },
+  "catch": {
+    "rod": "dire",
+    "dimension": "overworld_like",
+    "chance_percent": 35,
+    "alive_percent": {
+      "cases": [
+        {
+          "percent": 60,
+          "any_of": [
+            {
+              "daytime": true
+            }
+          ]
+        },
+        {
+          "percent": 35
+        }
+      ]
+    }
+  },
+  "fish_oil_mb": 1725,
+  "fish_meal": 3,
+  "food": {
+    "edible": true,
+    "hunger": 2,
+    "saturation": 0.1725
+  },
+  "products": [
+    {
+      "item": "mariculture:droplet_poison",
+      "chance_percent": 10,
+      "count": 1
+    }
+  ],
+  "effects": [
+    "onEaten",
+    "tankLivingEffect"
+  ],
+  "source": "mariculture/fishery/fish/FishStingRay.java (1.7.10-1.3.0)",
+  "liquified_product": {
+    "item": "minecraft:bone",
+    "one_in": 10
+  }
+}

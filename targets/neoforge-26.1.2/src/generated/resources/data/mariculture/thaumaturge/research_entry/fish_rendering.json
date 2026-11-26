@@ -1,0 +1,51 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "category": "mariculture:aquamancy",
+  "name": "research.mariculture.fish_rendering.title",
+  "parents": [
+    "mariculture:sea_salts"
+  ],
+  "column": -3,
+  "row": 0,
+  "icons": [
+    "thaumaturge:chunk_fish"
+  ],
+  "stages": [
+    {
+      "text": "research.mariculture.fish_rendering.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "mariculture:aquamancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.mariculture.fish_rendering.stage_1",
+      "recipes": [
+        "mariculture:thaumaturge/crucible/fish_chunks"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:bestia",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 2
+    }
+  ],
+  "complexity": 1
+}

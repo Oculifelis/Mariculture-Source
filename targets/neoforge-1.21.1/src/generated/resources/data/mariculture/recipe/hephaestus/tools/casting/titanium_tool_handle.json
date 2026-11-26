@@ -1,0 +1,27 @@
+{
+  "type": "hephaestus:casting_table",
+  "cast": {
+    "item": "hephaestus_tools:tool_handle_cast"
+  },
+  "cast_consumed": false,
+  "cooling_time": 120,
+  "fluid": {
+    "amount": 90,
+    "id": "hephaestus:molten_titanium"
+  },
+  "result": "hephaestus_tools:tool_handle",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "hephaestus"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "hephaestus_tools"
+    },
+    {
+      "type": "mariculture:plugin",
+      "plugin": "hephaestus"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "mariculture:white_pearl",
+    "mariculture:green_pearl",
+    "mariculture:yellow_pearl",
+    "mariculture:orange_pearl",
+    "mariculture:red_pearl",
+    "mariculture:gold_pearl",
+    "mariculture:brown_pearl",
+    "mariculture:purple_pearl",
+    "mariculture:blue_pearl",
+    "mariculture:black_pearl",
+    "mariculture:pink_pearl",
+    "mariculture:silver_pearl",
+    {
+      "id": "alexscaves:pearl",
+      "required": false
+    }
+  ]
+}

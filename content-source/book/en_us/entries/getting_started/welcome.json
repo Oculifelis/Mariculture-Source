@@ -1,0 +1,19 @@
+{
+  "name": "About This Compendium",
+  "icon": "mariculture:white_pearl",
+  "category": "mariculture:getting_started",
+  "sortnum": -10,
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Mariculture",
+      "text": "Welcome to Mariculture, the mod about the sea: exploring it, fishing it, breeding its fish and putting it to work.$(br2)This compendium replaces the separate guide volumes of the original mod. It only shows entries for things that exist in this build, so new chapters appear as more of the mod is ported."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Community Port",
+      "text": "This is an unofficial community port of Mariculture by joshiejack, released under the MIT licence. Behaviour follows the original 1.7.10 mod; where the original had a bug, the fix is listed in the project's changelog."
+    }
+  ]
+}

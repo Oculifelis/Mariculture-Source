@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["SSS", "BOP", "WEW"],
+  "key": {
+    "B": {
+      "item": "minecraft:beef"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    },
+    "O": {
+      "item": "mariculture:oyster"
+    },
+    "P": {
+      "item": "minecraft:porkchop"
+    },
+    "S": {
+      "item": "mariculture:salt"
+    },
+    "W": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "id": "mariculture:oyster_pie",
+    "count": 1
+  }
+}

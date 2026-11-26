@@ -1,0 +1,38 @@
+{
+  "name": "Fish Feeder",
+  "icon": "mariculture:fish_feeder",
+  "category": "mariculture:breeding_genetics",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Fish Feeder is the main block used for Fish Breeding, it's where you will place your fish, and where they should spend most of their lives working away to produce something useful for you.",
+      "title": "Fish Feeder"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "With Fish Feeders the more water they have surrounding them, the larger the tank is considered, and the more fish food they can store."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:fish_feeder"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The Fish Feeder will accept most of the upgrades except for the Capacitor and the Hyperkinetic Upgrades. Storage upgrades will increase how much fish food you can store in a fish feeder, this does not increase the tank size.",
+      "title": "Upgrades"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Heating and Cooling upgrades, will adjust the temperatures of the water, allowing for fish that wouldn't normally survive in the biome the feeder is in to stay alive.$(br2)Salinator upgrades increase water salinity, while filtrator decrease it. Ethereal upgrades allow fish to live in other dimensions."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The Purity upgrades, will extend the life of your fish, causing them to live their lives in the feeder out for longer, while impurity will hurt the poor fish, causing them to die quicker (handy for speeding up breeding!). The last two upgrades are the Eternal Life upgrades, male and female versions. While these may not seem useful, they are."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Fish will continue to produce their products and females will also produce eggs forever, without them having to die."
+    }
+  ]
+}

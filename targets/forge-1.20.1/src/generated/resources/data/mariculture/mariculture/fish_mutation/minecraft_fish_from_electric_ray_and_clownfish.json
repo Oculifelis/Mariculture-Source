@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "parents": [
+    "electric_ray",
+    "clownfish"
+  ],
+  "child": "minecraft_fish",
+  "chance_percent": 10,
+  "conditions": [],
+  "source": "mariculture/fishery/Fish.java:410"
+}

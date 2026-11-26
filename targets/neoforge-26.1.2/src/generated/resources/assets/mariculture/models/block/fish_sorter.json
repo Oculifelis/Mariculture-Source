@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "mariculture:block/fish_sorter_down",
+    "up": "mariculture:block/fish_sorter_up",
+    "north": "mariculture:block/fish_sorter_north",
+    "south": "mariculture:block/fish_sorter_south",
+    "west": "mariculture:block/fish_sorter_west",
+    "east": "mariculture:block/fish_sorter_east",
+    "particle": "mariculture:block/fish_sorter_north"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "ingredient": {
+    "item": "mariculture:ancient_sand"
+  },
+  "result": "mariculture:heat_glass",
+  "experience": 0.025,
+  "cookingtime": 200
+}

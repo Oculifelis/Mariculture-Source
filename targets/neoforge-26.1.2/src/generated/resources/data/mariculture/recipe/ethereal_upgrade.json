@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["PUP", "GEG", "PDP"],
+  "key": {
+    "D": "minecraft:diamond",
+    "E": "minecraft:ender_eye",
+    "G": "minecraft:gold_ingot",
+    "P": "minecraft:ender_pearl",
+    "U": "minecraft:redstone_torch"
+  },
+  "result": {
+    "id": "mariculture:ethereal_upgrade",
+    "count": 1
+  }
+}

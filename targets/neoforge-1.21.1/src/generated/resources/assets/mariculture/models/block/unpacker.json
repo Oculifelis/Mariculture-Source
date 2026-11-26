@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "mariculture:block/unpacker_top",
+    "up": "mariculture:block/unpacker_top",
+    "north": "mariculture:block/unpacker",
+    "south": "mariculture:block/unpacker",
+    "west": "mariculture:block/unpacker",
+    "east": "mariculture:block/unpacker",
+    "particle": "mariculture:block/unpacker"
+  }
+}

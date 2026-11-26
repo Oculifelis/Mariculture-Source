@@ -1,0 +1,6 @@
+{
+  "name": "Machines & Automation",
+  "description": "The Factory: dictionary conversion, sorting, unpacking, fluid handling and other useful machines.",
+  "icon": "mariculture:automatic_dictionary_converter",
+  "sortnum": 5.0
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["PP ", " SP", "S  "],
+  "key": {
+    "P": "mariculture:burnt_brick",
+    "S": "minecraft:nether_bricks"
+  },
+  "result": {
+    "id": "mariculture:hammer",
+    "count": 1
+  }
+}

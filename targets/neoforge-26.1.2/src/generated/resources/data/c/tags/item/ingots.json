@@ -1,0 +1,4 @@
+{
+  "replace": false,
+  "values": ["#c:ingots/aluminum", "#c:ingots/magnesium", "#c:ingots/titanium", "#c:ingots/rutile"]
+}

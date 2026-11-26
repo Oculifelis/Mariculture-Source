@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "parents": [
+    "adamantinefish",
+    "goldeneye"
+  ],
+  "child": "atlarusfish",
+  "chance_percent": 10,
+  "conditions": [
+    {
+      "type": "egg_tag",
+      "tag": "c:storage_blocks/atlarus"
+    },
+    {
+      "type": "config",
+      "option": "enable_metal_fish"
+    },
+    {
+      "type": "rain",
+      "raining": false
+    },
+    {
+      "type": "height",
+      "min": 100
+    }
+  ],
+  "source": "Mariculture 0.7.0, Metallurgy: Recast compat"
+}

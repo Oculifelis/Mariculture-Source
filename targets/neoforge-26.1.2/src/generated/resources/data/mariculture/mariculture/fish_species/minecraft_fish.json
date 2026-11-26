@@ -1,0 +1,85 @@
+{
+  "schema": 1,
+  "legacy_name": "mariculture:minecraft",
+  "legacy_id": 39,
+  "since": "1.2.4",
+  "dominant": false,
+  "temperature": {
+    "base": 22,
+    "tolerance": 22
+  },
+  "salinity": {
+    "base": "fresh",
+    "tolerance": 2
+  },
+  "lifespan_minutes": 5,
+  "fertility": 30,
+  "productivity": 0,
+  "food_consumption": 3,
+  "requires_food": true,
+  "water_required": 320,
+  "valid_fluids": [
+    "minecraft:water"
+  ],
+  "ignores_salinity": false,
+  "lava": false,
+  "active_time": "any",
+  "light": 0,
+  "area_of_effect": {
+    "up": 0,
+    "down": 0,
+    "north": 0,
+    "east": 0,
+    "south": 0,
+    "west": 0
+  },
+  "catch": {
+    "rod": "old",
+    "dimension": "overworld_like",
+    "chance_percent": 5,
+    "alive_percent": 0
+  },
+  "fish_oil_mb": 200,
+  "fish_meal": 2,
+  "food": {
+    "edible": true,
+    "hunger": 2,
+    "saturation": 0.45
+  },
+  "products": [
+    {
+      "item": "mariculture:droplet_experience",
+      "chance_percent": 25,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_water",
+      "chance_percent": 5,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_aqua",
+      "chance_percent": 8,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_magic",
+      "chance_percent": 16,
+      "count": 1
+    },
+    {
+      "item": "self:dead_fish",
+      "chance_percent": 15,
+      "count": 1
+    }
+  ],
+  "effects": [
+    "onEaten",
+    "tankLivingEffect"
+  ],
+  "source": "mariculture/fishery/fish/FishMinecraft.java (1.7.10-1.3.0)",
+  "liquified_product": {
+    "item": "minecraft:cooked_cod",
+    "one_in": 1
+  }
+}

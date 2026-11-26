@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["NNN", " N ", "NNN"],
+  "key": {
+    "N": "mariculture:neoprene"
+  },
+  "result": {
+    "id": "mariculture:scuba_suit",
+    "count": 1
+  }
+}

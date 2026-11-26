@@ -1,0 +1,30 @@
+{
+  "parent": "mariculture:fish_eggs",
+  "display": {
+    "icon": {
+      "item": "mariculture:incubator"
+    },
+    "title": {
+      "translate": "advancements.mariculture.incubator.title"
+    },
+    "description": {
+      "translate": "advancements.mariculture.incubator.description"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "has_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["mariculture:incubator"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_0"]
+  ]
+}

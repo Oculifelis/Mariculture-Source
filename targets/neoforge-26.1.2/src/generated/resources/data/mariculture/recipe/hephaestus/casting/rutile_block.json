@@ -1,0 +1,21 @@
+{
+  "type": "hephaestus:casting_basin",
+  "cooling_time": 200,
+  "fluid": {
+    "amount": 1296,
+    "id": "mariculture:molten_rutile"
+  },
+  "result": {
+    "id": "mariculture:rutile_block"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "hephaestus"
+    },
+    {
+      "type": "mariculture:plugin",
+      "plugin": "hephaestus"
+    }
+  ]
+}

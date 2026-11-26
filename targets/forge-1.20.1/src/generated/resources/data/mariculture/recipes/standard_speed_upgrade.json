@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" S ", "AUA", " S "],
+  "key": {
+    "A": {
+      "item": "mariculture:aluminum_ingot"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "U": {
+      "item": "mariculture:basic_speed_upgrade"
+    }
+  },
+  "result": {
+    "item": "mariculture:standard_speed_upgrade",
+    "count": 1
+  }
+}

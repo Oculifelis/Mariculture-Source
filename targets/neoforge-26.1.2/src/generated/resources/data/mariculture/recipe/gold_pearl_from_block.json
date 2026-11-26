@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": ["mariculture:gold_pearl_block"],
+  "result": {
+    "id": "mariculture:gold_pearl",
+    "count": 4
+  }
+}

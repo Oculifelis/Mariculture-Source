@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "mariculture:block/geyser"
+    },
+    "facing=down": {
+      "model": "mariculture:block/geyser",
+      "x": 180
+    },
+    "facing=north": {
+      "model": "mariculture:block/geyser",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "mariculture:block/geyser",
+      "x": 90,
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mariculture:block/geyser",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east": {
+      "model": "mariculture:block/geyser",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

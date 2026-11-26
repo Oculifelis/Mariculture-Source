@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["SWS", "FCF", "SWS"],
+  "key": {
+    "C": {
+      "tag": "forge:chests/wooden"
+    },
+    "F": {
+      "tag": "minecraft:fishes"
+    },
+    "S": {
+      "tag": "forge:strings"
+    },
+    "W": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "result": {
+    "item": "mariculture:aqua_backpack",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "mariculture:plugin",
+      "plugin": "forestry"
+    }
+  ]
+}

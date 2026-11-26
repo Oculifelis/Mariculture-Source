@@ -1,0 +1,25 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/single_use/ingot"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "fluid": "mariculture:molten_magnesium",
+    "amount": 144
+  },
+  "result": {
+    "item": "mariculture:magnesium_ingot"
+  },
+  "cooling_time": 60,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    },
+    {
+      "type": "mariculture:plugin",
+      "plugin": "tconstruct"
+    }
+  ]
+}

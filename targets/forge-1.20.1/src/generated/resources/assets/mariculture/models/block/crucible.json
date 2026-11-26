@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "mariculture:block/base_brick",
+    "up": "mariculture:block/base_brick",
+    "north": "mariculture:block/crucible",
+    "south": "mariculture:block/crucible",
+    "west": "mariculture:block/crucible",
+    "east": "mariculture:block/crucible",
+    "particle": "mariculture:block/crucible"
+  }
+}

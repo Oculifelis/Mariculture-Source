@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": ["minecraft:cooked_salmon", "minecraft:charcoal"],
+  "result": {
+    "id": "mariculture:smoked_salmon",
+    "count": 1
+  }
+}

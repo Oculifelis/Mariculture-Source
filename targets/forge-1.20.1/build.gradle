@@ -1,0 +1,114 @@
+plugins {
+    id 'java-library'
+    id 'idea'
+    id 'net.neoforged.moddev.legacyforge' version '2.0.148'
+}
+
+def modVersion = file('../../VERSION').text.trim()
+version = "${modVersion}+mc${minecraft_version}-forge"
+group = 'mariculture'
+base { archivesName = 'mariculture' }
+
+['forge_version', 'patchouli_version'].each { key ->
+    if (project.property(key).toString().contains('TO_PIN')) {
+        throw new GradleException("${key} is not pinned yet; see docs/toolchains.md")
+    }
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(Integer.parseInt(java_version))
+
+legacyForge {
+    version = forge_version
+    parchment {
+        minecraftVersion = parchment_minecraft_version
+        mappingsVersion = parchment_mappings_version
+    }
+    runs {
+        client { client() }
+        server { server(); programArgument '--nogui' }
+        gameTestServer { type = 'gameTestServer'; systemProperty 'forge.enabledGameTestNamespaces', 'mariculture' }
+        configureEach {
+            gameDirectory = project.file("run/${name}")
+            systemProperty 'forge.logging.markers', 'REGISTRIES'
+            logLevel = org.slf4j.event.Level.INFO
+        }
+    }
+    mods {
+        mariculture { sourceSet sourceSets.main }
+    }
+}
+
+sourceSets.main {
+    // Shared platform-neutral rules are compiled into this jar, so nothing extra ships.
+    java.srcDir '../../core-domain/src/main/java'
+    resources.srcDir 'src/generated/resources'
+}
+
+repositories {
+    maven { name = 'Illusive Soulworks (Curios)'; url = 'https://maven.theillusivec4.top/' }
+    maven { name = 'BlameJared (Patchouli, JEI)'; url = 'https://maven.blamejared.com' }
+    maven { name = 'SlimeKnights (Tinkers, Mantle)'; url = 'https://dvs1.progwml6.com/files/maven' }
+    if (project.hasProperty('compatLibs')) {
+        exclusiveContent {
+            forRepository { ivy { url = file(project.property('compatLibs')); patternLayout { artifact '[module].[ext]' }; metadataSources { artifact() } } }
+            filter { includeGroup 'compatlibs' }
+        }
+    }
+    exclusiveContent {
+        forRepository { ivy { url = file('libs'); patternLayout { artifact '[module].[ext]' }; metadataSources { artifact() } } }
+        filter { includeGroup 'locallibs' }
+    }
+    exclusiveContent {
+        forRepository { maven { name = 'Modrinth (Jade)'; url = 'https://api.modrinth.com/maven' } }
+        filter { includeGroup 'maven.modrinth' }
+    }
+}
+
+dependencies {
+    // Fundamentum (required): the shared core mod. Dev runs load its release jar from libs/fundamentum.jar (gitignored).
+    modRuntimeOnly "locallibs:fundamentum:0"
+    // Curios (required): jewelry is worn in its ring, bracelet and necklace slots.
+    modCompileOnly "top.theillusivec4.curios:curios-forge:${curios_version}:api"
+    modRuntimeOnly "top.theillusivec4.curios:curios-forge:${curios_version}"
+    // Optional integrations: the mod loads without them (compat package, only touched by their plugin loaders).
+    modCompileOnly "mezz.jei:jei-1.20.1-common-api:${jei_version}"
+    modCompileOnly "mezz.jei:jei-1.20.1-forge-api:${jei_version}"
+    modCompileOnly "maven.modrinth:jade:${jade_version}"
+    // CraftTweaker (PLUG-022): only its API is used; its ZenCode classes are inside the same jar
+    modCompileOnly("com.blamejared.crafttweaker:CraftTweaker-forge-1.20.1:${crafttweaker_version}") { transitive = false }
+    // Tinkers' Construct recipe import (PLUG-003): reads its melting and casting recipes
+    modCompileOnly("slimeknights.tconstruct:TConstruct:${tconstruct_version}") { transitive = false }
+    modCompileOnly("slimeknights.mantle:Mantle:${mantle_version}") { transitive = false }
+    // KubeJS (PLUG-022): the Mariculture binding for server scripts
+    modCompileOnly("maven.modrinth:kubejs:${kubejs_version}") { transitive = false }
+    modCompileOnly("maven.modrinth:rhino:${rhino_version}") { transitive = false }
+    // Forestry CE (PLUG-004): the aqua backpacks and its fuels
+    modCompileOnly("maven.modrinth:forestry-community-edition:${forestry_version}") { transitive = false }
+    if (project.hasProperty('withCompat')) {
+        modRuntimeOnly "mezz.jei:jei-1.20.1-forge:${jei_version}"
+        modRuntimeOnly "maven.modrinth:jade:${jade_version}"
+    }
+    // Other mods' release jars for a compat smoke (-PcompatLibs=<folder>): remapped from SRG like any mod dependency,
+    // since a release jar dropped into run/mods fails its mixins in the dev runtime.
+    if (project.hasProperty('compatLibs')) {
+        file(project.property('compatLibs')).listFiles().findAll { it.name.endsWith('.jar') }.each { jar ->
+            modRuntimeOnly "compatlibs:${jar.name - '.jar'}:0"
+        }
+    }
+    // Patchouli is only data-driven for now (book JSON + recipe type), so it is a runtime
+    // dependency in development and a required dependency in mods.toml.
+    modRuntimeOnly "vazkii.patchouli:Patchouli:${patchouli_version}"
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 17
+}
+
+def replaceProps = [mod_version: modVersion, minecraft_version: minecraft_version, forge_version: forge_version]
+tasks.named('processResources', ProcessResources) {
+    inputs.properties replaceProps
+    filesMatching('META-INF/mods.toml') { expand replaceProps }
+    from('../../LICENSE') { into 'META-INF' ; rename { 'LICENSE_mariculture' } }
+    from('../../THIRD_PARTY_NOTICES.md') { into 'META-INF' }
+}

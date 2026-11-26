@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["AGA", "GFG", "AGA"],
+  "key": {
+    "A": {
+      "item": "mariculture:aluminum_ingot"
+    },
+    "F": {
+      "tag": "minecraft:fishes"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "mariculture:fish_tank",
+    "count": 1
+  }
+}

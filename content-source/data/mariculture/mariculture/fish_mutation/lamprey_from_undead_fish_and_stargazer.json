@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "parents": [
+    "undead_fish",
+    "stargazer"
+  ],
+  "child": "lamprey",
+  "chance_percent": 13.5,
+  "conditions": [],
+  "source": "mariculture/fishery/Fish.java:401"
+}

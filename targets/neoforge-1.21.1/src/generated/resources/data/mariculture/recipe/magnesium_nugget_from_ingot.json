@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mariculture:magnesium_ingot"
+    }
+  ],
+  "result": {
+    "id": "mariculture:magnesium_nugget",
+    "count": 9
+  }
+}

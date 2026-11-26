@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mariculture:raw_stargazer"
+    }
+  ],
+  "result": {
+    "id": "mariculture:fish_meal",
+    "count": 4
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "category": "mariculture:aquamancy",
+  "name": "research.mariculture.pearl_alchemy.title",
+  "parents": [
+    "mariculture:aquamancy",
+    "thaumaturge:base_alchemy"
+  ],
+  "column": -2,
+  "row": -1,
+  "icons": [
+    "mariculture:white_pearl"
+  ],
+  "stages": [
+    {
+      "text": "research.mariculture.pearl_alchemy.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "mariculture:aquamancy",
+          "amount": 1
+        }
+      ],
+      "obtain": [
+        {
+          "items": [
+            "mariculture:white_pearl",
+            "mariculture:green_pearl",
+            "mariculture:yellow_pearl",
+            "mariculture:orange_pearl",
+            "mariculture:red_pearl",
+            "mariculture:gold_pearl",
+            "mariculture:brown_pearl",
+            "mariculture:purple_pearl",
+            "mariculture:blue_pearl",
+            "mariculture:black_pearl",
+            "mariculture:pink_pearl",
+            "mariculture:silver_pearl"
+          ],
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.mariculture.pearl_alchemy.stage_1",
+      "recipes": [
+        "mariculture:thaumaturge/crucible/oyster",
+        "mariculture:thaumaturge/crucible/quicksilver_from_pearl"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:vitreus",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    }
+  ],
+  "complexity": 1
+}

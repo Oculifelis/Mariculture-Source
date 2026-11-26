@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["PDP", "DUD", "HLH"],
+  "key": {
+    "D": {
+      "item": "mariculture:droplet_attack"
+    },
+    "H": {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    "L": {
+      "item": "mariculture:raw_boneless_fish"
+    },
+    "P": {
+      "item": "mariculture:droplet_poison"
+    },
+    "U": {
+      "item": "mariculture:advanced_impurity_upgrade"
+    }
+  },
+  "result": {
+    "item": "mariculture:ultimate_impurity_upgrade",
+    "count": 1
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Thaumaturge Integration",
+  "icon": "mariculture:scuba_mask",
+  "category": "mariculture:integrations",
+  "flag": "mod:thaumaturge",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Thaumaturge Integration",
+      "text": "With Thaumaturge installed, Mariculture items carry aspects and the Thaumonomicon gains an $(item)Aquamancy$() tab. Scanning a live fish and holding one opens it from the Basics tab."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The tab teaches crucible recipes for pearls, salt, limestone, raw fish and neoprene, runic matrix infusions that ward diving gear, and a scuba mask that sees aspects like Goggles of Revealing."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Machines",
+      "text": "The crucible furnace melts thaumium and void metal, and the casters cast both back into nuggets, ingots and blocks. The vat makes $(item)Brine of Order$() from water and salis mundus. The fish feeder takes Thaumaturge meat chunks, brains and tallow, and the sifter finds amber and quicksilver nuggets in ancient sand."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Magical Fish",
+      "text": "Six magical fish breed only in a fish tank filled with Brine of Order, fed the right reagent, and only once the tank's owner has finished that fish's research. The Aquamancy tab lists the parents and the reagent for each."
+    }
+  ]
+}

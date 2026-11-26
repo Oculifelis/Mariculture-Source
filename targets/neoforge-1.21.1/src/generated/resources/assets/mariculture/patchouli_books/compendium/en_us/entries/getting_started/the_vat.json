@@ -1,0 +1,20 @@
+{
+  "name": "The Vat",
+  "icon": "mariculture:vat",
+  "category": "mariculture:getting_started",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l)The Vat$()$(br)In order to get started in Mariculture you are going to want to craft a Vat. It is a simple machine that combines liquids, or liquids with items to make something else. To interact with the vat, simply right click an item or a liquid container on to it. To remove an item, shift and right click."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "By default Vats only hold 6000mB of liquid. You can upgrade them by placing them in a 2x2, and they will then store up to 30000mB."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:vat"
+    }
+  ]
+}

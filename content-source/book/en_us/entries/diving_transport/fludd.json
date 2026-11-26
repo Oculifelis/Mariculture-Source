@@ -1,0 +1,47 @@
+{
+  "name": "F.L.U.D.D.",
+  "icon": "mariculture:fludd",
+  "category": "mariculture:diving_transport",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Flash Liquidizer Ultra Dousing Device (here on fludd) can be used in block or in item form. Worn on your chest it has four modes: hover, rocket, turbo and squirt. Sneak and press the activate key (default V) to switch between them.",
+      "title": "F.L.U.D.D."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "It needs pressurised water to work and holds 20000 units; each tick a mode works, and each squirt, uses one. Fill it in the special slot of a pressure vessel, or use it on a block and fill the stand it becomes."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:fludd"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Hover Mode$()$(br)Holding the activate key lifts you gently and holds you up for up to 15 seconds from leaving the ground. Walk forward to drift along; jump to sink.$(br2)$(l)Rocket Mode$()",
+      "title": "F.L.U.D.D. Modes"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Holding the activate key throws you upwards for the first half second after leaving the ground, and you take no fall damage."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Turbo Mode$()$(br)Holding the activate key drives you forward at a very high speed.$(br2)$(l)Squirt Mode$()$(br)Pressing the activate key shoots a squirt of water that hurts whatever it hits."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Use the fludd on a block and it sets itself up there, pointing away from that face. While powered by redstone it shoots a jet like an advanced geyser, but it only takes pressurised water. Break it to get the fludd back with its water. Here's what each upgrade does to a stand.",
+      "title": "F.L.U.D.D. Block Form"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Storage Upgrade$()$(br)More water in its tank.$(br2)$(l)Purity Upgrades$()$(br)Eight more blocks of reach each.$(br2)$(l)Hyperkinetic Upgrades$()$(br)More push on entities, and more water used.$(br2)$(l)Heating Upgrades$()$(br)Scalding water: the hotter, the more damage."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Cooling Upgrades$()$(br)Freezing water that wears down the blocks it hits; the colder, the harder the blocks it breaks (never unbreakable ones).$(br2)$(l)Ethereal Upgrade$()$(br)Sideways jets pull instead of push, and items one block out go into the chest behind the stand."
+    }
+  ]
+}

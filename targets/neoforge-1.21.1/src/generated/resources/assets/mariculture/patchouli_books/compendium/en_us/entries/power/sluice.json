@@ -1,0 +1,21 @@
+{
+  "name": "Sluice",
+  "icon": "mariculture:sluice",
+  "category": "mariculture:power",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The sluice has a couple of functions. It can pull fluids out of a tank, or place them in. The larger side is the output face, while the narrower side is the input. The Sluice's main function however is to generate pressurised water, to be used in your water turbines.",
+      "title": "Sluice"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You need to build a water tower behind them, the higher the tower, the more water they will produce. Sluice's produce water every 10 seconds so you may need a bunch of them to power your turbines.$(br)(Pressurised water damages terrain)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:sluice"
+    }
+  ]
+}

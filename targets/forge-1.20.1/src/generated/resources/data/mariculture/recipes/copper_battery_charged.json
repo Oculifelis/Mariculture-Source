@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mariculture:copper_battery"
+    },
+    {
+      "item": "minecraft:redstone_block"
+    }
+  ],
+  "result": {
+    "item": "mariculture:copper_battery",
+    "count": 1,
+    "nbt": {
+      "Energy": 10000
+    }
+  }
+}

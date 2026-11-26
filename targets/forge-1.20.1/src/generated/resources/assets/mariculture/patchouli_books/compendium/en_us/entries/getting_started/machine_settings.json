@@ -1,0 +1,33 @@
+{
+  "name": "Machine Settings",
+  "icon": "minecraft:redstone",
+  "category": "mariculture:getting_started",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Many Mariculture machines share the same settings panel. This entry explains the buttons they have in common.",
+      "title": "Introduction"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A lot of the blocks throughout Mariculture can let you either adjust their auto-eject settings or redstone mode in their interface. Here's a little about each mode.",
+      "title": "Settings"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Disabled - This block will not react to redstone signals$(br)Low - This block will work unless it has a redstone signal$(br)High - This block will only work with a redstone signal",
+      "title": "Redstone Mode"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Disabled - This Block will not auto-eject anything$(br)Items - This block will auto-eject items$(br)Fluids - This block will auto-eject fluids$(br)Items & Fluids - Block auto-ejects both items and fluids",
+      "title": "Eject Setting"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Server Config",
+      "text": "Server owners can change machine speeds, the zombie fishing gear chances, natural gas catching fire, the Dragon Spawn Egg, the Stargazer's spawn protection, jewelry dropping on death and jewelry wear and Blink limits in $(o)config/mariculture-common.toml$()."
+    }
+  ]
+}

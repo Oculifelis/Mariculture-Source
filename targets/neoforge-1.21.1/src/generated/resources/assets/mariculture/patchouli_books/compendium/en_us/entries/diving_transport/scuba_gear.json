@@ -1,0 +1,51 @@
+{
+  "name": "Scuba Gear",
+  "icon": "mariculture:scuba_mask",
+  "category": "mariculture:diving_transport",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The final tier of gear. Intended for helping to explore the oceans (and with enchantments) lava lakes.",
+      "title": "Scuba Gear"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:scuba_mask",
+      "recipe2": "mariculture:scuba_tank"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:scuba_suit",
+      "recipe2": "mariculture:swimfin"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:scuba_mask",
+      "title": "Scuba Mask",
+      "text": "Clears the fog and lights up the view underwater. With a scuba tank it lets you breathe. Sneak and use it to switch its land lights on, which slowly wear it out of water."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:scuba_tank",
+      "title": "Scuba Tank",
+      "text": "Filled at the air compressor. Worn with the mask under water it keeps your breath full, using one air every 7.5 seconds. With Fire Protection it takes fire and lava damage for you, one air a hit."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:scuba_suit",
+      "title": "Wetsuit",
+      "text": "Breaks blocks four times as fast underwater, and oysters very fast. Works in lava with Fire Protection."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:swimfin",
+      "title": "Flippers",
+      "text": "Doubles your swimming speed, triples it with the wetsuit, and speeds up mining while not standing on the bottom. Walking on land with them is slow."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The mask needs a lens: neoprene around a block of glass. Neoprene is cured from four ink sacs in natural gas in a vat; plastic is made from limestone and natural gas in a vat."
+    }
+  ]
+}

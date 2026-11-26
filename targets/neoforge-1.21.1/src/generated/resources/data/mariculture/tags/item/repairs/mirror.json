@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "mariculture:aluminum_ingot",
+      "required": false
+    }
+  ]
+}

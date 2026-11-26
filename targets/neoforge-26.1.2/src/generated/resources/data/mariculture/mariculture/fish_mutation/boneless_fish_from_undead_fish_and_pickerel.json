@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "parents": [
+    "undead_fish",
+    "pickerel"
+  ],
+  "child": "boneless_fish",
+  "chance_percent": 11,
+  "conditions": [],
+  "source": "mariculture/fishery/Fish.java:409"
+}

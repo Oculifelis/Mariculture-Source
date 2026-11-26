@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["LLN"],
+  "key": {
+    "L": {
+      "tag": "mariculture:limestone"
+    },
+    "N": {
+      "tag": "forge:dyes/white"
+    }
+  },
+  "result": {
+    "item": "mariculture:chalk",
+    "count": 1
+  }
+}

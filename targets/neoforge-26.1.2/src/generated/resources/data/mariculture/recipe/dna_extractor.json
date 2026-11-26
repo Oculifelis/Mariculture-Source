@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" H ", "PSP", "TBT"],
+  "key": {
+    "B": "mariculture:titanium_block",
+    "H": "mariculture:life_core",
+    "P": "mariculture:titanium_rod",
+    "S": "mariculture:scanner",
+    "T": "mariculture:titanium_rotor"
+  },
+  "result": {
+    "id": "mariculture:dna_extractor",
+    "count": 1
+  }
+}

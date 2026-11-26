@@ -1,0 +1,26 @@
+{
+  "name": "Void Bottle and Titanium Bucket",
+  "icon": "mariculture:void_bottle",
+  "category": "mariculture:materials_processing",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Void Bottles are items that can be used in Mariculture Machines to drain their tanks. They can also be placed in the world, where they will act like a void tank.",
+      "title": "Void Bottle"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:void_bottle"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:titanium_bucket"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The titanium bucket is simply a bucket. Except it can store up to 16000mB of liquid. It works the same way as a ladle, with the benefit of also being able to place blocks in the world.",
+      "title": "Titanium Bucket"
+    }
+  ]
+}

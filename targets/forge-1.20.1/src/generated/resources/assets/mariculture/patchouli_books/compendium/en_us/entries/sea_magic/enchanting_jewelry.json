@@ -1,0 +1,25 @@
+{
+  "name": "Enchanting",
+  "icon": "minecraft:enchanting_table",
+  "category": "mariculture:sea_magic",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "While you are able to enchant jewelry directly in an enchantment table, this is not the best option as you will generally only get one enchantment on to your piece that way. So instead you should enchant pearls directly.",
+      "title": "Enchanting"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "It is recommended you enchant them inside of a mirror, as they will then have a bias to a specific enchantment, helping you out.$(br2)With your enchanted pearls, you can place them in a crafting grid with your piece of jewelry. (The colours must match)."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Take the result to a Blacksmith's Anvil and work it for a short time. When it is done, each enchantment from the pearls may make its way onto the jewelry. Each jewelry type and pearl colour limits how many enchantments a piece holds and how high they go; enchantments the piece already had are kept."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Bindings are also important here as they increase the chance that an enchantment will stick instead of being lost entirely."
+    }
+  ]
+}

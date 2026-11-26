@@ -1,0 +1,4 @@
+{
+  "replace": false,
+  "values": ["#forge:ingots/aluminum", "#forge:ingots/magnesium", "#forge:ingots/titanium", "#forge:ingots/rutile"]
+}

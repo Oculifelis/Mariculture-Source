@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["  S", " SW", "S W"],
+  "key": {
+    "S": {
+      "item": "mariculture:polished_titanium"
+    },
+    "W": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "mariculture:titanium_fishing_rod",
+    "count": 1
+  }
+}

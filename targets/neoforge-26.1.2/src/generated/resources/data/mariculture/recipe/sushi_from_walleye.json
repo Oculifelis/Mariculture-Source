@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" K ", "KFK", " K "],
+  "key": {
+    "F": "mariculture:raw_walleye",
+    "K": "mariculture:kelp_wrap"
+  },
+  "result": {
+    "id": "mariculture:sushi",
+    "count": 2
+  }
+}

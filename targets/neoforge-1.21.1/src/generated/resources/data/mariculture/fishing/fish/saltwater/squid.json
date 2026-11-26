@@ -1,0 +1,28 @@
+{
+  "conditions": [
+    {
+      "type": "tide:dimension",
+      "dimensions": ["minecraft:overworld"]
+    },
+    {
+      "type": "tide:fluid",
+      "fluid": "water"
+    },
+    {
+      "type": "tide:saltwater"
+    }
+  ],
+  "fish": "mariculture:raw_squid",
+  "journal_profile": {
+    "description": "journal.description.mariculture.squid",
+    "group": "saltwater",
+    "location": "journal.info.location.saltwater",
+    "rarity": "rare"
+  },
+  "selection_weight": 12.0,
+  "size": {
+    "record_high_cm": 70.0,
+    "typical_high_cm": 50.0,
+    "typical_low_cm": 25.0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "parents": [
+    "damselfish",
+    "goldfish"
+  ],
+  "child": "perch",
+  "chance_percent": 10.0,
+  "conditions": [
+    {
+      "type": "config",
+      "option": "extra_breeding_recipes"
+    }
+  ],
+  "source": "mariculture/fishery/Fish.java:338"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" P ", "PGP", " P "],
+  "key": {
+    "G": "minecraft:glass",
+    "P": "#minecraft:planks"
+  },
+  "result": {
+    "id": "mariculture:glass_lens",
+    "count": 1
+  }
+}

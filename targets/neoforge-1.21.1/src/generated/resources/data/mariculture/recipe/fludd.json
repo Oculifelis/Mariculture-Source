@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" E ", "PGP", "LUL"],
+  "key": {
+    "E": {
+      "item": "mariculture:lens"
+    },
+    "G": {
+      "item": "mariculture:plastic_block"
+    },
+    "L": {
+      "item": "mariculture:copper_tank"
+    },
+    "P": {
+      "item": "mariculture:gold_sheet"
+    },
+    "U": {
+      "item": "mariculture:life_core"
+    }
+  },
+  "result": {
+    "id": "mariculture:fludd",
+    "count": 1
+  }
+}

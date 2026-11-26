@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "mariculture:dyed_bucket_hats"
+    }
+  ],
+  "result": {
+    "id": "mariculture:bucket_hat",
+    "count": 1
+  }
+}

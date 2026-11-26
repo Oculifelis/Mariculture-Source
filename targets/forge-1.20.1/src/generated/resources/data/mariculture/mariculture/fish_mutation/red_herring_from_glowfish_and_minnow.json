@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "parents": [
+    "glowfish",
+    "minnow"
+  ],
+  "child": "red_herring",
+  "chance_percent": 13,
+  "conditions": [],
+  "source": "mariculture/fishery/Fish.java:400"
+}

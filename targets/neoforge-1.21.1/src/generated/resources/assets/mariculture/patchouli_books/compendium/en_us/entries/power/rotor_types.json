@@ -1,0 +1,22 @@
+{
+  "name": "Rotor Types",
+  "icon": "mariculture:titanium_rotor",
+  "category": "mariculture:power",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "There are three different kinds of rotor. Copper, Aluminium and Titanium. Each is better than the previous, able to produce more power. To install these rotors simply right click them on to an iron construction block, and it will turn in to a spinning rotor in world.",
+      "title": "Rotor Types"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:copper_rotor",
+      "recipe2": "mariculture:aluminum_rotor"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:titanium_rotor"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": ["mariculture:raw_squid", "minecraft:bowl"],
+  "result": {
+    "id": "mariculture:calamari",
+    "count": 1
+  }
+}

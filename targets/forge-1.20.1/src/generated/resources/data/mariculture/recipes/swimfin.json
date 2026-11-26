@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["N N", "PDP", "PDP"],
+  "key": {
+    "D": {
+      "item": "minecraft:ink_sac"
+    },
+    "N": {
+      "item": "mariculture:neoprene"
+    },
+    "P": {
+      "item": "mariculture:plastic"
+    }
+  },
+  "result": {
+    "item": "mariculture:swimfin",
+    "count": 1
+  }
+}

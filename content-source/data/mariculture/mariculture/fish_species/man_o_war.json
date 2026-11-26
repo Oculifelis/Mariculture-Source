@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "legacy_name": "mariculture:manowar",
+  "legacy_id": 23,
+  "since": "1.2.4",
+  "dominant": true,
+  "temperature": {
+    "base": 32,
+    "tolerance": 25
+  },
+  "salinity": {
+    "base": "saline",
+    "tolerance": 1
+  },
+  "lifespan_minutes": 1,
+  "fertility": 90,
+  "productivity": 1,
+  "food_consumption": 0,
+  "requires_food": false,
+  "water_required": 130,
+  "valid_fluids": [
+    "minecraft:water"
+  ],
+  "ignores_salinity": false,
+  "lava": false,
+  "active_time": "any",
+  "light": 0,
+  "area_of_effect": {
+    "up": 0,
+    "down": 0,
+    "north": 0,
+    "east": 0,
+    "south": 0,
+    "west": 0
+  },
+  "catch": {
+    "rod": "old",
+    "dimension": "overworld_like",
+    "chance_percent": 5,
+    "alive_percent": 0
+  },
+  "fish_oil_mb": 0,
+  "fish_meal": 0,
+  "food": {
+    "edible": true,
+    "hunger": 1,
+    "saturation": 0.1
+  },
+  "products": [
+    {
+      "item": "mariculture:droplet_water",
+      "chance_percent": 5,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_poison",
+      "chance_percent": 11.5,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_attack",
+      "chance_percent": 17.5,
+      "count": 1
+    }
+  ],
+  "effects": [
+    "onEaten",
+    "tankLivingEffect"
+  ],
+  "source": "mariculture/fishery/fish/FishManOWar.java (1.7.10-1.3.0)"
+}

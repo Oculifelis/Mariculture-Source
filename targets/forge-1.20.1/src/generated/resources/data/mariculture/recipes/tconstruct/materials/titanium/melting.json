@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "mariculture:titanium",
+  "result": {
+    "fluid": "mariculture:molten_titanium",
+    "amount": 144
+  },
+  "temperature": 1400,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    },
+    {
+      "type": "mariculture:plugin",
+      "plugin": "tconstruct"
+    }
+  ]
+}

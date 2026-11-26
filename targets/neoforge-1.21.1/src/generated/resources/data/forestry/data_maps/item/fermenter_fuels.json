@@ -1,0 +1,8 @@
+{
+  "values": {
+    "minecraft:kelp": {
+      "burn_duration": 1,
+      "ferment_per_cycle": 150
+    }
+  }
+}

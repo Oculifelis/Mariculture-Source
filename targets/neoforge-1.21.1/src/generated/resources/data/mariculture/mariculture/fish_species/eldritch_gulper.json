@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "since": "0.8.0",
+  "dominant": false,
+  "temperature": {
+    "base": 3,
+    "tolerance": 17
+  },
+  "salinity": {
+    "base": "fresh",
+    "tolerance": 0
+  },
+  "lifespan_minutes": 40,
+  "fertility": 400,
+  "productivity": 1,
+  "food_consumption": 1,
+  "requires_food": true,
+  "water_required": 60,
+  "valid_fluids": [
+    "mariculture:ender",
+    "mariculture:brine_of_order"
+  ],
+  "ignores_salinity": true,
+  "lava": false,
+  "active_time": "any",
+  "light": 0,
+  "area_of_effect": {
+    "up": 0,
+    "down": 0,
+    "north": 0,
+    "east": 0,
+    "south": 0,
+    "west": 0
+  },
+  "catch": {
+    "rod": "flux",
+    "dimension": "overworld_like",
+    "chance_percent": 0,
+    "alive_percent": 0
+  },
+  "fish_oil_mb": 800,
+  "fish_meal": 3,
+  "food": {
+    "edible": false,
+    "hunger": 0,
+    "saturation": 0.0
+  },
+  "products": [
+    {
+      "item": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:alienis",
+          "amount": 1
+        }
+      },
+      "chance_percent": 10,
+      "count": 1
+    },
+    {
+      "item": "thaumaturge:eldritch_eye",
+      "chance_percent": 2,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_ender",
+      "chance_percent": 10,
+      "count": 1
+    }
+  ],
+  "effects": [],
+  "abilities": [
+    {
+      "type": "damage",
+      "amount": 2.0
+    }
+  ],
+  "requires_item_tag": "mariculture:present/thaumaturge",
+  "source": "Mariculture 0.8.0, Thaumaturge compat (bred only, in a tank of Brine of Order)",
+  "liquified_product": {
+    "item": "minecraft:ender_pearl",
+    "one_in": 10
+  }
+}

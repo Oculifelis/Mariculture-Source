@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:bowl",
+    "mariculture:kelp_wrap",
+    "mariculture:raw_gulper",
+    "minecraft:brown_mushroom",
+    "minecraft:red_mushroom"
+  ],
+  "result": {
+    "id": "mariculture:miso_soup_2",
+    "count": 1
+  }
+}

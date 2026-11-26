@@ -1,0 +1,53 @@
+{
+  "name": "Liquid Storage and Transfer",
+  "icon": "mariculture:copper_tank",
+  "category": "mariculture:materials_processing",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Tanks$()$(br)Mariculture adds three new tanks for storing any liquids. They can hold different volumes of liquid and will keep their inventory when picked up. The most basic tank is the copper, with there being an aluminium and the highest tier titanium.",
+      "title": "Liquid Storage and Transfer"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:copper_tank",
+      "title": "Copper Tank",
+      "text": "32000mB"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:aluminum_tank",
+      "title": "Aluminium Tank",
+      "text": "64000mB"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:titanium_tank",
+      "title": "Titanium Tank",
+      "text": "128000mB"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Mariculture adds heat resistant bottles. These are stackable bottles that can store 2 ingots worth of liquid or 2000mB. They are crafted from Heat Resistant Glass, which can be obtained one of two ways.",
+      "title": "Heat Glass and Bottles"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Either by cooking Ancient Sand found on ocean floors or by combining glass with aluminium and quicklime in a vat."
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "mariculture:heat_glass_from_ancient_sand"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Input:$() Glass$(br)$(l)Fluid:$() 1 nugget Molten Aluminium$(br)$(l)Fluid:$() 900mB Quicklime$(br)$(l)Output:$() Heat Resistant Glass$(br)$(l)Time:$() 15s",
+      "title": "Heat Resistant Glass"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:heat_bottle"
+    }
+  ]
+}

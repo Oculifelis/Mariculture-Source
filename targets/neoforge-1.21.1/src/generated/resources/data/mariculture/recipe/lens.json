@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" N ", "NGN", " N "],
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "N": {
+      "item": "mariculture:neoprene"
+    }
+  },
+  "result": {
+    "id": "mariculture:lens",
+    "count": 1
+  }
+}

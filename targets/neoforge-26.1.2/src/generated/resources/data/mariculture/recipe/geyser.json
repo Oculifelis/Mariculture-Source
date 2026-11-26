@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" W ", " G ", "RCR"],
+  "key": {
+    "C": "mariculture:base_iron",
+    "G": "minecraft:glass",
+    "R": "minecraft:redstone",
+    "W": "minecraft:water_bucket"
+  },
+  "result": {
+    "id": "mariculture:geyser",
+    "count": 16
+  }
+}

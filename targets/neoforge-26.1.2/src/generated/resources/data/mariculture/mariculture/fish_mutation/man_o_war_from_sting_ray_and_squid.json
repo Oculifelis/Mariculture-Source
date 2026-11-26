@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "parents": [
+    "sting_ray",
+    "squid"
+  ],
+  "child": "man_o_war",
+  "chance_percent": 30,
+  "conditions": [],
+  "source": "mariculture/fishery/Fish.java:375"
+}

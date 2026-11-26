@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "since": "0.7.0",
+  "dominant": false,
+  "temperature": {
+    "base": -9,
+    "tolerance": 12
+  },
+  "salinity": {
+    "base": "saline",
+    "tolerance": 1
+  },
+  "lifespan_minutes": 40,
+  "fertility": 500,
+  "productivity": 1,
+  "food_consumption": 1,
+  "requires_food": true,
+  "water_required": 40,
+  "valid_fluids": [
+    "minecraft:water",
+    "mariculture:brine_of_order"
+  ],
+  "ignores_salinity": false,
+  "lava": false,
+  "active_time": "night",
+  "light": 0,
+  "area_of_effect": {
+    "up": 0,
+    "down": 0,
+    "north": 0,
+    "east": 0,
+    "south": 0,
+    "west": 0
+  },
+  "catch": {
+    "rod": "good",
+    "dimension": "overworld_like",
+    "chance_percent": 10,
+    "alive_percent": 0,
+    "biomes": [
+      "alexscaves:abyssal_chasm"
+    ]
+  },
+  "fish_oil_mb": 1100,
+  "fish_meal": 2,
+  "food": {
+    "edible": true,
+    "hunger": 2,
+    "saturation": 0.25
+  },
+  "products": [
+    {
+      "item": "mariculture:droplet_aqua",
+      "chance_percent": 14,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_attack",
+      "chance_percent": 8,
+      "count": 1
+    },
+    {
+      "item": "minecraft:glow_ink_sac",
+      "chance_percent": 6,
+      "count": 1
+    }
+  ],
+  "effects": [],
+  "requires_item_tag": "mariculture:present/alexscaves",
+  "source": "Mariculture 0.7.0, Alex's Caves compat",
+  "liquified_product": {
+    "item": "minecraft:bone",
+    "one_in": 8
+  }
+}

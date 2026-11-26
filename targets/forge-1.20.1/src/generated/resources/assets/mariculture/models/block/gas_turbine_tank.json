@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "mariculture:block/gas_turbine_tank"
+  },
+  "render_type": "minecraft:cutout"
+}

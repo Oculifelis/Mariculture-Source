@@ -1,0 +1,2527 @@
+{
+ "requires": [
+  "metallurgy"
+ ],
+ "changes": [
+  {
+   "type": "melting_add",
+   "input": "#c:ores/adamantine",
+   "temperature": 1900,
+   "fluid": "metallurgy:adamantine",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/adamantine",
+   "temperature": 1900,
+   "fluid": "metallurgy:adamantine",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/adamantine",
+   "temperature": 1900,
+   "fluid": "metallurgy:adamantine",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/adamantine",
+   "temperature": 1900,
+   "fluid": "metallurgy:adamantine",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/adamantine",
+   "temperature": 1900,
+   "fluid": "metallurgy:adamantine",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/adamantine",
+   "temperature": 1900,
+   "fluid": "metallurgy:adamantine",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:adamantine",
+   "result": "metallurgy:adamantine_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:adamantine",
+   "result": "metallurgy:adamantine_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:adamantine",
+   "result": "metallurgy:adamantine_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/alduorite",
+   "temperature": 1900,
+   "fluid": "metallurgy:alduorite",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/alduorite",
+   "temperature": 1900,
+   "fluid": "metallurgy:alduorite",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/alduorite",
+   "temperature": 1900,
+   "fluid": "metallurgy:alduorite",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/alduorite",
+   "temperature": 1900,
+   "fluid": "metallurgy:alduorite",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/alduorite",
+   "temperature": 1900,
+   "fluid": "metallurgy:alduorite",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/alduorite",
+   "temperature": 1900,
+   "fluid": "metallurgy:alduorite",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:alduorite",
+   "result": "metallurgy:alduorite_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:alduorite",
+   "result": "metallurgy:alduorite_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:alduorite",
+   "result": "metallurgy:alduorite_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/amordrine",
+   "temperature": 1500,
+   "fluid": "metallurgy:amordrine",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/amordrine",
+   "temperature": 1500,
+   "fluid": "metallurgy:amordrine",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/amordrine",
+   "temperature": 1500,
+   "fluid": "metallurgy:amordrine",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/amordrine",
+   "temperature": 1500,
+   "fluid": "metallurgy:amordrine",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/amordrine",
+   "temperature": 1500,
+   "fluid": "metallurgy:amordrine",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/amordrine",
+   "temperature": 1500,
+   "fluid": "metallurgy:amordrine",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:amordrine",
+   "result": "metallurgy:amordrine_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:amordrine",
+   "result": "metallurgy:amordrine_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:amordrine",
+   "result": "metallurgy:amordrine_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/angmallen",
+   "temperature": 1100,
+   "fluid": "metallurgy:angmallen",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/angmallen",
+   "temperature": 1100,
+   "fluid": "metallurgy:angmallen",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/angmallen",
+   "temperature": 1100,
+   "fluid": "metallurgy:angmallen",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/angmallen",
+   "temperature": 1100,
+   "fluid": "metallurgy:angmallen",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/angmallen",
+   "temperature": 1100,
+   "fluid": "metallurgy:angmallen",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/angmallen",
+   "temperature": 1100,
+   "fluid": "metallurgy:angmallen",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:angmallen",
+   "result": "metallurgy:angmallen_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:angmallen",
+   "result": "metallurgy:angmallen_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:angmallen",
+   "result": "metallurgy:angmallen_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/astral_silver",
+   "temperature": 1300,
+   "fluid": "metallurgy:astral_silver",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/astral_silver",
+   "temperature": 1300,
+   "fluid": "metallurgy:astral_silver",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/astral_silver",
+   "temperature": 1300,
+   "fluid": "metallurgy:astral_silver",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/astral_silver",
+   "temperature": 1300,
+   "fluid": "metallurgy:astral_silver",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/astral_silver",
+   "temperature": 1300,
+   "fluid": "metallurgy:astral_silver",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/astral_silver",
+   "temperature": 1300,
+   "fluid": "metallurgy:astral_silver",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:astral_silver",
+   "result": "metallurgy:astral_silver_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:astral_silver",
+   "result": "metallurgy:astral_silver_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:astral_silver",
+   "result": "metallurgy:astral_silver_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/atlarus",
+   "temperature": 1900,
+   "fluid": "metallurgy:atlarus",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/atlarus",
+   "temperature": 1900,
+   "fluid": "metallurgy:atlarus",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/atlarus",
+   "temperature": 1900,
+   "fluid": "metallurgy:atlarus",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/atlarus",
+   "temperature": 1900,
+   "fluid": "metallurgy:atlarus",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/atlarus",
+   "temperature": 1900,
+   "fluid": "metallurgy:atlarus",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/atlarus",
+   "temperature": 1900,
+   "fluid": "metallurgy:atlarus",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:atlarus",
+   "result": "metallurgy:atlarus_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:atlarus",
+   "result": "metallurgy:atlarus_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:atlarus",
+   "result": "metallurgy:atlarus_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/black_steel",
+   "temperature": 1100,
+   "fluid": "metallurgy:black_steel",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/black_steel",
+   "temperature": 1100,
+   "fluid": "metallurgy:black_steel",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/black_steel",
+   "temperature": 1100,
+   "fluid": "metallurgy:black_steel",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/black_steel",
+   "temperature": 1100,
+   "fluid": "metallurgy:black_steel",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/black_steel",
+   "temperature": 1100,
+   "fluid": "metallurgy:black_steel",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/black_steel",
+   "temperature": 1100,
+   "fluid": "metallurgy:black_steel",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:black_steel",
+   "result": "metallurgy:black_steel_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:black_steel",
+   "result": "metallurgy:black_steel_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:black_steel",
+   "result": "metallurgy:black_steel_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/brass",
+   "temperature": 900,
+   "fluid": "metallurgy:brass",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/brass",
+   "temperature": 900,
+   "fluid": "metallurgy:brass",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/brass",
+   "temperature": 900,
+   "fluid": "metallurgy:brass",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/brass",
+   "temperature": 900,
+   "fluid": "metallurgy:brass",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/brass",
+   "temperature": 900,
+   "fluid": "metallurgy:brass",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/brass",
+   "temperature": 900,
+   "fluid": "metallurgy:brass",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:brass",
+   "result": "metallurgy:brass_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:brass",
+   "result": "metallurgy:brass_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:brass",
+   "result": "metallurgy:brass_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/carmot",
+   "temperature": 1700,
+   "fluid": "metallurgy:carmot",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/carmot",
+   "temperature": 1700,
+   "fluid": "metallurgy:carmot",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/carmot",
+   "temperature": 1700,
+   "fluid": "metallurgy:carmot",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/carmot",
+   "temperature": 1700,
+   "fluid": "metallurgy:carmot",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/carmot",
+   "temperature": 1700,
+   "fluid": "metallurgy:carmot",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/carmot",
+   "temperature": 1700,
+   "fluid": "metallurgy:carmot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:carmot",
+   "result": "metallurgy:carmot_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:carmot",
+   "result": "metallurgy:carmot_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:carmot",
+   "result": "metallurgy:carmot_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/celenegil",
+   "temperature": 1500,
+   "fluid": "metallurgy:celenegil",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/celenegil",
+   "temperature": 1500,
+   "fluid": "metallurgy:celenegil",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/celenegil",
+   "temperature": 1500,
+   "fluid": "metallurgy:celenegil",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/celenegil",
+   "temperature": 1500,
+   "fluid": "metallurgy:celenegil",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/celenegil",
+   "temperature": 1500,
+   "fluid": "metallurgy:celenegil",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/celenegil",
+   "temperature": 1500,
+   "fluid": "metallurgy:celenegil",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:celenegil",
+   "result": "metallurgy:celenegil_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:celenegil",
+   "result": "metallurgy:celenegil_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:celenegil",
+   "result": "metallurgy:celenegil_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/ceruclase",
+   "temperature": 1500,
+   "fluid": "metallurgy:ceruclase",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/ceruclase",
+   "temperature": 1500,
+   "fluid": "metallurgy:ceruclase",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/ceruclase",
+   "temperature": 1500,
+   "fluid": "metallurgy:ceruclase",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/ceruclase",
+   "temperature": 1500,
+   "fluid": "metallurgy:ceruclase",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/ceruclase",
+   "temperature": 1500,
+   "fluid": "metallurgy:ceruclase",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/ceruclase",
+   "temperature": 1500,
+   "fluid": "metallurgy:ceruclase",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:ceruclase",
+   "result": "metallurgy:ceruclase_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:ceruclase",
+   "result": "metallurgy:ceruclase_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:ceruclase",
+   "result": "metallurgy:ceruclase_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/damascus_steel",
+   "temperature": 900,
+   "fluid": "metallurgy:damascus_steel",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/damascus_steel",
+   "temperature": 900,
+   "fluid": "metallurgy:damascus_steel",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/damascus_steel",
+   "temperature": 900,
+   "fluid": "metallurgy:damascus_steel",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/damascus_steel",
+   "temperature": 900,
+   "fluid": "metallurgy:damascus_steel",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/damascus_steel",
+   "temperature": 900,
+   "fluid": "metallurgy:damascus_steel",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/damascus_steel",
+   "temperature": 900,
+   "fluid": "metallurgy:damascus_steel",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:damascus_steel",
+   "result": "metallurgy:damascus_steel_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:damascus_steel",
+   "result": "metallurgy:damascus_steel_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:damascus_steel",
+   "result": "metallurgy:damascus_steel_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/deep_iron",
+   "temperature": 900,
+   "fluid": "metallurgy:deep_iron",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/deep_iron",
+   "temperature": 900,
+   "fluid": "metallurgy:deep_iron",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/deep_iron",
+   "temperature": 900,
+   "fluid": "metallurgy:deep_iron",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/deep_iron",
+   "temperature": 900,
+   "fluid": "metallurgy:deep_iron",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/deep_iron",
+   "temperature": 900,
+   "fluid": "metallurgy:deep_iron",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/deep_iron",
+   "temperature": 900,
+   "fluid": "metallurgy:deep_iron",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:deep_iron",
+   "result": "metallurgy:deep_iron_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:deep_iron",
+   "result": "metallurgy:deep_iron_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:deep_iron",
+   "result": "metallurgy:deep_iron_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/desichalkos",
+   "temperature": 1700,
+   "fluid": "metallurgy:desichalkos",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/desichalkos",
+   "temperature": 1700,
+   "fluid": "metallurgy:desichalkos",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/desichalkos",
+   "temperature": 1700,
+   "fluid": "metallurgy:desichalkos",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/desichalkos",
+   "temperature": 1700,
+   "fluid": "metallurgy:desichalkos",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/desichalkos",
+   "temperature": 1700,
+   "fluid": "metallurgy:desichalkos",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/desichalkos",
+   "temperature": 1700,
+   "fluid": "metallurgy:desichalkos",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:desichalkos",
+   "result": "metallurgy:desichalkos_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:desichalkos",
+   "result": "metallurgy:desichalkos_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:desichalkos",
+   "result": "metallurgy:desichalkos_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/etherium",
+   "temperature": 1900,
+   "fluid": "metallurgy:etherium",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/etherium",
+   "temperature": 1900,
+   "fluid": "metallurgy:etherium",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/etherium",
+   "temperature": 1900,
+   "fluid": "metallurgy:etherium",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/etherium",
+   "temperature": 1900,
+   "fluid": "metallurgy:etherium",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/etherium",
+   "temperature": 1900,
+   "fluid": "metallurgy:etherium",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/etherium",
+   "temperature": 1900,
+   "fluid": "metallurgy:etherium",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:etherium",
+   "result": "metallurgy:etherium_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:etherium",
+   "result": "metallurgy:etherium_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:etherium",
+   "result": "metallurgy:etherium_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/eximite",
+   "temperature": 1500,
+   "fluid": "metallurgy:eximite",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/eximite",
+   "temperature": 1500,
+   "fluid": "metallurgy:eximite",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/eximite",
+   "temperature": 1500,
+   "fluid": "metallurgy:eximite",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/eximite",
+   "temperature": 1500,
+   "fluid": "metallurgy:eximite",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/eximite",
+   "temperature": 1500,
+   "fluid": "metallurgy:eximite",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/eximite",
+   "temperature": 1500,
+   "fluid": "metallurgy:eximite",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:eximite",
+   "result": "metallurgy:eximite_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:eximite",
+   "result": "metallurgy:eximite_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:eximite",
+   "result": "metallurgy:eximite_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/haderoth",
+   "temperature": 1700,
+   "fluid": "metallurgy:haderoth",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/haderoth",
+   "temperature": 1700,
+   "fluid": "metallurgy:haderoth",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/haderoth",
+   "temperature": 1700,
+   "fluid": "metallurgy:haderoth",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/haderoth",
+   "temperature": 1700,
+   "fluid": "metallurgy:haderoth",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/haderoth",
+   "temperature": 1700,
+   "fluid": "metallurgy:haderoth",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/haderoth",
+   "temperature": 1700,
+   "fluid": "metallurgy:haderoth",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:haderoth",
+   "result": "metallurgy:haderoth_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:haderoth",
+   "result": "metallurgy:haderoth_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:haderoth",
+   "result": "metallurgy:haderoth_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/hepatizon",
+   "temperature": 1100,
+   "fluid": "metallurgy:hepatizon",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/hepatizon",
+   "temperature": 1100,
+   "fluid": "metallurgy:hepatizon",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/hepatizon",
+   "temperature": 1100,
+   "fluid": "metallurgy:hepatizon",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/hepatizon",
+   "temperature": 1100,
+   "fluid": "metallurgy:hepatizon",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/hepatizon",
+   "temperature": 1100,
+   "fluid": "metallurgy:hepatizon",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/hepatizon",
+   "temperature": 1100,
+   "fluid": "metallurgy:hepatizon",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:hepatizon",
+   "result": "metallurgy:hepatizon_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:hepatizon",
+   "result": "metallurgy:hepatizon_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:hepatizon",
+   "result": "metallurgy:hepatizon_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/ignatius",
+   "temperature": 1300,
+   "fluid": "metallurgy:ignatius",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/ignatius",
+   "temperature": 1300,
+   "fluid": "metallurgy:ignatius",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/ignatius",
+   "temperature": 1300,
+   "fluid": "metallurgy:ignatius",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/ignatius",
+   "temperature": 1300,
+   "fluid": "metallurgy:ignatius",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/ignatius",
+   "temperature": 1300,
+   "fluid": "metallurgy:ignatius",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/ignatius",
+   "temperature": 1300,
+   "fluid": "metallurgy:ignatius",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:ignatius",
+   "result": "metallurgy:ignatius_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:ignatius",
+   "result": "metallurgy:ignatius_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:ignatius",
+   "result": "metallurgy:ignatius_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/infuscolium",
+   "temperature": 1100,
+   "fluid": "metallurgy:infuscolium",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/infuscolium",
+   "temperature": 1100,
+   "fluid": "metallurgy:infuscolium",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/infuscolium",
+   "temperature": 1100,
+   "fluid": "metallurgy:infuscolium",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/infuscolium",
+   "temperature": 1100,
+   "fluid": "metallurgy:infuscolium",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/infuscolium",
+   "temperature": 1100,
+   "fluid": "metallurgy:infuscolium",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/infuscolium",
+   "temperature": 1100,
+   "fluid": "metallurgy:infuscolium",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:infuscolium",
+   "result": "metallurgy:infuscolium_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:infuscolium",
+   "result": "metallurgy:infuscolium_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:infuscolium",
+   "result": "metallurgy:infuscolium_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/inolashite",
+   "temperature": 1900,
+   "fluid": "metallurgy:inolashite",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/inolashite",
+   "temperature": 1900,
+   "fluid": "metallurgy:inolashite",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/inolashite",
+   "temperature": 1900,
+   "fluid": "metallurgy:inolashite",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/inolashite",
+   "temperature": 1900,
+   "fluid": "metallurgy:inolashite",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/inolashite",
+   "temperature": 1900,
+   "fluid": "metallurgy:inolashite",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/inolashite",
+   "temperature": 1900,
+   "fluid": "metallurgy:inolashite",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:inolashite",
+   "result": "metallurgy:inolashite_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:inolashite",
+   "result": "metallurgy:inolashite_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:inolashite",
+   "result": "metallurgy:inolashite_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/kalendrite",
+   "temperature": 1500,
+   "fluid": "metallurgy:kalendrite",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/kalendrite",
+   "temperature": 1500,
+   "fluid": "metallurgy:kalendrite",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/kalendrite",
+   "temperature": 1500,
+   "fluid": "metallurgy:kalendrite",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/kalendrite",
+   "temperature": 1500,
+   "fluid": "metallurgy:kalendrite",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/kalendrite",
+   "temperature": 1500,
+   "fluid": "metallurgy:kalendrite",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/kalendrite",
+   "temperature": 1500,
+   "fluid": "metallurgy:kalendrite",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:kalendrite",
+   "result": "metallurgy:kalendrite_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:kalendrite",
+   "result": "metallurgy:kalendrite_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:kalendrite",
+   "result": "metallurgy:kalendrite_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/krik",
+   "temperature": 1700,
+   "fluid": "metallurgy:krik",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/krik",
+   "temperature": 1700,
+   "fluid": "metallurgy:krik",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/krik",
+   "temperature": 1700,
+   "fluid": "metallurgy:krik",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/krik",
+   "temperature": 1700,
+   "fluid": "metallurgy:krik",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/krik",
+   "temperature": 1700,
+   "fluid": "metallurgy:krik",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/krik",
+   "temperature": 1700,
+   "fluid": "metallurgy:krik",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:krik",
+   "result": "metallurgy:krik_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:krik",
+   "result": "metallurgy:krik_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:krik",
+   "result": "metallurgy:krik_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/lemurite",
+   "temperature": 1700,
+   "fluid": "metallurgy:lemurite",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/lemurite",
+   "temperature": 1700,
+   "fluid": "metallurgy:lemurite",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/lemurite",
+   "temperature": 1700,
+   "fluid": "metallurgy:lemurite",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/lemurite",
+   "temperature": 1700,
+   "fluid": "metallurgy:lemurite",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/lemurite",
+   "temperature": 1700,
+   "fluid": "metallurgy:lemurite",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/lemurite",
+   "temperature": 1700,
+   "fluid": "metallurgy:lemurite",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:lemurite",
+   "result": "metallurgy:lemurite_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:lemurite",
+   "result": "metallurgy:lemurite_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:lemurite",
+   "result": "metallurgy:lemurite_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/lutetium",
+   "temperature": 1900,
+   "fluid": "metallurgy:lutetium",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/lutetium",
+   "temperature": 1900,
+   "fluid": "metallurgy:lutetium",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/lutetium",
+   "temperature": 1900,
+   "fluid": "metallurgy:lutetium",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/lutetium",
+   "temperature": 1900,
+   "fluid": "metallurgy:lutetium",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/lutetium",
+   "temperature": 1900,
+   "fluid": "metallurgy:lutetium",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/lutetium",
+   "temperature": 1900,
+   "fluid": "metallurgy:lutetium",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:lutetium",
+   "result": "metallurgy:lutetium_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:lutetium",
+   "result": "metallurgy:lutetium_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:lutetium",
+   "result": "metallurgy:lutetium_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/manganese",
+   "temperature": 1100,
+   "fluid": "metallurgy:manganese",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/manganese",
+   "temperature": 1100,
+   "fluid": "metallurgy:manganese",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/manganese",
+   "temperature": 1100,
+   "fluid": "metallurgy:manganese",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/manganese",
+   "temperature": 1100,
+   "fluid": "metallurgy:manganese",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/manganese",
+   "temperature": 1100,
+   "fluid": "metallurgy:manganese",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/manganese",
+   "temperature": 1100,
+   "fluid": "metallurgy:manganese",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:manganese",
+   "result": "metallurgy:manganese_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:manganese",
+   "result": "metallurgy:manganese_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:manganese",
+   "result": "metallurgy:manganese_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/meutoite",
+   "temperature": 1700,
+   "fluid": "metallurgy:meutoite",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/meutoite",
+   "temperature": 1700,
+   "fluid": "metallurgy:meutoite",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/meutoite",
+   "temperature": 1700,
+   "fluid": "metallurgy:meutoite",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/meutoite",
+   "temperature": 1700,
+   "fluid": "metallurgy:meutoite",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/meutoite",
+   "temperature": 1700,
+   "fluid": "metallurgy:meutoite",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/meutoite",
+   "temperature": 1700,
+   "fluid": "metallurgy:meutoite",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:meutoite",
+   "result": "metallurgy:meutoite_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:meutoite",
+   "result": "metallurgy:meutoite_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:meutoite",
+   "result": "metallurgy:meutoite_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/midasium",
+   "temperature": 1500,
+   "fluid": "metallurgy:midasium",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/midasium",
+   "temperature": 1500,
+   "fluid": "metallurgy:midasium",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/midasium",
+   "temperature": 1500,
+   "fluid": "metallurgy:midasium",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/midasium",
+   "temperature": 1500,
+   "fluid": "metallurgy:midasium",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/midasium",
+   "temperature": 1500,
+   "fluid": "metallurgy:midasium",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/midasium",
+   "temperature": 1500,
+   "fluid": "metallurgy:midasium",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:midasium",
+   "result": "metallurgy:midasium_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:midasium",
+   "result": "metallurgy:midasium_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:midasium",
+   "result": "metallurgy:midasium_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/mithril",
+   "temperature": 1700,
+   "fluid": "metallurgy:mithril",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/mithril",
+   "temperature": 1700,
+   "fluid": "metallurgy:mithril",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/mithril",
+   "temperature": 1700,
+   "fluid": "metallurgy:mithril",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/mithril",
+   "temperature": 1700,
+   "fluid": "metallurgy:mithril",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/mithril",
+   "temperature": 1700,
+   "fluid": "metallurgy:mithril",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/mithril",
+   "temperature": 1700,
+   "fluid": "metallurgy:mithril",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:mithril",
+   "result": "metallurgy:mithril_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:mithril",
+   "result": "metallurgy:mithril_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:mithril",
+   "result": "metallurgy:mithril_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/orichalcum",
+   "temperature": 1500,
+   "fluid": "metallurgy:orichalcum",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/orichalcum",
+   "temperature": 1500,
+   "fluid": "metallurgy:orichalcum",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/orichalcum",
+   "temperature": 1500,
+   "fluid": "metallurgy:orichalcum",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/orichalcum",
+   "temperature": 1500,
+   "fluid": "metallurgy:orichalcum",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/orichalcum",
+   "temperature": 1500,
+   "fluid": "metallurgy:orichalcum",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/orichalcum",
+   "temperature": 1500,
+   "fluid": "metallurgy:orichalcum",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:orichalcum",
+   "result": "metallurgy:orichalcum_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:orichalcum",
+   "result": "metallurgy:orichalcum_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:orichalcum",
+   "result": "metallurgy:orichalcum_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/oureclase",
+   "temperature": 1300,
+   "fluid": "metallurgy:oureclase",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/oureclase",
+   "temperature": 1300,
+   "fluid": "metallurgy:oureclase",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/oureclase",
+   "temperature": 1300,
+   "fluid": "metallurgy:oureclase",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/oureclase",
+   "temperature": 1300,
+   "fluid": "metallurgy:oureclase",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/oureclase",
+   "temperature": 1300,
+   "fluid": "metallurgy:oureclase",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/oureclase",
+   "temperature": 1300,
+   "fluid": "metallurgy:oureclase",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:oureclase",
+   "result": "metallurgy:oureclase_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:oureclase",
+   "result": "metallurgy:oureclase_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:oureclase",
+   "result": "metallurgy:oureclase_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/prometheum",
+   "temperature": 900,
+   "fluid": "metallurgy:prometheum",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/prometheum",
+   "temperature": 900,
+   "fluid": "metallurgy:prometheum",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/prometheum",
+   "temperature": 900,
+   "fluid": "metallurgy:prometheum",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/prometheum",
+   "temperature": 900,
+   "fluid": "metallurgy:prometheum",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/prometheum",
+   "temperature": 900,
+   "fluid": "metallurgy:prometheum",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/prometheum",
+   "temperature": 900,
+   "fluid": "metallurgy:prometheum",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:prometheum",
+   "result": "metallurgy:prometheum_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:prometheum",
+   "result": "metallurgy:prometheum_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:prometheum",
+   "result": "metallurgy:prometheum_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/quicksilver",
+   "temperature": 1300,
+   "fluid": "metallurgy:quicksilver",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/quicksilver",
+   "temperature": 1300,
+   "fluid": "metallurgy:quicksilver",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/quicksilver",
+   "temperature": 1300,
+   "fluid": "metallurgy:quicksilver",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/quicksilver",
+   "temperature": 1300,
+   "fluid": "metallurgy:quicksilver",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/quicksilver",
+   "temperature": 1300,
+   "fluid": "metallurgy:quicksilver",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/quicksilver",
+   "temperature": 1300,
+   "fluid": "metallurgy:quicksilver",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:quicksilver",
+   "result": "metallurgy:quicksilver_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:quicksilver",
+   "result": "metallurgy:quicksilver_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:quicksilver",
+   "result": "metallurgy:quicksilver_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/rubracium",
+   "temperature": 1300,
+   "fluid": "metallurgy:rubracium",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/rubracium",
+   "temperature": 1300,
+   "fluid": "metallurgy:rubracium",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/rubracium",
+   "temperature": 1300,
+   "fluid": "metallurgy:rubracium",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/rubracium",
+   "temperature": 1300,
+   "fluid": "metallurgy:rubracium",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/rubracium",
+   "temperature": 1300,
+   "fluid": "metallurgy:rubracium",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/rubracium",
+   "temperature": 1300,
+   "fluid": "metallurgy:rubracium",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:rubracium",
+   "result": "metallurgy:rubracium_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:rubracium",
+   "result": "metallurgy:rubracium_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:rubracium",
+   "result": "metallurgy:rubracium_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/sanguinite",
+   "temperature": 1700,
+   "fluid": "metallurgy:sanguinite",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/sanguinite",
+   "temperature": 1700,
+   "fluid": "metallurgy:sanguinite",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/sanguinite",
+   "temperature": 1700,
+   "fluid": "metallurgy:sanguinite",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/sanguinite",
+   "temperature": 1700,
+   "fluid": "metallurgy:sanguinite",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/sanguinite",
+   "temperature": 1700,
+   "fluid": "metallurgy:sanguinite",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/sanguinite",
+   "temperature": 1700,
+   "fluid": "metallurgy:sanguinite",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:sanguinite",
+   "result": "metallurgy:sanguinite_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:sanguinite",
+   "result": "metallurgy:sanguinite_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:sanguinite",
+   "result": "metallurgy:sanguinite_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/shadow_iron",
+   "temperature": 1300,
+   "fluid": "metallurgy:shadow_iron",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/shadow_iron",
+   "temperature": 1300,
+   "fluid": "metallurgy:shadow_iron",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/shadow_iron",
+   "temperature": 1300,
+   "fluid": "metallurgy:shadow_iron",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/shadow_iron",
+   "temperature": 1300,
+   "fluid": "metallurgy:shadow_iron",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/shadow_iron",
+   "temperature": 1300,
+   "fluid": "metallurgy:shadow_iron",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/shadow_iron",
+   "temperature": 1300,
+   "fluid": "metallurgy:shadow_iron",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:shadow_iron",
+   "result": "metallurgy:shadow_iron_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:shadow_iron",
+   "result": "metallurgy:shadow_iron_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:shadow_iron",
+   "result": "metallurgy:shadow_iron_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/shadow_steel",
+   "temperature": 1700,
+   "fluid": "metallurgy:shadow_steel",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/shadow_steel",
+   "temperature": 1700,
+   "fluid": "metallurgy:shadow_steel",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/shadow_steel",
+   "temperature": 1700,
+   "fluid": "metallurgy:shadow_steel",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/shadow_steel",
+   "temperature": 1700,
+   "fluid": "metallurgy:shadow_steel",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/shadow_steel",
+   "temperature": 1700,
+   "fluid": "metallurgy:shadow_steel",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/shadow_steel",
+   "temperature": 1700,
+   "fluid": "metallurgy:shadow_steel",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:shadow_steel",
+   "result": "metallurgy:shadow_steel_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:shadow_steel",
+   "result": "metallurgy:shadow_steel_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:shadow_steel",
+   "result": "metallurgy:shadow_steel_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/tartarite",
+   "temperature": 1900,
+   "fluid": "metallurgy:tartarite",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/tartarite",
+   "temperature": 1900,
+   "fluid": "metallurgy:tartarite",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/tartarite",
+   "temperature": 1900,
+   "fluid": "metallurgy:tartarite",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/tartarite",
+   "temperature": 1900,
+   "fluid": "metallurgy:tartarite",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/tartarite",
+   "temperature": 1900,
+   "fluid": "metallurgy:tartarite",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/tartarite",
+   "temperature": 1900,
+   "fluid": "metallurgy:tartarite",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:tartarite",
+   "result": "metallurgy:tartarite_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:tartarite",
+   "result": "metallurgy:tartarite_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:tartarite",
+   "result": "metallurgy:tartarite_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/vulcanite",
+   "temperature": 1500,
+   "fluid": "metallurgy:vulcanite",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/vulcanite",
+   "temperature": 1500,
+   "fluid": "metallurgy:vulcanite",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/vulcanite",
+   "temperature": 1500,
+   "fluid": "metallurgy:vulcanite",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/vulcanite",
+   "temperature": 1500,
+   "fluid": "metallurgy:vulcanite",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/vulcanite",
+   "temperature": 1500,
+   "fluid": "metallurgy:vulcanite",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/vulcanite",
+   "temperature": 1500,
+   "fluid": "metallurgy:vulcanite",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:vulcanite",
+   "result": "metallurgy:vulcanite_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:vulcanite",
+   "result": "metallurgy:vulcanite_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:vulcanite",
+   "result": "metallurgy:vulcanite_block",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ores/vyroxeres",
+   "temperature": 1700,
+   "fluid": "metallurgy:vyroxeres",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:raw_materials/vyroxeres",
+   "temperature": 1700,
+   "fluid": "metallurgy:vyroxeres",
+   "amount": 180
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:nuggets/vyroxeres",
+   "temperature": 1700,
+   "fluid": "metallurgy:vyroxeres",
+   "amount": 10
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:ingots/vyroxeres",
+   "temperature": 1700,
+   "fluid": "metallurgy:vyroxeres",
+   "amount": 90
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:storage_blocks/vyroxeres",
+   "temperature": 1700,
+   "fluid": "metallurgy:vyroxeres",
+   "amount": 810
+  },
+  {
+   "type": "melting_add",
+   "input": "#c:dusts/vyroxeres",
+   "temperature": 1700,
+   "fluid": "metallurgy:vyroxeres",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "nugget",
+   "fluid": "metallurgy:vyroxeres",
+   "result": "metallurgy:vyroxeres_nugget",
+   "amount": 10
+  },
+  {
+   "type": "casting_add",
+   "caster": "ingot",
+   "fluid": "metallurgy:vyroxeres",
+   "result": "metallurgy:vyroxeres_ingot",
+   "amount": 90
+  },
+  {
+   "type": "casting_add",
+   "caster": "block",
+   "fluid": "metallurgy:vyroxeres",
+   "result": "metallurgy:vyroxeres_block",
+   "amount": 810
+  }
+ ]
+}

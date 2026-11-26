@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" D ", "ATA", "SCS"],
+  "key": {
+    "A": "minecraft:water_bucket",
+    "C": "mariculture:base_iron",
+    "D": "#minecraft:fishes",
+    "S": "minecraft:sponge",
+    "T": "mariculture:aluminum_ingot"
+  },
+  "result": {
+    "id": "mariculture:mechanized_sponge",
+    "count": 1
+  }
+}

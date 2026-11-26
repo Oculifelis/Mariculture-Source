@@ -1,0 +1,24 @@
+{
+  "name": "Man O' War",
+  "icon": "mariculture:man_o_war",
+  "category": "mariculture:species",
+  "sortnum": 22,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:man_o_war",
+      "title": "Man O' War",
+      "text": "Catchable live in wild:   no$(br)$(l)Min Rod$(): Reed Fishing Rod$(br2)$(l)Specialty$(): Blinds and confuses entities."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Temperature Range, Salinity, Lifespan, Fertility, Work Ethic and Water requirements of the $(thing)Man O' War$() species.",
+      "title": "Fish Data"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Products that a working $(thing)Man O' War$() can produce in a Fish Feeder.",
+      "title": "Fish Products"
+    }
+  ]
+}

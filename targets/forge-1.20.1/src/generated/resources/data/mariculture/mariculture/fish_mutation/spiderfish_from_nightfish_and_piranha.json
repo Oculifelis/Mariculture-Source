@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "parents": [
+    "nightfish",
+    "piranha"
+  ],
+  "child": "spiderfish",
+  "chance_percent": 17,
+  "conditions": [],
+  "source": "mariculture/fishery/Fish.java:388"
+}

@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "parents": [
+    "angelfish",
+    "manta_ray"
+  ],
+  "child": "butterflyfish",
+  "chance_percent": 16,
+  "conditions": [],
+  "source": "mariculture/fishery/Fish.java:394"
+}

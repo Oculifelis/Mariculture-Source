@@ -1,0 +1,28 @@
+{
+  "type": "forestry:squeezer",
+  "chance": 0.01,
+  "output": {
+    "Amount": 2000,
+    "FluidName": "mariculture:fish_oil"
+  },
+  "remnant": {
+    "Count": 1,
+    "id": "minecraft:glowstone_dust"
+  },
+  "resources": [
+    {
+      "item": "mariculture:raw_glowfish"
+    }
+  ],
+  "time": 20,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "mariculture:plugin",
+      "plugin": "forestry"
+    }
+  ]
+}

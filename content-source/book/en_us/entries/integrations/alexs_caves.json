@@ -1,0 +1,22 @@
+{
+  "name": "Alex's Caves Fish",
+  "icon": "minecraft:pufferfish",
+  "category": "mariculture:integrations",
+  "flag": "mod:alexscaves",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Alex's Caves Fish",
+      "text": "With $(l)Alex's Caves$() installed, each of its cave biomes has fish of its own that bite on Mariculture rods and nowhere else. They breed in a Fish Feeder like any other fish.$(br2)A Mariculture hook floats on $(l)acid$() and $(l)purple soda$(), and the Toxic Caves and Candy Cavity fish bite only there."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Toxic Caves$(): Acid Lamprey, in acid.$(br)$(l)Magnetic Caves$(): Lodestone Ray and Ferrofish.$(br)$(l)Primordial Caves$(): Old Lungfish and Amberfin.$(br)$(l)Abyssal Chasm$(): Gulper and Lanternjaw, at night, in salt water.$(br)$(l)Forlorn Hollows$(): Gloomfish and Ghost Minnow, at night."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Candy Cavity$(), in purple soda: Taffy Tang, Licorice Eel, Peppermint Pike, Chocolate Catfish and Gumdrop Goldfish.$(br2)Each fish names its biomes and fluid in $(thing)catch.biomes$() and $(thing)catch.fluid$() of its species file, so data packs can move them or give other fish a biome. The fluid tags $(thing)mariculture:hook_floats_on$() and $(thing)mariculture:fishing/*$() decide where the hook floats."
+    }
+  ]
+}

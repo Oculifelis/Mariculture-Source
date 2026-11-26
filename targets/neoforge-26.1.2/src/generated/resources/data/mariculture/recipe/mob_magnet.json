@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["III", "I I", "M M"],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "M": "minecraft:ender_pearl"
+  },
+  "result": {
+    "id": "mariculture:mob_magnet",
+    "count": 1
+  }
+}

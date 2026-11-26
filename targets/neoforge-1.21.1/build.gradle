@@ -1,0 +1,100 @@
+plugins {
+    id 'java-library'
+    id 'idea'
+    id 'net.neoforged.moddev' version '2.0.148'
+}
+
+def modVersion = file('../../VERSION').text.trim()
+version = "${modVersion}+mc${minecraft_version}-neoforge"
+group = 'mariculture'
+base { archivesName = 'mariculture' }
+
+['neo_version', 'patchouli_version'].each { key ->
+    if (project.property(key).toString().contains('TO_PIN')) {
+        throw new GradleException("${key} is not pinned yet; see docs/toolchains.md")
+    }
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(Integer.parseInt(java_version))
+
+neoForge {
+    version = neo_version
+    parchment {
+        minecraftVersion = parchment_minecraft_version
+        mappingsVersion = parchment_mappings_version
+    }
+    runs {
+        client { client() }
+        server { server(); programArgument '--nogui' }
+        gameTestServer { type = 'gameTestServer'; systemProperty 'neoforge.enabledGameTestNamespaces', 'mariculture' }
+        configureEach {
+            gameDirectory = project.file("run/${name}")
+            systemProperty 'forge.logging.markers', 'REGISTRIES'
+            logLevel = org.slf4j.event.Level.INFO
+        }
+    }
+    mods {
+        mariculture { sourceSet sourceSets.main }
+    }
+}
+
+sourceSets.main {
+    java.srcDir '../../core-domain/src/main/java'
+    resources.srcDir 'src/generated/resources'
+}
+
+repositories {
+    maven { name = 'Illusive Soulworks (Curios)'; url = 'https://maven.theillusivec4.top/' }
+    maven { name = 'BlameJared (Patchouli, JEI)'; url = 'https://maven.blamejared.com' }
+    exclusiveContent {
+        forRepository { maven { name = 'Modrinth (Jade)'; url = 'https://api.modrinth.com/maven' } }
+        filter { includeGroup 'maven.modrinth' }
+    }
+    exclusiveContent {
+        forRepository { maven { name = 'CurseMaven (Hephaestus)'; url = 'https://cursemaven.com' } }
+        filter { includeGroup 'curse.maven' }
+    }
+}
+
+dependencies {
+    // Fundamentum (required): the shared core mod. Dev runs load its release jar from libs/fundamentum.jar (gitignored).
+    runtimeOnly files('libs/fundamentum.jar')
+    // Curios (required): jewelry is worn in its ring, bracelet and necklace slots.
+    compileOnly "top.theillusivec4.curios:curios-neoforge:${curios_version}:api"
+    runtimeOnly "top.theillusivec4.curios:curios-neoforge:${curios_version}"
+    // Thaumaturge (with Lithostitched) is not on a maven; the compat is data plus reflection, so it is needed only to
+    // test it: -PthaumaturgeLibs=<folder with the jars>.
+    if (project.hasProperty('thaumaturgeLibs')) {
+        runtimeOnly fileTree(dir: project.property('thaumaturgeLibs'), include: '*.jar')
+    }
+    // Optional integrations: the mod loads without them (compat package, only touched by their plugin loaders).
+    compileOnly "mezz.jei:jei-1.21.1-neoforge-api:${jei_version}"
+    compileOnly "maven.modrinth:jade:${jade_version}"
+    // KubeJS (PLUG-022): the Mariculture binding for server scripts
+    compileOnly("maven.modrinth:kubejs:${kubejs_version}") { transitive = false }
+    compileOnly("maven.modrinth:rhino:${rhino_version}") { transitive = false }
+    // Hephaestus (PLUG-003): the smeltery recipe import (CurseForge file id)
+    compileOnly("curse.maven:hephaestus-forge-1542467:${hephaestus_file}") { transitive = false }
+    // Forestry CE (PLUG-004): the aqua backpacks
+    compileOnly("maven.modrinth:forestry-community-edition:${forestry_version}") { transitive = false }
+    // CraftTweaker (PLUG-022): only its API is used; its ZenCode classes are inside the same jar
+    compileOnly("com.blamejared.crafttweaker:CraftTweaker-neoforge-1.21.1:${crafttweaker_version}") { transitive = false }
+    if (project.hasProperty('withCompat')) {
+        runtimeOnly "mezz.jei:jei-1.21.1-neoforge:${jei_version}"
+        runtimeOnly "maven.modrinth:jade:${jade_version}"
+    }
+    runtimeOnly "vazkii.patchouli:Patchouli:${patchouli_version}"
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 21
+}
+
+def replaceProps = [mod_version: modVersion, minecraft_version: minecraft_version, neo_version: neo_version]
+tasks.named('processResources', ProcessResources) {
+    inputs.properties replaceProps
+    filesMatching('META-INF/neoforge.mods.toml') { expand replaceProps }
+    from('../../LICENSE') { into 'META-INF' ; rename { 'LICENSE_mariculture' } }
+    from('../../THIRD_PARTY_NOTICES.md') { into 'META-INF' }
+}

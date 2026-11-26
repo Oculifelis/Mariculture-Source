@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:nuggets/magnesium"
+  },
+  "result": {
+    "fluid": "mariculture:molten_magnesium",
+    "amount": 16
+  },
+  "temperature": 400,
+  "time": 20,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    },
+    {
+      "type": "mariculture:plugin",
+      "plugin": "tconstruct"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Snorkel and Buoyancy Aid",
+  "icon": "mariculture:snorkel",
+  "category": "mariculture:diving_transport",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Mariculture provides a couple ways to breathe/work underwater better. From the simplicity of the snorkel to advanced scuba gear tech.",
+      "title": "Introduction"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Snorkel$()$(br)The snorkel is the simplest gear. Worn on your head under water, it tops up your air a little every other moment, so you can stay down far longer. It cannot take enchanted books."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:glass_lens",
+      "recipe2": "mariculture:snorkel"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Lifejacket$()$(br)Worn in the chest slot, the buoyancy aid carries you quickly up to the surface and keeps you floating there without holding jump. Sneak to stay low in the water."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:lifejacket"
+    }
+  ]
+}

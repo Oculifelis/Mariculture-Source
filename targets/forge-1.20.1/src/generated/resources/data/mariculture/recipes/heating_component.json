@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["CC"],
+  "key": {
+    "C": {
+      "item": "mariculture:silicon_carbide"
+    }
+  },
+  "result": {
+    "item": "mariculture:heating_component",
+    "count": 1
+  }
+}

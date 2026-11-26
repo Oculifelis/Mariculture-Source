@@ -1,0 +1,18 @@
+{
+  "name": "Fishing",
+  "icon": "minecraft:fishing_rod",
+  "category": "mariculture:fishing",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Fishing is a piece of cake! Just make sure you have a rod and bait that can be used together. Then place the bait next to the fishing rod on your hotbar, and fish away like vanilla!",
+      "title": "Fishing"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Lava Fishing",
+      "text": "In the $(thing)Nether$(), a Mariculture rod's hook floats in lava just as it does in water, and fish bite there too. Whatever you pull out of the lava is fire-proof until you pick it up."
+    }
+  ]
+}

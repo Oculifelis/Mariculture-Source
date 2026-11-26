@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["CSC", "AUA", "WTW"],
+  "key": {
+    "A": {
+      "item": "mariculture:aluminum_sheet"
+    },
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "S": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "T": {
+      "item": "minecraft:chest"
+    },
+    "U": {
+      "item": "mariculture:standard_storage_upgrade"
+    },
+    "W": {
+      "item": "mariculture:wicker"
+    }
+  },
+  "result": {
+    "item": "mariculture:advanced_storage_upgrade",
+    "count": 1
+  }
+}

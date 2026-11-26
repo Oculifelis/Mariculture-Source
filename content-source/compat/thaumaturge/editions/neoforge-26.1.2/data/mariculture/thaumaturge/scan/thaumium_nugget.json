@@ -1,0 +1,10 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "items": "#c:nuggets/thaumium",
+  "key": "mariculture:scanned/thaumium_nugget"
+}

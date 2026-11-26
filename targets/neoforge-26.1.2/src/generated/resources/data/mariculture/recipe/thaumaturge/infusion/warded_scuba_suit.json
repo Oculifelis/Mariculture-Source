@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "amount": 20,
+      "aspect": "thaumaturge:aqua"
+    },
+    {
+      "amount": 20,
+      "aspect": "thaumaturge:praemunio"
+    },
+    {
+      "amount": 10,
+      "aspect": "thaumaturge:motus"
+    }
+  ],
+  "catalyst": "mariculture:scuba_suit",
+  "catalyst_patch": {
+    "minecraft:custom_data": {
+      "mariculture_warded": true
+    }
+  },
+  "components": [
+    "thaumaturge:salis_mundus",
+    "#c:ingots/thaumium",
+    "minecraft:prismarine_crystals"
+  ],
+  "instability": 3,
+  "research": {
+    "entry": "mariculture:warded_diving_gear"
+  }
+}

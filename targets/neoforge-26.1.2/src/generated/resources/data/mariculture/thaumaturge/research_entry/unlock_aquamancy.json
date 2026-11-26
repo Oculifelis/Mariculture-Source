@@ -1,0 +1,175 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "category": "thaumaturge:basics",
+  "name": "research.mariculture.unlock_aquamancy.title",
+  "parents": [
+    "thaumaturge:unlock_alchemy"
+  ],
+  "column": 2,
+  "row": 2,
+  "meta": [
+    "round",
+    "spiky"
+  ],
+  "icons": [
+    "mariculture:textures/research/aquamancy.png"
+  ],
+  "stages": [
+    {
+      "text": "research.mariculture.unlock_aquamancy.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "mariculture:aquamancy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:basics",
+          "amount": 1
+        }
+      ],
+      "required_research": [
+        "mariculture:scanned/live_fish"
+      ]
+    },
+    {
+      "text": "research.mariculture.unlock_aquamancy.stage_1",
+      "obtain": [
+        {
+          "items": [
+            "mariculture:aluminumfish",
+            "mariculture:angelfish",
+            "mariculture:anglerfish",
+            "mariculture:arditefish",
+            "mariculture:bass",
+            "mariculture:blaasop",
+            "mariculture:blazefish",
+            "mariculture:blue_tang",
+            "mariculture:boneless_fish",
+            "mariculture:bowfin",
+            "mariculture:brown_shroom_fish",
+            "mariculture:butterflyfish",
+            "mariculture:catfish",
+            "mariculture:chub",
+            "mariculture:clownfish",
+            "mariculture:cobaltfish",
+            "mariculture:cod",
+            "mariculture:copperfish",
+            "mariculture:damselfish",
+            "mariculture:dragonfish",
+            "mariculture:electric_ray",
+            "mariculture:enderfish",
+            "mariculture:glowfish",
+            "mariculture:goldeneye",
+            "mariculture:goldfish",
+            "mariculture:ironfish",
+            "mariculture:jellyfish",
+            "mariculture:koi",
+            "mariculture:lamprey",
+            "mariculture:leadfish",
+            "mariculture:lungfish",
+            "mariculture:magnesiumfish",
+            "mariculture:manafish",
+            "mariculture:man_o_war",
+            "mariculture:manta_ray",
+            "mariculture:minecraft_fish",
+            "mariculture:minnow",
+            "mariculture:neon_tetra",
+            "mariculture:netherfish",
+            "mariculture:nickelfish",
+            "mariculture:nightfish",
+            "mariculture:northern_pike",
+            "mariculture:osmiumfish",
+            "mariculture:perch",
+            "mariculture:pickerel",
+            "mariculture:piranha",
+            "mariculture:platinumfish",
+            "mariculture:pufferfish",
+            "mariculture:pupfish",
+            "mariculture:rainbow_trout",
+            "mariculture:red_herring",
+            "mariculture:red_shroom_fish",
+            "mariculture:rutilefish",
+            "mariculture:salmon",
+            "mariculture:siamese_fighting_fish",
+            "mariculture:silverfish_metal",
+            "mariculture:spiderfish",
+            "mariculture:squid",
+            "mariculture:stargazer",
+            "mariculture:stickleback",
+            "mariculture:sting_ray",
+            "mariculture:tinfish",
+            "mariculture:tuna",
+            "mariculture:undead_fish",
+            "mariculture:walleye",
+            "mariculture:zincfish",
+            "mariculture:acid_lamprey",
+            "mariculture:lodestone_ray",
+            "mariculture:ferrofish",
+            "mariculture:old_lungfish",
+            "mariculture:amberfin",
+            "mariculture:gulper",
+            "mariculture:lanternjaw",
+            "mariculture:gloomfish",
+            "mariculture:ghost_minnow",
+            "mariculture:taffy_tang",
+            "mariculture:licorice_eel",
+            "mariculture:peppermint_pike",
+            "mariculture:chocolate_catfish",
+            "mariculture:gumdrop_goldfish",
+            "mariculture:manganesefish",
+            "mariculture:lutetiumfish",
+            "mariculture:prometheumfish",
+            "mariculture:deep_ironfish",
+            "mariculture:infuscoliumfish",
+            "mariculture:oureclasefish",
+            "mariculture:astral_silverfish",
+            "mariculture:carmotfish",
+            "mariculture:mithrilfish",
+            "mariculture:rubraciumfish",
+            "mariculture:orichalcumfish",
+            "mariculture:adamantinefish",
+            "mariculture:atlarusfish",
+            "mariculture:ignatiusfish",
+            "mariculture:shadow_ironfish",
+            "mariculture:lemuritefish",
+            "mariculture:midasiumfish",
+            "mariculture:vyroxeresfish",
+            "mariculture:ceruclasefish",
+            "mariculture:alduoritefish",
+            "mariculture:kalendritefish",
+            "mariculture:vulcanitefish",
+            "mariculture:sanguinitefish",
+            "mariculture:eximitefish",
+            "mariculture:meutoitefish",
+            "mariculture:auramfin",
+            "mariculture:quicksilver_eel",
+            "mariculture:wisp_angler",
+            "mariculture:flux_lamprey",
+            "mariculture:eldritch_gulper",
+            "mariculture:thaumium_trout",
+            "mariculture:live_fish"
+          ],
+          "amount": 1
+        }
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:bestia",
+      "amount": 2
+    }
+  ],
+  "complexity": 1
+}

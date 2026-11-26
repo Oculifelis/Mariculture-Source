@@ -1,0 +1,28 @@
+{
+  "type": "forestry:squeezer",
+  "chance": 0.2,
+  "output": {
+    "Amount": 1000,
+    "FluidName": "mariculture:fish_oil"
+  },
+  "remnant": {
+    "Count": 1,
+    "id": "minecraft:blaze_rod"
+  },
+  "resources": [
+    {
+      "item": "mariculture:raw_blazefish"
+    }
+  ],
+  "time": 15,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "mariculture:plugin",
+      "plugin": "forestry"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" W ", "WSW", " W "],
+  "key": {
+    "S": "#minecraft:wooden_slabs",
+    "W": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "mariculture:iron_wheel",
+    "count": 3
+  }
+}

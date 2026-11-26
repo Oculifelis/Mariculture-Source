@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["WSW", "WWW", "WWW"],
+  "key": {
+    "S": "minecraft:string",
+    "W": "#minecraft:logs"
+  },
+  "result": {
+    "id": "mariculture:lifejacket",
+    "count": 1
+  }
+}

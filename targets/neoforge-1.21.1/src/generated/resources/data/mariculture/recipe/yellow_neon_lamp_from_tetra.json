@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["PGP", "GFG", "PGP"],
+  "key": {
+    "F": {
+      "item": "mariculture:raw_neon_tetra"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "P": {
+      "item": "mariculture:yellow_pearl"
+    }
+  },
+  "result": {
+    "id": "mariculture:yellow_neon_lamp",
+    "count": 8
+  }
+}

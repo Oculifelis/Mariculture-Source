@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "mariculture:live_pink_coral",
+    "mariculture:live_red_coral",
+    "mariculture:live_light_blue_coral",
+    "mariculture:live_magenta_coral",
+    "mariculture:live_brown_coral",
+    "mariculture:live_yellow_coral",
+    "mariculture:live_orange_coral",
+    "mariculture:live_purple_coral",
+    "mariculture:live_grey_coral",
+    "mariculture:live_light_grey_coral",
+    "mariculture:live_white_coral"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "mariculture:item/debug_storage_upgrade"
+  }
+}

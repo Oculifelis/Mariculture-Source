@@ -1,0 +1,69 @@
+{
+  "schema": 1,
+  "legacy_name": "mariculture:rutile",
+  "legacy_id": 54,
+  "since": "1.3.0",
+  "dominant": true,
+  "temperature": {
+    "base": 10,
+    "tolerance": 10
+  },
+  "salinity": {
+    "base": "saline",
+    "tolerance": 2
+  },
+  "lifespan_minutes": 20,
+  "fertility": 1000,
+  "productivity": 0,
+  "food_consumption": 1,
+  "requires_food": true,
+  "water_required": 15,
+  "valid_fluids": [
+    "minecraft:lava",
+    "minecraft:water"
+  ],
+  "ignores_salinity": true,
+  "lava": false,
+  "active_time": "any",
+  "light": 0,
+  "area_of_effect": {
+    "up": 0,
+    "down": 0,
+    "north": 0,
+    "east": 0,
+    "south": 0,
+    "west": 0
+  },
+  "catch": {
+    "rod": "flux",
+    "dimension": "overworld_like",
+    "chance_percent": 0,
+    "alive_percent": 0
+  },
+  "fish_oil_mb": 0,
+  "fish_meal": 0,
+  "food": {
+    "edible": false,
+    "hunger": -1,
+    "saturation": 0.0
+  },
+  "products": [
+    {
+      "item": "mariculture:droplet_rutile",
+      "chance_percent": 11.5,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_aqua",
+      "chance_percent": 18,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_water",
+      "chance_percent": 9,
+      "count": 1
+    }
+  ],
+  "effects": [],
+  "source": "mariculture/fishery/fish/FishRutile.java (1.7.10-1.3.0)"
+}

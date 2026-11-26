@@ -1,0 +1,164 @@
+{
+  "comment": "Mariculture EMC values (legacy EE3 plugin) and anvil conversions.",
+  "groups": {
+    "anvil": {
+      "comment": "Hammering on the anvil.",
+      "conversions": [
+        {
+          "count": 8,
+          "ingredients": ["minecraft:gold_block"],
+          "output": "mariculture:gold_sheet"
+        },
+        {
+          "count": 8,
+          "ingredients": ["mariculture:aluminum_block"],
+          "output": "mariculture:aluminum_sheet"
+        },
+        {
+          "count": 8,
+          "ingredients": ["mariculture:titanium_block"],
+          "output": "mariculture:titanium_sheet"
+        },
+        {
+          "count": 2,
+          "ingredients": ["mariculture:pink_coral"],
+          "output": "minecraft:pink_dye"
+        },
+        {
+          "count": 2,
+          "ingredients": ["mariculture:red_coral"],
+          "output": "minecraft:red_dye"
+        },
+        {
+          "count": 2,
+          "ingredients": ["mariculture:light_blue_coral"],
+          "output": "minecraft:light_blue_dye"
+        },
+        {
+          "count": 2,
+          "ingredients": ["mariculture:magenta_coral"],
+          "output": "minecraft:magenta_dye"
+        },
+        {
+          "count": 2,
+          "ingredients": ["mariculture:brown_coral"],
+          "output": "minecraft:brown_dye"
+        },
+        {
+          "count": 2,
+          "ingredients": ["mariculture:yellow_coral"],
+          "output": "minecraft:yellow_dye"
+        },
+        {
+          "count": 2,
+          "ingredients": ["mariculture:orange_coral"],
+          "output": "minecraft:orange_dye"
+        },
+        {
+          "count": 2,
+          "ingredients": ["mariculture:purple_coral"],
+          "output": "minecraft:purple_dye"
+        },
+        {
+          "count": 2,
+          "ingredients": ["mariculture:grey_coral"],
+          "output": "minecraft:gray_dye"
+        },
+        {
+          "count": 2,
+          "ingredients": ["mariculture:light_grey_coral"],
+          "output": "minecraft:light_gray_dye"
+        },
+        {
+          "count": 2,
+          "ingredients": ["mariculture:white_coral"],
+          "output": "minecraft:white_dye"
+        }
+      ]
+    }
+  },
+  "values": {
+    "before": {
+      "mariculture:oyster": 24576,
+      "mariculture:ancient_sand": 1,
+      "mariculture:coral_rock": 1,
+      "mariculture:limestone": 1,
+      "mariculture:smooth_limestone": 1,
+      "mariculture:bauxite_ore": 315,
+      "mariculture:aluminum_ingot": 315,
+      "mariculture:rutile_ore": 6144,
+      "mariculture:rutile_ingot": 6144,
+      "mariculture:magnesium_ingot": 32,
+      "mariculture:titanium_ingot": 8192,
+      "mariculture:droplet_magic": 8192,
+      "mariculture:white_pearl": 24,
+      "mariculture:green_pearl": 24,
+      "mariculture:yellow_pearl": 24,
+      "mariculture:orange_pearl": 24,
+      "mariculture:blue_pearl": 24,
+      "mariculture:red_pearl": 24,
+      "mariculture:gold_pearl": 24,
+      "mariculture:pink_pearl": 24,
+      "mariculture:purple_pearl": 24,
+      "mariculture:brown_pearl": 24,
+      "mariculture:black_pearl": 24,
+      "mariculture:silver_pearl": 24,
+      "mariculture:bait_ant": 1,
+      "mariculture:bait_maggot": 1,
+      "mariculture:bait_grasshopper": 1,
+      "mariculture:bait_worm": 1,
+      "mariculture:bait_bee": 1,
+      "mariculture:fish_eggs": 48,
+      "mariculture:droplet_air": 1,
+      "mariculture:droplet_earth": 1,
+      "mariculture:droplet_water": 1,
+      "mariculture:droplet_aqua": 1,
+      "mariculture:droplet_frozen": 1,
+      "mariculture:droplet_plant": 1,
+      "mariculture:droplet_aluminum": 35,
+      "mariculture:droplet_ardite": 60,
+      "mariculture:droplet_cobalt": 60,
+      "mariculture:droplet_attack": 481,
+      "mariculture:droplet_copper": 15,
+      "mariculture:droplet_electric": 15,
+      "mariculture:droplet_ender": 128,
+      "mariculture:droplet_gold": 114,
+      "mariculture:droplet_health": 16,
+      "mariculture:droplet_tin": 16,
+      "mariculture:droplet_zinc": 16,
+      "mariculture:droplet_iron": 25,
+      "mariculture:droplet_lead": 24,
+      "mariculture:droplet_magnesium": 4,
+      "mariculture:droplet_nether": 6,
+      "mariculture:droplet_nickel": 32,
+      "mariculture:droplet_osmium": 250,
+      "mariculture:droplet_platinum": 250,
+      "mariculture:droplet_poison": 2,
+      "mariculture:droplet_rutile": 650,
+      "mariculture:droplet_silver": 57,
+      "mariculture:droplet_experience": 1024,
+      "mariculture:brown_coral": 8,
+      "mariculture:live_brown_coral": 8,
+      "mariculture:grey_coral": 8,
+      "mariculture:live_grey_coral": 8,
+      "mariculture:light_blue_coral": 8,
+      "mariculture:live_light_blue_coral": 8,
+      "mariculture:light_grey_coral": 8,
+      "mariculture:live_light_grey_coral": 8,
+      "mariculture:magenta_coral": 8,
+      "mariculture:live_magenta_coral": 8,
+      "mariculture:orange_coral": 8,
+      "mariculture:live_orange_coral": 8,
+      "mariculture:pink_coral": 8,
+      "mariculture:live_pink_coral": 8,
+      "mariculture:purple_coral": 8,
+      "mariculture:live_purple_coral": 8,
+      "mariculture:red_coral": 8,
+      "mariculture:live_red_coral": 8,
+      "mariculture:white_coral": 8,
+      "mariculture:live_white_coral": 8,
+      "mariculture:yellow_coral": 8,
+      "mariculture:live_yellow_coral": 8
+    }
+  }
+}

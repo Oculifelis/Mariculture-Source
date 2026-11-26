@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "since": "0.7.0",
+  "dominant": true,
+  "temperature": {
+    "base": 60,
+    "tolerance": 35
+  },
+  "salinity": {
+    "base": "fresh",
+    "tolerance": 1
+  },
+  "lifespan_minutes": 9,
+  "fertility": 900,
+  "productivity": 0,
+  "food_consumption": 1,
+  "requires_food": true,
+  "water_required": 55,
+  "valid_fluids": [
+    "minecraft:lava"
+  ],
+  "ignores_salinity": false,
+  "lava": true,
+  "active_time": "any",
+  "light": 0,
+  "area_of_effect": {
+    "up": 0,
+    "down": 0,
+    "north": 0,
+    "east": 0,
+    "south": 0,
+    "west": 0
+  },
+  "catch": {
+    "rod": "flux",
+    "dimension": "overworld_like",
+    "chance_percent": 0,
+    "alive_percent": 0
+  },
+  "fish_oil_mb": 0,
+  "fish_meal": 0,
+  "food": {
+    "edible": false,
+    "hunger": -1,
+    "saturation": 0.0
+  },
+  "products": [
+    {
+      "item": "mariculture:metal_droplet",
+      "fluid": "metallurgy:lemurite",
+      "amount": 10,
+      "color": "#B1AEA3",
+      "chance_percent": 15,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_nether",
+      "chance_percent": 10,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_frozen",
+      "chance_percent": 6,
+      "count": 1
+    }
+  ],
+  "effects": [],
+  "abilities": [
+    {
+      "type": "potion",
+      "effect": "minecraft:invisibility"
+    }
+  ],
+  "breeding": [
+    {
+      "type": "food",
+      "item": "minecraft:snowball"
+    }
+  ],
+  "requires_item_tag": "c:ingots/lemurite",
+  "source": "Mariculture 0.7.0, Metallurgy: Recast compat"
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": ["mariculture:pink_pearl_block"],
+  "result": {
+    "id": "mariculture:pink_pearl",
+    "count": 4
+  }
+}

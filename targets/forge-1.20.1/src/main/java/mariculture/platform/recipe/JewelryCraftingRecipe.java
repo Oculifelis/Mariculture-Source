@@ -1,0 +1,70 @@
+package mariculture.platform.recipe;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import net.minecraft.core.RegistryAccess;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.inventory.CraftingContainer;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.crafting.CraftingBookCategory;
+import net.minecraft.world.item.crafting.CustomRecipe;
+import net.minecraft.world.item.crafting.RecipeSerializer;
+import net.minecraft.world.item.crafting.SimpleCraftingRecipeSerializer;
+import net.minecraft.world.level.Level;
+
+import mariculture.domain.machine.Stack;
+import mariculture.domain.magic.Jewelry;
+import mariculture.domain.random.Rng;
+import mariculture.platform.Stacks;
+import mariculture.platform.magic.Enchants;
+
+/**
+ * Jewelry crafting from core-domain Jewelry.craft: the worked piece for the anvil. The shuffle is seeded from the grid
+ * so the client's preview and the server's result agree.
+ */
+public final class JewelryCraftingRecipe extends CustomRecipe {
+    public static final RecipeSerializer<JewelryCraftingRecipe> SERIALIZER = new SimpleCraftingRecipeSerializer<>(JewelryCraftingRecipe::new);
+
+    private JewelryCraftingRecipe(ResourceLocation id, CraftingBookCategory category) {
+        super(id, category);
+    }
+
+    private static ItemStack result(CraftingContainer grid) {
+        List<Stack> stacks = new ArrayList<>();
+        List<ItemStack> loader = new ArrayList<>();
+        boolean full = grid.getWidth() == 3 && grid.getHeight() == 3;
+        for (int i = 0; i < grid.getContainerSize(); i++) {
+            ItemStack s = grid.getItem(i);
+            if (!full && s.isEmpty()) continue;
+            stacks.add(Stacks.toDomain(s));
+            loader.add(s);
+        }
+        Stack out = Jewelry.craft(stacks, i -> {
+            List<Jewelry.Enchant> e = new ArrayList<>();
+            Enchants.read(loader.get(i)).forEach((id, level) -> e.add(new Jewelry.Enchant(id, level)));
+            return e;
+        }, Rng.of(new java.util.Random(stacks.hashCode())));
+        return Stacks.toLoader(out);
+    }
+
+    @Override
+    public boolean matches(CraftingContainer grid, Level level) {
+        return !result(grid).isEmpty();
+    }
+
+    @Override
+    public ItemStack assemble(CraftingContainer grid, RegistryAccess access) {
+        return result(grid);
+    }
+
+    @Override
+    public boolean canCraftInDimensions(int width, int height) {
+        return width * height >= 2;
+    }
+
+    @Override
+    public RecipeSerializer<?> getSerializer() {
+        return SERIALIZER;
+    }
+}

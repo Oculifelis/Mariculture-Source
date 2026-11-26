@@ -1,0 +1,32 @@
+{
+  "name": "Blood Magic Integration",
+  "icon": "mariculture:bound_fishing_rod",
+  "category": "mariculture:integrations",
+  "flag": "mod:bloodmagic",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Mariculture interacts with Blood Magic through the Bound Fishing Rod, which can really help you out when it comes to fishing.",
+      "title": "Blood Magic Integration"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:bound_fishing_rod",
+      "title": "Binding",
+      "text": "Put a $(item)Titanium Fishing Rod$() into an alchemy array with a $(item)Reagent of Binding$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Bound Fishing Rod$()$(br)The bound fishing rod is bound like Blood Magic's living armour: a Titanium Fishing Rod and a Reagent of Binding in an alchemy array. Repair it with a blank slate."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The bound fishing rod works exceptionally well. It is even able to catch some fish species alive that you would normally have to breed. Sneak and use it to activate it; when activated and a weak blood shard sits next to it in the hotbar, each use catches up to 9 fish from the water around you. It can also catch Blood Magic loot."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Bait$()$(br)$(li)Rotten Flesh$(li)Weak Blood Shard (also powers the activated rod)"
+    }
+  ]
+}

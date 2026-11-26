@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" I ", "ISI", " I "],
+  "key": {
+    "I": {
+      "item": "mariculture:aluminum_ingot"
+    },
+    "S": {
+      "item": "minecraft:stone_slab"
+    }
+  },
+  "result": {
+    "item": "mariculture:aluminum_rotor",
+    "count": 1
+  }
+}

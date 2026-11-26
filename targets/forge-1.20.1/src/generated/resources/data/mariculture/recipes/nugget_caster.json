@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" B ", "B B", " B "],
+  "key": {
+    "B": {
+      "item": "mariculture:burnt_brick"
+    }
+  },
+  "result": {
+    "item": "mariculture:nugget_caster",
+    "count": 1
+  }
+}

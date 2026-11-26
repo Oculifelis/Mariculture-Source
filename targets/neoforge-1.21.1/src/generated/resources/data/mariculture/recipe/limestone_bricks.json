@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["##", "##"],
+  "key": {
+    "#": {
+      "item": "mariculture:limestone"
+    }
+  },
+  "result": {
+    "id": "mariculture:limestone_bricks",
+    "count": 4
+  }
+}

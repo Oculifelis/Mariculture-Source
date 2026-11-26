@@ -1,0 +1,28 @@
+{
+  "type": "forestry:squeezer",
+  "chance": 0.1,
+  "output": {
+    "Amount": 1000,
+    "FluidName": "mariculture:fish_oil"
+  },
+  "remnant": {
+    "Count": 1,
+    "id": "minecraft:brown_mushroom"
+  },
+  "resources": [
+    {
+      "item": "mariculture:raw_brown_shroom_fish"
+    }
+  ],
+  "time": 10,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "mariculture:plugin",
+      "plugin": "forestry"
+    }
+  ]
+}

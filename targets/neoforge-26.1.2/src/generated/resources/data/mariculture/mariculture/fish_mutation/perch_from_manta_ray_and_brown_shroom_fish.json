@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "parents": [
+    "manta_ray",
+    "brown_shroom_fish"
+  ],
+  "child": "perch",
+  "chance_percent": 17.5,
+  "conditions": [],
+  "source": "mariculture/fishery/Fish.java:389"
+}

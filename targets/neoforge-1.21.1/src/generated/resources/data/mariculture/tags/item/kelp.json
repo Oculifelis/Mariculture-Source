@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:kelp",
+    {
+      "id": "upgrade_aquatic:tongue_kelp",
+      "required": false
+    },
+    {
+      "id": "upgrade_aquatic:thorny_kelp",
+      "required": false
+    },
+    {
+      "id": "upgrade_aquatic:ochre_kelp",
+      "required": false
+    },
+    {
+      "id": "upgrade_aquatic:polar_kelp",
+      "required": false
+    }
+  ]
+}

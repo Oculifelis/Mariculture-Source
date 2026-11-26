@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "since": "0.7.0",
+  "dominant": true,
+  "temperature": {
+    "base": 85,
+    "tolerance": 30
+  },
+  "salinity": {
+    "base": "fresh",
+    "tolerance": 1
+  },
+  "lifespan_minutes": 10,
+  "fertility": 700,
+  "productivity": 0,
+  "food_consumption": 1,
+  "requires_food": true,
+  "water_required": 55,
+  "valid_fluids": [
+    "minecraft:lava"
+  ],
+  "ignores_salinity": false,
+  "lava": true,
+  "active_time": "any",
+  "light": 0,
+  "area_of_effect": {
+    "up": 0,
+    "down": 0,
+    "north": 0,
+    "east": 0,
+    "south": 0,
+    "west": 0
+  },
+  "catch": {
+    "rod": "flux",
+    "dimension": "overworld_like",
+    "chance_percent": 0,
+    "alive_percent": 0
+  },
+  "fish_oil_mb": 0,
+  "fish_meal": 0,
+  "food": {
+    "edible": false,
+    "hunger": -1,
+    "saturation": 0.0
+  },
+  "products": [
+    {
+      "item": "mariculture:metal_droplet",
+      "fluid": "metallurgy:ignatius",
+      "amount": 10,
+      "color": "#EA9463",
+      "chance_percent": 14,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_nether",
+      "chance_percent": 15,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_attack",
+      "chance_percent": 5,
+      "count": 1
+    }
+  ],
+  "effects": [],
+  "abilities": [
+    {
+      "type": "ignite",
+      "seconds": 4,
+      "targets": "hostile"
+    }
+  ],
+  "breeding": [
+    {
+      "type": "food",
+      "item": "minecraft:blaze_powder"
+    }
+  ],
+  "requires_item_tag": "c:ingots/ignatius",
+  "source": "Mariculture 0.7.0, Metallurgy: Recast compat"
+}

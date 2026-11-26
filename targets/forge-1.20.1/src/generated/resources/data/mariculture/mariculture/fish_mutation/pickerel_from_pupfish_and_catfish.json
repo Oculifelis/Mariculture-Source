@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "parents": [
+    "pupfish",
+    "catfish"
+  ],
+  "child": "pickerel",
+  "chance_percent": 12,
+  "conditions": [],
+  "source": "mariculture/fishery/Fish.java:402"
+}

@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "parents": [
+    "brown_shroom_fish",
+    "pufferfish"
+  ],
+  "child": "tinfish",
+  "chance_percent": 15,
+  "conditions": [
+    {
+      "type": "egg_tag",
+      "tag": "c:storage_blocks/tin"
+    },
+    {
+      "type": "config",
+      "option": "enable_metal_fish"
+    }
+  ],
+  "source": "mariculture/fishery/Fish.java:363 (via Fish.registerFish at Fish.java:347-358)"
+}

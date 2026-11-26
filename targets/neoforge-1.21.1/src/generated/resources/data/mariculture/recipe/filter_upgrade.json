@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["MPM", "CUC", "AMA"],
+  "key": {
+    "A": {
+      "item": "mariculture:aluminum_ingot"
+    },
+    "C": {
+      "item": "mariculture:cooling_component"
+    },
+    "M": {
+      "item": "mariculture:magnesium_ingot"
+    },
+    "P": {
+      "item": "mariculture:blue_pearl"
+    },
+    "U": {
+      "item": "mariculture:basic_purity_upgrade"
+    }
+  },
+  "result": {
+    "id": "mariculture:filter_upgrade",
+    "count": 1
+  }
+}

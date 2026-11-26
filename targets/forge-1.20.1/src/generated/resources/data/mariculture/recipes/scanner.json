@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["WPW", "WFW", "WBW"],
+  "key": {
+    "B": {
+      "item": "minecraft:redstone"
+    },
+    "F": {
+      "tag": "minecraft:fishes"
+    },
+    "P": {
+      "tag": "mariculture:pearls"
+    },
+    "W": {
+      "tag": "mariculture:droplets"
+    }
+  },
+  "result": {
+    "item": "mariculture:scanner",
+    "count": 1
+  }
+}

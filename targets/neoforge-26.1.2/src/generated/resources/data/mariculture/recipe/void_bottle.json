@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": ["mariculture:heat_bottle", "minecraft:redstone", "minecraft:ink_sac"],
+  "result": {
+    "id": "mariculture:void_bottle",
+    "count": 8
+  }
+}

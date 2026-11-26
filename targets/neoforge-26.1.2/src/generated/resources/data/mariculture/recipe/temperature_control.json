@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" H ", "CTC", " H "],
+  "key": {
+    "C": "mariculture:cooling_component",
+    "H": "mariculture:heating_component",
+    "T": "mariculture:titanium_sheet"
+  },
+  "result": {
+    "id": "mariculture:temperature_control",
+    "count": 1
+  }
+}

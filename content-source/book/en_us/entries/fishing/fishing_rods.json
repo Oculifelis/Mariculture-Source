@@ -1,0 +1,36 @@
+{
+  "name": "Fishing Rods",
+  "icon": "mariculture:titanium_fishing_rod",
+  "category": "mariculture:fishing",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "There are four fishing rods introduced by Mariculture, they are all better at catching fish than the vanilla rod. Each fishing rod can use different types of bait, as well as having different durabilities and enchantability.",
+      "title": "Fishing Rods"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:reed_fishing_rod",
+      "recipe2": "mariculture:wooden_fishing_rod"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:titanium_fishing_rod",
+      "recipe2": "mariculture:flux_rod"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Below is a list of durabilities of the fishing rods and which bait can be used with each rod type.$(br2)$(l)Reed Fishing Rod (96 Uses)$()$(br)Ant Bait, Bread, Grasshopper Bait$(br2)$(l)Wooden Fishing Rod (320 Uses)$()",
+      "title": "The Rods"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Grasshopper Bait, Maggot Bait, Bait Worm"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Titanium Fishing Rod (640 Uses)$()$(br)Bait Worm, Bee Bait, Minnow$(br2)$(l)Flux Rod (Unlimited Uses)$()$(br)All bait. It never wears out but uses 100 FE a cast from its own 250000 FE charge: craft it with a redstone block or fill it with 1000 mB of liquid flux in a vat."
+    }
+  ]
+}

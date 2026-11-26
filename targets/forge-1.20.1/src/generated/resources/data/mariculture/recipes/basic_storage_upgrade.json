@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["WPW", "DCD", "WPW"],
+  "key": {
+    "C": {
+      "item": "minecraft:chest"
+    },
+    "D": {
+      "item": "minecraft:copper_ingot"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "W": {
+      "item": "mariculture:wicker"
+    }
+  },
+  "result": {
+    "item": "mariculture:basic_storage_upgrade",
+    "count": 1
+  }
+}

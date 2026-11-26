@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "tag": "forge:nuggets/titanium"
+  },
+  "material": "mariculture:titanium",
+  "needed": 9,
+  "value": 1,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    },
+    {
+      "type": "mariculture:plugin",
+      "plugin": "tconstruct"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Coral Reefs and Kelp Forests",
+  "icon": "mariculture:pink_coral",
+  "category": "mariculture:getting_started",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:pink_coral",
+      "title": "Coral Reefs",
+      "text": "In stretches of salt-water ocean the sea floor turns to $(item)Coral Rock$(), covered in coral of eight colours and the odd wet sponge. Coral breaks off if the block under it goes, and only stands on sand, limestone, cobblestone, coral rock or Mariculture sands."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Coral picked from a reef is $(item)dried$(). Craft it into one dye, or crush it on a $(item)Blacksmith's Anvil$() for two. Kelp crushes into green dye.$(br2)A $(l:getting_started/the_vat)Vat$() with 50 mB of quicklime bleaches coloured coral grey, then light grey, then white. Soak dried coral in 100 mB of water to bring it back to life."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:pink_dye_from_coral",
+      "recipe2": "mariculture:light_blue_dye_from_coral"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:live_red_coral",
+      "title": "Living Coral",
+      "text": "Living coral on coral rock spreads. Now and then it looks at a nearby living coral and grows a new one close by, in water with coral ground under it. Two colours can mix: red and white make pink or yellow, red and blue make purple or magenta. Living coral drops dried coral when broken."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:kelp",
+      "title": "Kelp Forests",
+      "text": "Other parts of the ocean grow thick kelp forests. Search the sandy floor between the kelp: once in a while a sunken $(item)chest$() lies there, holding bones, gold, books, skulls and sometimes a titanium fishing rod."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:ancient_sand",
+      "title": "Ancient Sand",
+      "text": "Patches of $(item)Ancient Sand$() replace the sand, gravel and dirt of salt-water sea floors. Smelt it into $(item)Heat Resistant Glass$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:rockhopper_spawn_egg",
+      "title": "Rockhoppers",
+      "text": "Small crested penguins waddle along beaches and snowy beaches in groups. They swim without needing air and hunt squid. Feed one fish and, one time in three, it becomes yours: it follows you, sits when told and heals on more fish. Two tame ones fed fish raise a chick."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["SFS", "PBP", "TWT"],
+  "key": {
+    "B": {
+      "item": "mariculture:titanium_battery"
+    },
+    "F": {
+      "item": "mariculture:cooling_component"
+    },
+    "P": {
+      "item": "minecraft:piston"
+    },
+    "S": {
+      "item": "mariculture:aluminum_sheet"
+    },
+    "T": {
+      "item": "mariculture:titanium_ingot"
+    },
+    "W": {
+      "item": "mariculture:iron_wheel"
+    }
+  },
+  "result": {
+    "id": "mariculture:air_compressor",
+    "count": 1
+  }
+}

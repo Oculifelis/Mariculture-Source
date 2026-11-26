@@ -1,0 +1,24 @@
+{
+  "name": "Red Herring",
+  "icon": "mariculture:red_herring",
+  "category": "mariculture:species",
+  "sortnum": 51,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:red_herring",
+      "title": "Red Herring",
+      "text": "Catchable live in wild:   no$(br)$(l)Min Rod$(): RF Fishing Rod$(br2)$(l)Specialty$(): Produces redstone."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Temperature Range, Salinity, Lifespan, Fertility, Work Ethic and Water requirements of the $(thing)Red Herring$() species.",
+      "title": "Fish Data"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Products that a working $(thing)Red Herring$() can produce in a Fish Feeder.",
+      "title": "Fish Products"
+    }
+  ]
+}

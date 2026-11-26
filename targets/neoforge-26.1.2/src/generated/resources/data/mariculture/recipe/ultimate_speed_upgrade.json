@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["TRT", "SUS", "ARA"],
+  "key": {
+    "A": "mariculture:aluminum_sheet",
+    "R": "minecraft:powered_rail",
+    "S": "minecraft:sugar",
+    "T": "mariculture:titanium_ingot",
+    "U": "mariculture:advanced_speed_upgrade"
+  },
+  "result": {
+    "id": "mariculture:ultimate_speed_upgrade",
+    "count": 1
+  }
+}

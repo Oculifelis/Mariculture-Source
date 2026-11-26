@@ -1,0 +1,26 @@
+{
+  "name": "Sifter and Fishing Net",
+  "icon": "mariculture:sifter",
+  "category": "mariculture:fishing",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Sifters are how you will obtain most of your bait, that is needed for fishing. Place the two blocks next to each other like a double chest. Right click items on to the sifter and then right click them again to sift. (Installing a Basic Storage Upgrade on a Sifter will give it an inventory)",
+      "title": "Sifter"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:sifter"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Fishing Nets when placed on water, overtime will randomly generate fish, as if they were being caught with a Reed Rod. You will need some way to collect the item entities that are produced.",
+      "title": "Fishing Net"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:fishing_net"
+    }
+  ]
+}

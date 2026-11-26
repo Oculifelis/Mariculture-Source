@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["PD", "LL"],
+  "key": {
+    "D": "#c:dyes/yellow",
+    "L": "mariculture:lens",
+    "P": "#c:dyes/black"
+  },
+  "result": {
+    "id": "mariculture:scuba_mask",
+    "count": 1
+  }
+}

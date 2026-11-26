@@ -1,0 +1,31 @@
+{
+  "type": "forestry:squeezer",
+  "chance": 0.05,
+  "output": {
+    "stack": {
+      "amount": 1000,
+      "id": "mariculture:fish_oil"
+    }
+  },
+  "remnant": {
+    "count": 1,
+    "id": "minecraft:redstone"
+  },
+  "resources": [
+    {
+      "item": "mariculture:raw_red_herring"
+    }
+  ],
+  "time": 16,
+  "id": "mariculture:forestry/squeezer/red_herring",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "mariculture:plugin",
+      "plugin": "forestry"
+    }
+  ]
+}

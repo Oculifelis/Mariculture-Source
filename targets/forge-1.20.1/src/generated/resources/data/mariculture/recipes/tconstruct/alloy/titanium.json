@@ -1,0 +1,28 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "fluid": "mariculture:molten_rutile",
+      "amount": 8
+    },
+    {
+      "fluid": "mariculture:molten_magnesium",
+      "amount": 8
+    }
+  ],
+  "result": {
+    "fluid": "mariculture:molten_titanium",
+    "amount": 8
+  },
+  "temperature": 1400,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    },
+    {
+      "type": "mariculture:plugin",
+      "plugin": "tconstruct"
+    }
+  ]
+}

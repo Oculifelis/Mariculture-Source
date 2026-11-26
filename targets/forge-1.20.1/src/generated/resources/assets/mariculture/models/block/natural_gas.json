@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "mariculture:block/natural_gas"
+  },
+  "render_type": "minecraft:translucent"
+}

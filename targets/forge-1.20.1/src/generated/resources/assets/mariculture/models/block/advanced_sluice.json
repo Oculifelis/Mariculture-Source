@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "face": "mariculture:block/advanced_sluice",
+    "particle": "mariculture:block/advanced_sluice",
+    "rear": "mariculture:block/advanced_sluice_back",
+    "side": "mariculture:block/advanced_sluice_side"
+  },
+  "elements": [
+    {
+      "from": [0.0, 0.0, 0.0],
+      "to": [16.0, 16.0, 16.0],
+      "faces": {
+        "down": {
+          "texture": "#rear"
+        },
+        "up": {
+          "texture": "#face"
+        },
+        "north": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "west": {
+          "texture": "#side"
+        },
+        "east": {
+          "texture": "#side"
+        }
+      }
+    }
+  ],
+  "render_type": "minecraft:cutout"
+}

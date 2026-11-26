@@ -1,0 +1,31 @@
+{
+  "type": "forestry:squeezer",
+  "chance": 0.06,
+  "output": {
+    "stack": {
+      "amount": 1000,
+      "id": "mariculture:fish_oil"
+    }
+  },
+  "remnant": {
+    "count": 1,
+    "id": "minecraft:sugar"
+  },
+  "resources": [
+    {
+      "item": "mariculture:raw_peppermint_pike"
+    }
+  ],
+  "time": 40,
+  "id": "mariculture:forestry/squeezer/peppermint_pike",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "mariculture:plugin",
+      "plugin": "forestry"
+    }
+  ]
+}

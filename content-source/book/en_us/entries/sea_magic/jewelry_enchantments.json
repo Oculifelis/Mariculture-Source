@@ -1,0 +1,41 @@
+{
+  "name": "Jewelry Enchantments",
+  "icon": "minecraft:enchanted_book",
+  "category": "mariculture:sea_magic",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Over the next few pages, you will find information on the various jewelry enchantments, what their max level is and descriptions on what they do.",
+      "title": "Enchantments"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Sonic the Hedgehog (MAX 5)$()$(br)Faster while sprinting on the ground.$(br2)$(l)Leapfrog (MAX 4)$()$(br)Jump higher; wears every 10 jumps.$(br2)$(l)Step Up (MAX 3)$()$(br)Walk up 1 extra block per level."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Fall Resistance (MAX 4)$()$(br)Greater protection from fall damage the higher the level.$(br2)$(l)Spiderman (MAX 1)$()$(br)Climb walls by walking into them."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Paraglide (MAX 2)$()$(br)Slows your fall while you are not sneaking. Sneak to drop normally.$(br2)$(l)Superman (MAX 3)$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Grants the power of flight (double jump to take off). Wears while you fly."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Reaper (MAX 3)$()$(br)Level 1: items kept on death; Level 2: respawn where you died; Level 3: a short immunity after respawning.$(br2)$(l)Blink (MAX 3)$()$(br)Press the Blink key (V by default) while looking at a block to teleport on top of it, up to 16 blocks per level.$(br2)$(l)Restoration (MAX 3)$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Repairs items at the cost of durability on jewelry. Level 1: Repairs held Item; Level 2: Repairs Hotbar; Level 3: Repairs Armour."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)1 Up (MAX 3)$()$(br)If you die, you don't die. You will be revived instantly, and your health restored up to the level of this enchant.$(br2)$(l)Never Hungry (MAX 5)$()$(br)Restores your hunger bar. Level affects how much saturation is provided, therefore how long each feed lasts."
+    }
+  ]
+}

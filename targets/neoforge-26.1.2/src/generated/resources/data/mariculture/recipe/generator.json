@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" B ", "CMC", "RIR"],
+  "key": {
+    "B": "mariculture:copper_battery",
+    "C": "minecraft:comparator",
+    "I": "mariculture:base_iron",
+    "M": "mariculture:magnesium_ingot",
+    "R": "minecraft:redstone"
+  },
+  "result": {
+    "id": "mariculture:generator",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "mariculture:diving_helmet",
+    "mariculture:diving_top",
+    "mariculture:diving_pants",
+    "mariculture:diving_boots",
+    "mariculture:snorkel",
+    "mariculture:lifejacket",
+    "mariculture:scuba_mask",
+    "mariculture:scuba_tank",
+    "mariculture:scuba_suit",
+    "mariculture:swimfin"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "description": {
+    "translate": "enchantment.mariculture.one_ring"
+  },
+  "supported_items": "#mariculture:pearls",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 101,
+    "per_level_above_first": 3
+  },
+  "max_cost": {
+    "base": 101,
+    "per_level_above_first": 3
+  },
+  "anvil_cost": 4,
+  "slots": ["any"],
+  "exclusive_set": "#mariculture:exclusive_set/jewelry"
+}

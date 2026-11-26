@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" F ", "RPR", "WBW"],
+  "key": {
+    "B": "mariculture:base_wood",
+    "F": "#minecraft:fishes",
+    "P": "#minecraft:planks",
+    "R": "mariculture:wooden_fishing_rod",
+    "W": "#minecraft:logs"
+  },
+  "result": {
+    "id": "mariculture:autofisher",
+    "count": 1
+  }
+}

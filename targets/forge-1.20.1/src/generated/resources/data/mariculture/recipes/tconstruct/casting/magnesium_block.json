@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "fluid": "mariculture:molten_magnesium",
+    "amount": 1296
+  },
+  "result": {
+    "item": "mariculture:magnesium_block"
+  },
+  "cooling_time": 180,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    },
+    {
+      "type": "mariculture:plugin",
+      "plugin": "tconstruct"
+    }
+  ]
+}

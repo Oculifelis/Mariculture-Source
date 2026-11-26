@@ -1,0 +1,35 @@
+{
+  "name": "Casting Metals",
+  "icon": "mariculture:ingot_caster",
+  "category": "mariculture:materials_processing",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "With your metals in molten form, you need a way to cool them down in to a useable form. Be this nuggets, ingots or blocks. Mariculture has three casters just for this purpose.",
+      "title": "Casting Metals"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:nugget_caster",
+      "recipe2": "mariculture:ingot_caster"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:block_caster"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You are going to need to transfer the molten metal from the Crucible Furnace to the Caster. The easiest way to do this, would be to open the Crucible Furnace GUI and click the button that has an x on it. This will switch the mode. Click it until you have auto-eject fluids on. This will eject the internal fluids to any nearby tank or caster!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "An alternative way to move the liquids would be with a ladle. It holds 244mB. To use it, shift right click The Crucible Furnace while holding it. And then right click the caster.",
+      "title": "Ladle"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:ladle"
+    }
+  ]
+}

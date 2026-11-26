@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["IGI", "G G", "IGI"],
+  "key": {
+    "G": {
+      "item": "minecraft:iron_bars"
+    },
+    "I": {
+      "item": "mariculture:burnt_brick"
+    }
+  },
+  "result": {
+    "item": "mariculture:base_brick",
+    "count": 1
+  }
+}

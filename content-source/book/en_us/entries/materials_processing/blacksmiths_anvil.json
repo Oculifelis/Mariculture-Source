@@ -1,0 +1,22 @@
+{
+  "name": "Blacksmith's Anvil",
+  "icon": "mariculture:anvil",
+  "category": "mariculture:materials_processing",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Blacksmith's Anvil is a block used to crush, smash, work or even repair items. You can place items on to it with a right click. You must then left click the block with a Blacksmith's Hammer. Eventually you will have hit it enough that the new item, or repaired item will have been worked.",
+      "title": "Blacksmith's Anvil"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You'll notice it is done when you see a big puff of smoke. You can then right click it again, to get the result. In order to use the anvil you will need 1 XP at least. If you are repairing you will need enough to repair it."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:anvil",
+      "recipe2": "mariculture:hammer"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["T T", " T "],
+  "key": {
+    "T": {
+      "item": "mariculture:titanium_ingot"
+    }
+  },
+  "result": {
+    "id": "mariculture:titanium_bucket",
+    "count": 1
+  }
+}

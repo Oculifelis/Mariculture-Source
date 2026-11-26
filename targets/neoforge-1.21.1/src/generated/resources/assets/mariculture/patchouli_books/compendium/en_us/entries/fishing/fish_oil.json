@@ -1,0 +1,42 @@
+{
+  "name": "Fish Oil",
+  "icon": "mariculture:polished_stick",
+  "category": "mariculture:fishing",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Fish Oil is needed in order to make Polished Sticks and Polished Titanium Rods, which is what you need to create higher tier fishing rods. In order to obtain Fish Oil, you need to melt Fish in a Crucible Furnace.",
+      "title": "Fish Oil"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "To craft the sticks, and rods you need to soak logs/planks/sticks or titanium rods in Fish Oil in a Vat."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Input:$() Stick$(br)$(l)Fluid:$() 5000mB Fish Oil$(br)$(l)Output:$() Polished Stick$(br)$(l)Time:$() 15s",
+      "title": "Polished Stick"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Input:$() Titanium Rod$(br)$(l)Fluid:$() 6500mB Fish Oil$(br)$(l)Output:$() Polished Titanium Rod$(br)$(l)Time:$() 30s",
+      "title": "Polished Titanium Rod"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Input:$() Log$(br)$(l)Fluid:$() 30000mB Fish Oil$(br)$(l)Output:$() Polished Log$(br)$(l)Time:$() 45s",
+      "title": "Polished Log"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Input:$() Planks$(br)$(l)Fluid:$() 10000mB Fish Oil$(br)$(l)Output:$() Polished Planks$(br)$(l)Time:$() 30s",
+      "title": "Polished Planks"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Input:$() Stick$(br)$(l)Fluid:$() 3 ingots Molten Titanium$(br)$(l)Output:$() Titanium Rod$(br)$(l)Time:$() 60s",
+      "title": "Titanium Rod"
+    }
+  ]
+}

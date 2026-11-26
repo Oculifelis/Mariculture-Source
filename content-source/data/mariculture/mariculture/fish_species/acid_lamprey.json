@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "since": "0.7.0",
+  "dominant": false,
+  "temperature": {
+    "base": 20,
+    "tolerance": 12
+  },
+  "salinity": {
+    "base": "fresh",
+    "tolerance": 1
+  },
+  "lifespan_minutes": 30,
+  "fertility": 600,
+  "productivity": 1,
+  "food_consumption": 1,
+  "requires_food": true,
+  "water_required": 40,
+  "valid_fluids": [
+    "minecraft:water"
+  ],
+  "ignores_salinity": false,
+  "lava": false,
+  "active_time": "any",
+  "light": 0,
+  "area_of_effect": {
+    "up": 0,
+    "down": 0,
+    "north": 0,
+    "east": 0,
+    "south": 0,
+    "west": 0
+  },
+  "catch": {
+    "rod": "good",
+    "dimension": "overworld_like",
+    "chance_percent": 10,
+    "alive_percent": 0,
+    "biomes": [
+      "alexscaves:toxic_caves"
+    ],
+    "fluid": "#mariculture:fishing/acid"
+  },
+  "fish_oil_mb": 900,
+  "fish_meal": 2,
+  "food": {
+    "edible": true,
+    "hunger": 2,
+    "saturation": 0.2
+  },
+  "products": [
+    {
+      "item": "mariculture:droplet_poison",
+      "chance_percent": 15,
+      "count": 1
+    },
+    {
+      "item": "minecraft:slime_ball",
+      "chance_percent": 6,
+      "count": 1
+    },
+    {
+      "item": "minecraft:lime_dye",
+      "chance_percent": 4,
+      "count": 1
+    }
+  ],
+  "effects": [],
+  "requires_item_tag": "mariculture:present/alexscaves",
+  "source": "Mariculture 0.7.0, Alex's Caves compat",
+  "liquified_product": {
+    "item": "minecraft:slime_ball",
+    "one_in": 8
+  }
+}

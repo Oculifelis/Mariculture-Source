@@ -1,0 +1,21 @@
+{
+  "name": "DNA Extractor",
+  "icon": "mariculture:dna_extractor",
+  "category": "mariculture:breeding_genetics",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The DNA Extractor is the first step in manipulating your fish's DNA. Fill it with fish oil (10000 mB a try), give it energy (FE; it needs more than 10000 stored) and place a pure-bred fish in the fish slot. Each try copies one gene the fish carries on both sides, or its species, onto Fish DNA. The fish is not used up. One try takes 120000 FE, more than one battery holds, so it needs steady power; when power runs short it pauses and keeps its progress.",
+      "title": "DNA Extractor"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The extractor accepts storage, speed (hyperkinetic) and RF (capacitor) upgrades: more fish oil, faster work, and a bigger, more efficient energy buffer. A charged battery in its battery slot powers it too. It only pushes its DNA out (ejection); pipes can't pull from it."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:dna_extractor"
+    }
+  ]
+}

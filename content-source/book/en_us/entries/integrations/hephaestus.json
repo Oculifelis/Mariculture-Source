@@ -1,0 +1,18 @@
+{
+  "name": "Hephaestus",
+  "icon": "mariculture:titanium_ingot",
+  "category": "mariculture:integrations",
+  "flag": "mod:hephaestus",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Titanium melts in a Smeltery into Hephaestus' own Molten Titanium and casts back into Mariculture's ingots, nuggets and blocks. Limestone, Rutile and Magnesium melt into Mariculture's own fluids, at Mariculture's amounts. One ingot each of Molten Rutile and Molten Magnesium alloy into an ingot of Molten Titanium.",
+      "title": "Hephaestus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "With Hephaestus Tools, Molten Titanium casts every tool part, and the parts melt back down. The Crucible Furnace also melts everything the Smeltery melts, and the casters cast what its ingot, nugget and block casts make. All of this can be switched off in the config (plugins.hephaestus and plugins.hephaestus_recipe_import)."
+    }
+  ]
+}

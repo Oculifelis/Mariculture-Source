@@ -1,0 +1,37 @@
+{
+  "conditions": [
+    {
+      "type": "tide:dimension",
+      "dimensions": ["minecraft:overworld"]
+    },
+    {
+      "type": "tide:fluid",
+      "fluid": "water"
+    },
+    {
+      "type": "tide:freshwater"
+    },
+    {
+      "type": "tide:time_of_day",
+      "ranges": [
+        {
+          "min": 12700,
+          "max": 24000
+        }
+      ]
+    }
+  ],
+  "fish": "mariculture:raw_undead_fish",
+  "journal_profile": {
+    "description": "journal.description.mariculture.undead_fish",
+    "group": "freshwater",
+    "location": "journal.info.location.freshwater",
+    "rarity": "very_rare"
+  },
+  "selection_weight": 6.0,
+  "size": {
+    "record_high_cm": 70.0,
+    "typical_high_cm": 50.0,
+    "typical_low_cm": 25.0
+  }
+}

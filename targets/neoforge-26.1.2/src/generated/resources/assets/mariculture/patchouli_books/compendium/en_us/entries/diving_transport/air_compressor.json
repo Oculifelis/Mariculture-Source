@@ -1,0 +1,31 @@
+{
+  "name": "Air Compressor",
+  "icon": "mariculture:air_compressor",
+  "category": "mariculture:diving_transport",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Air Compressor & Scuba Gear",
+      "text": "The third and final tier of Mariculture gear is the Scuba Gear. In order to operate the breathing side, you are going to need an air compressor and some way to power it."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:air_compressor",
+      "recipe2": "mariculture:titanium_battery"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Supply the compressor with energy (FE) from cables or by right clicking it with a charged battery. Every second it turns 1000 energy into one unit of air, storing up to 480; it only takes energy while it has room for air."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Right click the compressor with a scuba tank to fill it with all the air it can hold (240), or sneak and right click to add one unit at a time.$(br2)Batteries are made with copper or titanium; a battery crafted with a block of redstone comes out fully charged."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:copper_battery",
+      "recipe2": "mariculture:copper_battery_charged"
+    }
+  ]
+}

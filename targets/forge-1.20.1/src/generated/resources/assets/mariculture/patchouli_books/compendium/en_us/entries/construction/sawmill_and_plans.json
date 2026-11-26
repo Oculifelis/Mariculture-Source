@@ -1,0 +1,27 @@
+{
+  "name": "Sawmill & Plans",
+  "icon": "mariculture:sawmill",
+  "category": "mariculture:construction",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The sawmill can be used to create various different custom blocks, with different textures on each face. You can make one way mirrors this way. You will need plans in order to operate the sawmill.",
+      "title": "Sawmill & Plans"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Plans are made by taking a blank plan and some planning chalk, and making sure they are both in your inventory then right click with the chalk on a block with similiar properties to what you want to make a plan of.",
+      "title": "Plans"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "For example right click a torch if you want a custom lighting plan, or right click stairs for stairs plan."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:blank_plan",
+      "recipe2": "mariculture:planning_chalk"
+    }
+  ]
+}

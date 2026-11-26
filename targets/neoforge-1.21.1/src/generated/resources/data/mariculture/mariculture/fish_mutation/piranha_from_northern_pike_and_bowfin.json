@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "parents": [
+    "northern_pike",
+    "bowfin"
+  ],
+  "child": "piranha",
+  "chance_percent": 18,
+  "conditions": [],
+  "source": "mariculture/fishery/Fish.java:383"
+}

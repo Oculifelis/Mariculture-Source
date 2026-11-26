@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "parents": [
+    "red_herring",
+    "perch"
+  ],
+  "child": "blazefish",
+  "chance_percent": 12,
+  "conditions": [],
+  "source": "mariculture/fishery/Fish.java:407"
+}

@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "parents": [
+    "siamese_fighting_fish",
+    "butterflyfish"
+  ],
+  "child": "damselfish",
+  "chance_percent": 12,
+  "conditions": [],
+  "source": "mariculture/fishery/Fish.java:404"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Brown Shroom Fish",
+  "icon": "mariculture:brown_shroom_fish",
+  "category": "mariculture:species",
+  "sortnum": 32,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:brown_shroom_fish",
+      "title": "Brown Shroom Fish",
+      "text": "Catchable live in wild:   no$(br)$(l)Min Rod$(): Fishing Rod$(br2)$(l)Specialty$(): Spawns Mycelium and Brown Mushrooms."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Temperature Range, Salinity, Lifespan, Fertility, Work Ethic and Water requirements of the $(thing)Brown Shroom Fish$() species.",
+      "title": "Fish Data"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Products that a working $(thing)Brown Shroom Fish$() can produce in a Fish Feeder.",
+      "title": "Fish Products"
+    }
+  ]
+}

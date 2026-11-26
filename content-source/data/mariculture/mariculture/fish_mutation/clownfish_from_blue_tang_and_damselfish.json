@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "parents": [
+    "blue_tang",
+    "damselfish"
+  ],
+  "child": "clownfish",
+  "chance_percent": 10,
+  "conditions": [],
+  "source": "mariculture/fishery/Fish.java:406"
+}

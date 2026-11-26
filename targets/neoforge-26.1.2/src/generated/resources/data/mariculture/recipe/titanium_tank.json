@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["CWC", "WGW", "CWC"],
+  "key": {
+    "C": "mariculture:titanium_ingot",
+    "G": "mariculture:heat_glass",
+    "W": "minecraft:quartz_block"
+  },
+  "result": {
+    "id": "mariculture:titanium_tank",
+    "count": 1
+  }
+}

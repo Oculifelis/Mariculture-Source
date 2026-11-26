@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "legacy_name": "mariculture:puffer",
+  "legacy_id": 3,
+  "since": "1.2.4",
+  "dominant": false,
+  "temperature": {
+    "base": 33,
+    "tolerance": 21
+  },
+  "salinity": {
+    "base": "brackish",
+    "tolerance": 1
+  },
+  "lifespan_minutes": 10,
+  "fertility": 3,
+  "productivity": 1,
+  "food_consumption": 3,
+  "requires_food": true,
+  "water_required": 115,
+  "valid_fluids": [
+    "minecraft:lava",
+    "minecraft:water"
+  ],
+  "ignores_salinity": true,
+  "lava": false,
+  "active_time": "any",
+  "light": 0,
+  "area_of_effect": {
+    "up": 0,
+    "down": 0,
+    "north": 0,
+    "east": 0,
+    "south": 0,
+    "west": 0
+  },
+  "catch": {
+    "rod": "dire",
+    "dimension": "overworld_like",
+    "chance_percent": 17,
+    "alive_percent": 0
+  },
+  "fish_oil_mb": 4625,
+  "fish_meal": 4,
+  "food": {
+    "edible": true,
+    "hunger": 5,
+    "saturation": 0.4625
+  },
+  "products": [
+    {
+      "item": "mariculture:droplet_water",
+      "chance_percent": 5,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_poison",
+      "chance_percent": 13,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_attack",
+      "chance_percent": 5,
+      "count": 1
+    }
+  ],
+  "effects": [
+    "brewingIngredient",
+    "onEaten"
+  ],
+  "source": "mariculture/fishery/fish/FishPuffer.java (1.7.10-1.3.0)",
+  "liquified_product": {
+    "item": "minecraft:bone",
+    "one_in": 10
+  }
+}

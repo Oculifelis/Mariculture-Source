@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "since": "0.7.0",
+  "dominant": true,
+  "temperature": {
+    "base": 75,
+    "tolerance": 30
+  },
+  "salinity": {
+    "base": "fresh",
+    "tolerance": 1
+  },
+  "lifespan_minutes": 18,
+  "fertility": 200,
+  "productivity": 0,
+  "food_consumption": 1,
+  "requires_food": true,
+  "water_required": 55,
+  "valid_fluids": [
+    "minecraft:lava"
+  ],
+  "ignores_salinity": false,
+  "lava": true,
+  "active_time": "night",
+  "light": 0,
+  "area_of_effect": {
+    "up": 0,
+    "down": 0,
+    "north": 0,
+    "east": 0,
+    "south": 0,
+    "west": 0
+  },
+  "catch": {
+    "rod": "flux",
+    "dimension": "overworld_like",
+    "chance_percent": 0,
+    "alive_percent": 0
+  },
+  "fish_oil_mb": 0,
+  "fish_meal": 0,
+  "food": {
+    "edible": false,
+    "hunger": -1,
+    "saturation": 0.0
+  },
+  "products": [
+    {
+      "item": "mariculture:metal_droplet",
+      "fluid": "metallurgy:kalendrite",
+      "amount": 10,
+      "color": "#9A53AA",
+      "chance_percent": 12,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_nether",
+      "chance_percent": 8,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_magic",
+      "chance_percent": 8,
+      "count": 1
+    }
+  ],
+  "effects": [],
+  "abilities": [
+    {
+      "type": "potion",
+      "effect": "minecraft:regeneration",
+      "seconds": 5
+    }
+  ],
+  "breeding": [
+    {
+      "type": "food",
+      "item": "minecraft:nether_wart"
+    }
+  ],
+  "requires_item_tag": "c:ingots/kalendrite",
+  "source": "Mariculture 0.7.0, Metallurgy: Recast compat"
+}

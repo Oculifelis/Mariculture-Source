@@ -1,0 +1,21 @@
+{
+  "name": "Elemental Affinity",
+  "icon": "mariculture:white_pearl",
+  "category": "mariculture:sea_magic",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "This enchantment is entirely unique. The effect it has depends on the pearl that the jewelry is made from. Listed below are the effects:",
+      "title": "Elemental Affinity (MAX 1)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Black ~ Bonus attack damage at night$(li)Blue ~ Immune to drowning damage$(li)Brown ~ Digging dirt provides Bait$(li)Gold ~ Killing entities drop gold nuggets$(li)Green ~ Immunity to poison$(li)Orange ~ Bonus xp on kills$(li)Pink ~ Killing entities restores health"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Purple ~ Immune to magic damage$(li)Red ~ Immune to fire and lava$(li)Silver ~ Silverfish sometimes drop a cooked cod$(li)White ~ Bonus attack damage at day$(li)Yellow ~ Immune to earthly damage"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["G G", " G "],
+  "key": {
+    "G": {
+      "item": "mariculture:heat_glass"
+    }
+  },
+  "result": {
+    "item": "mariculture:heat_bottle",
+    "count": 3
+  }
+}

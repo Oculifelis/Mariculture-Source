@@ -1,0 +1,33 @@
+{
+  "name": "Mechanized Sponge",
+  "icon": "mariculture:mechanized_sponge",
+  "category": "mariculture:machines_automation",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Ever had a large area of fluid you need cleared up? Well the Mechanized Sponge can do this for you, it just needs a little bit of energy (FE) to get the job done. It can clear up to a 97x97 area. As well as the Mechanized Sponge you are going to need 5 additional Sponge blocks.",
+      "title": "Mechanized Sponge"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Place a sponge in each of the 5 directions away from the central mechanized sponge (east, west, south, north and up, up to 47 blocks away; wet sponges work too); they set the area it clears. Then supply it with enough energy: 40 FE for each block of the area. Look at the mechanized sponge to see how much it needs."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:mechanized_sponge"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:mechanized_sponge",
+      "title": "Mechanized Sponge",
+      "text": "Lay sponges out like so$(br)But in water"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:mechanized_sponge",
+      "title": "Mechanized Sponge",
+      "text": "Give it RF Power...$(br)And tada!"
+    }
+  ]
+}

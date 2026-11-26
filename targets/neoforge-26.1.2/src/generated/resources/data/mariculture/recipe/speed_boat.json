@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["G F", "AAA"],
+  "key": {
+    "A": "mariculture:aluminum_ingot",
+    "F": "mariculture:cooling_component",
+    "G": "minecraft:glass_pane"
+  },
+  "result": {
+    "id": "mariculture:speed_boat",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Pressure Vessel",
+  "icon": "mariculture:pressure_vessel",
+  "category": "mariculture:machines_automation",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Pressure Vessels are simple fluid storage that hold an enormous amount of fluid: 200 buckets each, and 8 more per storage upgrade level. They are handy for keeping fluids in one place, such as water from your sluice for your water turbines.",
+      "title": "Pressure Vessel"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Vessels touching each other share their fluid, so any shape or size of them works as one huge tank. A fludd in the special slot fills up from the pressurised water inside."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:pressure_vessel"
+    }
+  ]
+}

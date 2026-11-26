@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "parents": [
+    "stargazer",
+    "spiderfish"
+  ],
+  "child": "undead_fish",
+  "chance_percent": 15,
+  "conditions": [],
+  "source": "mariculture/fishery/Fish.java:396"
+}

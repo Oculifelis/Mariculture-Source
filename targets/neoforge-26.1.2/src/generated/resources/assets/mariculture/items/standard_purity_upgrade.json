@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "mariculture:item/standard_purity_upgrade"
+  }
+}

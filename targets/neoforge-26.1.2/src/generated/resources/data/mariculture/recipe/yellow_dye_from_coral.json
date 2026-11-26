@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": ["mariculture:yellow_coral"],
+  "result": {
+    "id": "minecraft:yellow_dye",
+    "count": 1
+  }
+}

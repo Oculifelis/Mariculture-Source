@@ -1,0 +1,20 @@
+{
+  "type": "tconstruct:melting_fuel",
+  "fluid": {
+    "fluid": "mariculture:natural_gas",
+    "amount": 50
+  },
+  "duration": 100,
+  "temperature": 1500,
+  "rate": 10,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    },
+    {
+      "type": "mariculture:plugin",
+      "plugin": "tconstruct"
+    }
+  ]
+}

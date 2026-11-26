@@ -1,0 +1,30 @@
+{
+  "parent": "mariculture:live_fish",
+  "display": {
+    "icon": {
+      "id": "mariculture:fish_eggs"
+    },
+    "title": {
+      "translate": "advancements.mariculture.fish_eggs.title"
+    },
+    "description": {
+      "translate": "advancements.mariculture.fish_eggs.description"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "has_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mariculture:fish_eggs"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_0"]
+  ]
+}

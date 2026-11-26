@@ -1,0 +1,30 @@
+{
+  "parent": "mariculture:bait",
+  "display": {
+    "icon": {
+      "item": "mariculture:titanium_fishing_rod"
+    },
+    "title": {
+      "translate": "advancements.mariculture.titanium_rod.title"
+    },
+    "description": {
+      "translate": "advancements.mariculture.titanium_rod.description"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "has_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["mariculture:titanium_fishing_rod"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_0"]
+  ]
+}

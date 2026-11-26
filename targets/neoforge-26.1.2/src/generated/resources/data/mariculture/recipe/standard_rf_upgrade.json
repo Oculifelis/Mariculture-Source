@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["CTC", "QUQ", "RCR"],
+  "key": {
+    "C": "minecraft:copper_ingot",
+    "Q": "minecraft:quartz",
+    "R": "minecraft:repeater",
+    "T": "minecraft:redstone_torch",
+    "U": "mariculture:basic_rf_upgrade"
+  },
+  "result": {
+    "id": "mariculture:standard_rf_upgrade",
+    "count": 1
+  }
+}

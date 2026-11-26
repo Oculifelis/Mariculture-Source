@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "mariculture:block/base_wood",
+    "up": "mariculture:block/base_wood",
+    "north": "mariculture:block/dictionary",
+    "south": "mariculture:block/dictionary",
+    "west": "mariculture:block/dictionary",
+    "east": "mariculture:block/dictionary",
+    "particle": "mariculture:block/dictionary"
+  }
+}

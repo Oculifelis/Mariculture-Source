@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "legacy_name": "mariculture:tuna",
+  "legacy_id": 29,
+  "since": "1.2.4",
+  "dominant": true,
+  "temperature": {
+    "base": 5,
+    "tolerance": 4
+  },
+  "salinity": {
+    "base": "saline",
+    "tolerance": 1
+  },
+  "lifespan_minutes": 15,
+  "fertility": 200,
+  "productivity": 1,
+  "food_consumption": 2,
+  "requires_food": true,
+  "water_required": 60,
+  "valid_fluids": [
+    "minecraft:lava",
+    "minecraft:water"
+  ],
+  "ignores_salinity": true,
+  "lava": false,
+  "active_time": "any",
+  "light": 0,
+  "area_of_effect": {
+    "up": 0,
+    "down": 0,
+    "north": 0,
+    "east": 0,
+    "south": 0,
+    "west": 0
+  },
+  "catch": {
+    "rod": "old",
+    "dimension": "overworld_like",
+    "chance_percent": 25,
+    "alive_percent": 0
+  },
+  "fish_oil_mb": 3250,
+  "fish_meal": 8,
+  "food": {
+    "edible": true,
+    "hunger": 4,
+    "saturation": 0.65
+  },
+  "products": [
+    {
+      "item": "mariculture:droplet_water",
+      "chance_percent": 4,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_aqua",
+      "chance_percent": 5,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_earth",
+      "chance_percent": 3,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_frozen",
+      "chance_percent": 5.5,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_air",
+      "chance_percent": 7.5,
+      "count": 1
+    }
+  ],
+  "effects": [
+    "onEaten",
+    "tankLivingEffect"
+  ],
+  "source": "mariculture/fishery/fish/FishTuna.java (1.7.10-1.3.0)",
+  "liquified_product": {
+    "item": "minecraft:bone",
+    "one_in": 10
+  }
+}

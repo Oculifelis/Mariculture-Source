@@ -1,0 +1,24 @@
+{
+  "name": "Bass",
+  "icon": "mariculture:bass",
+  "category": "mariculture:species",
+  "sortnum": 38,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:bass",
+      "title": "Bass",
+      "text": "Catchable live in wild:   no$(br)$(l)Min Rod$(): Reed Fishing Rod$(br2)$(l)Specialty$(): Right clicking, throws the fish like it is dynamite."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Temperature Range, Salinity, Lifespan, Fertility, Work Ethic and Water requirements of the $(thing)Bass$() species.",
+      "title": "Fish Data"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Products that a working $(thing)Bass$() can produce in a Fish Feeder.",
+      "title": "Fish Products"
+    }
+  ]
+}

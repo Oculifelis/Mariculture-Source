@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "mariculture:droplet_magic",
+      "required": false
+    }
+  ]
+}

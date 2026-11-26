@@ -1,0 +1,18 @@
+{
+  "name": "Tinkers' Construct",
+  "icon": "mariculture:titanium_ingot",
+  "category": "mariculture:integrations",
+  "flag": "mod:tconstruct",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Limestone, Rutile, Titanium and Magnesium melt in a Smeltery into Mariculture's own fluids, at Mariculture's amounts, and cast back into ingots, nuggets and blocks. Molten Rutile and Molten Magnesium alloy into Molten Titanium. Titanium and Rutile need the hottest fuel.",
+      "title": "Tinkers' Construct"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Natural Gas$() burns in the Smeltery as a fuel as hot as blaze fuel, and the Crucible Furnace melts Manyullyn into the Smeltery's own molten Manyullyn. All of this can be switched off in the config (plugins.tconstruct)."
+    }
+  ]
+}

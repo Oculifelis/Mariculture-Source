@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "legacy_name": "mariculture:mantaray",
+  "legacy_id": 16,
+  "since": "1.2.4",
+  "dominant": true,
+  "temperature": {
+    "base": 30,
+    "tolerance": 21
+  },
+  "salinity": {
+    "base": "saline",
+    "tolerance": 2
+  },
+  "lifespan_minutes": 20,
+  "fertility": 200,
+  "productivity": 1,
+  "food_consumption": 2,
+  "requires_food": true,
+  "water_required": 115,
+  "valid_fluids": [
+    "minecraft:lava",
+    "minecraft:water"
+  ],
+  "ignores_salinity": true,
+  "lava": false,
+  "active_time": "any",
+  "light": 0,
+  "area_of_effect": {
+    "up": 1,
+    "down": 1,
+    "north": 1,
+    "east": 1,
+    "south": 1,
+    "west": 1
+  },
+  "catch": {
+    "rod": "good",
+    "dimension": "overworld_like",
+    "chance_percent": 10,
+    "alive_percent": 0
+  },
+  "fish_oil_mb": 6130,
+  "fish_meal": 9,
+  "food": {
+    "edible": true,
+    "hunger": 2,
+    "saturation": 0.45
+  },
+  "products": [
+    {
+      "item": "mariculture:droplet_water",
+      "chance_percent": 3.5,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_health",
+      "chance_percent": 7.5,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_air",
+      "chance_percent": 5.5,
+      "count": 1
+    }
+  ],
+  "effects": [
+    "onEaten",
+    "tankLivingEffect"
+  ],
+  "source": "mariculture/fishery/fish/FishMantaRay.java (1.7.10-1.3.0)",
+  "liquified_product": {
+    "item": "minecraft:bone",
+    "one_in": 10
+  }
+}

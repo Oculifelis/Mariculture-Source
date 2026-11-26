@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["LLL", "LCL", "LBL"],
+  "key": {
+    "B": "mariculture:base_wood",
+    "C": "minecraft:crafting_table",
+    "L": "#minecraft:logs"
+  },
+  "result": {
+    "id": "mariculture:unpacker",
+    "count": 1
+  }
+}

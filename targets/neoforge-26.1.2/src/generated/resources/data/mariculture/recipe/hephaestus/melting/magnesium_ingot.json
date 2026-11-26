@@ -1,0 +1,24 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "minecraft:lava"
+  },
+  "ingredient": "#c:ingots/magnesium",
+  "result": {
+    "amount": 144,
+    "id": "mariculture:molten_magnesium"
+  },
+  "temperature": 400,
+  "time": 100,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "hephaestus"
+    },
+    {
+      "type": "mariculture:plugin",
+      "plugin": "hephaestus"
+    }
+  ]
+}

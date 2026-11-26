@@ -1,0 +1,17 @@
+{
+  "name": "Unpacker",
+  "icon": "mariculture:unpacker",
+  "category": "mariculture:machines_automation",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "This block performs 1x1 crafting recipes. Input an item to the top via a hopper, and the result goes into the inventory below, so a block of iron becomes nine ingots.",
+      "title": "Unpacker"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:unpacker"
+    }
+  ]
+}

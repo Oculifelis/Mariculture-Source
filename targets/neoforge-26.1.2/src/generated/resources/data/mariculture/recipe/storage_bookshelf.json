@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["SPS", "PCP", "SSS"],
+  "key": {
+    "C": "minecraft:chest",
+    "P": "#minecraft:planks",
+    "S": "minecraft:bookshelf"
+  },
+  "result": {
+    "id": "mariculture:storage_bookshelf",
+    "count": 1
+  }
+}

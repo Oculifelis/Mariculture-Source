@@ -1,0 +1,17 @@
+{
+  "name": "Water Turbine",
+  "icon": "mariculture:copper_rotor",
+  "category": "mariculture:power",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Water Turbine",
+      "text": "In order to construct a water turbine, you simply place a rotor next to pressurised water. Ensure your rotors are connected to a generator and it will produce power from that generator."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Rotors sit in a straight line behind the generator; the generator's face points away from them. The rotor at the end of a sluice's pressurised water gets its power, multiplied by the rotor's tier (copper 1, aluminium 2, titanium 5), and the generator hands it to the machines on its other five sides.$(br2)Rotors wear as they turn and fall back to base iron when worn out. Keep clear of them while they spin."
+    }
+  ]
+}

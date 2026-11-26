@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" S ", "GTG", "BEB"],
+  "key": {
+    "B": {
+      "item": "mariculture:titanium_battery"
+    },
+    "E": {
+      "item": "mariculture:dna_extractor"
+    },
+    "G": {
+      "item": "mariculture:gold_sheet"
+    },
+    "S": {
+      "item": "mariculture:scuba_mask"
+    },
+    "T": {
+      "item": "mariculture:thermometer"
+    }
+  },
+  "result": {
+    "id": "mariculture:dna_injector",
+    "count": 1
+  }
+}

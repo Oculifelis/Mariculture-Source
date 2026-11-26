@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["WGW", "PRP", "PMP"],
+  "key": {
+    "G": "minecraft:glass",
+    "M": "minecraft:piston",
+    "P": "#minecraft:planks",
+    "R": "minecraft:redstone",
+    "W": "mariculture:iron_wheel"
+  },
+  "result": {
+    "id": "mariculture:air_pump",
+    "count": 1
+  }
+}

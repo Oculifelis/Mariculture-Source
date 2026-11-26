@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "legacy_name": "mariculture:dragon",
+  "legacy_id": 8,
+  "since": "1.2.4",
+  "dominant": false,
+  "temperature": {
+    "base": 49,
+    "tolerance": 39
+  },
+  "salinity": {
+    "base": "fresh",
+    "tolerance": 1
+  },
+  "lifespan_minutes": 60,
+  "fertility": 10,
+  "productivity": 0,
+  "food_consumption": 3,
+  "requires_food": true,
+  "water_required": 400,
+  "valid_fluids": [
+    "mariculture:ender"
+  ],
+  "ignores_salinity": true,
+  "lava": false,
+  "active_time": "any",
+  "light": 0,
+  "area_of_effect": {
+    "up": 0,
+    "down": 0,
+    "north": 0,
+    "east": 0,
+    "south": 0,
+    "west": 0
+  },
+  "catch": {
+    "rod": "flux",
+    "dimension": "end",
+    "chance_percent": 10,
+    "alive_percent": 0
+  },
+  "fish_oil_mb": 7500,
+  "fish_meal": 13,
+  "food": {
+    "edible": true,
+    "hunger": 3,
+    "saturation": 0.65
+  },
+  "products": [
+    {
+      "item": "mariculture:droplet_air",
+      "chance_percent": 20,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_ender",
+      "chance_percent": 22.5,
+      "count": 1
+    },
+    {
+      "item": "minecraft:ender_pearl",
+      "chance_percent": 20,
+      "count": 1
+    },
+    {
+      "item": "minecraft:dragon_egg",
+      "chance_percent": 0.1,
+      "count": 1
+    }
+  ],
+  "effects": [
+    "onEaten"
+  ],
+  "source": "mariculture/fishery/fish/FishDragon.java (1.7.10-1.3.0)",
+  "liquified_product": {
+    "item": "minecraft:bone",
+    "one_in": 10
+  }
+}

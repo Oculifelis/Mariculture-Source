@@ -1,0 +1,25 @@
+{
+  "conditions": [
+    {
+      "type": "tide:dimension",
+      "dimensions": ["minecraft:overworld"]
+    },
+    {
+      "type": "tide:fluid",
+      "fluid": "water"
+    }
+  ],
+  "fish": "mariculture:raw_rainbow_trout",
+  "journal_profile": {
+    "description": "journal.description.mariculture.rainbow_trout",
+    "group": "freshwater",
+    "location": "journal.info.location.freshwater",
+    "rarity": "common"
+  },
+  "selection_weight": 40.0,
+  "size": {
+    "record_high_cm": 70.0,
+    "typical_high_cm": 50.0,
+    "typical_low_cm": 25.0
+  }
+}

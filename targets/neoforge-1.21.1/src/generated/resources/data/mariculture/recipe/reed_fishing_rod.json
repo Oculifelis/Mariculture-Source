@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["  S", " SW", "S W"],
+  "key": {
+    "S": {
+      "item": "minecraft:sugar_cane"
+    },
+    "W": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "id": "mariculture:reed_fishing_rod",
+    "count": 1
+  }
+}

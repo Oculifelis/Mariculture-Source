@@ -1,0 +1,24 @@
+{
+  "name": "Pufferfish",
+  "icon": "mariculture:pufferfish",
+  "category": "mariculture:species",
+  "sortnum": 26,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:pufferfish",
+      "title": "Pufferfish",
+      "text": "Catchable live in wild:   no$(br)$(l)Min Rod$(): Fishing Rod$(br2)$(l)Specialty$(): Doesn't really do anything special"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Temperature Range, Salinity, Lifespan, Fertility, Work Ethic and Water requirements of the $(thing)Pufferfish$() species.",
+      "title": "Fish Data"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Products that a working $(thing)Pufferfish$() can produce in a Fish Feeder.",
+      "title": "Fish Products"
+    }
+  ]
+}

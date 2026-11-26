@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["TST", "BMB", "GBG"],
+  "key": {
+    "B": "mariculture:storage_bookshelf",
+    "G": "mariculture:golden_thread",
+    "M": "mariculture:magic_mirror",
+    "S": "minecraft:nether_star",
+    "T": "mariculture:droplet_magic"
+  },
+  "result": {
+    "id": "mariculture:celestial_mirror",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["WCW", "CUC", "STS"],
+  "key": {
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "S": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "T": {
+      "item": "minecraft:chest"
+    },
+    "U": {
+      "item": "mariculture:basic_storage_upgrade"
+    },
+    "W": {
+      "item": "mariculture:wicker"
+    }
+  },
+  "result": {
+    "item": "mariculture:standard_storage_upgrade",
+    "count": 1
+  }
+}

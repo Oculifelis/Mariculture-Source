@@ -1,0 +1,35 @@
+{
+  "name": "Magical Tools",
+  "icon": "mariculture:mob_magnet",
+  "category": "mariculture:sea_magic",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Mob Magnet",
+      "text": "Kill a mob while holding an unbound Mob Magnet and it remembers that kind of mob. From then on, right clicking pulls every mob of that kind within 32 blocks to your feet. It never wears out, but it stays bound to its first mob."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:mob_magnet"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Hydrophobic Initiator",
+      "text": "Keep a Hydrophobic Initiator anywhere in your inventory and right click a water source with a block in hand: the block is placed on top of the water, as a lily pad would be. Handy for bridges and rafts."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:hydrophobic_initiator"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Infinity Water",
+      "text": "Infinity Water never runs dry. Right click to place water like a bucket, or right click a tank or machine to pour a bucket's worth into it. Pipes and other mods' machines can draw water from it too."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:infiwater"
+    }
+  ]
+}

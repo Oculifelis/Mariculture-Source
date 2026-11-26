@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:ores/rutile"
+  },
+  "result": {
+    "fluid": "mariculture:molten_rutile",
+    "amount": 288
+  },
+  "temperature": 1400,
+  "time": 90,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    },
+    {
+      "type": "mariculture:plugin",
+      "plugin": "tconstruct"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["  S", " SW", "S W"],
+  "key": {
+    "S": "mariculture:polished_stick",
+    "W": "minecraft:string"
+  },
+  "result": {
+    "id": "mariculture:wooden_fishing_rod",
+    "count": 1
+  }
+}

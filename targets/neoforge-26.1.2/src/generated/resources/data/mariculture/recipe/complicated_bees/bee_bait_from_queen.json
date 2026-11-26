@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": ["complicated_bees:queen"],
+  "result": {
+    "id": "mariculture:bait_bee",
+    "count": 7
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "complicated_bees"
+    },
+    {
+      "type": "mariculture:plugin",
+      "plugin": "complicated_bees"
+    }
+  ]
+}

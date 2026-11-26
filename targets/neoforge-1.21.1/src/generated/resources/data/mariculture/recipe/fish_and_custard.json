@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mariculture:custard"
+    },
+    {
+      "item": "mariculture:fish_finger"
+    },
+    {
+      "item": "mariculture:fish_finger"
+    },
+    {
+      "item": "mariculture:fish_finger"
+    }
+  ],
+  "result": {
+    "id": "mariculture:fish_and_custard",
+    "count": 1
+  }
+}

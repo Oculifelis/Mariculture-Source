@@ -1,0 +1,35 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "amount": 30,
+      "aspect": "thaumaturge:sensus"
+    },
+    {
+      "amount": 20,
+      "aspect": "thaumaturge:aqua"
+    },
+    {
+      "amount": 10,
+      "aspect": "thaumaturge:praecantatio"
+    }
+  ],
+  "catalyst": "mariculture:scuba_mask",
+  "catalyst_patch": {
+    "thaumaturge:goggles_upgrade": {}
+  },
+  "components": [
+    "#c:slime_balls",
+    "thaumaturge:goggles_revealing"
+  ],
+  "instability": 4,
+  "research": {
+    "entry": "mariculture:mask_of_revealing"
+  }
+}

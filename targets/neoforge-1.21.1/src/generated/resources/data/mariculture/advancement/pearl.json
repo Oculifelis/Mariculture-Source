@@ -1,0 +1,30 @@
+{
+  "parent": "mariculture:root",
+  "display": {
+    "icon": {
+      "id": "mariculture:white_pearl"
+    },
+    "title": {
+      "translate": "advancements.mariculture.pearl.title"
+    },
+    "description": {
+      "translate": "advancements.mariculture.pearl.description"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "has_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#mariculture:pearls"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_0"]
+  ]
+}

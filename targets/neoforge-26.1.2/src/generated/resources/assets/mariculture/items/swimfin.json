@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "mariculture:warded",
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "mariculture:item/warded_swimfin"
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "mariculture:item/swimfin"
+    }
+  }
+}

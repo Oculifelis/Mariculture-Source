@@ -1,0 +1,60 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "category": "mariculture:aquamancy",
+  "name": "research.mariculture.treated_neoprene.title",
+  "parents": [
+    "mariculture:aquamancy",
+    "thaumaturge:base_alchemy"
+  ],
+  "column": 2,
+  "row": -1,
+  "icons": [
+    "mariculture:neoprene"
+  ],
+  "stages": [
+    {
+      "text": "research.mariculture.treated_neoprene.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "mariculture:aquamancy",
+          "amount": 1
+        }
+      ],
+      "obtain": [
+        {
+          "items": [
+            "mariculture:neoprene"
+          ],
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.mariculture.treated_neoprene.stage_1",
+      "recipes": [
+        "mariculture:thaumaturge/crucible/neoprene"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:fabrico",
+      "amount": 2
+    }
+  ],
+  "complexity": 1
+}

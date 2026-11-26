@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["  T", " TS", "T S"],
+  "key": {
+    "S": "botania:mana_string",
+    "T": "botania:livingwood_twig"
+  },
+  "result": {
+    "id": "mariculture:livingwood_fishing_rod",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "mariculture:plugin",
+      "plugin": "botania"
+    }
+  ]
+}

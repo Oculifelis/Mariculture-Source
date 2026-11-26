@@ -1,0 +1,22 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "mariculture:revealing",
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "mariculture:item/revealing_scuba_mask"
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "mariculture:warded",
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "mariculture:item/warded_scuba_mask"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "mariculture:item/scuba_mask"
+      }
+    }
+  }
+}

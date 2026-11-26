@@ -1,0 +1,58 @@
+{
+  "snapshot_date": "2026-10-14",
+  "upstream_repository": "https://github.com/joshiejack/Mariculture",
+  "sources": [
+    {
+      "id": "stable",
+      "role": "Stable baseline (Deluxe 1.2.4.2a)",
+      "branch": "1.7.10-1.2.4",
+      "commit": "363de5c39b068e65b21f5bc4b62fc8a115b0df6a",
+      "tree": "88d0900265b2eda1514d687def8c3e98cccc55d1",
+      "commit_date": "2016-06-22T21:43:59+01:00",
+      "gradle_properties": {"minecraft_version": "1.7.10", "forge_version": "10.13.2.1291", "mod_version": "1.2.4.2a"},
+      "license_blob": "58741ddac09ee91f69860aa21bc4789218eef72a",
+      "license": "MIT, Copyright (c) 2014, 2015 joshiejack",
+      "jar_relationship": "INFERRED: branch mod_version 1.2.4.2a matches the published file name; the head is a merge from June 2016, after the April 2015 file date, so it may contain later commits than the jar. Not verified against the jar."
+    },
+    {
+      "id": "beta",
+      "role": "Later released implementation (Deluxe 1.3.0-6 beta)",
+      "branch": "1.7.10-1.3.0",
+      "commit": "fc245e3fe1fbf2e9d291ff0e50974e91c6a64a35",
+      "tree": "ae9c418ecb13f428002b8de4e321fb125e9de98c",
+      "commit_date": "2016-08-17T02:34:11+01:00",
+      "gradle_properties": {"minecraft_version": "1.7.10", "forge_version": "10.13.2.1291", "mod_version": "1.3.0"},
+      "license_blob": "58741ddac09ee91f69860aa21bc4789218eef72a",
+      "license": "MIT, Copyright (c) 2014, 2015 joshiejack",
+      "jar_relationship": "INFERRED: head is dated two days before the 1.3.0-6 file (2016-08-19); build number suffix not recorded in source. Not verified against the jar."
+    },
+    {
+      "id": "pr371",
+      "role": "Community maintenance patch set (bug lead only, not merged upstream)",
+      "ref": "refs/pull/371/head",
+      "commit": "277705975340d6de3cb2c08d26ca5316615d5702",
+      "tree": "2ddc542f1ddd61d3efaa81140d0489375ff0a41e",
+      "commit_date": "2023-06-10T17:20:11+02:00",
+      "based_on": "363de5c39b068e65b21f5bc4b62fc8a115b0df6a",
+      "license_blob": "58741ddac09ee91f69860aa21bc4789218eef72a"
+    }
+  ],
+  "reference_jars": [
+    {
+      "file": "Mariculture-Deluxe-1.7.10-1.2.4.2a.jar",
+      "curseforge_file_id": 2234977,
+      "status": "NOT_OBTAINED",
+      "note": "curseforge.com is blocked by the cloud workspace network policy. Download manually into reference/ (git-ignored) and record its SHA-256 here."
+    },
+    {
+      "file": "Mariculture-Deluxe-1.7.10-1.3.0-6.jar",
+      "curseforge_file_id": 2323944,
+      "status": "NOT_OBTAINED",
+      "note": "As above."
+    }
+  ],
+  "not_used_as_baseline": [
+    {"branch": "master", "commit": "9aa4f079b8252ec7a8395649740e42538bc4f5ee", "reason": "Mariculture 2 boilerplate for 1.9.4 (README)."},
+    {"branch": "1.10.2", "commit": "6248487c7e4c9fc4ef891ba8c6be14543b11b679", "reason": "Later rewrite branch; not inspected for parity yet."}
+  ]
+}

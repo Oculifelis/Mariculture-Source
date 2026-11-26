@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "parents": [
+    "cod",
+    "blaasop"
+  ],
+  "child": "tuna",
+  "chance_percent": 30,
+  "conditions": [],
+  "source": "mariculture/fishery/Fish.java:376"
+}

@@ -1,0 +1,85 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "category": "mariculture:aquamancy",
+  "name": "research.mariculture.wisp_angler.title",
+  "parents": [
+    "mariculture:brine_of_order"
+  ],
+  "column": -1,
+  "row": -3,
+  "meta": [
+    "hidden"
+  ],
+  "icons": [
+    "mariculture:wisp_angler"
+  ],
+  "stages": [
+    {
+      "text": "research.mariculture.wisp_angler.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "mariculture:aquamancy",
+          "amount": 1
+        }
+      ],
+      "required_research": [
+        "mariculture:scanned/nitor"
+      ],
+      "obtain": [
+        {
+          "items": [
+            "thaumaturge:nitor_white",
+            "thaumaturge:nitor_orange",
+            "thaumaturge:nitor_magenta",
+            "thaumaturge:nitor_light_blue",
+            "thaumaturge:nitor_yellow",
+            "thaumaturge:nitor_lime",
+            "thaumaturge:nitor_pink",
+            "thaumaturge:nitor_gray",
+            "thaumaturge:nitor_light_gray",
+            "thaumaturge:nitor_cyan",
+            "thaumaturge:nitor_purple",
+            "thaumaturge:nitor_blue",
+            "thaumaturge:nitor_brown",
+            "thaumaturge:nitor_green",
+            "thaumaturge:nitor_red",
+            "thaumaturge:nitor_black"
+          ],
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.mariculture.wisp_angler.stage_1",
+      "obtain": [
+        {
+          "items": [
+            "mariculture:wisp_angler"
+          ],
+          "amount": 1
+        }
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:lux",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:bestia",
+      "amount": 2
+    }
+  ],
+  "complexity": 2
+}

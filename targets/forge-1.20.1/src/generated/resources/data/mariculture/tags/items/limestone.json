@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "mariculture:limestone",
+    "mariculture:smooth_limestone",
+    "mariculture:limestone_bricks",
+    "mariculture:small_limestone_bricks",
+    "mariculture:thin_limestone_bricks",
+    "mariculture:bordered_limestone",
+    "mariculture:chiseled_limestone",
+    "mariculture:limestone_pillar",
+    "mariculture:limestone_pedestal"
+  ]
+}

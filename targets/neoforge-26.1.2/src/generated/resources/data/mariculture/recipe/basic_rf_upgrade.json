@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" T ", "CRC"],
+  "key": {
+    "C": "minecraft:copper_ingot",
+    "R": "minecraft:redstone",
+    "T": "minecraft:redstone_torch"
+  },
+  "result": {
+    "id": "mariculture:basic_rf_upgrade",
+    "count": 1
+  }
+}

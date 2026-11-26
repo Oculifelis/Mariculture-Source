@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["UAU"],
+  "key": {
+    "A": {
+      "item": "mariculture:aluminum_ingot"
+    },
+    "U": {
+      "item": "mariculture:filter_upgrade"
+    }
+  },
+  "result": {
+    "id": "mariculture:advanced_filter_upgrade",
+    "count": 1
+  }
+}

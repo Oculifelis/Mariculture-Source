@@ -1,0 +1,181 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": "basic_black",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mariculture:item/necklace_basic_black"
+        }
+      },
+      {
+        "when": "basic_blue",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mariculture:item/necklace_basic_blue"
+        }
+      },
+      {
+        "when": "basic_brown",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mariculture:item/necklace_basic_brown"
+        }
+      },
+      {
+        "when": "basic_gold",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mariculture:item/necklace_basic_gold"
+        }
+      },
+      {
+        "when": "basic_green",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mariculture:item/necklace_basic_green"
+        }
+      },
+      {
+        "when": "basic_orange",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mariculture:item/necklace_basic_orange"
+        }
+      },
+      {
+        "when": "basic_pink",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mariculture:item/necklace_basic_pink"
+        }
+      },
+      {
+        "when": "basic_purple",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mariculture:item/necklace_basic_purple"
+        }
+      },
+      {
+        "when": "basic_red",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mariculture:item/necklace_basic_red"
+        }
+      },
+      {
+        "when": "basic_silver",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mariculture:item/necklace_basic_silver"
+        }
+      },
+      {
+        "when": "basic_white",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mariculture:item/necklace_basic_white"
+        }
+      },
+      {
+        "when": "basic_yellow",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mariculture:item/necklace_basic_yellow"
+        }
+      },
+      {
+        "when": "gold_black",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mariculture:item/necklace_gold_black"
+        }
+      },
+      {
+        "when": "gold_blue",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mariculture:item/necklace_gold_blue"
+        }
+      },
+      {
+        "when": "gold_brown",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mariculture:item/necklace_gold_brown"
+        }
+      },
+      {
+        "when": "gold_gold",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mariculture:item/necklace_gold_gold"
+        }
+      },
+      {
+        "when": "gold_green",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mariculture:item/necklace_gold_green"
+        }
+      },
+      {
+        "when": "gold_orange",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mariculture:item/necklace_gold_orange"
+        }
+      },
+      {
+        "when": "gold_pink",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mariculture:item/necklace_gold_pink"
+        }
+      },
+      {
+        "when": "gold_purple",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mariculture:item/necklace_gold_purple"
+        }
+      },
+      {
+        "when": "gold_red",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mariculture:item/necklace_gold_red"
+        }
+      },
+      {
+        "when": "gold_silver",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mariculture:item/necklace_gold_silver"
+        }
+      },
+      {
+        "when": "gold_white",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mariculture:item/necklace_gold_white"
+        }
+      },
+      {
+        "when": "gold_yellow",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mariculture:item/necklace_gold_yellow"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "mariculture:item/necklace_basic_white"
+    }
+  }
+}

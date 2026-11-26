@@ -1,0 +1,36 @@
+{
+  "name": "Metal Fish",
+  "icon": "mariculture:ironfish",
+  "category": "mariculture:species",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Mariculture also optionally adds some fish that will produce molten metals. Unlike other fish, these can never be caught in the wild, nor can they be eaten or other such things. They simply produce droplets of molten metals.",
+      "title": "Metal Fish"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Which ones exist depends on the metals in the pack, but there are always fish for iron, gold, copper, aluminium, magnesium and rutile.$(br2)Metal fish only come from breeding. Two set parent fish, with a block of the metal touching the fish feeder's water when the eggs are laid, have a small chance to give one. The first is the Ironfish, from a Brown Shroom Fish and a Northern Pike beside a block of iron. JEI's fish breeding tab lists every pair."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Metallurgy",
+      "text": "With Metallurgy: Recast installed, each of its ore metals has a metal fish too, from Adamantinefish to Vyroxeresfish. They breed like the others, with a block of the metal in the eggs, from two metal fish, or from netherfish, blazefish or enderfish for the Nether and End metals. Nether metal fish live in lava and End metal fish in liquid ender, and the rarer metals breed slowly but live longer."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Their droplets hold Metallurgy's own molten metal, one nugget's worth each, and melt down in the Crucible Furnace like any other droplet."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Metal Abilities",
+      "text": "Each Metallurgy fish brings its metal's effect to the tank. Manganesefish give nearby players resistance, Ignatiusfish set nearby monsters alight, Prometheumfish grow crops and saplings, Midasiumfish sometimes give an extra droplet and Adamantinefish live longer. Area effects reach four blocks past the tank water."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Fussy Breeders",
+      "text": "A pair of Metallurgy fish lays eggs only when its needs hold. Some want an odd food in the feeder's food slot, eaten with each egg. Others want bright or dark water, a deep or high tank, a big tank or exact salinity. The feeder shows when the needs are not met. The rarest metals ask for the same again when first bred from their parents."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "condition": {
+    "type": "forge:and",
+    "values": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "tconstruct"
+      },
+      {
+        "type": "mariculture:plugin",
+        "plugin": "tconstruct"
+      }
+    ]
+  },
+  "craftable": false,
+  "hidden": false,
+  "sortOrder": 10,
+  "tier": 3
+}

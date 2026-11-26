@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "mariculture:block/air_pump"
+    },
+    "facing=west": {
+      "model": "mariculture:block/air_pump",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "mariculture:block/air_pump",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "mariculture:block/air_pump",
+      "y": 270
+    }
+  }
+}

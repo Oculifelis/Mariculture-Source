@@ -1,0 +1,31 @@
+{
+  "type": "forestry:squeezer",
+  "chance": 0.03,
+  "output": {
+    "stack": {
+      "amount": 1000,
+      "id": "mariculture:fish_oil"
+    }
+  },
+  "remnant": {
+    "count": 1,
+    "id": "minecraft:orange_dye"
+  },
+  "resources": [
+    {
+      "item": "minecraft:tropical_fish"
+    }
+  ],
+  "time": 7,
+  "id": "mariculture:forestry/squeezer/clownfish",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "mariculture:plugin",
+      "plugin": "forestry"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:nuggets/aluminum",
+    "#forge:nuggets/magnesium",
+    "#forge:nuggets/titanium",
+    "#forge:nuggets/rutile",
+    "#forge:nuggets/copper"
+  ]
+}

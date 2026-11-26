@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mariculture:rutile_block"
+    }
+  ],
+  "result": {
+    "id": "mariculture:rutile_ingot",
+    "count": 9
+  }
+}

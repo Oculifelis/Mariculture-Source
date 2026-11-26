@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "since": "0.7.0",
+  "dominant": true,
+  "temperature": {
+    "base": 4,
+    "tolerance": 8
+  },
+  "salinity": {
+    "base": "fresh",
+    "tolerance": 0
+  },
+  "lifespan_minutes": 30,
+  "fertility": 25,
+  "productivity": 0,
+  "food_consumption": 1,
+  "requires_food": true,
+  "water_required": 15,
+  "valid_fluids": [
+    "minecraft:water"
+  ],
+  "ignores_salinity": false,
+  "lava": false,
+  "active_time": "any",
+  "light": 0,
+  "area_of_effect": {
+    "up": 0,
+    "down": 0,
+    "north": 0,
+    "east": 0,
+    "south": 0,
+    "west": 0
+  },
+  "catch": {
+    "rod": "flux",
+    "dimension": "overworld_like",
+    "chance_percent": 0,
+    "alive_percent": 0
+  },
+  "fish_oil_mb": 0,
+  "fish_meal": 0,
+  "food": {
+    "edible": false,
+    "hunger": -1,
+    "saturation": 0.0
+  },
+  "products": [
+    {
+      "item": "mariculture:metal_droplet",
+      "fluid": "metallurgy:adamantine",
+      "amount": 10,
+      "color": "#DE4748",
+      "chance_percent": 9,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_attack",
+      "chance_percent": 15,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_earth",
+      "chance_percent": 10,
+      "count": 1
+    }
+  ],
+  "effects": [],
+  "abilities": [
+    {
+      "type": "longevity",
+      "percent": 50
+    }
+  ],
+  "breeding": [
+    {
+      "type": "height",
+      "max": -32
+    },
+    {
+      "type": "water",
+      "min": 30
+    }
+  ],
+  "requires_item_tag": "c:ingots/adamantine",
+  "source": "Mariculture 0.7.0, Metallurgy: Recast compat"
+}

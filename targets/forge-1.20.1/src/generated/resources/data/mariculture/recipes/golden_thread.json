@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["ABA", "ABA"],
+  "key": {
+    "A": {
+      "item": "mariculture:golden_silk"
+    },
+    "B": {
+      "item": "mariculture:polished_stick"
+    }
+  },
+  "result": {
+    "item": "mariculture:golden_thread",
+    "count": 1
+  }
+}

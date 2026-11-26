@@ -1,0 +1,30 @@
+{
+  "parent": "mariculture:root",
+  "display": {
+    "icon": {
+      "id": "mariculture:bait_worm"
+    },
+    "title": {
+      "translate": "advancements.mariculture.bait.title"
+    },
+    "description": {
+      "translate": "advancements.mariculture.bait.description"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "has_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#mariculture:bait"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_0"]
+  ]
+}

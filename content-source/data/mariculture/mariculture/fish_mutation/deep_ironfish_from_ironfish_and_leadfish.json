@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "parents": [
+    "ironfish",
+    "leadfish"
+  ],
+  "child": "deep_ironfish",
+  "chance_percent": 10,
+  "conditions": [
+    {
+      "type": "egg_tag",
+      "tag": "c:storage_blocks/deep_iron"
+    },
+    {
+      "type": "config",
+      "option": "enable_metal_fish"
+    }
+  ],
+  "source": "Mariculture 0.7.0, Metallurgy: Recast compat"
+}

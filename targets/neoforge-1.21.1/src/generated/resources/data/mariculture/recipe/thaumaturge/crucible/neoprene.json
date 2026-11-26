@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "amount": 5,
+      "aspect": "thaumaturge:aqua"
+    },
+    {
+      "amount": 5,
+      "aspect": "thaumaturge:fabrico"
+    },
+    {
+      "amount": 3,
+      "aspect": "thaumaturge:praemunio"
+    }
+  ],
+  "catalyst": {
+    "item": "mariculture:neoprene"
+  },
+  "research": {
+    "entry": "mariculture:treated_neoprene",
+    "stage": 1
+  },
+  "result": {
+    "count": 2,
+    "id": "mariculture:neoprene"
+  }
+}

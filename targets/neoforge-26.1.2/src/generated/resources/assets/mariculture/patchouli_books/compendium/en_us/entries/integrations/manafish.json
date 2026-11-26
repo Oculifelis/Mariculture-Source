@@ -1,0 +1,29 @@
+{
+  "name": "Manafish",
+  "icon": "mariculture:manafish",
+  "category": "mariculture:integrations",
+  "flag": "mod:botania",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:manafish",
+      "title": "Manafish",
+      "text": "Catchable live in wild:   no$(br)Bred from an electric ray and a clownfish, enderfish or blazefish (30%)."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Temperature Range, Salinity, Lifespan, Fertility, Work Ethic and Water requirements of the $(thing)Manafish$() species.",
+      "title": "Fish Data"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Products that a working $(thing)Manafish$() can produce in a Fish Feeder.",
+      "title": "Products"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Specialty$()$(br)The manafish needs Botania installed. Legacy manafish also filled a mana collector above their feeder; that needs Botania's own code and is not part of this version."
+    }
+  ]
+}

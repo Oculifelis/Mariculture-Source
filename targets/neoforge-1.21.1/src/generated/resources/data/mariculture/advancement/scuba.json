@@ -1,0 +1,30 @@
+{
+  "parent": "mariculture:diving",
+  "display": {
+    "icon": {
+      "id": "mariculture:scuba_mask"
+    },
+    "title": {
+      "translate": "advancements.mariculture.scuba.title"
+    },
+    "description": {
+      "translate": "advancements.mariculture.scuba.description"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "has_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mariculture:scuba_mask"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_0"]
+  ]
+}

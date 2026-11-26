@@ -1,0 +1,18 @@
+{
+  "entity.rockhopper.ambient": {
+    "subtitle": "subtitles.mariculture.entity.rockhopper.ambient",
+    "sounds": ["mariculture:rockhopper_ambient"]
+  },
+  "entity.rockhopper.hurt": {
+    "subtitle": "subtitles.mariculture.entity.rockhopper.hurt",
+    "sounds": ["mariculture:rockhopper_hurt"]
+  },
+  "entity.rockhopper.death": {
+    "subtitle": "subtitles.mariculture.entity.rockhopper.death",
+    "sounds": ["mariculture:rockhopper_death"]
+  },
+  "item.fludd.squirt": {
+    "subtitle": "subtitles.mariculture.item.fludd.squirt",
+    "sounds": ["mariculture:fludd"]
+  }
+}

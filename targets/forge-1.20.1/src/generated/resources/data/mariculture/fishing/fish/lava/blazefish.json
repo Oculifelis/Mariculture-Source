@@ -1,0 +1,25 @@
+{
+  "conditions": [
+    {
+      "type": "tide:dimension",
+      "dimensions": ["minecraft:the_nether"]
+    },
+    {
+      "type": "tide:fluid",
+      "fluid": "lava"
+    }
+  ],
+  "fish": "mariculture:raw_blazefish",
+  "journal_profile": {
+    "description": "journal.description.mariculture.blazefish",
+    "group": "lava",
+    "location": "journal.info.location.lava",
+    "rarity": "very_rare"
+  },
+  "selection_weight": 6.0,
+  "size": {
+    "record_high_cm": 70.0,
+    "typical_high_cm": 50.0,
+    "typical_low_cm": 25.0
+  }
+}

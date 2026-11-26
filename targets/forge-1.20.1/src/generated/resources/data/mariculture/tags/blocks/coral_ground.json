@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:sand",
+    "#mariculture:limestone",
+    "minecraft:cobblestone",
+    "minecraft:mossy_cobblestone",
+    "mariculture:coral_rock",
+    "mariculture:ancient_sand",
+    "mariculture:bubbling_sand"
+  ]
+}

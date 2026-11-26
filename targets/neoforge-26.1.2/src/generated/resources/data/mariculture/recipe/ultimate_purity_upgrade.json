@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["RWR", "AUA", "PFP"],
+  "key": {
+    "A": "mariculture:droplet_aqua",
+    "F": "mariculture:raw_koi",
+    "P": "minecraft:glistering_melon_slice",
+    "R": "mariculture:droplet_health",
+    "U": "mariculture:advanced_purity_upgrade",
+    "W": "mariculture:white_pearl"
+  },
+  "result": {
+    "id": "mariculture:ultimate_purity_upgrade",
+    "count": 1
+  }
+}

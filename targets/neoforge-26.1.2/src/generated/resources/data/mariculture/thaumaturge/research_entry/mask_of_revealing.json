@@ -1,0 +1,59 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "category": "mariculture:aquamancy",
+  "name": "research.mariculture.mask_of_revealing.title",
+  "parents": [
+    "mariculture:warded_diving_gear",
+    "thaumaturge:base_artifice"
+  ],
+  "column": 4,
+  "row": 0,
+  "icons": [
+    "mariculture:scuba_mask"
+  ],
+  "stages": [
+    {
+      "text": "research.mariculture.mask_of_revealing.stage_0",
+      "obtain": [
+        {
+          "items": [
+            "thaumaturge:goggles_revealing"
+          ],
+          "amount": 1
+        },
+        {
+          "items": [
+            "mariculture:scuba_mask"
+          ],
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.mariculture.mask_of_revealing.stage_1",
+      "recipes": [
+        "mariculture:thaumaturge/infusion/revealing_scuba_mask"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:sensus",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    }
+  ],
+  "complexity": 2
+}

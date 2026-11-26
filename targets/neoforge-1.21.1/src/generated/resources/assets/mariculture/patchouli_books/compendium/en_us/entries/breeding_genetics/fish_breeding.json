@@ -1,0 +1,33 @@
+{
+  "name": "Fish Breeding",
+  "icon": "mariculture:fish_eggs",
+  "category": "mariculture:breeding_genetics",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Fish Breeding is the process in which you breed fish that will produce different products for you, from simple things like water droplets, that get melted down to water up to more complex things such as lapis lazuli or dragon eggs.",
+      "title": "Fish Breeding"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Fish live out their lives in a Fish Feeder, with random chances to produce a product every so often. You can obtain different fish, to produce these different products by cross-breeding fish that can be caught in the wild. You have a chance for these hybrids to mutate to a whole new species on hatching from Fish Eggs."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "When a fish has lived out it's life in a feeder, it will die, leaving a raw form of it's primary species behind. Female fish will also produce 'Fish Eggs' on death. These must be placed inside of a Hatchery or an Incubator where they will be warmed, and start hatching."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "In order to get started with Fish Breeding you are going to need to catch a Male and a Female Fish, obtain some Fish Food and make a Hatchery and a Fish Feeder."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Different fish can live in different biomes, some like salt, some like fresh, some like the hot and some like the cold. You need to make sure that the environment you try to breed your fish in, is suitable to their needs."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "As well as breeding different species, each fish has certain traits, such as how hard they work, how many eggs they produce etc. These can also be bred in to your fish, enabling you to create your superfish to do your deeds."
+    }
+  ]
+}

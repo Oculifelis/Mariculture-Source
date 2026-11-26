@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" W ", "WSW", " W "],
+  "key": {
+    "S": {
+      "item": "minecraft:iron_ingot"
+    },
+    "W": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "id": "mariculture:basic_speed_upgrade",
+    "count": 1
+  }
+}

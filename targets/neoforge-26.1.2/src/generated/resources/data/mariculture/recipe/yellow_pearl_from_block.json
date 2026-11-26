@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": ["mariculture:yellow_pearl_block"],
+  "result": {
+    "id": "mariculture:yellow_pearl",
+    "count": 4
+  }
+}

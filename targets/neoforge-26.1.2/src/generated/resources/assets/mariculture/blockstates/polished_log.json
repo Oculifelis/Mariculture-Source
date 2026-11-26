@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "mariculture:block/polished_log"
+    },
+    "axis=z": {
+      "model": "mariculture:block/polished_log_horizontal",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "mariculture:block/polished_log_horizontal",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

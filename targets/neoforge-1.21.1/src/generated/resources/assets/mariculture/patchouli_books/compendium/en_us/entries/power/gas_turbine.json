@@ -1,0 +1,17 @@
+{
+  "name": "Gas Turbine",
+  "icon": "mariculture:gas_turbine_tank",
+  "category": "mariculture:power",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Gas Turbine",
+      "text": "A gas turbine tank holds 512 buckets of natural gas, pumped in by an air pump. Put a rotor against one of its sides, with the eight blocks round the rotor (across from the tank) left empty and the sixteen round those solid.$(br2)Every quarter second it burns a millibucket and gives the rotor 5000 power and some wear."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:gas_turbine_tank"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" I ", "ISI", " I "],
+  "key": {
+    "I": "minecraft:copper_ingot",
+    "S": "#minecraft:wooden_slabs"
+  },
+  "result": {
+    "id": "mariculture:copper_rotor",
+    "count": 1
+  }
+}

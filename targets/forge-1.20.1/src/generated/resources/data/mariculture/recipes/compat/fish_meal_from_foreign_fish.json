@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "mariculture:foreign_fish"
+    }
+  ],
+  "result": {
+    "item": "mariculture:fish_meal",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "mariculture:foreign_fish"
+      }
+    }
+  ]
+}

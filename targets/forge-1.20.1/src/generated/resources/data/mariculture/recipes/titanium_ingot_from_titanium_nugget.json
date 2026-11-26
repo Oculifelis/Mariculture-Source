@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["###", "###", "###"],
+  "key": {
+    "#": {
+      "item": "mariculture:titanium_nugget"
+    }
+  },
+  "result": {
+    "item": "mariculture:titanium_ingot",
+    "count": 1
+  }
+}

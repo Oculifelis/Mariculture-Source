@@ -1,0 +1,28 @@
+{
+  "type": "forestry:squeezer",
+  "chance": 0.06,
+  "output": {
+    "Amount": 4000,
+    "FluidName": "mariculture:fish_oil"
+  },
+  "remnant": {
+    "Count": 1,
+    "id": "minecraft:bone"
+  },
+  "resources": [
+    {
+      "item": "mariculture:raw_old_lungfish"
+    }
+  ],
+  "time": 120,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "mariculture:plugin",
+      "plugin": "forestry"
+    }
+  ]
+}

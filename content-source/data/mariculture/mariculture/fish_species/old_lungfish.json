@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "since": "0.7.0",
+  "dominant": false,
+  "temperature": {
+    "base": 20,
+    "tolerance": 12
+  },
+  "salinity": {
+    "base": "fresh",
+    "tolerance": 1
+  },
+  "lifespan_minutes": 120,
+  "fertility": 300,
+  "productivity": 1,
+  "food_consumption": 1,
+  "requires_food": true,
+  "water_required": 40,
+  "valid_fluids": [
+    "minecraft:water"
+  ],
+  "ignores_salinity": false,
+  "lava": false,
+  "active_time": "any",
+  "light": 0,
+  "area_of_effect": {
+    "up": 0,
+    "down": 0,
+    "north": 0,
+    "east": 0,
+    "south": 0,
+    "west": 0
+  },
+  "catch": {
+    "rod": "old",
+    "dimension": "overworld_like",
+    "chance_percent": 12,
+    "alive_percent": 0,
+    "biomes": [
+      "alexscaves:primordial_caves"
+    ]
+  },
+  "fish_oil_mb": 4000,
+  "fish_meal": 4,
+  "food": {
+    "edible": true,
+    "hunger": 5,
+    "saturation": 0.45
+  },
+  "products": [
+    {
+      "item": "mariculture:droplet_air",
+      "chance_percent": 15,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_earth",
+      "chance_percent": 10,
+      "count": 1
+    },
+    {
+      "item": "minecraft:bone_meal",
+      "chance_percent": 6,
+      "count": 1
+    }
+  ],
+  "effects": [],
+  "requires_item_tag": "mariculture:present/alexscaves",
+  "source": "Mariculture 0.7.0, Alex's Caves compat",
+  "liquified_product": {
+    "item": "minecraft:bone",
+    "one_in": 6
+  }
+}

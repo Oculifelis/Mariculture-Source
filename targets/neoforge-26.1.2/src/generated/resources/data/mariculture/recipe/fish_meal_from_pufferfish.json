@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": ["minecraft:pufferfish"],
+  "result": {
+    "id": "mariculture:fish_meal",
+    "count": 4
+  }
+}

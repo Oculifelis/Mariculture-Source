@@ -1,0 +1,21 @@
+{
+  "name": "Biome Defaults",
+  "icon": "minecraft:grass_block",
+  "category": "mariculture:species",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "This is just a list of the default temperatures for each biome, and their salinity to give you an estimate of where to look to fish or breed.",
+      "title": "Biome Defaults"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Beach: Brackish, 25°C$(br)Desert: Fresh, 45°C$(br)Extreme Hills: Fresh, 5°C$(br)Forest: Fresh, 10°C$(br)Frozen Ocean: Saline, -1°C$(br)Frozen River: Fresh, -1°C$(br)Ice Plains: Fresh, -1°C$(br)Jungle: Fresh, 25°C$(br)Mushroom: Fresh, 15°C$(br)Nether: Fresh, 80°C$(br)Ocean: Saline, 4°C$(br)Plains: Fresh, 10°C"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "River: Fresh, 10°C$(br)The End: Fresh, 3°C$(br)Swamp: Fresh, 8°C$(br)Taiga: Fresh, 1°C"
+    }
+  ]
+}

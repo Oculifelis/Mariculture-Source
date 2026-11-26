@@ -1,0 +1,17 @@
+{
+  "name": "Plan Types",
+  "icon": "mariculture:blank_plan",
+  "category": "mariculture:construction",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Drawing chalk on a block gives one of these plans: $(br2)$(l)Floor Plan$()$(br)Carpets$(br)$(l)Block Plan$()$(br)Any plain block that doesn't give off light$(br)$(l)Stair Plan$()$(br)Stairs",
+      "title": "Plan Types"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Slab Plan$()$(br)Slabs$(br)$(l)Fence Plan$()$(br)Fences$(br)$(l)Gate Plan$()$(br)Gates$(br)$(l)Wall Plan$()$(br)Walls (over an energy block: the RF Wall Plan)$(br)$(l)Light Plan$()$(br)Any block giving off light$(br)$(l)RF Plan$()$(br)Any block that takes energy"
+    }
+  ]
+}

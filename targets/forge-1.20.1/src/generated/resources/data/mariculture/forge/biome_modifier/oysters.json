@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#mariculture:has_oysters",
+  "features": "mariculture:oysters",
+  "step": "vegetal_decoration"
+}

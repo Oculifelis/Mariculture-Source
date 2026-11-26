@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["WFW", "WCW", "WFW"],
+  "key": {
+    "C": {
+      "item": "minecraft:chest"
+    },
+    "F": {
+      "tag": "minecraft:fishes"
+    },
+    "W": {
+      "item": "mariculture:wicker"
+    }
+  },
+  "result": {
+    "id": "mariculture:fish_feeder",
+    "count": 1
+  }
+}

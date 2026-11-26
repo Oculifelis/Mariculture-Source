@@ -1,0 +1,87 @@
+{
+  "schema": 1,
+  "since": "0.7.0",
+  "dominant": true,
+  "temperature": {
+    "base": 10,
+    "tolerance": 12
+  },
+  "salinity": {
+    "base": "saline",
+    "tolerance": 1
+  },
+  "lifespan_minutes": 16,
+  "fertility": 150,
+  "productivity": 0,
+  "food_consumption": 1,
+  "requires_food": true,
+  "water_required": 15,
+  "valid_fluids": [
+    "minecraft:water"
+  ],
+  "ignores_salinity": false,
+  "lava": false,
+  "active_time": "night",
+  "light": 0,
+  "area_of_effect": {
+    "up": 0,
+    "down": 0,
+    "north": 0,
+    "east": 0,
+    "south": 0,
+    "west": 0
+  },
+  "catch": {
+    "rod": "flux",
+    "dimension": "overworld_like",
+    "chance_percent": 0,
+    "alive_percent": 0
+  },
+  "fish_oil_mb": 0,
+  "fish_meal": 0,
+  "food": {
+    "edible": false,
+    "hunger": -1,
+    "saturation": 0.0
+  },
+  "products": [
+    {
+      "item": "mariculture:metal_droplet",
+      "fluid": "metallurgy:astral_silver",
+      "amount": 10,
+      "color": "#2A86C9",
+      "chance_percent": 12,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_magic",
+      "chance_percent": 12,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_air",
+      "chance_percent": 6,
+      "count": 1
+    }
+  ],
+  "effects": [],
+  "abilities": [
+    {
+      "type": "potion",
+      "effect": "minecraft:speed",
+      "when": "night"
+    }
+  ],
+  "breeding": [
+    {
+      "type": "light",
+      "max": 7
+    },
+    {
+      "type": "food",
+      "item": "minecraft:amethyst_shard"
+    }
+  ],
+  "requires_item_tag": "c:ingots/astral_silver",
+  "source": "Mariculture 0.7.0, Metallurgy: Recast compat"
+}

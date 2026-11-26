@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["WLW", "PTP", "PSP"],
+  "key": {
+    "L": "minecraft:lapis_block",
+    "P": "mariculture:titanium_sheet",
+    "S": "mariculture:sluice",
+    "T": "mariculture:copper_tank",
+    "W": "mariculture:iron_wheel"
+  },
+  "result": {
+    "id": "mariculture:pressure_vessel",
+    "count": 1
+  }
+}

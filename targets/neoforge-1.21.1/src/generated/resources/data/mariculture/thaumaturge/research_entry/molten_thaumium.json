@@ -1,0 +1,57 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "category": "mariculture:aquamancy",
+  "name": "research.mariculture.molten_thaumium.title",
+  "parents": [
+    "mariculture:aquamancy",
+    "thaumaturge:metallurgy"
+  ],
+  "column": 0,
+  "row": 2,
+  "icons": [
+    "thaumaturge:ingot_thaumium"
+  ],
+  "stages": [
+    {
+      "text": "research.mariculture.molten_thaumium.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "mariculture:aquamancy",
+          "amount": 1
+        }
+      ],
+      "obtain": [
+        {
+          "items": [
+            "thaumaturge:ingot_thaumium"
+          ],
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.mariculture.molten_thaumium.stage_1"
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 2
+    }
+  ],
+  "complexity": 2
+}

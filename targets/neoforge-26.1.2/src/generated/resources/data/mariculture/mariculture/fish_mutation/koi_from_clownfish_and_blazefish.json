@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "parents": [
+    "clownfish",
+    "blazefish"
+  ],
+  "child": "koi",
+  "chance_percent": 8,
+  "conditions": [],
+  "source": "mariculture/fishery/Fish.java:411"
+}

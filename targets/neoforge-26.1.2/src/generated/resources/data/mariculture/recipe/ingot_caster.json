@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" B ", "BBB", " B "],
+  "key": {
+    "B": "mariculture:burnt_brick"
+  },
+  "result": {
+    "id": "mariculture:ingot_caster",
+    "count": 1
+  }
+}

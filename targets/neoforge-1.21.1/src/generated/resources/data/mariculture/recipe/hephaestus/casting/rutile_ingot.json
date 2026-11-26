@@ -1,0 +1,22 @@
+{
+  "type": "hephaestus:casting_table",
+  "cast": {
+    "item": "hephaestus:ingot_cast"
+  },
+  "cooling_time": 100,
+  "fluid": {
+    "amount": 144,
+    "id": "mariculture:molten_rutile"
+  },
+  "result": "mariculture:rutile_ingot",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "hephaestus"
+    },
+    {
+      "type": "mariculture:plugin",
+      "plugin": "hephaestus"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" B ", "PUP", " B "],
+  "key": {
+    "B": {
+      "item": "minecraft:spider_eye"
+    },
+    "P": {
+      "item": "mariculture:droplet_poison"
+    },
+    "U": {
+      "item": "mariculture:basic_impurity_upgrade"
+    }
+  },
+  "result": {
+    "id": "mariculture:standard_impurity_upgrade",
+    "count": 1
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "parent": "mariculture:item/necklace_basic_white",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "mariculture:item/necklace_basic_black"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "mariculture:item/necklace_basic_blue"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "mariculture:item/necklace_basic_brown"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "mariculture:item/necklace_basic_gold"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "mariculture:item/necklace_basic_green"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "mariculture:item/necklace_basic_orange"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "mariculture:item/necklace_basic_pink"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "mariculture:item/necklace_basic_purple"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "mariculture:item/necklace_basic_red"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10
+      },
+      "model": "mariculture:item/necklace_basic_silver"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11
+      },
+      "model": "mariculture:item/necklace_basic_white"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12
+      },
+      "model": "mariculture:item/necklace_basic_yellow"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 101
+      },
+      "model": "mariculture:item/necklace_gold_black"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 102
+      },
+      "model": "mariculture:item/necklace_gold_blue"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 103
+      },
+      "model": "mariculture:item/necklace_gold_brown"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 104
+      },
+      "model": "mariculture:item/necklace_gold_gold"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 105
+      },
+      "model": "mariculture:item/necklace_gold_green"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 106
+      },
+      "model": "mariculture:item/necklace_gold_orange"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 107
+      },
+      "model": "mariculture:item/necklace_gold_pink"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 108
+      },
+      "model": "mariculture:item/necklace_gold_purple"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 109
+      },
+      "model": "mariculture:item/necklace_gold_red"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 110
+      },
+      "model": "mariculture:item/necklace_gold_silver"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 111
+      },
+      "model": "mariculture:item/necklace_gold_white"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 112
+      },
+      "model": "mariculture:item/necklace_gold_yellow"
+    }
+  ]
+}

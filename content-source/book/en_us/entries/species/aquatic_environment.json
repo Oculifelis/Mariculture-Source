@@ -1,0 +1,26 @@
+{
+  "name": "Aquatic Environment",
+  "icon": "mariculture:aquatic_environment_analyser",
+  "category": "mariculture:species",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Mariculture introduces the Aquatic Environment. This is what determines which fish can live, or be caught where. The Environment consists of two entities: Water Salinity and Water Temperature. Water Salinity is static and is based upon the biome you are in.",
+      "title": "Environment"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "While the temperature is much more dynamic, the temperature will change based on many different factors, including world height, weather, sun position, biome defaults and lighting."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "This device, will be crucial when looking for good locations, right clicking on a block or in the air will give you the temperature and salinity of those coordinates. Helping you better understand the environment.",
+      "title": "Aquatic Environment Analyser"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:aquatic_environment_analyser"
+    }
+  ]
+}

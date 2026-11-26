@@ -1,0 +1,23 @@
+[
+  "breeding_genetics/fish_breeding",
+  "breeding_genetics/fish_traits",
+  "construction/plan_types",
+  "fishing/fish_oil",
+  "fishing/fishing_introduction",
+  "getting_started/machine_settings",
+  "getting_started/welcome",
+  "integrations/hephaestus",
+  "integrations/other_mods",
+  "integrations/thaumaturge",
+  "integrations/tinkers_construct",
+  "materials_processing/advanced_materials",
+  "sea_magic/creation_and_repair",
+  "sea_magic/elemental_affinity",
+  "sea_magic/enchanting_jewelry",
+  "sea_magic/jewelry",
+  "sea_magic/jewelry_enchantments",
+  "sea_magic/sea_magic_introduction",
+  "species/fish_species",
+  "species/metal_fish",
+  "species/wild_fish"
+]

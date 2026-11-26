@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["PMP", "BEB", "PBP"],
+  "key": {
+    "B": {
+      "item": "mariculture:storage_bookshelf"
+    },
+    "E": {
+      "item": "minecraft:enchanting_table"
+    },
+    "M": {
+      "item": "mariculture:mirror"
+    },
+    "P": {
+      "tag": "mariculture:pearls"
+    }
+  },
+  "result": {
+    "item": "mariculture:magic_mirror",
+    "count": 1
+  }
+}

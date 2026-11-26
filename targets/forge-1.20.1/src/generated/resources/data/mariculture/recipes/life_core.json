@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["DSR", "FHB", "PAC"],
+  "key": {
+    "A": {
+      "item": "minecraft:lily_pad"
+    },
+    "B": {
+      "tag": "mariculture:bait"
+    },
+    "C": {
+      "item": "minecraft:carrot"
+    },
+    "D": {
+      "item": "minecraft:dandelion"
+    },
+    "F": {
+      "tag": "minecraft:fishes"
+    },
+    "H": {
+      "item": "mariculture:droplet_health"
+    },
+    "P": {
+      "item": "minecraft:potato"
+    },
+    "R": {
+      "item": "minecraft:poppy"
+    },
+    "S": {
+      "tag": "minecraft:saplings"
+    }
+  },
+  "result": {
+    "item": "mariculture:life_core",
+    "count": 1
+  }
+}

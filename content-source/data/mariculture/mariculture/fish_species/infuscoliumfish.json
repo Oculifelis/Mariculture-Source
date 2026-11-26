@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "since": "0.7.0",
+  "dominant": true,
+  "temperature": {
+    "base": 8,
+    "tolerance": 10
+  },
+  "salinity": {
+    "base": "fresh",
+    "tolerance": 0
+  },
+  "lifespan_minutes": 12,
+  "fertility": 300,
+  "productivity": 0,
+  "food_consumption": 1,
+  "requires_food": true,
+  "water_required": 15,
+  "valid_fluids": [
+    "minecraft:water"
+  ],
+  "ignores_salinity": false,
+  "lava": false,
+  "active_time": "night",
+  "light": 0,
+  "area_of_effect": {
+    "up": 0,
+    "down": 0,
+    "north": 0,
+    "east": 0,
+    "south": 0,
+    "west": 0
+  },
+  "catch": {
+    "rod": "flux",
+    "dimension": "overworld_like",
+    "chance_percent": 0,
+    "alive_percent": 0
+  },
+  "fish_oil_mb": 0,
+  "fish_meal": 0,
+  "food": {
+    "edible": false,
+    "hunger": -1,
+    "saturation": 0.0
+  },
+  "products": [
+    {
+      "item": "mariculture:metal_droplet",
+      "fluid": "metallurgy:infuscolium",
+      "amount": 10,
+      "color": "#8D4878",
+      "chance_percent": 12,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_magic",
+      "chance_percent": 8,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_poison",
+      "chance_percent": 5,
+      "count": 1
+    }
+  ],
+  "effects": [],
+  "abilities": [
+    {
+      "type": "potion",
+      "effect": "minecraft:weakness",
+      "targets": "hostile"
+    }
+  ],
+  "breeding": [
+    {
+      "type": "light",
+      "max": 4
+    }
+  ],
+  "requires_item_tag": "c:ingots/infuscolium",
+  "source": "Mariculture 0.7.0, Metallurgy: Recast compat"
+}

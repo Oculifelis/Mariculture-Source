@@ -1,0 +1,490 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "values": {
+    "#c:nuggets/aluminum": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      }
+    ],
+    "#c:nuggets/rutile": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      }
+    ],
+    "#c:nuggets/titanium": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      }
+    ],
+    "#c:nuggets/magnesium": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      }
+    ],
+    "#c:ingots/aluminum": [
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 5
+      }
+    ],
+    "#c:ingots/rutile": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:perditio",
+        "amount": 5
+      }
+    ],
+    "#c:ingots/titanium": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 20
+      },
+      {
+        "aspect": "thaumaturge:tenebrae",
+        "amount": 5
+      }
+    ],
+    "#c:ingots/magnesium": [
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:perditio",
+        "amount": 5
+      }
+    ],
+    "#c:ores/aluminum": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 10
+      }
+    ],
+    "#c:ores/rutile": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 20
+      },
+      {
+        "aspect": "thaumaturge:perditio",
+        "amount": 5
+      }
+    ],
+    "mariculture:limestone": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 5
+      }
+    ],
+    "mariculture:oyster": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 25
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 15
+      }
+    ],
+    "mariculture:white_pearl": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:vitreus",
+        "amount": 5
+      }
+    ],
+    "mariculture:green_pearl": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 5
+      }
+    ],
+    "mariculture:yellow_pearl": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      }
+    ],
+    "mariculture:orange_pearl": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:praemunio",
+        "amount": 5
+      }
+    ],
+    "mariculture:red_pearl": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 5
+      }
+    ],
+    "mariculture:gold_pearl": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 5
+      }
+    ],
+    "mariculture:brown_pearl": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:instrumentum",
+        "amount": 5
+      }
+    ],
+    "mariculture:purple_pearl": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:cognitio",
+        "amount": 5
+      }
+    ],
+    "mariculture:blue_pearl": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      }
+    ],
+    "mariculture:black_pearl": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:machina",
+        "amount": 5
+      }
+    ],
+    "mariculture:pink_pearl": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 5
+      }
+    ],
+    "mariculture:silver_pearl": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:lux",
+        "amount": 5
+      }
+    ],
+    "mariculture:bait_ant": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      }
+    ],
+    "mariculture:bait_grasshopper": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 5
+      }
+    ],
+    "mariculture:bait_maggot": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      }
+    ],
+    "mariculture:bait_worm": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 10
+      }
+    ],
+    "mariculture:bait_bee": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 10
+      }
+    ],
+    "mariculture:droplet_water": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      }
+    ],
+    "mariculture:droplet_attack": [
+      {
+        "aspect": "thaumaturge:perditio",
+        "amount": 10
+      }
+    ],
+    "mariculture:droplet_electric": [
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 10
+      }
+    ],
+    "mariculture:droplet_ender": [
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 10
+      }
+    ],
+    "mariculture:droplet_health": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 10
+      }
+    ],
+    "mariculture:droplet_magic": [
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 10
+      }
+    ],
+    "mariculture:droplet_nether": [
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 10
+      }
+    ],
+    "mariculture:droplet_poison": [
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 10
+      }
+    ],
+    "mariculture:droplet_earth": [
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 10
+      }
+    ],
+    "mariculture:droplet_frozen": [
+      {
+        "aspect": "thaumaturge:gelum",
+        "amount": 10
+      }
+    ],
+    "mariculture:droplet_plant": [
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 10
+      }
+    ],
+    "mariculture:light_blue_coral": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      }
+    ],
+    "mariculture:live_light_blue_coral": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      }
+    ],
+    "mariculture:red_coral": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      }
+    ],
+    "mariculture:live_red_coral": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      }
+    ],
+    "mariculture:orange_coral": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      }
+    ],
+    "mariculture:live_orange_coral": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      }
+    ],
+    "mariculture:pink_coral": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      }
+    ],
+    "mariculture:live_pink_coral": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      }
+    ],
+    "mariculture:purple_coral": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      }
+    ],
+    "mariculture:live_purple_coral": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      }
+    ],
+    "mariculture:magenta_coral": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      }
+    ],
+    "mariculture:live_magenta_coral": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      }
+    ],
+    "mariculture:yellow_coral": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      }
+    ],
+    "mariculture:live_yellow_coral": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      }
+    ]
+  }
+}

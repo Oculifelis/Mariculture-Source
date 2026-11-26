@@ -1,0 +1,1631 @@
+[
+  {
+    "parentA": "netherfish",
+    "parentB": "neon_tetra",
+    "child": "anglerfish",
+    "chance": 25,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "nether",
+      "mother": "tetra",
+      "baby": "angler"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:373",
+    "conditions": []
+  },
+  {
+    "parentA": "nightfish",
+    "parentB": "walleye",
+    "child": "stickleback",
+    "chance": 25,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "night",
+      "mother": "walleye",
+      "baby": "stickleback"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:374",
+    "conditions": []
+  },
+  {
+    "parentA": "sting_ray",
+    "parentB": "squid",
+    "child": "man_o_war",
+    "chance": 30,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "stingRay",
+      "mother": "squid",
+      "baby": "manOWar"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:375",
+    "conditions": []
+  },
+  {
+    "parentA": "cod",
+    "parentB": "blaasop",
+    "child": "tuna",
+    "chance": 30,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "cod",
+      "mother": "blaasop",
+      "baby": "tuna"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:376",
+    "conditions": []
+  },
+  {
+    "parentA": "minnow",
+    "parentB": "goldfish",
+    "child": "salmon",
+    "chance": 35,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "minnow",
+      "mother": "goldfish",
+      "baby": "salmon"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:377",
+    "conditions": []
+  },
+  {
+    "parentA": "anglerfish",
+    "parentB": "man_o_war",
+    "child": "northern_pike",
+    "chance": 20,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "angler",
+      "mother": "manOWar",
+      "baby": "pike"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:378",
+    "conditions": []
+  },
+  {
+    "parentA": "stickleback",
+    "parentB": "man_o_war",
+    "child": "bowfin",
+    "chance": 20,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "stickleback",
+      "mother": "manOWar",
+      "baby": "bowfin"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:379",
+    "conditions": []
+  },
+  {
+    "parentA": "man_o_war",
+    "parentB": "tuna",
+    "child": "pufferfish",
+    "chance": 20,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "manOWar",
+      "mother": "tuna",
+      "baby": "puffer"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:380",
+    "conditions": []
+  },
+  {
+    "parentA": "salmon",
+    "parentB": "tuna",
+    "child": "lungfish",
+    "chance": 22,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "salmon",
+      "mother": "tuna",
+      "baby": "lung"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:381",
+    "conditions": []
+  },
+  {
+    "parentA": "northern_pike",
+    "parentB": "sting_ray",
+    "child": "manta_ray",
+    "chance": 18,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "pike",
+      "mother": "stingRay",
+      "baby": "mantaRay"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:382",
+    "conditions": []
+  },
+  {
+    "parentA": "northern_pike",
+    "parentB": "bowfin",
+    "child": "piranha",
+    "chance": 18,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "pike",
+      "mother": "bowfin",
+      "baby": "piranha"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:383",
+    "conditions": []
+  },
+  {
+    "parentA": "pufferfish",
+    "parentB": "netherfish",
+    "child": "red_shroom_fish",
+    "chance": 17.5,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "puffer",
+      "mother": "nether",
+      "baby": "red"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:384",
+    "conditions": []
+  },
+  {
+    "parentA": "pufferfish",
+    "parentB": "cod",
+    "child": "brown_shroom_fish",
+    "chance": 17.5,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "puffer",
+      "mother": "cod",
+      "baby": "brown"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:385",
+    "conditions": []
+  },
+  {
+    "parentA": "pufferfish",
+    "parentB": "lungfish",
+    "child": "chub",
+    "chance": 19,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "puffer",
+      "mother": "lung",
+      "baby": "chub"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:386",
+    "conditions": []
+  },
+  {
+    "parentA": "neon_tetra",
+    "parentB": "lungfish",
+    "child": "angelfish",
+    "chance": 18,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "tetra",
+      "mother": "lung",
+      "baby": "angel"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:387",
+    "conditions": []
+  },
+  {
+    "parentA": "nightfish",
+    "parentB": "piranha",
+    "child": "spiderfish",
+    "chance": 17,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "night",
+      "mother": "piranha",
+      "baby": "spider"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:388",
+    "conditions": []
+  },
+  {
+    "parentA": "manta_ray",
+    "parentB": "brown_shroom_fish",
+    "child": "perch",
+    "chance": 17.5,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "mantaRay",
+      "mother": "brown",
+      "baby": "perch"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:389",
+    "conditions": []
+  },
+  {
+    "parentA": "piranha",
+    "parentB": "angelfish",
+    "child": "stargazer",
+    "chance": 15,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "piranha",
+      "mother": "angel",
+      "baby": "stargazer"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:390",
+    "conditions": []
+  },
+  {
+    "parentA": "red_shroom_fish",
+    "parentB": "blaasop",
+    "child": "bass",
+    "chance": 17.5,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "red",
+      "mother": "blaasop",
+      "baby": "bass"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:391",
+    "conditions": []
+  },
+  {
+    "parentA": "squid",
+    "parentB": "chub",
+    "child": "jellyfish",
+    "chance": 17.5,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "squid",
+      "mother": "chub",
+      "baby": "jelly"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:392",
+    "conditions": []
+  },
+  {
+    "parentA": "chub",
+    "parentB": "salmon",
+    "child": "rainbow_trout",
+    "chance": 17,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "chub",
+      "mother": "salmon",
+      "baby": "trout"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:393",
+    "conditions": []
+  },
+  {
+    "parentA": "angelfish",
+    "parentB": "manta_ray",
+    "child": "butterflyfish",
+    "chance": 16,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "angel",
+      "mother": "mantaRay",
+      "baby": "butterfly"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:394",
+    "conditions": []
+  },
+  {
+    "parentA": "bass",
+    "parentB": "anglerfish",
+    "child": "glowfish",
+    "chance": 14,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "bass",
+      "mother": "angler",
+      "baby": "glow"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:395",
+    "conditions": []
+  },
+  {
+    "parentA": "stargazer",
+    "parentB": "spiderfish",
+    "child": "undead_fish",
+    "chance": 15,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "stargazer",
+      "mother": "spider",
+      "baby": "undead"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:396",
+    "conditions": []
+  },
+  {
+    "parentA": "bass",
+    "parentB": "jellyfish",
+    "child": "pupfish",
+    "chance": 15,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "bass",
+      "mother": "jelly",
+      "baby": "pup"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:397",
+    "conditions": []
+  },
+  {
+    "parentA": "perch",
+    "parentB": "butterflyfish",
+    "child": "siamese_fighting_fish",
+    "chance": 13.5,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "perch",
+      "mother": "butterfly",
+      "baby": "siamese"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:398",
+    "conditions": []
+  },
+  {
+    "parentA": "jellyfish",
+    "parentB": "rainbow_trout",
+    "child": "catfish",
+    "chance": 15,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "jelly",
+      "mother": "trout",
+      "baby": "catfish"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:399",
+    "conditions": []
+  },
+  {
+    "parentA": "glowfish",
+    "parentB": "minnow",
+    "child": "red_herring",
+    "chance": 13,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "glow",
+      "mother": "minnow",
+      "baby": "herring"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:400",
+    "conditions": []
+  },
+  {
+    "parentA": "undead_fish",
+    "parentB": "stargazer",
+    "child": "lamprey",
+    "chance": 13.5,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "undead",
+      "mother": "stargazer",
+      "baby": "lamprey"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:401",
+    "conditions": []
+  },
+  {
+    "parentA": "pupfish",
+    "parentB": "catfish",
+    "child": "pickerel",
+    "chance": 12,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "pup",
+      "mother": "catfish",
+      "baby": "pickerel"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:402",
+    "conditions": []
+  },
+  {
+    "parentA": "glowfish",
+    "parentB": "rainbow_trout",
+    "child": "blue_tang",
+    "chance": 13.5,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "glow",
+      "mother": "trout",
+      "baby": "tang"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:403",
+    "conditions": []
+  },
+  {
+    "parentA": "siamese_fighting_fish",
+    "parentB": "butterflyfish",
+    "child": "damselfish",
+    "chance": 12,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "siamese",
+      "mother": "butterfly",
+      "baby": "damsel"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:404",
+    "conditions": []
+  },
+  {
+    "parentA": "red_herring",
+    "parentB": "lamprey",
+    "child": "electric_ray",
+    "chance": 10,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "herring",
+      "mother": "lamprey",
+      "baby": "electricRay"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:405",
+    "conditions": []
+  },
+  {
+    "parentA": "blue_tang",
+    "parentB": "damselfish",
+    "child": "clownfish",
+    "chance": 10,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "tang",
+      "mother": "damsel",
+      "baby": "clown"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:406",
+    "conditions": []
+  },
+  {
+    "parentA": "red_herring",
+    "parentB": "perch",
+    "child": "blazefish",
+    "chance": 12,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "herring",
+      "mother": "perch",
+      "baby": "blaze"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:407",
+    "conditions": []
+  },
+  {
+    "parentA": "lamprey",
+    "parentB": "nightfish",
+    "child": "enderfish",
+    "chance": 12,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "lamprey",
+      "mother": "night",
+      "baby": "ender"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:408",
+    "conditions": []
+  },
+  {
+    "parentA": "undead_fish",
+    "parentB": "pickerel",
+    "child": "boneless_fish",
+    "chance": 11,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "undead",
+      "mother": "pickerel",
+      "baby": "boneless"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:409",
+    "conditions": []
+  },
+  {
+    "parentA": "electric_ray",
+    "parentB": "clownfish",
+    "child": "minecraft_fish",
+    "chance": 10,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "electricRay",
+      "mother": "clown",
+      "baby": "minecraft"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:410",
+    "conditions": []
+  },
+  {
+    "parentA": "clownfish",
+    "parentB": "blazefish",
+    "child": "koi",
+    "chance": 8,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "clown",
+      "mother": "blaze",
+      "baby": "koi"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:411",
+    "conditions": []
+  },
+  {
+    "parentA": "enderfish",
+    "parentB": "boneless_fish",
+    "child": "dragonfish",
+    "chance": 9,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "ender",
+      "mother": "boneless",
+      "baby": "dragon"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:412",
+    "conditions": []
+  },
+  {
+    "parentA": "brown_shroom_fish",
+    "parentB": "bowfin",
+    "child": "copperfish",
+    "chance": 15,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "brown",
+      "mother": "bowfin",
+      "baby": "copper"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:415",
+    "conditions": [
+      {
+        "type": "egg_nbt_has_key",
+        "key": "blockCopper",
+        "meaning": "a block whose ore-dictionary name is \"blockCopper\" was adjacent (6 faces) to at least one water block of the feeder tank when the egg was laid (MetalFishEventHandler)"
+      },
+      {
+        "type": "config",
+        "key": "FishMechanics.ENABLE_METAL_FISH",
+        "mustBe": true,
+        "default": true
+      }
+    ]
+  },
+  {
+    "parentA": "brown_shroom_fish",
+    "parentB": "northern_pike",
+    "child": "ironfish",
+    "chance": 15,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "brown",
+      "mother": "pike",
+      "baby": "iron"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:416",
+    "conditions": [
+      {
+        "type": "egg_nbt_has_key",
+        "key": "blockIron",
+        "meaning": "a block whose ore-dictionary name is \"blockIron\" was adjacent (6 faces) to at least one water block of the feeder tank when the egg was laid (MetalFishEventHandler)"
+      },
+      {
+        "type": "config",
+        "key": "FishMechanics.ENABLE_METAL_FISH",
+        "mustBe": true,
+        "default": true
+      }
+    ]
+  },
+  {
+    "parentA": "red_shroom_fish",
+    "parentB": "lungfish",
+    "child": "magnesiumfish",
+    "chance": 15,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "red",
+      "mother": "lung",
+      "baby": "magnesium"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:417",
+    "conditions": [
+      {
+        "type": "egg_nbt_has_key",
+        "key": "blockMagnesium",
+        "meaning": "a block whose ore-dictionary name is \"blockMagnesium\" was adjacent (6 faces) to at least one water block of the feeder tank when the egg was laid (MetalFishEventHandler)"
+      },
+      {
+        "type": "config",
+        "key": "FishMechanics.ENABLE_METAL_FISH",
+        "mustBe": true,
+        "default": true
+      }
+    ]
+  },
+  {
+    "parentA": "ironfish",
+    "parentB": "copperfish",
+    "child": "aluminumfish",
+    "chance": 15,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "iron",
+      "mother": "copper",
+      "baby": "aluminum"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:418",
+    "conditions": [
+      {
+        "type": "egg_nbt_has_key",
+        "key": "blockAluminum",
+        "meaning": "a block whose ore-dictionary name is \"blockAluminum\" was adjacent (6 faces) to at least one water block of the feeder tank when the egg was laid (MetalFishEventHandler)"
+      },
+      {
+        "type": "config",
+        "key": "FishMechanics.ENABLE_METAL_FISH",
+        "mustBe": true,
+        "default": true
+      }
+    ]
+  },
+  {
+    "parentA": "aluminumfish",
+    "parentB": "walleye",
+    "child": "goldeneye",
+    "chance": 12,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "aluminum",
+      "mother": "walleye",
+      "baby": "gold"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:419",
+    "conditions": [
+      {
+        "type": "egg_nbt_has_key",
+        "key": "blockGold",
+        "meaning": "a block whose ore-dictionary name is \"blockGold\" was adjacent (6 faces) to at least one water block of the feeder tank when the egg was laid (MetalFishEventHandler)"
+      },
+      {
+        "type": "config",
+        "key": "FishMechanics.ENABLE_METAL_FISH",
+        "mustBe": true,
+        "default": true
+      }
+    ]
+  },
+  {
+    "parentA": "goldeneye",
+    "parentB": "magnesiumfish",
+    "child": "rutilefish",
+    "chance": 10,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "gold",
+      "mother": "magnesium",
+      "baby": "rutile"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:420",
+    "conditions": [
+      {
+        "type": "egg_nbt_has_key",
+        "key": "blockRutile",
+        "meaning": "a block whose ore-dictionary name is \"blockRutile\" was adjacent (6 faces) to at least one water block of the feeder tank when the egg was laid (MetalFishEventHandler)"
+      },
+      {
+        "type": "config",
+        "key": "FishMechanics.ENABLE_METAL_FISH",
+        "mustBe": true,
+        "default": true
+      }
+    ]
+  },
+  {
+    "parentA": "magnesiumfish",
+    "parentB": "stickleback",
+    "child": "silverfish_metal",
+    "chance": 15,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "magnesium",
+      "mother": "stickleback",
+      "baby": "FishSilver"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:361 (via Fish.registerFish at Fish.java:347-358)",
+    "conditions": [
+      {
+        "type": "egg_nbt_has_key",
+        "key": "blockSilver",
+        "meaning": "a block whose ore-dictionary name is \"blockSilver\" was adjacent to the feeder tank water when the egg was laid (MetalFishEventHandler)"
+      },
+      {
+        "type": "config",
+        "key": "FishMechanics.ENABLE_METAL_FISH",
+        "mustBe": true,
+        "default": true
+      },
+      {
+        "type": "ore_dictionary_present",
+        "key": "ingotSilver",
+        "meaning": "child species (and this mutation) only exist if the ore dictionary has an ingotSilver at init"
+      }
+    ]
+  },
+  {
+    "parentA": "magnesiumfish",
+    "parentB": "anglerfish",
+    "child": "leadfish",
+    "chance": 15,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "magnesium",
+      "mother": "angler",
+      "baby": "FishLead"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:362 (via Fish.registerFish at Fish.java:347-358)",
+    "conditions": [
+      {
+        "type": "egg_nbt_has_key",
+        "key": "blockLead",
+        "meaning": "a block whose ore-dictionary name is \"blockLead\" was adjacent to the feeder tank water when the egg was laid (MetalFishEventHandler)"
+      },
+      {
+        "type": "config",
+        "key": "FishMechanics.ENABLE_METAL_FISH",
+        "mustBe": true,
+        "default": true
+      },
+      {
+        "type": "ore_dictionary_present",
+        "key": "ingotLead",
+        "meaning": "child species (and this mutation) only exist if the ore dictionary has an ingotLead at init"
+      }
+    ]
+  },
+  {
+    "parentA": "brown_shroom_fish",
+    "parentB": "pufferfish",
+    "child": "tinfish",
+    "chance": 15,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "brown",
+      "mother": "puffer",
+      "baby": "FishTin"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:363 (via Fish.registerFish at Fish.java:347-358)",
+    "conditions": [
+      {
+        "type": "egg_nbt_has_key",
+        "key": "blockTin",
+        "meaning": "a block whose ore-dictionary name is \"blockTin\" was adjacent to the feeder tank water when the egg was laid (MetalFishEventHandler)"
+      },
+      {
+        "type": "config",
+        "key": "FishMechanics.ENABLE_METAL_FISH",
+        "mustBe": true,
+        "default": true
+      },
+      {
+        "type": "ore_dictionary_present",
+        "key": "ingotTin",
+        "meaning": "child species (and this mutation) only exist if the ore dictionary has an ingotTin at init"
+      }
+    ]
+  },
+  {
+    "parentA": "goldeneye",
+    "parentB": "ironfish",
+    "child": "platinumfish",
+    "chance": 10,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "gold",
+      "mother": "iron",
+      "baby": "FishPlatinum"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:364 (via Fish.registerFish at Fish.java:347-358)",
+    "conditions": [
+      {
+        "type": "egg_nbt_has_key",
+        "key": "blockPlatinum",
+        "meaning": "a block whose ore-dictionary name is \"blockPlatinum\" was adjacent to the feeder tank water when the egg was laid (MetalFishEventHandler)"
+      },
+      {
+        "type": "config",
+        "key": "FishMechanics.ENABLE_METAL_FISH",
+        "mustBe": true,
+        "default": true
+      },
+      {
+        "type": "ore_dictionary_present",
+        "key": "ingotPlatinum",
+        "meaning": "child species (and this mutation) only exist if the ore dictionary has an ingotPlatinum at init"
+      }
+    ]
+  },
+  {
+    "parentA": "copperfish",
+    "parentB": "goldfish",
+    "child": "nickelfish",
+    "chance": 15,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "copper",
+      "mother": "goldfish",
+      "baby": "FishNickel"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:365 (via Fish.registerFish at Fish.java:347-358)",
+    "conditions": [
+      {
+        "type": "egg_nbt_has_key",
+        "key": "blockNickel",
+        "meaning": "a block whose ore-dictionary name is \"blockNickel\" was adjacent to the feeder tank water when the egg was laid (MetalFishEventHandler)"
+      },
+      {
+        "type": "config",
+        "key": "FishMechanics.ENABLE_METAL_FISH",
+        "mustBe": true,
+        "default": true
+      },
+      {
+        "type": "ore_dictionary_present",
+        "key": "ingotNickel",
+        "meaning": "child species (and this mutation) only exist if the ore dictionary has an ingotNickel at init"
+      }
+    ]
+  },
+  {
+    "parentA": "goldeneye",
+    "parentB": "blue_tang",
+    "child": "cobaltfish",
+    "chance": 10,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "gold",
+      "mother": "tang",
+      "baby": "FishCobalt"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:366 (via Fish.registerFish at Fish.java:347-358)",
+    "conditions": [
+      {
+        "type": "egg_nbt_has_key",
+        "key": "blockCobalt",
+        "meaning": "a block whose ore-dictionary name is \"blockCobalt\" was adjacent to the feeder tank water when the egg was laid (MetalFishEventHandler)"
+      },
+      {
+        "type": "config",
+        "key": "FishMechanics.ENABLE_METAL_FISH",
+        "mustBe": true,
+        "default": true
+      },
+      {
+        "type": "ore_dictionary_present",
+        "key": "ingotCobalt",
+        "meaning": "child species (and this mutation) only exist if the ore dictionary has an ingotCobalt at init"
+      }
+    ]
+  },
+  {
+    "parentA": "goldeneye",
+    "parentB": "glowfish",
+    "child": "arditefish",
+    "chance": 10,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "gold",
+      "mother": "glow",
+      "baby": "FishArdite"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:367 (via Fish.registerFish at Fish.java:347-358)",
+    "conditions": [
+      {
+        "type": "egg_nbt_has_key",
+        "key": "blockArdite",
+        "meaning": "a block whose ore-dictionary name is \"blockArdite\" was adjacent to the feeder tank water when the egg was laid (MetalFishEventHandler)"
+      },
+      {
+        "type": "config",
+        "key": "FishMechanics.ENABLE_METAL_FISH",
+        "mustBe": true,
+        "default": true
+      },
+      {
+        "type": "ore_dictionary_present",
+        "key": "ingotArdite",
+        "meaning": "child species (and this mutation) only exist if the ore dictionary has an ingotArdite at init"
+      }
+    ]
+  },
+  {
+    "parentA": "red_herring",
+    "parentB": "pickerel",
+    "child": "osmiumfish",
+    "chance": 10,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "herring",
+      "mother": "pickerel",
+      "baby": "FishOsmium"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:368 (via Fish.registerFish at Fish.java:347-358)",
+    "conditions": [
+      {
+        "type": "egg_nbt_has_key",
+        "key": "blockOsmium",
+        "meaning": "a block whose ore-dictionary name is \"blockOsmium\" was adjacent to the feeder tank water when the egg was laid (MetalFishEventHandler)"
+      },
+      {
+        "type": "config",
+        "key": "FishMechanics.ENABLE_METAL_FISH",
+        "mustBe": true,
+        "default": true
+      },
+      {
+        "type": "ore_dictionary_present",
+        "key": "ingotOsmium",
+        "meaning": "child species (and this mutation) only exist if the ore dictionary has an ingotOsmium at init"
+      }
+    ]
+  },
+  {
+    "parentA": "chub",
+    "parentB": "lungfish",
+    "child": "zincfish",
+    "chance": 15,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "chub",
+      "mother": "lung",
+      "baby": "FishZinc"
+    },
+    "source": "1.3.0",
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:369 (via Fish.registerFish at Fish.java:347-358)",
+    "conditions": [
+      {
+        "type": "egg_nbt_has_key",
+        "key": "blockZinc",
+        "meaning": "a block whose ore-dictionary name is \"blockZinc\" was adjacent to the feeder tank water when the egg was laid (MetalFishEventHandler)"
+      },
+      {
+        "type": "config",
+        "key": "FishMechanics.ENABLE_METAL_FISH",
+        "mustBe": true,
+        "default": true
+      },
+      {
+        "type": "ore_dictionary_present",
+        "key": "ingotZinc",
+        "meaning": "child species (and this mutation) only exist if the ore dictionary has an ingotZinc at init"
+      }
+    ]
+  },
+  {
+    "parentA": "dragonfish",
+    "parentB": "clownfish",
+    "child": "minecraft_fish",
+    "chance": 5,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "dragon",
+      "mother": "clown",
+      "baby": "minecraft"
+    },
+    "source": "1.2.4",
+    "sourceRef": "src-1.7.10-1.2.4/src/main/java/mariculture/fishery/Fish.java:300",
+    "conditions": []
+  },
+  {
+    "parentA": "boneless_fish",
+    "parentB": "enderfish",
+    "child": "dragonfish",
+    "chance": 6,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "boneless",
+      "mother": "ender",
+      "baby": "dragon"
+    },
+    "source": "1.2.4",
+    "sourceRef": "src-1.7.10-1.2.4/src/main/java/mariculture/fishery/Fish.java:301",
+    "conditions": []
+  },
+  {
+    "parentA": "blue_tang",
+    "parentB": "blazefish",
+    "child": "clownfish",
+    "chance": 5.5,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "tang",
+      "mother": "blaze",
+      "baby": "clown"
+    },
+    "source": "1.2.4",
+    "sourceRef": "src-1.7.10-1.2.4/src/main/java/mariculture/fishery/Fish.java:302",
+    "conditions": []
+  },
+  {
+    "parentA": "nightfish",
+    "parentB": "koi",
+    "child": "enderfish",
+    "chance": 6.5,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "night",
+      "mother": "koi",
+      "baby": "ender"
+    },
+    "source": "1.2.4",
+    "sourceRef": "src-1.7.10-1.2.4/src/main/java/mariculture/fishery/Fish.java:303",
+    "conditions": []
+  },
+  {
+    "parentA": "glowfish",
+    "parentB": "koi",
+    "child": "blazefish",
+    "chance": 6.5,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "glow",
+      "mother": "koi",
+      "baby": "blaze"
+    },
+    "source": "1.2.4",
+    "sourceRef": "src-1.7.10-1.2.4/src/main/java/mariculture/fishery/Fish.java:304",
+    "conditions": []
+  },
+  {
+    "parentA": "man_o_war",
+    "parentB": "electric_ray",
+    "child": "boneless_fish",
+    "chance": 6,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "manOWar",
+      "mother": "electricRay",
+      "baby": "boneless"
+    },
+    "source": "1.2.4",
+    "sourceRef": "src-1.7.10-1.2.4/src/main/java/mariculture/fishery/Fish.java:305",
+    "conditions": []
+  },
+  {
+    "parentA": "siamese_fighting_fish",
+    "parentB": "catfish",
+    "child": "koi",
+    "chance": 7,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "siamese",
+      "mother": "catfish",
+      "baby": "koi"
+    },
+    "source": "1.2.4",
+    "sourceRef": "src-1.7.10-1.2.4/src/main/java/mariculture/fishery/Fish.java:306",
+    "conditions": []
+  },
+  {
+    "parentA": "piranha",
+    "parentB": "jellyfish",
+    "child": "man_o_war",
+    "chance": 6.75,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "piranha",
+      "mother": "jelly",
+      "baby": "manOWar"
+    },
+    "source": "1.2.4",
+    "sourceRef": "src-1.7.10-1.2.4/src/main/java/mariculture/fishery/Fish.java:307",
+    "conditions": []
+  },
+  {
+    "parentA": "netherfish",
+    "parentB": "pufferfish",
+    "child": "glowfish",
+    "chance": 8.5,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "nether",
+      "mother": "puffer",
+      "baby": "glow"
+    },
+    "source": "1.2.4",
+    "sourceRef": "src-1.7.10-1.2.4/src/main/java/mariculture/fishery/Fish.java:308",
+    "conditions": []
+  },
+  {
+    "parentA": "sting_ray",
+    "parentB": "red_herring",
+    "child": "electric_ray",
+    "chance": 8,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "stingRay",
+      "mother": "herring",
+      "baby": "electricRay"
+    },
+    "source": "1.2.4",
+    "sourceRef": "src-1.7.10-1.2.4/src/main/java/mariculture/fishery/Fish.java:309",
+    "conditions": []
+  },
+  {
+    "parentA": "anglerfish",
+    "parentB": "pufferfish",
+    "child": "piranha",
+    "chance": 7.75,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "angler",
+      "mother": "puffer",
+      "baby": "piranha"
+    },
+    "source": "1.2.4",
+    "sourceRef": "src-1.7.10-1.2.4/src/main/java/mariculture/fishery/Fish.java:310",
+    "conditions": []
+  },
+  {
+    "parentA": "red_herring",
+    "parentB": "rainbow_trout",
+    "child": "catfish",
+    "chance": 8.5,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "herring",
+      "mother": "trout",
+      "baby": "catfish"
+    },
+    "source": "1.2.4",
+    "sourceRef": "src-1.7.10-1.2.4/src/main/java/mariculture/fishery/Fish.java:311",
+    "conditions": []
+  },
+  {
+    "parentA": "bass",
+    "parentB": "blue_tang",
+    "child": "siamese_fighting_fish",
+    "chance": 8.25,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "bass",
+      "mother": "tang",
+      "baby": "siamese"
+    },
+    "source": "1.2.4",
+    "sourceRef": "src-1.7.10-1.2.4/src/main/java/mariculture/fishery/Fish.java:312",
+    "conditions": []
+  },
+  {
+    "parentA": "lamprey",
+    "parentB": "bass",
+    "child": "anglerfish",
+    "chance": 8.5,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "lamprey",
+      "mother": "bass",
+      "baby": "angler"
+    },
+    "source": "1.2.4",
+    "sourceRef": "src-1.7.10-1.2.4/src/main/java/mariculture/fishery/Fish.java:313",
+    "conditions": []
+  },
+  {
+    "parentA": "lamprey",
+    "parentB": "jellyfish",
+    "child": "pufferfish",
+    "chance": 9.5,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "lamprey",
+      "mother": "jelly",
+      "baby": "puffer"
+    },
+    "source": "1.2.4",
+    "sourceRef": "src-1.7.10-1.2.4/src/main/java/mariculture/fishery/Fish.java:314",
+    "conditions": []
+  },
+  {
+    "parentA": "netherfish",
+    "parentB": "tuna",
+    "child": "red_herring",
+    "chance": 9.25,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "nether",
+      "mother": "tuna",
+      "baby": "herring"
+    },
+    "source": "1.2.4",
+    "sourceRef": "src-1.7.10-1.2.4/src/main/java/mariculture/fishery/Fish.java:315",
+    "conditions": []
+  },
+  {
+    "parentA": "stargazer",
+    "parentB": "squid",
+    "child": "jellyfish",
+    "chance": 10,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "stargazer",
+      "mother": "squid",
+      "baby": "jelly"
+    },
+    "source": "1.2.4",
+    "sourceRef": "src-1.7.10-1.2.4/src/main/java/mariculture/fishery/Fish.java:316",
+    "conditions": []
+  },
+  {
+    "parentA": "manta_ray",
+    "parentB": "butterflyfish",
+    "child": "blue_tang",
+    "chance": 8,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "mantaRay",
+      "mother": "butterfly",
+      "baby": "tang"
+    },
+    "source": "1.2.4",
+    "sourceRef": "src-1.7.10-1.2.4/src/main/java/mariculture/fishery/Fish.java:317",
+    "conditions": []
+  },
+  {
+    "parentA": "perch",
+    "parentB": "undead_fish",
+    "child": "bass",
+    "chance": 11,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "perch",
+      "mother": "undead",
+      "baby": "bass"
+    },
+    "source": "1.2.4",
+    "sourceRef": "src-1.7.10-1.2.4/src/main/java/mariculture/fishery/Fish.java:318",
+    "conditions": []
+  },
+  {
+    "parentA": "rainbow_trout",
+    "parentB": "undead_fish",
+    "child": "bass",
+    "chance": 10,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "trout",
+      "mother": "undead",
+      "baby": "bass"
+    },
+    "source": "1.2.4",
+    "sourceRef": "src-1.7.10-1.2.4/src/main/java/mariculture/fishery/Fish.java:319",
+    "conditions": []
+  },
+  {
+    "parentA": "salmon",
+    "parentB": "undead_fish",
+    "child": "bass",
+    "chance": 10,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "salmon",
+      "mother": "undead",
+      "baby": "bass"
+    },
+    "source": "1.2.4",
+    "sourceRef": "src-1.7.10-1.2.4/src/main/java/mariculture/fishery/Fish.java:320",
+    "conditions": []
+  },
+  {
+    "parentA": "undead_fish",
+    "parentB": "blaasop",
+    "child": "lamprey",
+    "chance": 12,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "undead",
+      "mother": "blaasop",
+      "baby": "lamprey"
+    },
+    "source": "1.2.4",
+    "sourceRef": "src-1.7.10-1.2.4/src/main/java/mariculture/fishery/Fish.java:321",
+    "conditions": []
+  },
+  {
+    "parentA": "sting_ray",
+    "parentB": "angelfish",
+    "child": "manta_ray",
+    "chance": 8,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "stingRay",
+      "mother": "angel",
+      "baby": "mantaRay"
+    },
+    "source": "1.2.4",
+    "sourceRef": "src-1.7.10-1.2.4/src/main/java/mariculture/fishery/Fish.java:322",
+    "conditions": []
+  },
+  {
+    "parentA": "angelfish",
+    "parentB": "cod",
+    "child": "tuna",
+    "chance": 15,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "angel",
+      "mother": "cod",
+      "baby": "tuna"
+    },
+    "source": "1.2.4",
+    "sourceRef": "src-1.7.10-1.2.4/src/main/java/mariculture/fishery/Fish.java:323",
+    "conditions": []
+  },
+  {
+    "parentA": "angelfish",
+    "parentB": "goldfish",
+    "child": "butterflyfish",
+    "chance": 12,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "angel",
+      "mother": "gold",
+      "baby": "butterfly"
+    },
+    "source": "1.2.4",
+    "sourceRef": "src-1.7.10-1.2.4/src/main/java/mariculture/fishery/Fish.java:324",
+    "conditions": []
+  },
+  {
+    "parentA": "goldfish",
+    "parentB": "neon_tetra",
+    "child": "rainbow_trout",
+    "chance": 15,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "gold",
+      "mother": "tetra",
+      "baby": "trout"
+    },
+    "source": "1.2.4",
+    "sourceRef": "src-1.7.10-1.2.4/src/main/java/mariculture/fishery/Fish.java:325",
+    "conditions": []
+  },
+  {
+    "parentA": "goldfish",
+    "parentB": "damselfish",
+    "child": "rainbow_trout",
+    "chance": 12.5,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "gold",
+      "mother": "damsel",
+      "baby": "trout"
+    },
+    "source": "1.2.4",
+    "sourceRef": "src-1.7.10-1.2.4/src/main/java/mariculture/fishery/Fish.java:326",
+    "conditions": []
+  },
+  {
+    "parentA": "goldfish",
+    "parentB": "neon_tetra",
+    "child": "salmon",
+    "chance": 12.5,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "gold",
+      "mother": "tetra",
+      "baby": "salmon"
+    },
+    "source": "1.2.4",
+    "sourceRef": "src-1.7.10-1.2.4/src/main/java/mariculture/fishery/Fish.java:327",
+    "conditions": []
+  },
+  {
+    "parentA": "goldfish",
+    "parentB": "damselfish",
+    "child": "salmon",
+    "chance": 15,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "gold",
+      "mother": "damsel",
+      "baby": "salmon"
+    },
+    "source": "1.2.4",
+    "sourceRef": "src-1.7.10-1.2.4/src/main/java/mariculture/fishery/Fish.java:328",
+    "conditions": []
+  },
+  {
+    "parentA": "nightfish",
+    "parentB": "spiderfish",
+    "child": "undead_fish",
+    "chance": 15,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "night",
+      "mother": "spider",
+      "baby": "undead"
+    },
+    "source": "1.2.4",
+    "sourceRef": "src-1.7.10-1.2.4/src/main/java/mariculture/fishery/Fish.java:329",
+    "conditions": []
+  },
+  {
+    "parentA": "neon_tetra",
+    "parentB": "damselfish",
+    "child": "angelfish",
+    "chance": 20,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "tetra",
+      "mother": "damsel",
+      "baby": "angel"
+    },
+    "source": "1.2.4",
+    "sourceRef": "src-1.7.10-1.2.4/src/main/java/mariculture/fishery/Fish.java:330",
+    "conditions": []
+  },
+  {
+    "parentA": "cod",
+    "parentB": "minnow",
+    "child": "goldfish",
+    "chance": 25,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "cod",
+      "mother": "minnow",
+      "baby": "gold"
+    },
+    "source": "1.2.4",
+    "sourceRef": "src-1.7.10-1.2.4/src/main/java/mariculture/fishery/Fish.java:331",
+    "conditions": []
+  },
+  {
+    "parentA": "sting_ray",
+    "parentB": "cod",
+    "child": "damselfish",
+    "chance": 10,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "stingRay",
+      "mother": "cod",
+      "baby": "damsel"
+    },
+    "source": "1.2.4",
+    "sourceRef": "src-1.7.10-1.2.4/src/main/java/mariculture/fishery/Fish.java:332",
+    "conditions": []
+  },
+  {
+    "parentA": "sting_ray",
+    "parentB": "minnow",
+    "child": "neon_tetra",
+    "chance": 10,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "stingRay",
+      "mother": "minnow",
+      "baby": "tetra"
+    },
+    "source": "1.2.4",
+    "sourceRef": "src-1.7.10-1.2.4/src/main/java/mariculture/fishery/Fish.java:333",
+    "conditions": []
+  },
+  {
+    "parentA": "spiderfish",
+    "parentB": "blaasop",
+    "child": "stargazer",
+    "chance": 7.5,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "spider",
+      "mother": "blaasop",
+      "baby": "stargazer"
+    },
+    "source": "pr371",
+    "sourceRef": "src-pr371/src/main/java/mariculture/fishery/Fish.java:336",
+    "conditions": [
+      {
+        "type": "config",
+        "key": "FishMechanics.EXTRA_FISH_BREEDING_RECIPES",
+        "configName": "Extra Fish Breeding Recipes (Whitemargin Stargazer and Perch)",
+        "mustBe": true,
+        "default": false
+      }
+    ]
+  },
+  {
+    "parentA": "nightfish",
+    "parentB": "blaasop",
+    "child": "stargazer",
+    "chance": 7.5,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "night",
+      "mother": "blaasop",
+      "baby": "stargazer"
+    },
+    "source": "pr371",
+    "sourceRef": "src-pr371/src/main/java/mariculture/fishery/Fish.java:337",
+    "conditions": [
+      {
+        "type": "config",
+        "key": "FishMechanics.EXTRA_FISH_BREEDING_RECIPES",
+        "configName": "Extra Fish Breeding Recipes (Whitemargin Stargazer and Perch)",
+        "mustBe": true,
+        "default": false
+      }
+    ]
+  },
+  {
+    "parentA": "damselfish",
+    "parentB": "goldfish",
+    "child": "perch",
+    "chance": 10.0,
+    "chanceUnit": "percent per roll, before FishMechanics.BREEDING_MULTIPLIER (default 1.0)",
+    "legacyArgs": {
+      "father": "damsel",
+      "mother": "gold",
+      "baby": "perch"
+    },
+    "source": "pr371",
+    "sourceRef": "src-pr371/src/main/java/mariculture/fishery/Fish.java:338",
+    "conditions": [
+      {
+        "type": "config",
+        "key": "FishMechanics.EXTRA_FISH_BREEDING_RECIPES",
+        "configName": "Extra Fish Breeding Recipes (Whitemargin Stargazer and Perch)",
+        "mustBe": true,
+        "default": false
+      }
+    ]
+  }
+]

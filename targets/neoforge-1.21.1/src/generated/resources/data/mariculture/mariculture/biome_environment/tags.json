@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "priority": -100,
+  "biomes": {
+    "#c:is_nether": {
+      "salinity": "fresh",
+      "temperature": 100
+    },
+    "#c:is_desert": {
+      "salinity": "fresh",
+      "temperature": 50
+    },
+    "#c:is_snowy": {
+      "salinity": "fresh",
+      "temperature": -30
+    },
+    "#c:is_swamp": {
+      "salinity": "fresh",
+      "temperature": 8
+    },
+    "#minecraft:is_jungle": {
+      "salinity": "fresh",
+      "temperature": 25
+    },
+    "#minecraft:is_forest": {
+      "salinity": "fresh",
+      "temperature": 10
+    },
+    "#c:is_plains": {
+      "salinity": "fresh",
+      "temperature": 10
+    },
+    "#c:is_wasteland": {
+      "salinity": "fresh",
+      "temperature": 45
+    },
+    "#c:is_end": {
+      "salinity": "fresh",
+      "temperature": -10
+    },
+    "#minecraft:is_ocean": {
+      "salinity": "saline",
+      "temperature": 3
+    },
+    "#c:is_magical": {
+      "salinity": "fresh",
+      "temperature": 20
+    },
+    "#minecraft:is_beach": {
+      "salinity": "brackish",
+      "temperature": 15
+    },
+    "#minecraft:is_mountain": {
+      "salinity": "fresh",
+      "temperature": -10
+    },
+    "#minecraft:is_hill": {
+      "salinity": "fresh",
+      "temperature": -2
+    }
+  }
+}

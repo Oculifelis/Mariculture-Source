@@ -1,0 +1,21 @@
+{
+  "name": "Fish Sorter",
+  "icon": "mariculture:fish_sorter",
+  "category": "mariculture:machines_automation",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Fish Sorter, allows you to sort your fish based upon their species. It can also sort other items. In order to set it up you, need to place the item you want to sort on the right hand side, in one of the many slots. You can then click on the slot and it will cycle between all the different colours.",
+      "title": "Fish Sorter"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A colour representing a side of the block. Items will then only be allowed to be pulled from that side of the block, by pipes from other mods or hoppers. You can also click the square on the left to change the default side."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:fish_sorter"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["HIH"],
+  "key": {
+    "H": "mariculture:heating_component",
+    "I": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "mariculture:basic_heating_upgrade",
+    "count": 1
+  }
+}

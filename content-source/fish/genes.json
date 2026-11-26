@@ -1,0 +1,1061 @@
+[
+  {
+    "key": "species",
+    "legacyName": "Species",
+    "registrationOrder": 0,
+    "class": "FishDNASpecies",
+    "nbt": {
+      "upper": "SpeciesID",
+      "lower": "lowerSpeciesID",
+      "eggList": "SpeciesList"
+    },
+    "min": 0,
+    "max": null,
+    "valueType": "species numeric id (FishSpecies.ids; default ids 0-64, remappable via config/mariculture/fish-mappings.cfg)",
+    "defaultFromSpecies": "species.getID()",
+    "sanitize": null,
+    "configBooster": null,
+    "dominance": "species-level: FishSpecies.isDominant(); dominant species allele goes upper; tie -> coin flip (FishDNASpecies.getDominant FishDNASpecies.java:30-51; note tie branch: nextInt(2)==0 puts option2 first)",
+    "inheritance": "Egg stores 4 values [fatherUpper, fatherLower, motherUpper, motherLower] (FishyHelper.generateEgg, FishyHelper.java:295-302). Child takes allele1 = list[nextInt(2)] (from parent passed first = feeder male slot) and allele2 = list[2 + nextInt(2)] (female) (FishyHelper.java:162-163); attemptMutation is the identity for every gene (FishDNABase.java:53-58, never overridden). If a species mutation fires, the mutated slot(s) are overwritten with the child species defaults (FishyHelper.java:181-192). Finally the two alleles are ordered by dominance: the allele whose value falls in a range flagged dominant becomes upper (expressed) and the other lower; if both or neither are dominant the order is a 50/50 coin flip (FishDNA.getDominant FishDNA.java:81-97 + FishDNABase.swapDominance FishDNABase.java:69-89). A value that falls in no display range keeps dominance=0, i.e. is treated as dominant. Then species mutation: see mutations.json; each matching mutation rolls twice independently (upper, then lower).",
+    "extractorCopyChanceOneIn": {
+      "1.3.0": 10,
+      "1.2.4": 10
+    },
+    "hidden": false,
+    "tooltipDisplay": "not in tooltip lines; drives item name \"<Upper>-<Lower> Hybrid\" or \"<Species>\" + gender symbol (ItemFishy.java:76-82)",
+    "displayRanges": [],
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/fish/dna/FishDNASpecies.java:1-57; src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:189"
+  },
+  {
+    "key": "gender",
+    "legacyName": "Gender",
+    "registrationOrder": 1,
+    "class": "FishDNAGender",
+    "nbt": {
+      "upper": "Gender",
+      "lower": "lowerGender",
+      "eggList": "GenderList"
+    },
+    "min": 0,
+    "max": 1,
+    "valueType": "0 = male, 1 = female (FishyHelper.java:37-38 MALE=0, FEMALE=1)",
+    "defaultFromSpecies": "random nextInt(2), evaluated independently for upper and lower (FishDNAGender.java:23-25)",
+    "sanitize": null,
+    "configBooster": null,
+    "dominance": "BUG: getDominant computes both dominance values from option1 (FishDNAGender.java:16-17), so it is always a tie -> 50/50 order.",
+    "inheritance": "Egg stores 4 values [fatherUpper, fatherLower, motherUpper, motherLower] (FishyHelper.generateEgg, FishyHelper.java:295-302). Child takes allele1 = list[nextInt(2)] (from parent passed first = feeder male slot) and allele2 = list[2 + nextInt(2)] (female) (FishyHelper.java:162-163); attemptMutation is the identity for every gene (FishDNABase.java:53-58, never overridden). If a species mutation fires, the mutated slot(s) are overwritten with the child species defaults (FishyHelper.java:181-192). Finally the two alleles are ordered by dominance: the allele whose value falls in a range flagged dominant becomes upper (expressed) and the other lower; if both or neither are dominant the order is a 50/50 coin flip (FishDNA.getDominant FishDNA.java:81-97 + FishDNABase.swapDominance FishDNABase.java:69-89). A value that falls in no display range keeps dominance=0, i.e. is treated as dominant. After dominance sorting, the UPPER gender is unconditionally overwritten with rand.nextInt(2) (FishyHelper.java:209); only the lower allele is inherited. Only the upper value is read for sex (isMale/isFemale FishyHelper.java:276-283).",
+    "extractorCopyChanceOneIn": {
+      "1.3.0": 30,
+      "1.2.4": 50
+    },
+    "hidden": false,
+    "tooltipDisplay": "symbol appended to item name: male \\u2642, female \\u2640 (ItemFishy.java:120-125); lang mariculture.fish.data.gender.male/female",
+    "displayRanges": [
+      {
+        "name": "male",
+        "min": 0,
+        "max": 0,
+        "label": "Male"
+      },
+      {
+        "name": "female",
+        "min": 1,
+        "max": 1,
+        "label": "Female"
+      }
+    ],
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/fish/dna/FishDNAGender.java; src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:190"
+  },
+  {
+    "key": "lifespan",
+    "legacyName": "Lifespan",
+    "registrationOrder": 2,
+    "class": "FishDNALifespan",
+    "nbt": {
+      "upper": "Lifespan",
+      "lower": "lowerLifespan",
+      "eggList": "LifespanList"
+    },
+    "min": 1,
+    "max": 360000,
+    "valueType": "ticks of feeder life",
+    "defaultFromSpecies": "species.getLifeSpan() * 20 * 60 (minutes -> ticks)",
+    "sanitize": "read value = clamp(storedValue + FussyFish.LIFESPAN_BOOSTER, 1, 360000) on every getDNA/getLowerDNA (stored NBT value is not clamped)",
+    "configBooster": {
+      "field": "FussyFish.LIFESPAN_BOOSTER",
+      "default": 0
+    },
+    "dominance": "range-based (see displayRanges.dominant)",
+    "inheritance": "Egg stores 4 values [fatherUpper, fatherLower, motherUpper, motherLower] (FishyHelper.generateEgg, FishyHelper.java:295-302). Child takes allele1 = list[nextInt(2)] (from parent passed first = feeder male slot) and allele2 = list[2 + nextInt(2)] (female) (FishyHelper.java:162-163); attemptMutation is the identity for every gene (FishDNABase.java:53-58, never overridden). If a species mutation fires, the mutated slot(s) are overwritten with the child species defaults (FishyHelper.java:181-192). Finally the two alleles are ordered by dominance: the allele whose value falls in a range flagged dominant becomes upper (expressed) and the other lower; if both or neither are dominant the order is a 50/50 coin flip (FishDNA.getDominant FishDNA.java:81-97 + FishDNABase.swapDominance FishDNABase.java:69-89). A value that falls in no display range keeps dominance=0, i.e. is treated as dominant.",
+    "extractorCopyChanceOneIn": {
+      "1.3.0": 12,
+      "1.2.4": 12
+    },
+    "hidden": false,
+    "tooltipDisplay": "shown in tooltip as \"<lang mariculture.fish.data.lifespan>: <range label>\" (shift shows raw number) (FishDNA.getInformationDisplay FishDNA.java:51-62)",
+    "nameLangKey": "mariculture.fish.data.lifespan",
+    "nameLabel": "Lifespan",
+    "displayRanges": [
+      {
+        "name": "miniscule",
+        "min": 0,
+        "max": 3600,
+        "dominant": true,
+        "langKey": "mariculture.fish.data.lifespan.miniscule",
+        "label": "Miniscule",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:194"
+      },
+      {
+        "name": "tiny",
+        "min": 3601,
+        "max": 6001,
+        "dominant": false,
+        "langKey": "mariculture.fish.data.lifespan.tiny",
+        "label": "Tiny",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:195"
+      },
+      {
+        "name": "short",
+        "min": 6002,
+        "max": 12002,
+        "dominant": true,
+        "langKey": "mariculture.fish.data.lifespan.short",
+        "label": "Short",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:196"
+      },
+      {
+        "name": "medium",
+        "min": 12003,
+        "max": 18003,
+        "dominant": true,
+        "langKey": "mariculture.fish.data.lifespan.medium",
+        "label": "Medium",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:197"
+      },
+      {
+        "name": "long",
+        "min": 18004,
+        "max": 24004,
+        "dominant": false,
+        "langKey": "mariculture.fish.data.lifespan.long",
+        "label": "Long",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:198"
+      },
+      {
+        "name": "epic",
+        "min": 24005,
+        "max": 36005,
+        "dominant": true,
+        "langKey": "mariculture.fish.data.lifespan.epic",
+        "label": "Epic",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:199"
+      },
+      {
+        "name": "marathon",
+        "min": 36006,
+        "max": 54006,
+        "dominant": false,
+        "langKey": "mariculture.fish.data.lifespan.marathon",
+        "label": "Marathon",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:200"
+      },
+      {
+        "name": "insane",
+        "min": 54007,
+        "max": 100000,
+        "dominant": true,
+        "langKey": "mariculture.fish.data.lifespan.insane",
+        "label": "Insanity",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:201"
+      }
+    ],
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/fish/dna/FishDNALifespan.java; src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:193",
+    "sideEffect": "addDNA (upper only) also writes NBT \"CurrentLife\" = value (FishDNALifespan.java:15-19); CurrentLife is the remaining life counter decremented by the feeder",
+    "note": "values 100001-360000 are legal but have no display range (no tooltip label); dominance treats them as dominant",
+    "boosterCompounding": "getDNA/getLowerDNA return clamp(stored+booster). generateEgg stores the boosted read values (FishyHelper.java:297-300) and makeBredFish re-reads with getDNA and writes back during dominance sorting (FishyHelper.java:199-206), so each bred generation stores parent+2*booster (clamped). With defaults only TEMP_TOLERANCE_BOOSTER=3 is non-zero: temperature tolerance stored value rises by 6 per generation until clamped at 100. Port must reproduce or deliberately fix (flag)."
+  },
+  {
+    "key": "fertility",
+    "legacyName": "Fertility",
+    "registrationOrder": 3,
+    "class": "FishDNAFertility",
+    "nbt": {
+      "upper": "Fertility",
+      "lower": "lowerFertility",
+      "eggList": "FertilityList"
+    },
+    "min": 1,
+    "max": 2147483647,
+    "valueType": "egg count (hatch attempts per egg); also eternal-female egg rate",
+    "defaultFromSpecies": "species.getFertility()",
+    "sanitize": "read value = clamp(storedValue + FussyFish.FERTILITY_BOOSTER, 1, 2147483647) on every getDNA/getLowerDNA (stored NBT value is not clamped)",
+    "configBooster": {
+      "field": "FussyFish.FERTILITY_BOOSTER",
+      "default": 0
+    },
+    "dominance": "range-based (see displayRanges.dominant)",
+    "inheritance": "Egg stores 4 values [fatherUpper, fatherLower, motherUpper, motherLower] (FishyHelper.generateEgg, FishyHelper.java:295-302). Child takes allele1 = list[nextInt(2)] (from parent passed first = feeder male slot) and allele2 = list[2 + nextInt(2)] (female) (FishyHelper.java:162-163); attemptMutation is the identity for every gene (FishDNABase.java:53-58, never overridden). If a species mutation fires, the mutated slot(s) are overwritten with the child species defaults (FishyHelper.java:181-192). Finally the two alleles are ordered by dominance: the allele whose value falls in a range flagged dominant becomes upper (expressed) and the other lower; if both or neither are dominant the order is a 50/50 coin flip (FishDNA.getDominant FishDNA.java:81-97 + FishDNABase.swapDominance FishDNABase.java:69-89). A value that falls in no display range keeps dominance=0, i.e. is treated as dominant.",
+    "extractorCopyChanceOneIn": {
+      "1.3.0": 20,
+      "1.2.4": 15
+    },
+    "hidden": false,
+    "tooltipDisplay": "shown in tooltip as \"<lang mariculture.fish.data.fertility>: <range label>\" (shift shows raw number) (FishDNA.getInformationDisplay FishDNA.java:51-62)",
+    "nameLangKey": "mariculture.fish.data.fertility",
+    "nameLabel": "Fertility",
+    "displayRanges": [
+      {
+        "name": "extremehigh",
+        "min": 3000,
+        "max": 5000,
+        "dominant": false,
+        "langKey": "mariculture.fish.data.fertility.extremehigh",
+        "label": "Extremely High",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:205"
+      },
+      {
+        "name": "veryhigh",
+        "min": 2000,
+        "max": 2999,
+        "dominant": true,
+        "langKey": "mariculture.fish.data.fertility.veryhigh",
+        "label": "Very High",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:206"
+      },
+      {
+        "name": "high",
+        "min": 1000,
+        "max": 1999,
+        "dominant": false,
+        "langKey": "mariculture.fish.data.fertility.high",
+        "label": "High",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:207"
+      },
+      {
+        "name": "normal",
+        "min": 500,
+        "max": 999,
+        "dominant": true,
+        "langKey": "mariculture.fish.data.fertility.normal",
+        "label": "Normal",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:208"
+      },
+      {
+        "name": "low",
+        "min": 250,
+        "max": 499,
+        "dominant": false,
+        "langKey": "mariculture.fish.data.fertility.low",
+        "label": "Low",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:209"
+      },
+      {
+        "name": "verylow",
+        "min": 100,
+        "max": 249,
+        "dominant": false,
+        "langKey": "mariculture.fish.data.fertility.verylow",
+        "label": "Very Low",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:210"
+      },
+      {
+        "name": "extremelow",
+        "min": 25,
+        "max": 99,
+        "dominant": true,
+        "langKey": "mariculture.fish.data.fertility.extremelow",
+        "label": "Extremely Low",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:211"
+      },
+      {
+        "name": "pathetic",
+        "min": 0,
+        "max": 24,
+        "dominant": true,
+        "langKey": "mariculture.fish.data.fertility.pathetic",
+        "label": "Pathetic",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:212"
+      }
+    ],
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/fish/dna/FishDNAFertility.java; src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:204",
+    "note": "values > 5000 (e.g. Walleye 10000, Chub 7500) have no display range (no tooltip label) and are treated as dominant",
+    "boosterCompounding": "getDNA/getLowerDNA return clamp(stored+booster). generateEgg stores the boosted read values (FishyHelper.java:297-300) and makeBredFish re-reads with getDNA and writes back during dominance sorting (FishyHelper.java:199-206), so each bred generation stores parent+2*booster (clamped). With defaults only TEMP_TOLERANCE_BOOSTER=3 is non-zero: temperature tolerance stored value rises by 6 per generation until clamped at 100. Port must reproduce or deliberately fix (flag)."
+  },
+  {
+    "key": "productivity",
+    "legacyName": "WorkEthic",
+    "registrationOrder": 4,
+    "class": "FishDNAWorkEthic",
+    "nbt": {
+      "upper": "WorkEthic",
+      "lower": "lowerWorkEthic",
+      "eggList": "WorkEthicList"
+    },
+    "min": 0,
+    "max": 2,
+    "valueType": "number of product rolls per feeder process cycle",
+    "defaultFromSpecies": "species.getBaseProductivity() (default 1)",
+    "sanitize": "read value = clamp(storedValue + FussyFish.WORK_ETHIC_BOOSTER, 0, 2) on every getDNA/getLowerDNA (stored NBT value is not clamped)",
+    "configBooster": {
+      "field": "FussyFish.WORK_ETHIC_BOOSTER",
+      "default": 0
+    },
+    "dominance": "range-based (see displayRanges.dominant)",
+    "inheritance": "Egg stores 4 values [fatherUpper, fatherLower, motherUpper, motherLower] (FishyHelper.generateEgg, FishyHelper.java:295-302). Child takes allele1 = list[nextInt(2)] (from parent passed first = feeder male slot) and allele2 = list[2 + nextInt(2)] (female) (FishyHelper.java:162-163); attemptMutation is the identity for every gene (FishDNABase.java:53-58, never overridden). If a species mutation fires, the mutated slot(s) are overwritten with the child species defaults (FishyHelper.java:181-192). Finally the two alleles are ordered by dominance: the allele whose value falls in a range flagged dominant becomes upper (expressed) and the other lower; if both or neither are dominant the order is a 50/50 coin flip (FishDNA.getDominant FishDNA.java:81-97 + FishDNABase.swapDominance FishDNABase.java:69-89). A value that falls in no display range keeps dominance=0, i.e. is treated as dominant.",
+    "extractorCopyChanceOneIn": {
+      "1.3.0": 30,
+      "1.2.4": 30
+    },
+    "hidden": false,
+    "tooltipDisplay": "shown in tooltip as \"<lang mariculture.fish.data.workethic>: <range label>\" (shift shows raw number) (FishDNA.getInformationDisplay FishDNA.java:51-62)",
+    "nameLangKey": "mariculture.fish.data.workethic",
+    "nameLabel": "Productivity",
+    "displayRanges": [
+      {
+        "name": "lazy",
+        "min": 0,
+        "max": 0,
+        "dominant": false,
+        "langKey": "mariculture.fish.data.workethic.lazy",
+        "label": "Lazy",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:216"
+      },
+      {
+        "name": "normal",
+        "min": 1,
+        "max": 1,
+        "dominant": true,
+        "langKey": "mariculture.fish.data.workethic.normal",
+        "label": "Normal",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:217"
+      },
+      {
+        "name": "hardworker",
+        "min": 2,
+        "max": 2,
+        "dominant": false,
+        "langKey": "mariculture.fish.data.workethic.hardworker",
+        "label": "Hardworker",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:218"
+      },
+      {
+        "name": "overclocker",
+        "min": 3,
+        "max": 3,
+        "dominant": false,
+        "langKey": "mariculture.fish.data.workethic.overclocker",
+        "label": "Overclocker",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:219"
+      }
+    ],
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/fish/dna/FishDNAWorkEthic.java; src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:215",
+    "note": "display range \"overclocker\" (3) is unreachable because sanitize clamps to max 2",
+    "boosterCompounding": "getDNA/getLowerDNA return clamp(stored+booster). generateEgg stores the boosted read values (FishyHelper.java:297-300) and makeBredFish re-reads with getDNA and writes back during dominance sorting (FishyHelper.java:199-206), so each bred generation stores parent+2*booster (clamped). With defaults only TEMP_TOLERANCE_BOOSTER=3 is non-zero: temperature tolerance stored value rises by 6 per generation until clamped at 100. Port must reproduce or deliberately fix (flag)."
+  },
+  {
+    "key": "water_required",
+    "legacyName": "WaterRequired",
+    "registrationOrder": 5,
+    "class": "FishDNAWaterRequired",
+    "nbt": {
+      "upper": "WaterRequired",
+      "lower": "lowerWaterRequired",
+      "eggList": "WaterRequiredList"
+    },
+    "min": 1,
+    "max": 1000,
+    "valueType": "minimum count of valid fluid blocks in the feeder scan volume",
+    "defaultFromSpecies": "species.getWaterRequired() (default 15)",
+    "sanitize": "read value = clamp(storedValue + FussyFish.WATER_COUNT_BOOSTER, 1, 1000) on every getDNA/getLowerDNA (stored NBT value is not clamped)",
+    "configBooster": {
+      "field": "FussyFish.WATER_COUNT_BOOSTER",
+      "default": 0
+    },
+    "dominance": "range-based (see displayRanges.dominant)",
+    "inheritance": "Egg stores 4 values [fatherUpper, fatherLower, motherUpper, motherLower] (FishyHelper.generateEgg, FishyHelper.java:295-302). Child takes allele1 = list[nextInt(2)] (from parent passed first = feeder male slot) and allele2 = list[2 + nextInt(2)] (female) (FishyHelper.java:162-163); attemptMutation is the identity for every gene (FishDNABase.java:53-58, never overridden). If a species mutation fires, the mutated slot(s) are overwritten with the child species defaults (FishyHelper.java:181-192). Finally the two alleles are ordered by dominance: the allele whose value falls in a range flagged dominant becomes upper (expressed) and the other lower; if both or neither are dominant the order is a 50/50 coin flip (FishDNA.getDominant FishDNA.java:81-97 + FishDNABase.swapDominance FishDNABase.java:69-89). A value that falls in no display range keeps dominance=0, i.e. is treated as dominant.",
+    "extractorCopyChanceOneIn": {
+      "1.3.0": 35,
+      "1.2.4": 35
+    },
+    "hidden": true,
+    "tooltipDisplay": "hidden from tooltip (setHidden)",
+    "nameLangKey": "mariculture.fish.data.waterrequired",
+    "nameLabel": "Water Needed",
+    "displayRanges": [
+      {
+        "name": "preschool",
+        "min": 0,
+        "max": 14,
+        "dominant": false,
+        "langKey": "mariculture.fish.data.waterrequired.preschool",
+        "label": "Preschool",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:223"
+      },
+      {
+        "name": "beginner",
+        "min": 15,
+        "max": 24,
+        "dominant": false,
+        "langKey": "mariculture.fish.data.waterrequired.beginner",
+        "label": "Beginner",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:224"
+      },
+      {
+        "name": "basic",
+        "min": 25,
+        "max": 44,
+        "dominant": false,
+        "langKey": "mariculture.fish.data.waterrequired.basic",
+        "label": "Basic",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:225"
+      },
+      {
+        "name": "standard",
+        "min": 45,
+        "max": 63,
+        "dominant": true,
+        "langKey": "mariculture.fish.data.waterrequired.standard",
+        "label": "Standard",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:226"
+      },
+      {
+        "name": "intermediate",
+        "min": 64,
+        "max": 124,
+        "dominant": true,
+        "langKey": "mariculture.fish.data.waterrequired.intermediate",
+        "label": "Intermediate",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:227"
+      },
+      {
+        "name": "advanced",
+        "min": 125,
+        "max": 199,
+        "dominant": true,
+        "langKey": "mariculture.fish.data.waterrequired.advanced",
+        "label": "Advanced",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:228"
+      },
+      {
+        "name": "ultimate",
+        "min": 200,
+        "max": 319,
+        "dominant": false,
+        "langKey": "mariculture.fish.data.waterrequired.ultimate",
+        "label": "Ultimate",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:229"
+      },
+      {
+        "name": "draconic",
+        "min": 320,
+        "max": 10000,
+        "dominant": true,
+        "langKey": "mariculture.fish.data.waterrequired.draconic",
+        "label": "Draconic",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:230"
+      }
+    ],
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/fish/dna/FishDNAWaterRequired.java; src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:222",
+    "boosterCompounding": "getDNA/getLowerDNA return clamp(stored+booster). generateEgg stores the boosted read values (FishyHelper.java:297-300) and makeBredFish re-reads with getDNA and writes back during dominance sorting (FishyHelper.java:199-206), so each bred generation stores parent+2*booster (clamped). With defaults only TEMP_TOLERANCE_BOOSTER=3 is non-zero: temperature tolerance stored value rises by 6 per generation until clamped at 100. Port must reproduce or deliberately fix (flag)."
+  },
+  {
+    "key": "food_usage",
+    "legacyName": "FoodUsage",
+    "registrationOrder": 6,
+    "class": "FishDNAFoodUsage",
+    "nbt": {
+      "upper": "FoodUsage",
+      "lower": "lowerFoodUsage",
+      "eggList": "FoodUsageList"
+    },
+    "min": 0,
+    "max": 10,
+    "valueType": "mB of fish_food drained per feeding",
+    "defaultFromSpecies": "species.getFoodConsumption() (default 1)",
+    "sanitize": "read value = clamp(storedValue + FussyFish.FOOD_USAGE_BOOSTER, 0, 10) on every getDNA/getLowerDNA (stored NBT value is not clamped)",
+    "configBooster": {
+      "field": "FussyFish.FOOD_USAGE_BOOSTER",
+      "default": 0
+    },
+    "dominance": "range-based (see displayRanges.dominant)",
+    "inheritance": "Egg stores 4 values [fatherUpper, fatherLower, motherUpper, motherLower] (FishyHelper.generateEgg, FishyHelper.java:295-302). Child takes allele1 = list[nextInt(2)] (from parent passed first = feeder male slot) and allele2 = list[2 + nextInt(2)] (female) (FishyHelper.java:162-163); attemptMutation is the identity for every gene (FishDNABase.java:53-58, never overridden). If a species mutation fires, the mutated slot(s) are overwritten with the child species defaults (FishyHelper.java:181-192). Finally the two alleles are ordered by dominance: the allele whose value falls in a range flagged dominant becomes upper (expressed) and the other lower; if both or neither are dominant the order is a 50/50 coin flip (FishDNA.getDominant FishDNA.java:81-97 + FishDNABase.swapDominance FishDNABase.java:69-89). A value that falls in no display range keeps dominance=0, i.e. is treated as dominant.",
+    "extractorCopyChanceOneIn": {
+      "1.3.0": 20,
+      "1.2.4": 20
+    },
+    "hidden": true,
+    "tooltipDisplay": "hidden from tooltip (setHidden)",
+    "nameLangKey": "mariculture.fish.data.foodusage",
+    "nameLabel": "Food Usage",
+    "displayRanges": [
+      {
+        "name": "none",
+        "min": 0,
+        "max": 0,
+        "dominant": false,
+        "langKey": "mariculture.fish.data.foodusage.none",
+        "label": "None",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:234"
+      },
+      {
+        "name": "normal",
+        "min": 1,
+        "max": 1,
+        "dominant": false,
+        "langKey": "mariculture.fish.data.foodusage.normal",
+        "label": "Normal",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:235"
+      },
+      {
+        "name": "hungry",
+        "min": 2,
+        "max": 2,
+        "dominant": true,
+        "langKey": "mariculture.fish.data.foodusage.hungry",
+        "label": "Hungry",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:236"
+      },
+      {
+        "name": "greedy",
+        "min": 3,
+        "max": 3,
+        "dominant": true,
+        "langKey": "mariculture.fish.data.foodusage.greedy",
+        "label": "Greedy",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:237"
+      }
+    ],
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/fish/dna/FishDNAFoodUsage.java; src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:233",
+    "boosterCompounding": "getDNA/getLowerDNA return clamp(stored+booster). generateEgg stores the boosted read values (FishyHelper.java:297-300) and makeBredFish re-reads with getDNA and writes back during dominance sorting (FishyHelper.java:199-206), so each bred generation stores parent+2*booster (clamped). With defaults only TEMP_TOLERANCE_BOOSTER=3 is non-zero: temperature tolerance stored value rises by 6 per generation until clamped at 100. Port must reproduce or deliberately fix (flag)."
+  },
+  {
+    "key": "area_up",
+    "legacyName": "AreaOfEffectUP",
+    "registrationOrder": 7,
+    "class": "FishDNAAreaOfEffect",
+    "nbt": {
+      "upper": "AreaOfEffectUP",
+      "lower": "lowerAreaOfEffectUP",
+      "eggList": "AreaOfEffectUPList"
+    },
+    "min": -4,
+    "max": 32,
+    "valueType": "blocks added to the feeder scan radius in this direction",
+    "defaultFromSpecies": "species.getAreaOfEffectBonus(ForgeDirection.UP) (default 0)",
+    "sanitize": "read value = clamp(storedValue + FussyFish.RANGE_BOOSTER, -4, 32) on every getDNA/getLowerDNA (stored NBT value is not clamped)",
+    "configBooster": {
+      "field": "FussyFish.RANGE_BOOSTER",
+      "default": 0
+    },
+    "dominance": "range-based (see displayRanges.dominant)",
+    "inheritance": "Egg stores 4 values [fatherUpper, fatherLower, motherUpper, motherLower] (FishyHelper.generateEgg, FishyHelper.java:295-302). Child takes allele1 = list[nextInt(2)] (from parent passed first = feeder male slot) and allele2 = list[2 + nextInt(2)] (female) (FishyHelper.java:162-163); attemptMutation is the identity for every gene (FishDNABase.java:53-58, never overridden). If a species mutation fires, the mutated slot(s) are overwritten with the child species defaults (FishyHelper.java:181-192). Finally the two alleles are ordered by dominance: the allele whose value falls in a range flagged dominant becomes upper (expressed) and the other lower; if both or neither are dominant the order is a 50/50 coin flip (FishDNA.getDominant FishDNA.java:81-97 + FishDNABase.swapDominance FishDNABase.java:69-89). A value that falls in no display range keeps dominance=0, i.e. is treated as dominant.",
+    "extractorCopyChanceOneIn": {
+      "1.3.0": 40,
+      "1.2.4": 25
+    },
+    "hidden": true,
+    "tooltipDisplay": "hidden from tooltip (setHidden)",
+    "nameLangKey": "mariculture.fish.data.areaofeffectup",
+    "nameLabel": "Area: Up",
+    "displayRanges": [
+      {
+        "name": "negative",
+        "min": -100,
+        "max": -1,
+        "dominant": false,
+        "langKey": "mariculture.fish.data.aoe.negative",
+        "label": "Negative",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:267"
+      },
+      {
+        "name": "neutral",
+        "min": 0,
+        "max": 0,
+        "dominant": true,
+        "langKey": "mariculture.fish.data.aoe.neutral",
+        "label": "Neutral",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:268"
+      },
+      {
+        "name": "positive",
+        "min": 1,
+        "max": 100,
+        "dominant": false,
+        "langKey": "mariculture.fish.data.aoe.positive",
+        "label": "Positive",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:269"
+      }
+    ],
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/fish/dna/FishDNAAreaOfEffect.java; src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:240",
+    "usage": "Only the MALE fish's value is used: the feeder scans x in [-5-WEST, 5+EAST], y in [-5-DOWN, 5+UP], z in [-5-NORTH, 5+SOUTH] (TileFeeder.java:159-161)",
+    "boosterCompounding": "getDNA/getLowerDNA return clamp(stored+booster). generateEgg stores the boosted read values (FishyHelper.java:297-300) and makeBredFish re-reads with getDNA and writes back during dominance sorting (FishyHelper.java:199-206), so each bred generation stores parent+2*booster (clamped). With defaults only TEMP_TOLERANCE_BOOSTER=3 is non-zero: temperature tolerance stored value rises by 6 per generation until clamped at 100. Port must reproduce or deliberately fix (flag)."
+  },
+  {
+    "key": "area_down",
+    "legacyName": "AreaOfEffectDOWN",
+    "registrationOrder": 8,
+    "class": "FishDNAAreaOfEffect",
+    "nbt": {
+      "upper": "AreaOfEffectDOWN",
+      "lower": "lowerAreaOfEffectDOWN",
+      "eggList": "AreaOfEffectDOWNList"
+    },
+    "min": -4,
+    "max": 32,
+    "valueType": "blocks added to the feeder scan radius in this direction",
+    "defaultFromSpecies": "species.getAreaOfEffectBonus(ForgeDirection.DOWN) (default 0)",
+    "sanitize": "read value = clamp(storedValue + FussyFish.RANGE_BOOSTER, -4, 32) on every getDNA/getLowerDNA (stored NBT value is not clamped)",
+    "configBooster": {
+      "field": "FussyFish.RANGE_BOOSTER",
+      "default": 0
+    },
+    "dominance": "range-based (see displayRanges.dominant)",
+    "inheritance": "Egg stores 4 values [fatherUpper, fatherLower, motherUpper, motherLower] (FishyHelper.generateEgg, FishyHelper.java:295-302). Child takes allele1 = list[nextInt(2)] (from parent passed first = feeder male slot) and allele2 = list[2 + nextInt(2)] (female) (FishyHelper.java:162-163); attemptMutation is the identity for every gene (FishDNABase.java:53-58, never overridden). If a species mutation fires, the mutated slot(s) are overwritten with the child species defaults (FishyHelper.java:181-192). Finally the two alleles are ordered by dominance: the allele whose value falls in a range flagged dominant becomes upper (expressed) and the other lower; if both or neither are dominant the order is a 50/50 coin flip (FishDNA.getDominant FishDNA.java:81-97 + FishDNABase.swapDominance FishDNABase.java:69-89). A value that falls in no display range keeps dominance=0, i.e. is treated as dominant.",
+    "extractorCopyChanceOneIn": {
+      "1.3.0": 40,
+      "1.2.4": 25
+    },
+    "hidden": true,
+    "tooltipDisplay": "hidden from tooltip (setHidden)",
+    "nameLangKey": "mariculture.fish.data.areaofeffectdown",
+    "nameLabel": "Area: Down",
+    "displayRanges": [
+      {
+        "name": "negative",
+        "min": -100,
+        "max": -1,
+        "dominant": false,
+        "langKey": "mariculture.fish.data.aoe.negative",
+        "label": "Negative",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:267"
+      },
+      {
+        "name": "neutral",
+        "min": 0,
+        "max": 0,
+        "dominant": true,
+        "langKey": "mariculture.fish.data.aoe.neutral",
+        "label": "Neutral",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:268"
+      },
+      {
+        "name": "positive",
+        "min": 1,
+        "max": 100,
+        "dominant": false,
+        "langKey": "mariculture.fish.data.aoe.positive",
+        "label": "Positive",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:269"
+      }
+    ],
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/fish/dna/FishDNAAreaOfEffect.java; src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:241",
+    "usage": "Only the MALE fish's value is used: the feeder scans x in [-5-WEST, 5+EAST], y in [-5-DOWN, 5+UP], z in [-5-NORTH, 5+SOUTH] (TileFeeder.java:159-161)",
+    "boosterCompounding": "getDNA/getLowerDNA return clamp(stored+booster). generateEgg stores the boosted read values (FishyHelper.java:297-300) and makeBredFish re-reads with getDNA and writes back during dominance sorting (FishyHelper.java:199-206), so each bred generation stores parent+2*booster (clamped). With defaults only TEMP_TOLERANCE_BOOSTER=3 is non-zero: temperature tolerance stored value rises by 6 per generation until clamped at 100. Port must reproduce or deliberately fix (flag)."
+  },
+  {
+    "key": "area_north",
+    "legacyName": "AreaOfEffectNORTH",
+    "registrationOrder": 9,
+    "class": "FishDNAAreaOfEffect",
+    "nbt": {
+      "upper": "AreaOfEffectNORTH",
+      "lower": "lowerAreaOfEffectNORTH",
+      "eggList": "AreaOfEffectNORTHList"
+    },
+    "min": -4,
+    "max": 32,
+    "valueType": "blocks added to the feeder scan radius in this direction",
+    "defaultFromSpecies": "species.getAreaOfEffectBonus(ForgeDirection.NORTH) (default 0)",
+    "sanitize": "read value = clamp(storedValue + FussyFish.RANGE_BOOSTER, -4, 32) on every getDNA/getLowerDNA (stored NBT value is not clamped)",
+    "configBooster": {
+      "field": "FussyFish.RANGE_BOOSTER",
+      "default": 0
+    },
+    "dominance": "range-based (see displayRanges.dominant)",
+    "inheritance": "Egg stores 4 values [fatherUpper, fatherLower, motherUpper, motherLower] (FishyHelper.generateEgg, FishyHelper.java:295-302). Child takes allele1 = list[nextInt(2)] (from parent passed first = feeder male slot) and allele2 = list[2 + nextInt(2)] (female) (FishyHelper.java:162-163); attemptMutation is the identity for every gene (FishDNABase.java:53-58, never overridden). If a species mutation fires, the mutated slot(s) are overwritten with the child species defaults (FishyHelper.java:181-192). Finally the two alleles are ordered by dominance: the allele whose value falls in a range flagged dominant becomes upper (expressed) and the other lower; if both or neither are dominant the order is a 50/50 coin flip (FishDNA.getDominant FishDNA.java:81-97 + FishDNABase.swapDominance FishDNABase.java:69-89). A value that falls in no display range keeps dominance=0, i.e. is treated as dominant.",
+    "extractorCopyChanceOneIn": {
+      "1.3.0": 40,
+      "1.2.4": 25
+    },
+    "hidden": true,
+    "tooltipDisplay": "hidden from tooltip (setHidden)",
+    "nameLangKey": "mariculture.fish.data.areaofeffectnorth",
+    "nameLabel": "Area: North",
+    "displayRanges": [
+      {
+        "name": "negative",
+        "min": -100,
+        "max": -1,
+        "dominant": false,
+        "langKey": "mariculture.fish.data.aoe.negative",
+        "label": "Negative",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:267"
+      },
+      {
+        "name": "neutral",
+        "min": 0,
+        "max": 0,
+        "dominant": true,
+        "langKey": "mariculture.fish.data.aoe.neutral",
+        "label": "Neutral",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:268"
+      },
+      {
+        "name": "positive",
+        "min": 1,
+        "max": 100,
+        "dominant": false,
+        "langKey": "mariculture.fish.data.aoe.positive",
+        "label": "Positive",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:269"
+      }
+    ],
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/fish/dna/FishDNAAreaOfEffect.java; src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:242",
+    "usage": "Only the MALE fish's value is used: the feeder scans x in [-5-WEST, 5+EAST], y in [-5-DOWN, 5+UP], z in [-5-NORTH, 5+SOUTH] (TileFeeder.java:159-161)",
+    "boosterCompounding": "getDNA/getLowerDNA return clamp(stored+booster). generateEgg stores the boosted read values (FishyHelper.java:297-300) and makeBredFish re-reads with getDNA and writes back during dominance sorting (FishyHelper.java:199-206), so each bred generation stores parent+2*booster (clamped). With defaults only TEMP_TOLERANCE_BOOSTER=3 is non-zero: temperature tolerance stored value rises by 6 per generation until clamped at 100. Port must reproduce or deliberately fix (flag)."
+  },
+  {
+    "key": "area_east",
+    "legacyName": "AreaOfEffectEAST",
+    "registrationOrder": 10,
+    "class": "FishDNAAreaOfEffect",
+    "nbt": {
+      "upper": "AreaOfEffectEAST",
+      "lower": "lowerAreaOfEffectEAST",
+      "eggList": "AreaOfEffectEASTList"
+    },
+    "min": -4,
+    "max": 32,
+    "valueType": "blocks added to the feeder scan radius in this direction",
+    "defaultFromSpecies": "species.getAreaOfEffectBonus(ForgeDirection.EAST) (default 0)",
+    "sanitize": "read value = clamp(storedValue + FussyFish.RANGE_BOOSTER, -4, 32) on every getDNA/getLowerDNA (stored NBT value is not clamped)",
+    "configBooster": {
+      "field": "FussyFish.RANGE_BOOSTER",
+      "default": 0
+    },
+    "dominance": "range-based (see displayRanges.dominant)",
+    "inheritance": "Egg stores 4 values [fatherUpper, fatherLower, motherUpper, motherLower] (FishyHelper.generateEgg, FishyHelper.java:295-302). Child takes allele1 = list[nextInt(2)] (from parent passed first = feeder male slot) and allele2 = list[2 + nextInt(2)] (female) (FishyHelper.java:162-163); attemptMutation is the identity for every gene (FishDNABase.java:53-58, never overridden). If a species mutation fires, the mutated slot(s) are overwritten with the child species defaults (FishyHelper.java:181-192). Finally the two alleles are ordered by dominance: the allele whose value falls in a range flagged dominant becomes upper (expressed) and the other lower; if both or neither are dominant the order is a 50/50 coin flip (FishDNA.getDominant FishDNA.java:81-97 + FishDNABase.swapDominance FishDNABase.java:69-89). A value that falls in no display range keeps dominance=0, i.e. is treated as dominant.",
+    "extractorCopyChanceOneIn": {
+      "1.3.0": 40,
+      "1.2.4": 25
+    },
+    "hidden": true,
+    "tooltipDisplay": "hidden from tooltip (setHidden)",
+    "nameLangKey": "mariculture.fish.data.areaofeffecteast",
+    "nameLabel": "Area: East",
+    "displayRanges": [
+      {
+        "name": "negative",
+        "min": -100,
+        "max": -1,
+        "dominant": false,
+        "langKey": "mariculture.fish.data.aoe.negative",
+        "label": "Negative",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:267"
+      },
+      {
+        "name": "neutral",
+        "min": 0,
+        "max": 0,
+        "dominant": true,
+        "langKey": "mariculture.fish.data.aoe.neutral",
+        "label": "Neutral",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:268"
+      },
+      {
+        "name": "positive",
+        "min": 1,
+        "max": 100,
+        "dominant": false,
+        "langKey": "mariculture.fish.data.aoe.positive",
+        "label": "Positive",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:269"
+      }
+    ],
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/fish/dna/FishDNAAreaOfEffect.java; src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:243",
+    "usage": "Only the MALE fish's value is used: the feeder scans x in [-5-WEST, 5+EAST], y in [-5-DOWN, 5+UP], z in [-5-NORTH, 5+SOUTH] (TileFeeder.java:159-161)",
+    "boosterCompounding": "getDNA/getLowerDNA return clamp(stored+booster). generateEgg stores the boosted read values (FishyHelper.java:297-300) and makeBredFish re-reads with getDNA and writes back during dominance sorting (FishyHelper.java:199-206), so each bred generation stores parent+2*booster (clamped). With defaults only TEMP_TOLERANCE_BOOSTER=3 is non-zero: temperature tolerance stored value rises by 6 per generation until clamped at 100. Port must reproduce or deliberately fix (flag)."
+  },
+  {
+    "key": "area_south",
+    "legacyName": "AreaOfEffectSOUTH",
+    "registrationOrder": 11,
+    "class": "FishDNAAreaOfEffect",
+    "nbt": {
+      "upper": "AreaOfEffectSOUTH",
+      "lower": "lowerAreaOfEffectSOUTH",
+      "eggList": "AreaOfEffectSOUTHList"
+    },
+    "min": -4,
+    "max": 32,
+    "valueType": "blocks added to the feeder scan radius in this direction",
+    "defaultFromSpecies": "species.getAreaOfEffectBonus(ForgeDirection.SOUTH) (default 0)",
+    "sanitize": "read value = clamp(storedValue + FussyFish.RANGE_BOOSTER, -4, 32) on every getDNA/getLowerDNA (stored NBT value is not clamped)",
+    "configBooster": {
+      "field": "FussyFish.RANGE_BOOSTER",
+      "default": 0
+    },
+    "dominance": "range-based (see displayRanges.dominant)",
+    "inheritance": "Egg stores 4 values [fatherUpper, fatherLower, motherUpper, motherLower] (FishyHelper.generateEgg, FishyHelper.java:295-302). Child takes allele1 = list[nextInt(2)] (from parent passed first = feeder male slot) and allele2 = list[2 + nextInt(2)] (female) (FishyHelper.java:162-163); attemptMutation is the identity for every gene (FishDNABase.java:53-58, never overridden). If a species mutation fires, the mutated slot(s) are overwritten with the child species defaults (FishyHelper.java:181-192). Finally the two alleles are ordered by dominance: the allele whose value falls in a range flagged dominant becomes upper (expressed) and the other lower; if both or neither are dominant the order is a 50/50 coin flip (FishDNA.getDominant FishDNA.java:81-97 + FishDNABase.swapDominance FishDNABase.java:69-89). A value that falls in no display range keeps dominance=0, i.e. is treated as dominant.",
+    "extractorCopyChanceOneIn": {
+      "1.3.0": 40,
+      "1.2.4": 25
+    },
+    "hidden": true,
+    "tooltipDisplay": "hidden from tooltip (setHidden)",
+    "nameLangKey": "mariculture.fish.data.areaofeffectsouth",
+    "nameLabel": "Area: South",
+    "displayRanges": [
+      {
+        "name": "negative",
+        "min": -100,
+        "max": -1,
+        "dominant": false,
+        "langKey": "mariculture.fish.data.aoe.negative",
+        "label": "Negative",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:267"
+      },
+      {
+        "name": "neutral",
+        "min": 0,
+        "max": 0,
+        "dominant": true,
+        "langKey": "mariculture.fish.data.aoe.neutral",
+        "label": "Neutral",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:268"
+      },
+      {
+        "name": "positive",
+        "min": 1,
+        "max": 100,
+        "dominant": false,
+        "langKey": "mariculture.fish.data.aoe.positive",
+        "label": "Positive",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:269"
+      }
+    ],
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/fish/dna/FishDNAAreaOfEffect.java; src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:244",
+    "usage": "Only the MALE fish's value is used: the feeder scans x in [-5-WEST, 5+EAST], y in [-5-DOWN, 5+UP], z in [-5-NORTH, 5+SOUTH] (TileFeeder.java:159-161)",
+    "boosterCompounding": "getDNA/getLowerDNA return clamp(stored+booster). generateEgg stores the boosted read values (FishyHelper.java:297-300) and makeBredFish re-reads with getDNA and writes back during dominance sorting (FishyHelper.java:199-206), so each bred generation stores parent+2*booster (clamped). With defaults only TEMP_TOLERANCE_BOOSTER=3 is non-zero: temperature tolerance stored value rises by 6 per generation until clamped at 100. Port must reproduce or deliberately fix (flag)."
+  },
+  {
+    "key": "area_west",
+    "legacyName": "AreaOfEffectWEST",
+    "registrationOrder": 12,
+    "class": "FishDNAAreaOfEffect",
+    "nbt": {
+      "upper": "AreaOfEffectWEST",
+      "lower": "lowerAreaOfEffectWEST",
+      "eggList": "AreaOfEffectWESTList"
+    },
+    "min": -4,
+    "max": 32,
+    "valueType": "blocks added to the feeder scan radius in this direction",
+    "defaultFromSpecies": "species.getAreaOfEffectBonus(ForgeDirection.WEST) (default 0)",
+    "sanitize": "read value = clamp(storedValue + FussyFish.RANGE_BOOSTER, -4, 32) on every getDNA/getLowerDNA (stored NBT value is not clamped)",
+    "configBooster": {
+      "field": "FussyFish.RANGE_BOOSTER",
+      "default": 0
+    },
+    "dominance": "range-based (see displayRanges.dominant)",
+    "inheritance": "Egg stores 4 values [fatherUpper, fatherLower, motherUpper, motherLower] (FishyHelper.generateEgg, FishyHelper.java:295-302). Child takes allele1 = list[nextInt(2)] (from parent passed first = feeder male slot) and allele2 = list[2 + nextInt(2)] (female) (FishyHelper.java:162-163); attemptMutation is the identity for every gene (FishDNABase.java:53-58, never overridden). If a species mutation fires, the mutated slot(s) are overwritten with the child species defaults (FishyHelper.java:181-192). Finally the two alleles are ordered by dominance: the allele whose value falls in a range flagged dominant becomes upper (expressed) and the other lower; if both or neither are dominant the order is a 50/50 coin flip (FishDNA.getDominant FishDNA.java:81-97 + FishDNABase.swapDominance FishDNABase.java:69-89). A value that falls in no display range keeps dominance=0, i.e. is treated as dominant.",
+    "extractorCopyChanceOneIn": {
+      "1.3.0": 40,
+      "1.2.4": 25
+    },
+    "hidden": true,
+    "tooltipDisplay": "hidden from tooltip (setHidden)",
+    "nameLangKey": "mariculture.fish.data.areaofeffectwest",
+    "nameLabel": "Area: West",
+    "displayRanges": [
+      {
+        "name": "negative",
+        "min": -100,
+        "max": -1,
+        "dominant": false,
+        "langKey": "mariculture.fish.data.aoe.negative",
+        "label": "Negative",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:267"
+      },
+      {
+        "name": "neutral",
+        "min": 0,
+        "max": 0,
+        "dominant": true,
+        "langKey": "mariculture.fish.data.aoe.neutral",
+        "label": "Neutral",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:268"
+      },
+      {
+        "name": "positive",
+        "min": 1,
+        "max": 100,
+        "dominant": false,
+        "langKey": "mariculture.fish.data.aoe.positive",
+        "label": "Positive",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:269"
+      }
+    ],
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/fish/dna/FishDNAAreaOfEffect.java; src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:245",
+    "usage": "Only the MALE fish's value is used: the feeder scans x in [-5-WEST, 5+EAST], y in [-5-DOWN, 5+UP], z in [-5-NORTH, 5+SOUTH] (TileFeeder.java:159-161)",
+    "boosterCompounding": "getDNA/getLowerDNA return clamp(stored+booster). generateEgg stores the boosted read values (FishyHelper.java:297-300) and makeBredFish re-reads with getDNA and writes back during dominance sorting (FishyHelper.java:199-206), so each bred generation stores parent+2*booster (clamped). With defaults only TEMP_TOLERANCE_BOOSTER=3 is non-zero: temperature tolerance stored value rises by 6 per generation until clamped at 100. Port must reproduce or deliberately fix (flag)."
+  },
+  {
+    "key": "salinity_tolerance",
+    "legacyName": "SalinityTolerance",
+    "registrationOrder": 13,
+    "class": "FishDNASalinityTolerance",
+    "nbt": {
+      "upper": "SalinityTolerance",
+      "lower": "lowerSalinityTolerance",
+      "eggList": "SalinityToleranceList"
+    },
+    "min": 0,
+    "max": 2,
+    "valueType": "salinity steps (FRESH=0, BRACKISH=1, SALINE=2) tolerated around species base",
+    "defaultFromSpecies": "max(0, species.getSalinityTolerance())",
+    "sanitize": "read value = clamp(storedValue + FussyFish.SALINITY_TOLERANCE_BOOSTER, 0, 2) on every getDNA/getLowerDNA (stored NBT value is not clamped)",
+    "configBooster": {
+      "field": "FussyFish.SALINITY_TOLERANCE_BOOSTER",
+      "default": 0
+    },
+    "dominance": "range-based (see displayRanges.dominant)",
+    "inheritance": "Egg stores 4 values [fatherUpper, fatherLower, motherUpper, motherLower] (FishyHelper.generateEgg, FishyHelper.java:295-302). Child takes allele1 = list[nextInt(2)] (from parent passed first = feeder male slot) and allele2 = list[2 + nextInt(2)] (female) (FishyHelper.java:162-163); attemptMutation is the identity for every gene (FishDNABase.java:53-58, never overridden). If a species mutation fires, the mutated slot(s) are overwritten with the child species defaults (FishyHelper.java:181-192). Finally the two alleles are ordered by dominance: the allele whose value falls in a range flagged dominant becomes upper (expressed) and the other lower; if both or neither are dominant the order is a 50/50 coin flip (FishDNA.getDominant FishDNA.java:81-97 + FishDNABase.swapDominance FishDNABase.java:69-89). A value that falls in no display range keeps dominance=0, i.e. is treated as dominant.",
+    "extractorCopyChanceOneIn": {
+      "1.3.0": 40,
+      "1.2.4": 40
+    },
+    "hidden": true,
+    "tooltipDisplay": "hidden from tooltip (setHidden)",
+    "nameLangKey": "mariculture.fish.data.salinitytolerance",
+    "nameLabel": "Salt Tolerance",
+    "displayRanges": [
+      {
+        "name": "intolerant",
+        "min": 0,
+        "max": 0,
+        "dominant": true,
+        "langKey": "mariculture.fish.data.salinitytolerance.intolerant",
+        "label": "Intolerant",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:250"
+      },
+      {
+        "name": "tolerant",
+        "min": 1,
+        "max": 1,
+        "dominant": false,
+        "langKey": "mariculture.fish.data.salinitytolerance.tolerant",
+        "label": "Tolerant",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:251"
+      },
+      {
+        "name": "hightolerant",
+        "min": 2,
+        "max": 2,
+        "dominant": false,
+        "langKey": "mariculture.fish.data.salinitytolerance.hightolerant",
+        "label": "Highly Tolerant",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:252"
+      }
+    ],
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/fish/dna/FishDNASalinityTolerance.java; src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:249",
+    "boosterCompounding": "getDNA/getLowerDNA return clamp(stored+booster). generateEgg stores the boosted read values (FishyHelper.java:297-300) and makeBredFish re-reads with getDNA and writes back during dominance sorting (FishyHelper.java:199-206), so each bred generation stores parent+2*booster (clamped). With defaults only TEMP_TOLERANCE_BOOSTER=3 is non-zero: temperature tolerance stored value rises by 6 per generation until clamped at 100. Port must reproduce or deliberately fix (flag)."
+  },
+  {
+    "key": "temperature_tolerance",
+    "legacyName": "TemperatureTolerance",
+    "registrationOrder": 14,
+    "class": "FishDNATemperatureTolerance",
+    "nbt": {
+      "upper": "TemperatureTolerance",
+      "lower": "lowerTemperatureTolerance",
+      "eggList": "TemperatureToleranceList"
+    },
+    "min": 0,
+    "max": 100,
+    "valueType": "degrees C either side of species base temperature",
+    "defaultFromSpecies": "max(0, species.getTemperatureTolerance())",
+    "sanitize": "read value = clamp(storedValue + FussyFish.TEMP_TOLERANCE_BOOSTER, 0, 100) on every getDNA/getLowerDNA (stored NBT value is not clamped)",
+    "configBooster": {
+      "field": "FussyFish.TEMP_TOLERANCE_BOOSTER",
+      "default": 3
+    },
+    "dominance": "range-based (see displayRanges.dominant)",
+    "inheritance": "Egg stores 4 values [fatherUpper, fatherLower, motherUpper, motherLower] (FishyHelper.generateEgg, FishyHelper.java:295-302). Child takes allele1 = list[nextInt(2)] (from parent passed first = feeder male slot) and allele2 = list[2 + nextInt(2)] (female) (FishyHelper.java:162-163); attemptMutation is the identity for every gene (FishDNABase.java:53-58, never overridden). If a species mutation fires, the mutated slot(s) are overwritten with the child species defaults (FishyHelper.java:181-192). Finally the two alleles are ordered by dominance: the allele whose value falls in a range flagged dominant becomes upper (expressed) and the other lower; if both or neither are dominant the order is a 50/50 coin flip (FishDNA.getDominant FishDNA.java:81-97 + FishDNABase.swapDominance FishDNABase.java:69-89). A value that falls in no display range keeps dominance=0, i.e. is treated as dominant.",
+    "extractorCopyChanceOneIn": {
+      "1.3.0": 35,
+      "1.2.4": 35
+    },
+    "hidden": true,
+    "tooltipDisplay": "hidden from tooltip (setHidden)",
+    "nameLangKey": "mariculture.fish.data.temperaturetolerance",
+    "nameLabel": "Temp Tolerance",
+    "displayRanges": [
+      {
+        "name": "fussy",
+        "min": 0,
+        "max": 3,
+        "dominant": true,
+        "langKey": "mariculture.fish.data.temperaturetolerance.fussy",
+        "label": "Fussy",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:256"
+      },
+      {
+        "name": "normal",
+        "min": 4,
+        "max": 9,
+        "dominant": true,
+        "langKey": "mariculture.fish.data.temperaturetolerance.normal",
+        "label": "Default",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:257"
+      },
+      {
+        "name": "sltolerant",
+        "min": 10,
+        "max": 13,
+        "dominant": false,
+        "langKey": "mariculture.fish.data.temperaturetolerance.sltolerant",
+        "label": "Slight",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:258"
+      },
+      {
+        "name": "tolerant",
+        "min": 14,
+        "max": 17,
+        "dominant": false,
+        "langKey": "mariculture.fish.data.temperaturetolerance.tolerant",
+        "label": "Basic",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:259"
+      },
+      {
+        "name": "vtolerant",
+        "min": 18,
+        "max": 25,
+        "dominant": false,
+        "langKey": "mariculture.fish.data.temperaturetolerance.vtolerant",
+        "label": "Very",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:260"
+      },
+      {
+        "name": "itolerant",
+        "min": 26,
+        "max": 39,
+        "dominant": false,
+        "langKey": "mariculture.fish.data.temperaturetolerance.itolerant",
+        "label": "Incredibly",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:261"
+      },
+      {
+        "name": "etolerant",
+        "min": 40,
+        "max": 100,
+        "dominant": false,
+        "langKey": "mariculture.fish.data.temperaturetolerance.etolerant",
+        "label": "Extremely",
+        "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:262"
+      }
+    ],
+    "sourceRef": "src-1.7.10-1.3.0/src/main/java/mariculture/fishery/fish/dna/FishDNATemperatureTolerance.java; src-1.7.10-1.3.0/src/main/java/mariculture/fishery/Fish.java:255",
+    "boosterCompounding": "getDNA/getLowerDNA return clamp(stored+booster). generateEgg stores the boosted read values (FishyHelper.java:297-300) and makeBredFish re-reads with getDNA and writes back during dominance sorting (FishyHelper.java:199-206), so each bred generation stores parent+2*booster (clamped). With defaults only TEMP_TOLERANCE_BOOSTER=3 is non-zero: temperature tolerance stored value rises by 6 per generation until clamped at 100. Port must reproduce or deliberately fix (flag)."
+  }
+]

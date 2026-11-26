@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" N ", "NCN", " N "],
+  "key": {
+    "C": {
+      "item": "mariculture:anvil"
+    },
+    "N": {
+      "item": "mariculture:hammer"
+    }
+  },
+  "result": {
+    "item": "mariculture:autohammer",
+    "count": 1
+  }
+}

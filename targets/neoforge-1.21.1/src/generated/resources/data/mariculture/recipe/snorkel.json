@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["  R", "LLR"],
+  "key": {
+    "L": {
+      "item": "mariculture:glass_lens"
+    },
+    "R": {
+      "item": "minecraft:sugar_cane"
+    }
+  },
+  "result": {
+    "id": "mariculture:snorkel",
+    "count": 1
+  }
+}

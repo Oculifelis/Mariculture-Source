@@ -1,0 +1,85 @@
+{
+  "schema": 1,
+  "since": "0.8.0",
+  "dominant": false,
+  "temperature": {
+    "base": 18,
+    "tolerance": 15
+  },
+  "salinity": {
+    "base": "brackish",
+    "tolerance": 1
+  },
+  "lifespan_minutes": 20,
+  "fertility": 900,
+  "productivity": 1,
+  "food_consumption": 1,
+  "requires_food": true,
+  "water_required": 60,
+  "valid_fluids": [
+    "minecraft:water",
+    "mariculture:brine_of_order"
+  ],
+  "ignores_salinity": false,
+  "lava": false,
+  "active_time": "any",
+  "light": 0,
+  "area_of_effect": {
+    "up": 0,
+    "down": 0,
+    "north": 0,
+    "east": 0,
+    "south": 0,
+    "west": 0
+  },
+  "catch": {
+    "rod": "flux",
+    "dimension": "overworld_like",
+    "chance_percent": 0,
+    "alive_percent": 0
+  },
+  "fish_oil_mb": 600,
+  "fish_meal": 2,
+  "food": {
+    "edible": true,
+    "hunger": 2,
+    "saturation": 0.1
+  },
+  "products": [
+    {
+      "item": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:vitium",
+          "amount": 1
+        }
+      },
+      "chance_percent": 12,
+      "count": 1
+    },
+    {
+      "item": "thaumaturge:tainted_goo",
+      "chance_percent": 6,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_poison",
+      "chance_percent": 8,
+      "count": 1
+    }
+  ],
+  "effects": [],
+  "abilities": [
+    {
+      "type": "flux_eat",
+      "amount": 1.0,
+      "chance_percent": 25
+    }
+  ],
+  "requires_item_tag": "mariculture:present/thaumaturge",
+  "source": "Mariculture 0.8.0, Thaumaturge compat (bred only, in a tank of Brine of Order)",
+  "liquified_product": {
+    "item": "thaumaturge:tainted_goo",
+    "one_in": 8
+  }
+}

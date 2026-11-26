@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mariculture:item/jewelry/ring/binding_gold",
+    "layer1": "mariculture:item/jewelry/ring/brown"
+  }
+}

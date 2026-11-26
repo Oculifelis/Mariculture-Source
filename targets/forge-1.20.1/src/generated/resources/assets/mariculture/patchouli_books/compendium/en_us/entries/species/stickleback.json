@@ -1,0 +1,24 @@
+{
+  "name": "Stickleback",
+  "icon": "mariculture:stickleback",
+  "category": "mariculture:species",
+  "sortnum": 21,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:stickleback",
+      "title": "Stickleback",
+      "text": "Catchable live in wild:   no$(br)$(l)Min Rod$(): Wooden Fishing Rod$(br2)$(l)Specialty$(): Spawns and grows kelp."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Temperature Range, Salinity, Lifespan, Fertility, Work Ethic and Water requirements of the $(thing)Stickleback$() species.",
+      "title": "Fish Data"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Products that a working $(thing)Stickleback$() can produce in a Fish Feeder.",
+      "title": "Fish Products"
+    }
+  ]
+}

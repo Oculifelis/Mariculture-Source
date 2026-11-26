@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["IGI", "G G", "IGI"],
+  "key": {
+    "G": {
+      "tag": "minecraft:wooden_fences"
+    },
+    "I": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "id": "mariculture:base_wood",
+    "count": 1
+  }
+}

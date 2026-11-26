@@ -1,0 +1,114 @@
+{
+  "name": "Bucket Hats",
+  "icon": "mariculture:bucket_hat",
+  "category": "mariculture:fishing",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Fishing Hats are items that can affect what you catch when you go fishing. By default they all have a small boost to catching fish alive. But each colour has it's own special effect. You can see these effects listed, on the next few pages.",
+      "title": "Fishing Hats"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Crafting the different colours, simply requires placing pearls all around the basic hat."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Input:$() Leather Cap$(br)$(l)Fluid:$() 16000mB Fish Oil$(br)$(l)Output:$() Bucket Hat$(br)$(l)Time:$() 25s",
+      "title": "Bucket Hat"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:bucket_hat",
+      "title": "Bucket Hat",
+      "text": "The basic hat adds even more chance for catching fish alive."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:white_bucket_hat",
+      "title": "White Pearl Bucket Hat",
+      "text": "Fish caught while wearing this hat, think they're in fresh water."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:green_bucket_hat",
+      "title": "Green Pearl Bucket Hat",
+      "text": "Fish think you are stood in a \njungle biome. How stupid are they?"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:yellow_bucket_hat",
+      "title": "Yellow Pearl Bucket Hat",
+      "text": "Fish think that they are being in brackish waters aka a beach."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:orange_bucket_hat",
+      "title": "Orange Pearl Bucket Hat",
+      "text": "All loot is rejected. You can only catch fish while wearing this hat."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:red_bucket_hat",
+      "title": "Red Pearl Bucket Hat",
+      "text": "Holy hell these fish are hot. Fish think it's the nether."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:gold_bucket_hat",
+      "title": "Gold Pearl Bucket Hat",
+      "text": "No fish will bite your rod. You will only catch junk or treasures!"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:brown_bucket_hat",
+      "title": "Brown Pearl Bucket Hat",
+      "text": "This one makes fish believe that you are underground at y10."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:purple_bucket_hat",
+      "title": "Purple Pearl Bucket Hat",
+      "text": "This is one powerful magical hat. Everything you catch is enchanted."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:blue_bucket_hat",
+      "title": "Blue Pearl Bucket Hat",
+      "text": "This hat is all about the manosphere, you can only ever find male fish while wearing this very daring hat."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:black_bucket_hat",
+      "title": "Black Pearl Bucket Hat",
+      "text": "Hat of the dead. All fish you catch will be raw. No living."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:pink_bucket_hat",
+      "title": "Pink Pearl Bucket Hat",
+      "text": "Hat of the amazons. Only female fish can ever be found."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:silver_bucket_hat",
+      "title": "Silver Pearl Bucket Hat",
+      "text": "Salty waters are what the fish will believe."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:bucket_hat_red",
+      "recipe2": "mariculture:bucket_hat_brown"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:bucket_hat_pink",
+      "recipe2": "mariculture:bucket_hat_white"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:bucket_hat_undye"
+    }
+  ]
+}

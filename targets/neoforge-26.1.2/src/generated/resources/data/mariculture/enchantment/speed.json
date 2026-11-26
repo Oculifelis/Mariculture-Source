@@ -1,0 +1,19 @@
+{
+  "description": {
+    "translate": "enchantment.mariculture.speed"
+  },
+  "supported_items": "#mariculture:pearls",
+  "weight": 6,
+  "max_level": 5,
+  "min_cost": {
+    "base": 2,
+    "per_level_above_first": 3
+  },
+  "max_cost": {
+    "base": 36,
+    "per_level_above_first": 3
+  },
+  "anvil_cost": 4,
+  "slots": ["any"],
+  "exclusive_set": "#mariculture:exclusive_set/jewelry"
+}

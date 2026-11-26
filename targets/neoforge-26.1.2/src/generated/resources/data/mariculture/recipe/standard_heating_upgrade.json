@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["A A", "HUH", " A "],
+  "key": {
+    "A": "mariculture:aluminum_ingot",
+    "H": "mariculture:heating_component",
+    "U": "mariculture:basic_heating_upgrade"
+  },
+  "result": {
+    "id": "mariculture:standard_heating_upgrade",
+    "count": 1
+  }
+}

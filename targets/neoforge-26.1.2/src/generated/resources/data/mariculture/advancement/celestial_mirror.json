@@ -1,0 +1,30 @@
+{
+  "parent": "mariculture:magic_mirror",
+  "display": {
+    "icon": {
+      "id": "mariculture:celestial_mirror"
+    },
+    "title": {
+      "translate": "advancements.mariculture.celestial_mirror.title"
+    },
+    "description": {
+      "translate": "advancements.mariculture.celestial_mirror.description"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "has_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mariculture:celestial_mirror"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_0"]
+  ]
+}

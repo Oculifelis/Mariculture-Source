@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "complicated_bees:princess"
+    }
+  ],
+  "result": {
+    "item": "mariculture:bait_bee",
+    "count": 5
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "complicated_bees"
+    },
+    {
+      "type": "mariculture:plugin",
+      "plugin": "complicated_bees"
+    }
+  ]
+}

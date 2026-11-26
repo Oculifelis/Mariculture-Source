@@ -1,0 +1,31 @@
+{
+  "type": "forestry:squeezer",
+  "chance": 0.08,
+  "output": {
+    "stack": {
+      "amount": 1000,
+      "id": "mariculture:fish_oil"
+    }
+  },
+  "remnant": {
+    "count": 1,
+    "id": "minecraft:bone"
+  },
+  "resources": [
+    {
+      "item": "mariculture:raw_lanternjaw"
+    }
+  ],
+  "time": 40,
+  "id": "mariculture:forestry/squeezer/lanternjaw",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "mariculture:plugin",
+      "plugin": "forestry"
+    }
+  ]
+}

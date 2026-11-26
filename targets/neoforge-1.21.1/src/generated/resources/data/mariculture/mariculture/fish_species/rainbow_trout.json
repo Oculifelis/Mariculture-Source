@@ -1,0 +1,122 @@
+{
+  "schema": 1,
+  "legacy_name": "mariculture:trout",
+  "legacy_id": 37,
+  "since": "1.2.4",
+  "dominant": false,
+  "temperature": {
+    "base": 17,
+    "tolerance": 5
+  },
+  "salinity": {
+    "base": "fresh",
+    "tolerance": 1
+  },
+  "lifespan_minutes": 8,
+  "fertility": 200,
+  "productivity": 1,
+  "food_consumption": 1,
+  "requires_food": true,
+  "water_required": 40,
+  "valid_fluids": [
+    "mariculture:custard",
+    "minecraft:water",
+    "mariculture:brine_of_order"
+  ],
+  "ignores_salinity": true,
+  "lava": false,
+  "active_time": "any",
+  "light": 0,
+  "area_of_effect": {
+    "up": 0,
+    "down": 0,
+    "north": 0,
+    "east": 0,
+    "south": 0,
+    "west": 0
+  },
+  "catch": {
+    "rod": "old",
+    "dimension": "overworld_like",
+    "chance_percent": 25,
+    "alive_percent": 0
+  },
+  "fish_oil_mb": 3600,
+  "fish_meal": 3,
+  "food": {
+    "edible": true,
+    "hunger": 4,
+    "saturation": 0.36
+  },
+  "products": [
+    {
+      "item": "minecraft:brown_dye",
+      "chance_percent": 1.75,
+      "count": 1
+    },
+    {
+      "item": "minecraft:red_dye",
+      "chance_percent": 5,
+      "count": 1
+    },
+    {
+      "item": "minecraft:orange_dye",
+      "chance_percent": 4,
+      "count": 1
+    },
+    {
+      "item": "minecraft:yellow_dye",
+      "chance_percent": 5,
+      "count": 1
+    },
+    {
+      "item": "minecraft:lime_dye",
+      "chance_percent": 1.75,
+      "count": 1
+    },
+    {
+      "item": "minecraft:green_dye",
+      "chance_percent": 3.5,
+      "count": 1
+    },
+    {
+      "item": "minecraft:cyan_dye",
+      "chance_percent": 1.5,
+      "count": 1
+    },
+    {
+      "item": "minecraft:blue_dye",
+      "chance_percent": 3.5,
+      "count": 1
+    },
+    {
+      "item": "minecraft:light_blue_dye",
+      "chance_percent": 1.75,
+      "count": 1
+    },
+    {
+      "item": "minecraft:magenta_dye",
+      "chance_percent": 1.5,
+      "count": 1
+    },
+    {
+      "item": "minecraft:purple_dye",
+      "chance_percent": 2.5,
+      "count": 1
+    },
+    {
+      "item": "minecraft:pink_dye",
+      "chance_percent": 1,
+      "count": 1
+    }
+  ],
+  "effects": [
+    "destroyOnAttack",
+    "heldAttributeModifiers"
+  ],
+  "source": "mariculture/fishery/fish/FishTrout.java (1.7.10-1.3.0)",
+  "liquified_product": {
+    "item": "minecraft:bone",
+    "one_in": 10
+  }
+}

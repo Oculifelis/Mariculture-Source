@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "since": "0.7.0",
+  "dominant": true,
+  "temperature": {
+    "base": 16,
+    "tolerance": 8
+  },
+  "salinity": {
+    "base": "brackish",
+    "tolerance": 1
+  },
+  "lifespan_minutes": 8,
+  "fertility": 900,
+  "productivity": 0,
+  "food_consumption": 1,
+  "requires_food": true,
+  "water_required": 15,
+  "valid_fluids": [
+    "minecraft:water"
+  ],
+  "ignores_salinity": false,
+  "lava": false,
+  "active_time": "any",
+  "light": 0,
+  "area_of_effect": {
+    "up": 0,
+    "down": 0,
+    "north": 0,
+    "east": 0,
+    "south": 0,
+    "west": 0
+  },
+  "catch": {
+    "rod": "flux",
+    "dimension": "overworld_like",
+    "chance_percent": 0,
+    "alive_percent": 0
+  },
+  "fish_oil_mb": 0,
+  "fish_meal": 0,
+  "food": {
+    "edible": false,
+    "hunger": -1,
+    "saturation": 0.0
+  },
+  "products": [
+    {
+      "item": "mariculture:metal_droplet",
+      "fluid": "metallurgy:manganese",
+      "amount": 10,
+      "color": "#D0A0B1",
+      "chance_percent": 14,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_earth",
+      "chance_percent": 8,
+      "count": 1
+    }
+  ],
+  "effects": [],
+  "abilities": [
+    {
+      "type": "potion",
+      "effect": "minecraft:resistance"
+    }
+  ],
+  "breeding": [
+    {
+      "type": "salinity",
+      "is": [
+        "brackish"
+      ]
+    },
+    {
+      "type": "water",
+      "min": 12
+    }
+  ],
+  "requires_item_tag": "c:ingots/manganese",
+  "source": "Mariculture 0.7.0, Metallurgy: Recast compat"
+}

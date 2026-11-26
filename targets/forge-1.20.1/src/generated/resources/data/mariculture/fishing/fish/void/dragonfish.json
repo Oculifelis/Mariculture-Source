@@ -1,0 +1,25 @@
+{
+  "conditions": [
+    {
+      "type": "tide:dimension",
+      "dimensions": ["minecraft:the_end"]
+    },
+    {
+      "type": "tide:fluid",
+      "fluid": "void"
+    }
+  ],
+  "fish": "mariculture:raw_dragonfish",
+  "journal_profile": {
+    "description": "journal.description.mariculture.dragonfish",
+    "group": "void",
+    "location": "journal.info.location.void",
+    "rarity": "very_rare"
+  },
+  "selection_weight": 6.0,
+  "size": {
+    "record_high_cm": 70.0,
+    "typical_high_cm": 50.0,
+    "typical_low_cm": 25.0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" B ", "FPF", "IMI"],
+  "key": {
+    "B": "minecraft:writable_book",
+    "F": "minecraft:feather",
+    "I": "minecraft:copper_ingot",
+    "M": "mariculture:base_wood",
+    "P": "#mariculture:pearls"
+  },
+  "result": {
+    "id": "mariculture:automatic_dictionary_converter",
+    "count": 1
+  }
+}

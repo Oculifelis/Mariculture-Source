@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "mariculture:fish_finger",
+    "mariculture:half_eaten_calamari",
+    "mariculture:calamari",
+    "mariculture:smoked_salmon",
+    "mariculture:custard",
+    "mariculture:fish_and_custard",
+    "mariculture:sushi",
+    "mariculture:caviar",
+    "mariculture:miso_soup",
+    "mariculture:miso_soup_2",
+    "mariculture:miso_soup_3",
+    "mariculture:kelp_wrap",
+    "mariculture:oyster_pie"
+  ]
+}

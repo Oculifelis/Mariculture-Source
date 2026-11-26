@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["CAC", "ACA", "CAC"],
+  "key": {
+    "A": {
+      "item": "minecraft:sugar_cane"
+    },
+    "C": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "mariculture:wicker",
+    "count": 1
+  }
+}

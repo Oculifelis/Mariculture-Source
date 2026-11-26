@@ -1,0 +1,10 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "items": "thaumaturge:tainted_goo",
+  "key": "mariculture:scanned/tainted_goo"
+}

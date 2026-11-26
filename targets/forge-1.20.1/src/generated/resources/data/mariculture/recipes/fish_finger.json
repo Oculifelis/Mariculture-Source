@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" B ", "BFB", " B "],
+  "key": {
+    "B": {
+      "item": "minecraft:bread"
+    },
+    "F": {
+      "item": "minecraft:cod"
+    }
+  },
+  "result": {
+    "item": "mariculture:fish_finger",
+    "count": 16
+  }
+}

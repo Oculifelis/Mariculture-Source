@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["##", "##"],
+  "key": {
+    "#": "mariculture:limestone_bricks"
+  },
+  "result": {
+    "id": "mariculture:small_limestone_bricks",
+    "count": 4
+  }
+}

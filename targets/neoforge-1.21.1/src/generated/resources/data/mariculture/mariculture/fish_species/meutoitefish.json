@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "since": "0.7.0",
+  "dominant": true,
+  "temperature": {
+    "base": 0,
+    "tolerance": 15
+  },
+  "salinity": {
+    "base": "fresh",
+    "tolerance": 0
+  },
+  "lifespan_minutes": 30,
+  "fertility": 40,
+  "productivity": 0,
+  "food_consumption": 2,
+  "requires_food": true,
+  "water_required": 140,
+  "valid_fluids": [
+    "mariculture:ender"
+  ],
+  "ignores_salinity": false,
+  "lava": false,
+  "active_time": "night",
+  "light": 0,
+  "area_of_effect": {
+    "up": 0,
+    "down": 0,
+    "north": 0,
+    "east": 0,
+    "south": 0,
+    "west": 0
+  },
+  "catch": {
+    "rod": "flux",
+    "dimension": "overworld_like",
+    "chance_percent": 0,
+    "alive_percent": 0
+  },
+  "fish_oil_mb": 0,
+  "fish_meal": 0,
+  "food": {
+    "edible": false,
+    "hunger": -1,
+    "saturation": 0.0
+  },
+  "products": [
+    {
+      "item": "mariculture:metal_droplet",
+      "fluid": "metallurgy:meutoite",
+      "amount": 10,
+      "color": "#6E5D84",
+      "chance_percent": 9,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_ender",
+      "chance_percent": 18,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_air",
+      "chance_percent": 8,
+      "count": 1
+    }
+  ],
+  "effects": [],
+  "abilities": [
+    {
+      "type": "food_saver",
+      "percent": 50
+    }
+  ],
+  "breeding": [
+    {
+      "type": "light",
+      "max": 4
+    },
+    {
+      "type": "food",
+      "item": "minecraft:popped_chorus_fruit"
+    }
+  ],
+  "requires_item_tag": "c:ingots/meutoite",
+  "source": "Mariculture 0.7.0, Metallurgy: Recast compat"
+}

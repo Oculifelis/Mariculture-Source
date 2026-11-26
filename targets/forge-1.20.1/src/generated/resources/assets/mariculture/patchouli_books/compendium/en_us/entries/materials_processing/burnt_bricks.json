@@ -1,0 +1,33 @@
+{
+  "name": "Burnt Bricks",
+  "icon": "mariculture:burnt_brick",
+  "category": "mariculture:materials_processing",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Burnt Bricks are a basic crafting component used in a bunch of machines in Mariculture. In order to craft them, you are going to need to place a brick or a nether brick, in to a vat filled with lava.",
+      "title": "Burnt Bricks"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "After a short while of processing, indicated by the puffs of smoke, they will finish and you can simply remove them with a right click."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Input:$() Brick$(br)$(l)Fluid:$() 250mB Lava$(br)$(l)Output:$() Burnt Brick$(br)$(l)Time:$() 5s",
+      "title": "Burnt Brick"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Input:$() Nether Brick$(br)$(l)Fluid:$() 100mB Lava$(br)$(l)Output:$() Burnt Brick$(br)$(l)Time:$() 3s",
+      "title": "Burnt Brick"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:base_brick",
+      "title": "Brick Construction Block",
+      "text": "Construction Blocks are used in various recipes as well."
+    }
+  ]
+}

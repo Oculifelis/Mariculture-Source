@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "since": "0.8.0",
+  "dominant": false,
+  "temperature": {
+    "base": 80,
+    "tolerance": 40
+  },
+  "salinity": {
+    "base": "fresh",
+    "tolerance": 1
+  },
+  "lifespan_minutes": 30,
+  "fertility": 800,
+  "productivity": 1,
+  "food_consumption": 1,
+  "requires_food": true,
+  "water_required": 60,
+  "valid_fluids": [
+    "minecraft:lava",
+    "mariculture:brine_of_order"
+  ],
+  "ignores_salinity": false,
+  "lava": true,
+  "active_time": "any",
+  "light": 0,
+  "area_of_effect": {
+    "up": 0,
+    "down": 0,
+    "north": 0,
+    "east": 0,
+    "south": 0,
+    "west": 0
+  },
+  "catch": {
+    "rod": "flux",
+    "dimension": "overworld_like",
+    "chance_percent": 0,
+    "alive_percent": 0
+  },
+  "fish_oil_mb": 500,
+  "fish_meal": 2,
+  "food": {
+    "edible": false,
+    "hunger": 0,
+    "saturation": 0.0
+  },
+  "products": [
+    {
+      "item": "thaumaturge:nugget_quicksilver",
+      "chance_percent": 15,
+      "count": 1
+    },
+    {
+      "item": "thaumaturge:quicksilver",
+      "chance_percent": 4,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_nether",
+      "chance_percent": 10,
+      "count": 1
+    }
+  ],
+  "effects": [],
+  "requires_item_tag": "mariculture:present/thaumaturge",
+  "source": "Mariculture 0.8.0, Thaumaturge compat (bred only, in a tank of Brine of Order)",
+  "liquified_product": {
+    "item": "thaumaturge:nugget_quicksilver",
+    "one_in": 6
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "parents": [
+    "red_herring",
+    "pickerel"
+  ],
+  "child": "osmiumfish",
+  "chance_percent": 10,
+  "conditions": [
+    {
+      "type": "egg_tag",
+      "tag": "c:storage_blocks/osmium"
+    },
+    {
+      "type": "config",
+      "option": "enable_metal_fish"
+    }
+  ],
+  "source": "mariculture/fishery/Fish.java:368 (via Fish.registerFish at Fish.java:347-358)"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["##", "##"],
+  "key": {
+    "#": "mariculture:purple_pearl"
+  },
+  "result": {
+    "id": "mariculture:purple_pearl_block",
+    "count": 1
+  }
+}

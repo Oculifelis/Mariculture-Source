@@ -1,0 +1,21 @@
+{
+  "name": "Paintbrush",
+  "icon": "mariculture:paintbrush",
+  "category": "mariculture:construction",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Paintbrush repaints the faces of sawmill blocks. Sneak and use it on the block you want to copy the face of: a sawmill block gives the face you clicked, any other block its own texture on that side.",
+      "title": "Paintbrush"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Then use it on a face of a sawmill block to paint it. Sneak and use it in the air to load a see-through face. On gates, sneaking paints instead of copying, since using a gate opens it. Each face painted uses up the brush a little."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:paintbrush"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "values": [
+    "mariculture:spider",
+    "mariculture:blink",
+    "mariculture:fall",
+    "mariculture:flight",
+    "mariculture:glide",
+    "mariculture:health",
+    "mariculture:jump",
+    "mariculture:hungry",
+    "mariculture:one_ring",
+    "mariculture:repair",
+    "mariculture:resurrection",
+    "mariculture:speed",
+    "mariculture:step_up",
+    "mariculture:elemental"
+  ]
+}

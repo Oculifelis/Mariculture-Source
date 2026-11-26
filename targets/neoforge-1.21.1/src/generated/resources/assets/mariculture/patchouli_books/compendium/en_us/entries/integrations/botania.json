@@ -1,0 +1,36 @@
+{
+  "name": "Botania Integration",
+  "icon": "mariculture:livingwood_fishing_rod",
+  "category": "mariculture:integrations",
+  "flag": "mod:botania",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Mariculture adds a few bits of integration with Botania. You can craft a livingwood fishing rod, which catches Botania loot.",
+      "title": "Botania Integration"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "As well as this, Mariculture oysters will occasionally produce mana pearls. There is also a fish, the manafish, bred from an electric ray, that produces magic droplets and prismarine shards."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Mariculture $(item)Oysters$(): Randomly Produce $(item)Mana Pearls$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "This rod catches a few Botania things like mystical flowers, cosmetics, Gaia discs or even the ring of chordata. Repair it with a manasteel ingot.",
+      "title": "Livingwood Fishing Rod"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Baits$()$(br)$(li)Petals$(li)Grasshopper Bait"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:livingwood_fishing_rod",
+      "title": "Recipe"
+    }
+  ]
+}

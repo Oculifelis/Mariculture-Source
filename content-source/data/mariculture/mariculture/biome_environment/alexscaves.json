@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "biomes": {
+    "alexscaves:abyssal_chasm": {
+      "salinity": "saline",
+      "temperature": 1
+    },
+    "alexscaves:toxic_caves": {
+      "salinity": "fresh",
+      "temperature": 30
+    },
+    "alexscaves:magnetic_caves": {
+      "salinity": "fresh",
+      "temperature": 16
+    },
+    "alexscaves:primordial_caves": {
+      "salinity": "fresh",
+      "temperature": 30
+    },
+    "alexscaves:forlorn_hollows": {
+      "salinity": "fresh",
+      "temperature": 10
+    },
+    "alexscaves:candy_cavity": {
+      "salinity": "fresh",
+      "temperature": 22
+    }
+  }
+}

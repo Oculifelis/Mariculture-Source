@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mariculture:raw_old_lungfish"
+    }
+  ],
+  "result": {
+    "item": "mariculture:fish_meal",
+    "count": 4
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["WEW", "FRF", "DWD"],
+  "key": {
+    "D": "minecraft:diamond",
+    "E": "#c:storage_blocks/emerald",
+    "F": "mariculture:raw_dragonfish",
+    "R": "minecraft:dragon_egg",
+    "W": "minecraft:pink_wool"
+  },
+  "result": {
+    "id": "mariculture:eternal_female_upgrade",
+    "count": 1
+  }
+}

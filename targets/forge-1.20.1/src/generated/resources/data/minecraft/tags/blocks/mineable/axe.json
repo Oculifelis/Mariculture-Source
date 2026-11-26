@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "mariculture:base_wood",
+    "mariculture:fish_feeder",
+    "mariculture:sifter",
+    "mariculture:fish_sorter",
+    "mariculture:storage_bookshelf",
+    "mariculture:polished_log",
+    "mariculture:polished_planks",
+    "mariculture:unpacker",
+    "mariculture:automatic_dictionary_converter",
+    "mariculture:sawmill",
+    "mariculture:custom_flooring",
+    "mariculture:custom_block",
+    "mariculture:custom_stairs",
+    "mariculture:custom_slab",
+    "mariculture:custom_fence",
+    "mariculture:custom_gate",
+    "mariculture:custom_wall",
+    "mariculture:custom_light",
+    "mariculture:custom_rf_block",
+    "mariculture:custom_rf_wall",
+    "mariculture:fluid_dictionary"
+  ]
+}

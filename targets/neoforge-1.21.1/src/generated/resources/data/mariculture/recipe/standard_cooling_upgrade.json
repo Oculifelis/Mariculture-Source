@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["ACA", "SUS", "CAC"],
+  "key": {
+    "A": {
+      "item": "mariculture:aluminum_ingot"
+    },
+    "C": {
+      "item": "mariculture:cooling_component"
+    },
+    "S": {
+      "item": "minecraft:snowball"
+    },
+    "U": {
+      "item": "mariculture:basic_cooling_upgrade"
+    }
+  },
+  "result": {
+    "id": "mariculture:standard_cooling_upgrade",
+    "count": 1
+  }
+}

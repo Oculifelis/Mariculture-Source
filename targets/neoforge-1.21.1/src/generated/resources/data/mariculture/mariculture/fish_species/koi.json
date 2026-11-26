@@ -1,0 +1,90 @@
+{
+  "schema": 1,
+  "legacy_name": "mariculture:koi",
+  "legacy_id": 26,
+  "since": "1.2.4",
+  "dominant": false,
+  "temperature": {
+    "base": 17,
+    "tolerance": 17
+  },
+  "salinity": {
+    "base": "fresh",
+    "tolerance": 0
+  },
+  "lifespan_minutes": 50,
+  "fertility": 350,
+  "productivity": 1,
+  "food_consumption": 2,
+  "requires_food": true,
+  "water_required": 300,
+  "valid_fluids": [
+    "mariculture:custard",
+    "minecraft:water"
+  ],
+  "ignores_salinity": true,
+  "lava": false,
+  "active_time": "any",
+  "light": 0,
+  "area_of_effect": {
+    "up": 0,
+    "down": 0,
+    "north": 2,
+    "east": 2,
+    "south": 2,
+    "west": 2
+  },
+  "catch": {
+    "rod": "flux",
+    "dimension": "overworld_like",
+    "chance_percent": {
+      "cases": [
+        {
+          "percent": 9,
+          "any_of": [
+            {
+              "daytime": true
+            }
+          ]
+        },
+        {
+          "percent": 2
+        }
+      ]
+    },
+    "alive_percent": 0
+  },
+  "fish_oil_mb": 5450,
+  "fish_meal": 7,
+  "food": {
+    "edible": true,
+    "hunger": 4,
+    "saturation": 0.6
+  },
+  "products": [
+    {
+      "item": "mariculture:droplet_water",
+      "chance_percent": 5.5,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_aqua",
+      "chance_percent": 11.5,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_health",
+      "chance_percent": 17.5,
+      "count": 1
+    }
+  ],
+  "effects": [
+    "onEaten",
+    "tankWorldEffect"
+  ],
+  "source": "mariculture/fishery/fish/FishKoi.java (1.7.10-1.3.0)",
+  "liquified_product": {
+    "item": "minecraft:bone",
+    "one_in": 10
+  }
+}

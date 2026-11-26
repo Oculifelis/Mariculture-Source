@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "mariculture:reed_fishing_rod",
+    "mariculture:wooden_fishing_rod",
+    "mariculture:titanium_fishing_rod",
+    "mariculture:livingwood_fishing_rod",
+    "mariculture:bound_fishing_rod",
+    "mariculture:flux_rod"
+  ]
+}

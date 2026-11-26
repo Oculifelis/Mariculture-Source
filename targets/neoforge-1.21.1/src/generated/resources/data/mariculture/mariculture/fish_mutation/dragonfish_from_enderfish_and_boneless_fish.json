@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "parents": [
+    "enderfish",
+    "boneless_fish"
+  ],
+  "child": "dragonfish",
+  "chance_percent": 9,
+  "conditions": [],
+  "source": "mariculture/fishery/Fish.java:412"
+}

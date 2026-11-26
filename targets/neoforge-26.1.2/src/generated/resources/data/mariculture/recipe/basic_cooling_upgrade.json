@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" S ", "CBC", " S "],
+  "key": {
+    "B": "minecraft:snow_block",
+    "C": "mariculture:cooling_component",
+    "S": "minecraft:snowball"
+  },
+  "result": {
+    "id": "mariculture:basic_cooling_upgrade",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["DSD", "S S", "DSD"],
+  "key": {
+    "D": {
+      "tag": "c:dyes/yellow"
+    },
+    "S": {
+      "item": "mariculture:aluminum_sheet"
+    }
+  },
+  "result": {
+    "id": "mariculture:scuba_tank",
+    "count": 1
+  }
+}

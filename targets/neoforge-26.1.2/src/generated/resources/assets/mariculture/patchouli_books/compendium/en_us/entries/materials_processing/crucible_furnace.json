@@ -1,0 +1,44 @@
+{
+  "name": "Crucible Furnace",
+  "icon": "mariculture:crucible",
+  "category": "mariculture:materials_processing",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Crucible Furnace is the next step. It used to process ores, providing up to 2x normal yield as well as a chance for an extra bonus dust. It takes a bit to heat them up, and they will melt your ores down in to molten form, once the furnace is hot enough for that specific material.",
+      "title": "Crucible Furnace"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:crucible"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:silicon_carbide",
+      "recipe2": "mariculture:heating_component"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The Crucible Furnace is a single block. Put ores and other meltables in its two input slots and fuel in the fuel slot; molten results collect in its tank and are pushed out below when fluid ejecting is on.",
+      "title": "Structure"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "It can be heated via the use of either a solid or a fluid fuel. Placing a tank underneath the Crucible Furnace will cause it to consume any fuel from said tank."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Fuels$() $(o)Also coal coke, Biogas, Oil etc$()$(br)$(li)Coal$(li)Charcoal$(li)Sticks$(li)Planks$(li)Logs$(li)Natural Gas$(li)Lava"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You may find that the Crucible Furnace can be rather slow to heat up. Or you wish to have more room for your liquids. Well as with most machines in Mariculture, it can be$(br)upgraded:$(br2)$(l)Storage$(): Increase the internal tank size.",
+      "title": "Upgrades"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Heating$(): Heats up faster. & processes faster.$(br)$(l)Purity$(): Fuel lasts much longer.$(br)$(l)Hyperkinetic$(): Autoejects fluids faster.$(br)$(l)Ethereal$(): Enchantments on items will be stripped and converted in to molten XP."
+    }
+  ]
+}

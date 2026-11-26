@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "legacy_name": "mariculture:mana",
+  "legacy_id": 65,
+  "since": "1.3.0",
+  "dominant": true,
+  "temperature": {
+    "base": 10,
+    "tolerance": 50
+  },
+  "salinity": {
+    "base": "brackish",
+    "tolerance": 2
+  },
+  "lifespan_minutes": 15,
+  "fertility": 3000,
+  "productivity": 2,
+  "food_consumption": 1,
+  "requires_food": true,
+  "water_required": 100,
+  "valid_fluids": [
+    "minecraft:water"
+  ],
+  "ignores_salinity": false,
+  "lava": false,
+  "active_time": "any",
+  "light": 0,
+  "area_of_effect": {
+    "up": 0,
+    "down": 0,
+    "north": 0,
+    "east": 0,
+    "south": 0,
+    "west": 0
+  },
+  "catch": {
+    "rod": "old",
+    "dimension": "overworld_like",
+    "chance_percent": 15,
+    "alive_percent": 0
+  },
+  "fish_oil_mb": 166,
+  "fish_meal": 1,
+  "food": {
+    "edible": true,
+    "hunger": 1,
+    "saturation": 0.0166
+  },
+  "products": [
+    {
+      "item": "mariculture:droplet_magic",
+      "chance_percent": 20,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_regen",
+      "chance_percent": 15,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_air",
+      "chance_percent": 13,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_aqua",
+      "chance_percent": 10,
+      "count": 1
+    },
+    {
+      "item": "minecraft:prismarine_shard",
+      "chance_percent": 5,
+      "count": 1
+    }
+  ],
+  "effects": [],
+  "source": "mariculture/plugins/botania/FishMana.java (1.7.10-1.3.0); manaResource meta 10 was Botania's prismarine shard, now vanilla's",
+  "requires_item_tag": "botania:petals",
+  "liquified_product": {
+    "item": "minecraft:bone",
+    "one_in": 10
+  }
+}

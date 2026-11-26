@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mariculture:item/blue_bucket_hat"
+  }
+}

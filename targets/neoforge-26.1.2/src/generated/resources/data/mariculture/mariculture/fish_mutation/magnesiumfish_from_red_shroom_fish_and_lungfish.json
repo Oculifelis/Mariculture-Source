@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "parents": [
+    "red_shroom_fish",
+    "lungfish"
+  ],
+  "child": "magnesiumfish",
+  "chance_percent": 15,
+  "conditions": [
+    {
+      "type": "egg_tag",
+      "tag": "c:storage_blocks/magnesium"
+    },
+    {
+      "type": "config",
+      "option": "enable_metal_fish"
+    }
+  ],
+  "source": "mariculture/fishery/Fish.java:417"
+}

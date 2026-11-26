@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "parents": [
+    "magnesiumfish",
+    "stickleback"
+  ],
+  "child": "silverfish_metal",
+  "chance_percent": 15,
+  "conditions": [
+    {
+      "type": "egg_tag",
+      "tag": "c:storage_blocks/silver"
+    },
+    {
+      "type": "config",
+      "option": "enable_metal_fish"
+    }
+  ],
+  "source": "mariculture/fishery/Fish.java:361 (via Fish.registerFish at Fish.java:347-358)"
+}

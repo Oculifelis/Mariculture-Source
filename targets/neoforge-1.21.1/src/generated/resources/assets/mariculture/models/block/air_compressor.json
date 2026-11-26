@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "mariculture:block/titanium_block",
+    "up": "mariculture:block/air_compressor_top",
+    "north": "mariculture:block/air_compressor",
+    "south": "mariculture:block/air_compressor",
+    "west": "mariculture:block/air_compressor",
+    "east": "mariculture:block/air_compressor",
+    "particle": "mariculture:block/air_compressor"
+  }
+}

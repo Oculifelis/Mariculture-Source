@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "mariculture:warded",
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "mariculture:item/warded_scuba_suit"
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "mariculture:item/scuba_suit"
+    }
+  }
+}

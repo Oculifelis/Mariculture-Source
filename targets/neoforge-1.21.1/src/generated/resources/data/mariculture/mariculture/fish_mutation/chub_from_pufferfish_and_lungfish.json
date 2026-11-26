@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "parents": [
+    "pufferfish",
+    "lungfish"
+  ],
+  "child": "chub",
+  "chance_percent": 19,
+  "conditions": [],
+  "source": "mariculture/fishery/Fish.java:386"
+}

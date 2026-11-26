@@ -1,0 +1,9 @@
+{
+  "values": {
+    "mariculture:fish_oil": {
+      "burn_duration": 7500,
+      "dissipation_multiplier": 1,
+      "power_per_cycle": 1
+    }
+  }
+}

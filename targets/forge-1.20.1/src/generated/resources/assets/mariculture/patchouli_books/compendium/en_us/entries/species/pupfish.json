@@ -1,0 +1,24 @@
+{
+  "name": "Pupfish",
+  "icon": "mariculture:pupfish",
+  "category": "mariculture:species",
+  "sortnum": 45,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:pupfish",
+      "title": "Pupfish",
+      "text": "Catchable live in wild:   no$(br)$(l)Min Rod$(): Reed Fishing Rod$(br2)$(l)Specialty$(): Spawns wolves."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Temperature Range, Salinity, Lifespan, Fertility, Work Ethic and Water requirements of the $(thing)Pupfish$() species.",
+      "title": "Fish Data"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Products that a working $(thing)Pupfish$() can produce in a Fish Feeder.",
+      "title": "Fish Products"
+    }
+  ]
+}

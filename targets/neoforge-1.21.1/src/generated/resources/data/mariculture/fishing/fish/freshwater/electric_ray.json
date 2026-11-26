@@ -1,0 +1,25 @@
+{
+  "conditions": [
+    {
+      "type": "tide:dimension",
+      "dimensions": ["minecraft:overworld"]
+    },
+    {
+      "type": "tide:fluid",
+      "fluid": "water"
+    }
+  ],
+  "fish": "mariculture:raw_electric_ray",
+  "journal_profile": {
+    "description": "journal.description.mariculture.electric_ray",
+    "group": "freshwater",
+    "location": "journal.info.location.freshwater",
+    "rarity": "very_rare"
+  },
+  "selection_weight": 6.0,
+  "size": {
+    "record_high_cm": 70.0,
+    "typical_high_cm": 50.0,
+    "typical_low_cm": 25.0
+  }
+}

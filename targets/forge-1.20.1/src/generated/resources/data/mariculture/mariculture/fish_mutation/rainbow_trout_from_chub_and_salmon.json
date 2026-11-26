@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "parents": [
+    "chub",
+    "salmon"
+  ],
+  "child": "rainbow_trout",
+  "chance_percent": 17,
+  "conditions": [],
+  "source": "mariculture/fishery/Fish.java:393"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["##", "##"],
+  "key": {
+    "#": {
+      "item": "mariculture:smooth_limestone"
+    }
+  },
+  "result": {
+    "id": "mariculture:bordered_limestone",
+    "count": 4
+  }
+}

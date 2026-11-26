@@ -1,0 +1,34 @@
+{
+  "name": "New Materials",
+  "icon": "minecraft:copper_ore",
+  "category": "mariculture:materials_processing",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Copper$()$(br)A normal ore found mining. Cook it in a furnace as normal.$(br2)$(l)Aluminium$()$(br)Found in the world as 'Bauxite'. Must be melted in a Crucible Furnace, then cooled down to make Aluminium.$(br2)$(l)Limestone and Rutile$()",
+      "title": "New Materials"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Limestone is found at the bottom of oceans, covering the top few layers after the initial sand layer. Rutile will sometimes generate in place of a limestone piece."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:oyster",
+      "text": "$(l)Oysters$()$(br)Oysters are found on the Ocean floor. When supplied with sand, they will produce pearls. The easiest way to harvest an oyster is to break the block underneath it."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Natural Gas$()$(br)Natural Gas is located deep under the ocean floor. It is invisible but affects you with nausea, poison, mining fatigue, so you'll know when you found it. To harvest it, bring an air pump and a tank. Place the tank next to the air pump, and then right click or supply the air pump with RF."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The gas will be sucked up from the cave in to the tank that you placed."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Finding the Gas$()$(br)The easiest way to find gas, is to look for gas bubbles on the ocean floor. If you dig down from them, you will reach the cave with the gas."
+    }
+  ]
+}

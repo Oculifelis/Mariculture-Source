@@ -1,0 +1,21 @@
+{
+  "name": "Geyser",
+  "icon": "mariculture:geyser",
+  "category": "mariculture:machines_automation",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Geysers are simple blocks that will push entities along. They need to be supplied with water or pressurised water. With water they will push entities up to 8 blocks, while with pressurised water they will push up to 16 blocks. They can be turned off with a redstone signal.",
+      "title": "Geyser"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "They are useful for using with fishing nets to push the caught fish in to hoppers. If you place a tank behind them, they will fill up with the water from that tank. If you place an inventory behind them, they will pull items out of the inventory in to the world."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:geyser"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "bloodmagic:array",
+  "addedinput": {
+    "item": "mariculture:titanium_fishing_rod"
+  },
+  "baseinput": {
+    "item": "bloodmagic:reagentbinding"
+  },
+  "output": {
+    "item": "mariculture:bound_fishing_rod"
+  },
+  "texture": "bloodmagic:textures/models/alchemyarrays/bindingarray.png",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bloodmagic"
+    },
+    {
+      "type": "mariculture:plugin",
+      "plugin": "bloodmagic"
+    }
+  ]
+}

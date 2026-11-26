@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "parents": [
+    "quicksilver_eel",
+    "rainbow_trout"
+  ],
+  "child": "thaumium_trout",
+  "chance_percent": 15,
+  "conditions": [
+    {
+      "type": "fluid",
+      "is": [
+        "mariculture:brine_of_order"
+      ]
+    },
+    {
+      "type": "food",
+      "item": "thaumaturge:nugget_thaumium"
+    },
+    {
+      "type": "research",
+      "entry": "mariculture:thaumium_trout"
+    }
+  ],
+  "source": "Mariculture 0.8.0, Thaumaturge compat"
+}

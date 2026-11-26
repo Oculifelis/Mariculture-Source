@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "parents": [
+    "pufferfish",
+    "cod"
+  ],
+  "child": "brown_shroom_fish",
+  "chance_percent": 17.5,
+  "conditions": [],
+  "source": "mariculture/fishery/Fish.java:385"
+}

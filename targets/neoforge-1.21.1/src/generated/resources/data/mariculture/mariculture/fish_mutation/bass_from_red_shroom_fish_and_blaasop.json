@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "parents": [
+    "red_shroom_fish",
+    "blaasop"
+  ],
+  "child": "bass",
+  "chance_percent": 17.5,
+  "conditions": [],
+  "source": "mariculture/fishery/Fish.java:391"
+}

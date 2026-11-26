@@ -1,0 +1,9 @@
+{
+  "name": "book.mariculture.compendium.name",
+  "landing_text": "book.mariculture.compendium.landing",
+  "version": 1,
+  "show_progress": false,
+  "i18n": true,
+  "use_resource_pack": true,
+  "creative_tab": "mariculture:mariculture"
+}

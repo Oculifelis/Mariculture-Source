@@ -1,0 +1,25 @@
+{
+  "name": "Using the Sawmill",
+  "icon": "mariculture:sawmill",
+  "category": "mariculture:construction",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "First of all place your plans in the three slots on the left; the button beside them picks which one the sawmill cuts. Then place the blocks you want as the faces in the six slots in the middle: top, the four sides (north, east, south, west) and bottom.",
+      "title": "Using the Sawmill"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You can use feathers in place of any of the block faces, and that side will be completely invisible. Speed upgrades make it faster and the ethereal upgrade doubles what it makes. Hoppers and pipes put blocks in the slot for the side they come in from."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Sawmill blocks keep their faces when broken. Turning placed blocks with a hammer is not part of this version."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:sawmill"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["IHI", "TUT", "IHI"],
+  "key": {
+    "H": {
+      "item": "mariculture:heating_component"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "T": {
+      "item": "mariculture:aluminum_ingot"
+    },
+    "U": {
+      "item": "mariculture:standard_heating_upgrade"
+    }
+  },
+  "result": {
+    "item": "mariculture:advanced_heating_upgrade",
+    "count": 1
+  }
+}

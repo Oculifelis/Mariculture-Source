@@ -1,0 +1,596 @@
+{
+  "comment": "Mariculture EMC values (legacy EE3 plugin) and anvil conversions.",
+  "groups": {
+    "anvil": {
+      "comment": "Hammering on the anvil.",
+      "conversions": [
+        {
+          "count": 8,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "minecraft:gold_block"
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "mariculture:gold_sheet"
+          }
+        },
+        {
+          "count": 8,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "mariculture:aluminum_block"
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "mariculture:aluminum_sheet"
+          }
+        },
+        {
+          "count": 8,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "mariculture:titanium_block"
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "mariculture:titanium_sheet"
+          }
+        },
+        {
+          "count": 2,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "mariculture:pink_coral"
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "minecraft:pink_dye"
+          }
+        },
+        {
+          "count": 2,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "mariculture:red_coral"
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "minecraft:red_dye"
+          }
+        },
+        {
+          "count": 2,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "mariculture:light_blue_coral"
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "minecraft:light_blue_dye"
+          }
+        },
+        {
+          "count": 2,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "mariculture:magenta_coral"
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "minecraft:magenta_dye"
+          }
+        },
+        {
+          "count": 2,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "mariculture:brown_coral"
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "minecraft:brown_dye"
+          }
+        },
+        {
+          "count": 2,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "mariculture:yellow_coral"
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "minecraft:yellow_dye"
+          }
+        },
+        {
+          "count": 2,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "mariculture:orange_coral"
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "minecraft:orange_dye"
+          }
+        },
+        {
+          "count": 2,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "mariculture:purple_coral"
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "minecraft:purple_dye"
+          }
+        },
+        {
+          "count": 2,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "mariculture:grey_coral"
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "minecraft:gray_dye"
+          }
+        },
+        {
+          "count": 2,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "mariculture:light_grey_coral"
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "minecraft:light_gray_dye"
+          }
+        },
+        {
+          "count": 2,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "mariculture:white_coral"
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "minecraft:white_dye"
+          }
+        }
+      ]
+    }
+  },
+  "values": {
+    "before": [
+      {
+        "type": "projecte:item",
+        "id": "mariculture:oyster",
+        "emc_value": 24576
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:ancient_sand",
+        "emc_value": 1
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:coral_rock",
+        "emc_value": 1
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:limestone",
+        "emc_value": 1
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:smooth_limestone",
+        "emc_value": 1
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:bauxite_ore",
+        "emc_value": 315
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:aluminum_ingot",
+        "emc_value": 315
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:rutile_ore",
+        "emc_value": 6144
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:rutile_ingot",
+        "emc_value": 6144
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:magnesium_ingot",
+        "emc_value": 32
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:titanium_ingot",
+        "emc_value": 8192
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:droplet_magic",
+        "emc_value": 8192
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:white_pearl",
+        "emc_value": 24
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:green_pearl",
+        "emc_value": 24
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:yellow_pearl",
+        "emc_value": 24
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:orange_pearl",
+        "emc_value": 24
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:blue_pearl",
+        "emc_value": 24
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:red_pearl",
+        "emc_value": 24
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:gold_pearl",
+        "emc_value": 24
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:pink_pearl",
+        "emc_value": 24
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:purple_pearl",
+        "emc_value": 24
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:brown_pearl",
+        "emc_value": 24
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:black_pearl",
+        "emc_value": 24
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:silver_pearl",
+        "emc_value": 24
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:bait_ant",
+        "emc_value": 1
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:bait_maggot",
+        "emc_value": 1
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:bait_grasshopper",
+        "emc_value": 1
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:bait_worm",
+        "emc_value": 1
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:bait_bee",
+        "emc_value": 1
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:fish_eggs",
+        "emc_value": 48
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:droplet_air",
+        "emc_value": 1
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:droplet_earth",
+        "emc_value": 1
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:droplet_water",
+        "emc_value": 1
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:droplet_aqua",
+        "emc_value": 1
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:droplet_frozen",
+        "emc_value": 1
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:droplet_plant",
+        "emc_value": 1
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:droplet_aluminum",
+        "emc_value": 35
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:droplet_ardite",
+        "emc_value": 60
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:droplet_cobalt",
+        "emc_value": 60
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:droplet_attack",
+        "emc_value": 481
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:droplet_copper",
+        "emc_value": 15
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:droplet_electric",
+        "emc_value": 15
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:droplet_ender",
+        "emc_value": 128
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:droplet_gold",
+        "emc_value": 114
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:droplet_health",
+        "emc_value": 16
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:droplet_tin",
+        "emc_value": 16
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:droplet_zinc",
+        "emc_value": 16
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:droplet_iron",
+        "emc_value": 25
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:droplet_lead",
+        "emc_value": 24
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:droplet_magnesium",
+        "emc_value": 4
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:droplet_nether",
+        "emc_value": 6
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:droplet_nickel",
+        "emc_value": 32
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:droplet_osmium",
+        "emc_value": 250
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:droplet_platinum",
+        "emc_value": 250
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:droplet_poison",
+        "emc_value": 2
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:droplet_rutile",
+        "emc_value": 650
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:droplet_silver",
+        "emc_value": 57
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:droplet_experience",
+        "emc_value": 1024
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:brown_coral",
+        "emc_value": 8
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:live_brown_coral",
+        "emc_value": 8
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:grey_coral",
+        "emc_value": 8
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:live_grey_coral",
+        "emc_value": 8
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:light_blue_coral",
+        "emc_value": 8
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:live_light_blue_coral",
+        "emc_value": 8
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:light_grey_coral",
+        "emc_value": 8
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:live_light_grey_coral",
+        "emc_value": 8
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:magenta_coral",
+        "emc_value": 8
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:live_magenta_coral",
+        "emc_value": 8
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:orange_coral",
+        "emc_value": 8
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:live_orange_coral",
+        "emc_value": 8
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:pink_coral",
+        "emc_value": 8
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:live_pink_coral",
+        "emc_value": 8
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:purple_coral",
+        "emc_value": 8
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:live_purple_coral",
+        "emc_value": 8
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:red_coral",
+        "emc_value": 8
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:live_red_coral",
+        "emc_value": 8
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:white_coral",
+        "emc_value": 8
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:live_white_coral",
+        "emc_value": 8
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:yellow_coral",
+        "emc_value": 8
+      },
+      {
+        "type": "projecte:item",
+        "id": "mariculture:live_yellow_coral",
+        "emc_value": 8
+      }
+    ]
+  }
+}

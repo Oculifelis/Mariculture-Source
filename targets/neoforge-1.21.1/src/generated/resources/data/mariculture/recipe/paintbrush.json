@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" WW", " IW", "S  "],
+  "key": {
+    "I": {
+      "item": "mariculture:aluminum_block"
+    },
+    "S": {
+      "item": "mariculture:sawmill"
+    },
+    "W": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "result": {
+    "id": "mariculture:paintbrush",
+    "count": 1
+  }
+}

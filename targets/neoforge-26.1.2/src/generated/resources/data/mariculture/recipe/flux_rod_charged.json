@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": ["mariculture:flux_rod", "minecraft:redstone_block"],
+  "result": {
+    "id": "mariculture:flux_rod",
+    "count": 1,
+    "components": {
+      "mariculture:energy": {
+        "Energy": 250000
+      }
+    }
+  }
+}

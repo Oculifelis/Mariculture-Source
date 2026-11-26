@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["APA", "DUD", "APA"],
+  "key": {
+    "A": {
+      "item": "mariculture:aluminum_ingot"
+    },
+    "D": {
+      "item": "mariculture:droplet_health"
+    },
+    "P": {
+      "item": "mariculture:white_pearl"
+    },
+    "U": {
+      "item": "mariculture:basic_purity_upgrade"
+    }
+  },
+  "result": {
+    "item": "mariculture:standard_purity_upgrade",
+    "count": 1
+  }
+}

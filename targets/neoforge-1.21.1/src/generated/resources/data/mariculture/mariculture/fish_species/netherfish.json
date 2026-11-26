@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "legacy_name": "mariculture:nether",
+  "legacy_id": 20,
+  "since": "1.2.4",
+  "dominant": true,
+  "temperature": {
+    "base": 72,
+    "tolerance": 45
+  },
+  "salinity": {
+    "base": "fresh",
+    "tolerance": 1
+  },
+  "lifespan_minutes": 6,
+  "fertility": 666,
+  "productivity": 1,
+  "food_consumption": 1,
+  "requires_food": true,
+  "water_required": 55,
+  "valid_fluids": [
+    "minecraft:lava"
+  ],
+  "ignores_salinity": true,
+  "lava": true,
+  "active_time": "any",
+  "light": 0,
+  "area_of_effect": {
+    "up": 0,
+    "down": 0,
+    "north": 0,
+    "east": 0,
+    "south": 0,
+    "west": 0
+  },
+  "catch": {
+    "rod": "old",
+    "dimension": "nether",
+    "chance_percent": 45,
+    "alive_percent": {
+      "cases": [
+        {
+          "percent": 100,
+          "any_of": [
+            {
+              "y_min": 32,
+              "y_max": 75
+            }
+          ]
+        },
+        {
+          "percent": 75
+        }
+      ]
+    }
+  },
+  "fish_oil_mb": 666,
+  "fish_meal": 1,
+  "food": {
+    "edible": true,
+    "hunger": 1,
+    "saturation": 0.0666
+  },
+  "products": [
+    {
+      "item": "mariculture:droplet_nether",
+      "chance_percent": 5,
+      "count": 1
+    },
+    {
+      "item": "minecraft:nether_wart",
+      "chance_percent": 1,
+      "count": 1
+    }
+  ],
+  "effects": [
+    "onEaten"
+  ],
+  "source": "mariculture/fishery/fish/FishNether.java (1.7.10-1.3.0)",
+  "liquified_product": {
+    "item": "minecraft:bone",
+    "one_in": 10
+  }
+}

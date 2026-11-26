@@ -1,0 +1,71 @@
+{
+  "name": "Aquatic Resources",
+  "icon": "mariculture:limestone",
+  "category": "mariculture:getting_started",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:limestone",
+      "title": "Limestone",
+      "text": "Limestone lies under the sand, gravel or mud wherever oceans and rivers run deep enough. Any pickaxe will mine it. Smelt it into $(item)Smooth Limestone$(), and craft both into bricks, pillars and pedestals."
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "mariculture:smooth_limestone_from_smelting"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:limestone_bricks",
+      "recipe2": "mariculture:bordered_limestone"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:small_limestone_bricks",
+      "recipe2": "mariculture:thin_limestone_bricks"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:chiseled_limestone",
+      "recipe2": "mariculture:limestone_pillar"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:limestone_pedestal",
+      "text": "A pedestal's bordered top faces the side it is placed against. Click near the top or bottom edge of a side to stand it upright or upside down."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:bauxite_ore",
+      "title": "Bauxite",
+      "text": "Bauxite is the ore of aluminium. It forms in veins of up to 8 blocks in stone between Y 64 and Y 255, so look in hills and mountains rather than caves. It needs a stone pickaxe."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:rutile_ore",
+      "title": "Rutile",
+      "text": "Rutile is the ore of titanium. It turns up now and then in the limestone of the sea bed, twice as often under rivers. It needs an iron pickaxe."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:oyster",
+      "title": "Pearl Oysters",
+      "text": "Oysters sit on the ocean floor, and about one in three already holds something. Right-click one to take out what is inside. Put in a block of sand and, while water stays above it, the sand slowly turns into a pearl."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "What an oyster makes depends on what it rests on. On a $(item)Pearl Block$() it always grows a pearl of that colour; on soul sand or red sand it makes more of that; in the End it makes ender pearls. Anywhere else the pearl's colour is random, and sometimes the sand just stays sand.$(br2)Oysters need a solid floor and water above them, or they pop off."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:white_pearl",
+      "title": "Pearls",
+      "text": "Pearls come from $(item)Pearl Oysters$(). Four pearls of one colour make a $(item)Pearl Block$(), which can be turned back into four pearls, and four blocks make four $(item)Pearl Bricks$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:white_pearl_block",
+      "recipe2": "mariculture:white_pearl_bricks"
+    }
+  ]
+}

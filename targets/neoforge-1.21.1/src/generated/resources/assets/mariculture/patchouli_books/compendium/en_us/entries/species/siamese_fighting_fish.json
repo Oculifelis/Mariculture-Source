@@ -1,0 +1,24 @@
+{
+  "name": "Siamese Fightin' Fish",
+  "icon": "mariculture:siamese_fighting_fish",
+  "category": "mariculture:species",
+  "sortnum": 44,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:siamese_fighting_fish",
+      "title": "Siamese Fightin' Fish",
+      "text": "Catchable live in wild:   no$(br)$(l)Min Rod$(): Titanium Fishing Rod$(br2)$(l)Specialty$(): Attacks any non player entities."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Temperature Range, Salinity, Lifespan, Fertility, Work Ethic and Water requirements of the $(thing)Siamese Fightin' Fish$() species.",
+      "title": "Fish Data"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Products that a working $(thing)Siamese Fightin' Fish$() can produce in a Fish Feeder.",
+      "title": "Fish Products"
+    }
+  ]
+}

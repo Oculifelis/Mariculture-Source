@@ -1,0 +1,13 @@
+{
+  "name": "Fish Species",
+  "icon": "mariculture:goldfish",
+  "category": "mariculture:species",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Mariculture introduces a ton of different fish species, which can be bred. Each fish does something different, whether that's producing a unique product, or performing special effects when eaten or active in the world. The next few pages will give you an overview of the fish and everything that they can do.",
+      "title": "Fish Species"
+    }
+  ]
+}

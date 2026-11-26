@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" L ", "BGB", "HCH"],
+  "key": {
+    "B": "mariculture:burnt_brick",
+    "C": "mariculture:base_brick",
+    "G": "mariculture:copper_tank",
+    "H": "mariculture:heating_component",
+    "L": "minecraft:lava_bucket"
+  },
+  "result": {
+    "id": "mariculture:crucible",
+    "count": 2
+  }
+}

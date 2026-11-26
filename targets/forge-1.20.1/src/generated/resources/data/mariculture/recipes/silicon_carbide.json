@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" S ", "FBF", " S "],
+  "key": {
+    "B": {
+      "item": "minecraft:clay"
+    },
+    "F": {
+      "tag": "minecraft:coals"
+    },
+    "S": {
+      "tag": "minecraft:sand"
+    }
+  },
+  "result": {
+    "item": "mariculture:silicon_carbide",
+    "count": 1
+  }
+}

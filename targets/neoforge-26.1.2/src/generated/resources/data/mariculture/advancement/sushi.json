@@ -1,0 +1,30 @@
+{
+  "parent": "mariculture:live_fish",
+  "display": {
+    "icon": {
+      "id": "mariculture:sushi"
+    },
+    "title": {
+      "translate": "advancements.mariculture.sushi.title"
+    },
+    "description": {
+      "translate": "advancements.mariculture.sushi.description"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "has_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mariculture:sushi"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_0"]
+  ]
+}

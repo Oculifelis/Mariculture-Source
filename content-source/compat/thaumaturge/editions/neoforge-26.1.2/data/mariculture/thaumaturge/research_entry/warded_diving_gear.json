@@ -1,0 +1,67 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "category": "mariculture:aquamancy",
+  "name": "research.mariculture.warded_diving_gear.title",
+  "parents": [
+    "mariculture:treated_neoprene",
+    "thaumaturge:base_infusion"
+  ],
+  "column": 3,
+  "row": -1,
+  "icons": [
+    "mariculture:scuba_suit"
+  ],
+  "stages": [
+    {
+      "text": "research.mariculture.warded_diving_gear.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "mariculture:aquamancy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "mariculture:aquamancy",
+          "amount": 1
+        }
+      ],
+      "obtain": [
+        {
+          "items": [
+            "mariculture:scuba_suit"
+          ],
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.mariculture.warded_diving_gear.stage_1",
+      "recipes": [
+        "mariculture:thaumaturge/infusion/warded_scuba_suit",
+        "mariculture:thaumaturge/infusion/warded_scuba_mask",
+        "mariculture:thaumaturge/infusion/warded_swimfin"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 2
+    }
+  ],
+  "complexity": 2
+}

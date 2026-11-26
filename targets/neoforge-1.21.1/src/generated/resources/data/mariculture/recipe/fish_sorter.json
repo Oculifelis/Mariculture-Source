@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["BPY", "GFA", "RCW"],
+  "key": {
+    "A": {
+      "item": "minecraft:cyan_dye"
+    },
+    "B": {
+      "item": "minecraft:black_dye"
+    },
+    "C": {
+      "item": "mariculture:base_wood"
+    },
+    "F": {
+      "tag": "minecraft:fishes"
+    },
+    "G": {
+      "item": "minecraft:green_dye"
+    },
+    "P": {
+      "tag": "mariculture:pearls"
+    },
+    "R": {
+      "item": "minecraft:red_dye"
+    },
+    "W": {
+      "item": "minecraft:white_dye"
+    },
+    "Y": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "result": {
+    "id": "mariculture:fish_sorter",
+    "count": 1
+  }
+}

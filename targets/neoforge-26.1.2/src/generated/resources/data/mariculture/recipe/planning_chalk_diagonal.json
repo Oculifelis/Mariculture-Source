@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["N  ", " L ", "  L"],
+  "key": {
+    "L": "#mariculture:limestone",
+    "N": "#c:dyes/white"
+  },
+  "result": {
+    "id": "mariculture:chalk",
+    "count": 1
+  }
+}

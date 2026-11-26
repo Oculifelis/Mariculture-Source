@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#mariculture:is_saline",
+  "features": "mariculture:ocean_decor",
+  "step": "vegetal_decoration"
+}

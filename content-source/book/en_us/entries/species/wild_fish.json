@@ -1,0 +1,21 @@
+{
+  "name": "Wild Fish",
+  "icon": "mariculture:minnow",
+  "category": "mariculture:species",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Different species can be caught in different environments. Only the base fish can be caught alive in the wild. There are 10 base fish. Below is a list of these species, what temperature range you can find them in, as well as the Y Height and Salinity.",
+      "title": "Fish"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Minnow$()$(br)Fresh Water, 70+, -1°C to 45°C$(br)$(l)Cod$()$(br)Saline Water, *, -3°C to 20°C$(br)$(l)Sting Ray$()$(br)Brackish Water, *, 19°C to 29°C$(br)$(l)Squid$()$(br)Saline Water, *, 3°C to 20°C$(br)$(l)Damselfish$()$(br)Fresh Water, *, 22°C to 27°C"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Neon Tetra$()$(br)Fresh Water, *, 20°C to 28°C$(br)$(l)Spiderfish$()$(br)Fresh Water, -48, -5°C to 20°C$(br)$(l)Blaasop$()$(br)Saline Water, -16, -3°C to 5°C$(br)$(l)Netherfish$()$(br)The Nether, 45°C to 100°C$(br)$(l)Nightfish$()$(br)The End or At Night, -10°C to 66°C"
+    }
+  ]
+}

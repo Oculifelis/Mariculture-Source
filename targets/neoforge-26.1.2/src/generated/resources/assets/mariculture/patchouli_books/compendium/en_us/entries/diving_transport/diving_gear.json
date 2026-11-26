@@ -1,0 +1,47 @@
+{
+  "name": "Diving Gear",
+  "icon": "mariculture:diving_helmet",
+  "category": "mariculture:diving_transport",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Diving gear is the second tier of underwater gear. Each piece works on its own; the helmet and top together will also take air from an air pump.",
+      "title": "Diving Gear"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:diving_helmet",
+      "recipe2": "mariculture:diving_top"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:diving_pants",
+      "recipe2": "mariculture:diving_boots"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:diving_helmet",
+      "title": "Diving Helmet",
+      "text": "Head slot. Clears the murk under water so you can see much further."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:diving_top",
+      "title": "Air Supply",
+      "text": "Chest slot. Worn with the diving helmet, it takes air from a nearby air pump."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:diving_pants",
+      "title": "Diving Suit",
+      "text": "Leg slot. Blocks you can harvest break twice as fast under water, and oysters come loose almost at once."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:diving_boots",
+      "title": "Diving Boots",
+      "text": "Feet slot. You swim faster when moving forward under water, and holding sneak sinks you quickly."
+    }
+  ]
+}

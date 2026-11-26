@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" C ", "RUR", "QBQ"],
+  "key": {
+    "B": "minecraft:redstone_block",
+    "C": "mariculture:titanium_battery",
+    "Q": "minecraft:comparator",
+    "R": "minecraft:redstone",
+    "U": "mariculture:advanced_rf_upgrade"
+  },
+  "result": {
+    "id": "mariculture:ultimate_rf_upgrade",
+    "count": 1
+  }
+}

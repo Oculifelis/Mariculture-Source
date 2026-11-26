@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "parents": [
+    "man_o_war",
+    "tuna"
+  ],
+  "child": "pufferfish",
+  "chance_percent": 20,
+  "conditions": [],
+  "source": "mariculture/fishery/Fish.java:380"
+}

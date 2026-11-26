@@ -1,0 +1,43 @@
+{
+  "name": "Changes From the Original",
+  "icon": "mariculture:compendium",
+  "category": "mariculture:getting_started",
+  "sortnum": -9,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Changes",
+      "text": "This port follows Mariculture 1.3.0 for 1.7.10, the last beta, and keeps the fixes from the 1.2.4 stable release. Most things work as they did. This entry lists the differences a returning player will notice.$(br2)Worlds from 1.7.10 do not convert."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Power and Guides",
+      "text": "Machines run on Forge Energy (FE), so any FE generator or cable powers them. MariTech and the Factory are part of the main mod, so every machine is always there.$(br2)The separate guide books are now this one Compendium. It is given once on first join and can be crafted from a book and any fish."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Tanks and Hatcheries",
+      "text": "Fish tanks hold one normal stack per slot and drop their contents when broken. All 54 slots are open to hoppers and pipes.$(br2)Hatcheries placed next to each other now hatch faster, as the original meant them to."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Genetics",
+      "text": "The DNA Injector writes every DNA it holds into the fish, not one picked at random. The DNA Extractor keeps its progress when its battery runs dry.$(br2)Metal fish come from eggs laid with metal storage blocks touching the breeding water. Each metal fish needs its metal in the game, from vanilla or another mod."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Rods and Zombies",
+      "text": "The Livingwood rod needs Botania and the Bound rod needs Blood Magic or Neo Vitae. Without those mods neither rod shows up.$(br2)Zombies spawn with a fishing hat or rod about 1 time in 80. A bug in the original made it about 1 in 9."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Machine Menus",
+      "text": "Machine slots have coloured borders: blue for inputs, orange for outputs and yellow for fuel, batteries and rods. An empty slot shows a faint picture of what goes there and names it on hover.$(br2)Shift-clicking an item puts it in the slot made for it. Fuel, battery, rod and upgrade slots take nothing else."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Data Packs",
+      "text": "Vat, crucible, anvil and casting recipes, crucible fuels and fishing loot are data. Data packs, KubeJS and CraftTweaker can add or remove them, and /reload applies the change.$(br2)The handcrank named in the 1.3.0 changelog never existed in its code and is not in this port."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "items": "#thaumaturge:vis_crystals",
+  "key": "mariculture:scanned/vis_crystal"
+}

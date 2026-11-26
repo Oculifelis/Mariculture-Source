@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "mariculture:block/limestone_pillar"
+    },
+    "axis=z": {
+      "model": "mariculture:block/limestone_pillar_horizontal",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "mariculture:block/limestone_pillar_horizontal",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

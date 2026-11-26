@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["GWG", "WUW", "ATA"],
+  "key": {
+    "A": "mariculture:aluminum_sheet",
+    "G": "minecraft:gold_ingot",
+    "T": "minecraft:chest",
+    "U": "mariculture:advanced_storage_upgrade",
+    "W": "mariculture:wicker"
+  },
+  "result": {
+    "id": "mariculture:ultimate_storage_upgrade",
+    "count": 1
+  }
+}

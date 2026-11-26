@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "parents": [
+    "stargazer",
+    "lanternjaw"
+  ],
+  "child": "wisp_angler",
+  "chance_percent": 20,
+  "conditions": [
+    {
+      "type": "fluid",
+      "is": [
+        "mariculture:brine_of_order"
+      ]
+    },
+    {
+      "type": "food",
+      "tag": "thaumaturge:nitors"
+    },
+    {
+      "type": "research",
+      "entry": "mariculture:wisp_angler"
+    }
+  ],
+  "source": "Mariculture 0.8.0, Thaumaturge compat"
+}

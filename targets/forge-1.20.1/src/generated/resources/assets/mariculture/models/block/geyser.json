@@ -1,0 +1,84 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "hopper": "minecraft:block/hopper_outside",
+    "particle": "mariculture:block/geyser",
+    "slab": "minecraft:block/smooth_stone",
+    "water": "minecraft:block/water_still"
+  },
+  "elements": [
+    {
+      "from": [1.6, 0.0, 1.6],
+      "to": [14.4, 2.4, 14.4],
+      "faces": {
+        "down": {
+          "texture": "#hopper"
+        },
+        "up": {
+          "texture": "#hopper"
+        },
+        "north": {
+          "texture": "#hopper"
+        },
+        "south": {
+          "texture": "#hopper"
+        },
+        "west": {
+          "texture": "#hopper"
+        },
+        "east": {
+          "texture": "#hopper"
+        }
+      }
+    },
+    {
+      "from": [4.0, 2.4, 4.0],
+      "to": [12.0, 3.84, 12.0],
+      "faces": {
+        "down": {
+          "texture": "#slab"
+        },
+        "up": {
+          "texture": "#slab"
+        },
+        "north": {
+          "texture": "#slab"
+        },
+        "south": {
+          "texture": "#slab"
+        },
+        "west": {
+          "texture": "#slab"
+        },
+        "east": {
+          "texture": "#slab"
+        }
+      }
+    },
+    {
+      "from": [5.6, 3.84, 5.6],
+      "to": [10.4, 4.0, 10.4],
+      "faces": {
+        "down": {
+          "texture": "#water"
+        },
+        "up": {
+          "texture": "#water"
+        },
+        "north": {
+          "texture": "#water"
+        },
+        "south": {
+          "texture": "#water"
+        },
+        "west": {
+          "texture": "#water"
+        },
+        "east": {
+          "texture": "#water"
+        }
+      }
+    }
+  ],
+  "render_type": "minecraft:cutout"
+}

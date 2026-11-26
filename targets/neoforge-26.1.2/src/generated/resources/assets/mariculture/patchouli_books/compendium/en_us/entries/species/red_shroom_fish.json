@@ -1,0 +1,24 @@
+{
+  "name": "Red Shroom Fish",
+  "icon": "mariculture:red_shroom_fish",
+  "category": "mariculture:species",
+  "sortnum": 31,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:red_shroom_fish",
+      "title": "Red Shroom Fish",
+      "text": "Catchable live in wild:   no$(br)$(l)Min Rod$(): Fishing Rod$(br2)$(l)Specialty$(): Spawns Mycelium and Red Mushrooms."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Temperature Range, Salinity, Lifespan, Fertility, Work Ethic and Water requirements of the $(thing)Red Shroom Fish$() species.",
+      "title": "Fish Data"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Products that a working $(thing)Red Shroom Fish$() can produce in a Fish Feeder.",
+      "title": "Fish Products"
+    }
+  ]
+}

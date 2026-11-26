@@ -1,0 +1,28 @@
+{
+  "conditions": [
+    {
+      "type": "tide:dimension",
+      "dimensions": ["minecraft:overworld"]
+    },
+    {
+      "type": "tide:fluid",
+      "fluid": "water"
+    },
+    {
+      "type": "tide:freshwater"
+    }
+  ],
+  "fish": "mariculture:raw_chub",
+  "journal_profile": {
+    "description": "journal.description.mariculture.chub",
+    "group": "freshwater",
+    "location": "journal.info.location.freshwater",
+    "rarity": "uncommon"
+  },
+  "selection_weight": 25.0,
+  "size": {
+    "record_high_cm": 70.0,
+    "typical_high_cm": 50.0,
+    "typical_low_cm": 25.0
+  }
+}

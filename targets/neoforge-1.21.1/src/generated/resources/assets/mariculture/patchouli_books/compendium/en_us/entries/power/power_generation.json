@@ -1,0 +1,22 @@
+{
+  "name": "Power Generation",
+  "icon": "mariculture:generator",
+  "category": "mariculture:power",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "There are a few machines in Mariculture that run off of Redstone Flux. This is a power system created by Team COFH, makers of Thermal Expansion. As of right now Mariculture introduces one new way to produce Redstone Flux. This is by the creation of a water turbine.",
+      "title": "Power Generation"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "To create this, you will need to create a rotor, a sluice, iron construction blocks and a generator."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:base_iron",
+      "recipe2": "mariculture:generator"
+    }
+  ]
+}

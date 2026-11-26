@@ -1,0 +1,26 @@
+{
+  "name": "Air Pump & Diving Gear",
+  "icon": "mariculture:air_pump",
+  "category": "mariculture:diving_transport",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Air Pumps are what you are going to need if you wish to breathe underwater for even longer. You will also need to wear a Diving Helmet and a Diving Air Supply. The last thing before you can get started is either a friend or a supply of Forge Energy (FE).",
+      "title": "Air Pump & Diving Gear"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Now that you have collected everything that you need. Go and place the air pump near where you want to breathe underwater. Take note that the air pump has a range of 64 blocks on the x or z, or 128 blocks on the y."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Now you need to provide the air pump with some power. Either wind it up with a right click (100 FE a turn of its wheel), or feed it FE. Every 15 seconds it uses 100 FE and fills the air of every diver in water wearing the gear. It also sucks up nearby natural gas into its tank, ready to be piped away."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:air_pump",
+      "title": "Recipe"
+    }
+  ]
+}

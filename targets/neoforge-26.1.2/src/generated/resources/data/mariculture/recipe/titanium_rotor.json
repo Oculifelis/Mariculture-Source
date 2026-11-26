@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" I ", "ISI", " I "],
+  "key": {
+    "I": "mariculture:titanium_ingot",
+    "S": "minecraft:quartz_slab"
+  },
+  "result": {
+    "id": "mariculture:titanium_rotor",
+    "count": 1
+  }
+}

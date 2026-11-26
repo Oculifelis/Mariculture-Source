@@ -1,0 +1,30 @@
+{
+  "parent": "mariculture:root",
+  "display": {
+    "icon": {
+      "item": "mariculture:diving_helmet"
+    },
+    "title": {
+      "translate": "advancements.mariculture.diving.title"
+    },
+    "description": {
+      "translate": "advancements.mariculture.diving.description"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "has_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["mariculture:diving_helmet"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_0"]
+  ]
+}

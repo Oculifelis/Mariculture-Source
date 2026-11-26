@@ -1,0 +1,30 @@
+{
+  "parent": "mariculture:pearl",
+  "display": {
+    "icon": {
+      "id": "mariculture:ring"
+    },
+    "title": {
+      "translate": "advancements.mariculture.jewelry.title"
+    },
+    "description": {
+      "translate": "advancements.mariculture.jewelry.description"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "has_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#mariculture:jewelry"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_0"]
+  ]
+}

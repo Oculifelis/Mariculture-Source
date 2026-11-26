@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" A ", "PDP", " A "],
+  "key": {
+    "A": "mariculture:aluminum_ingot",
+    "D": "minecraft:red_dye",
+    "P": "mariculture:white_pearl"
+  },
+  "result": {
+    "id": "mariculture:basic_purity_upgrade",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Minnow",
+  "icon": "mariculture:minnow",
+  "category": "mariculture:species",
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:minnow",
+      "title": "Minnow",
+      "text": "Catchable live in wild:   yes$(br)$(l)Min Rod$(): Fishing Rod$(br2)$(l)Specialty$(): Usable as really good bait."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Temperature Range, Salinity, Lifespan, Fertility, Work Ethic and Water requirements of the $(thing)Minnow$() species.",
+      "title": "Fish Data"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Products that a working $(thing)Minnow$() can produce in a Fish Feeder.",
+      "title": "Fish Products"
+    }
+  ]
+}

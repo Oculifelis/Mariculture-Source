@@ -1,0 +1,30 @@
+{
+  "parent": "mariculture:crucible",
+  "display": {
+    "icon": {
+      "id": "mariculture:titanium_ingot"
+    },
+    "title": {
+      "translate": "advancements.mariculture.titanium.title"
+    },
+    "description": {
+      "translate": "advancements.mariculture.titanium.description"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "has_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mariculture:titanium_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_0"]
+  ]
+}

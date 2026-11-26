@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["ASA", "TUT", "SNS"],
+  "key": {
+    "A": "mariculture:aluminum_ingot",
+    "N": "minecraft:ice",
+    "S": "minecraft:sugar",
+    "T": "mariculture:titanium_ingot",
+    "U": "mariculture:standard_speed_upgrade"
+  },
+  "result": {
+    "id": "mariculture:advanced_speed_upgrade",
+    "count": 1
+  }
+}

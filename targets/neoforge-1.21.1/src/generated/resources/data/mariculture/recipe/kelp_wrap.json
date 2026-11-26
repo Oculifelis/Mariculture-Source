@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["###", "###", "###"],
+  "key": {
+    "#": {
+      "tag": "mariculture:kelp"
+    }
+  },
+  "result": {
+    "id": "mariculture:kelp_wrap",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Fluid Auto-Dictionary",
+  "icon": "mariculture:fluid_dictionary",
+  "category": "mariculture:machines_automation",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Fluid Auto-Dictionary",
+      "text": "This tank turns fluids into others of the same kind, such as one mod's liquid experience into another's. Right-click it to pick the fluid it makes. Pipe a fluid of the same kind into it and it pushes the made fluid out into any neighbour that takes it."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Each fluid has a ratio: 200 of Mariculture experience is worth 200 of Ender IO's experience juice, while 2000 water is just water. The kinds and ratios are in the config, factory.fluid_dictionary; fluids from mods that are not installed are skipped."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:fluid_dictionary"
+    }
+  ]
+}

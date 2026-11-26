@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["W W", "WNW", " W "],
+  "key": {
+    "N": {
+      "item": "mariculture:fishing_net"
+    },
+    "W": {
+      "item": "mariculture:wicker"
+    }
+  },
+  "result": {
+    "id": "mariculture:item_filter",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "parents": [
+    "netherfish",
+    "neon_tetra"
+  ],
+  "child": "anglerfish",
+  "chance_percent": 25,
+  "conditions": [],
+  "source": "mariculture/fishery/Fish.java:373"
+}

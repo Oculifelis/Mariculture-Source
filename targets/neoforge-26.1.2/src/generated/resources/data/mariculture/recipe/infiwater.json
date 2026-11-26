@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["PWP", "WBW", "PWP"],
+  "key": {
+    "B": "minecraft:bucket",
+    "P": "#mariculture:pearls",
+    "W": "minecraft:water_bucket"
+  },
+  "result": {
+    "id": "mariculture:infiwater",
+    "count": 1
+  }
+}

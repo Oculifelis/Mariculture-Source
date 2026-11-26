@@ -1,0 +1,24 @@
+{
+  "name": "Northern Pike",
+  "icon": "mariculture:northern_pike",
+  "category": "mariculture:species",
+  "sortnum": 28,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:northern_pike",
+      "title": "Northern Pike",
+      "text": "Catchable live in wild:   no$(br)$(l)Min Rod$(): Wooden Fishing Rod$(br2)$(l)Specialty$(): Produces flint."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Temperature Range, Salinity, Lifespan, Fertility, Work Ethic and Water requirements of the $(thing)Northern Pike$() species.",
+      "title": "Fish Data"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Products that a working $(thing)Northern Pike$() can produce in a Fish Feeder.",
+      "title": "Fish Products"
+    }
+  ]
+}

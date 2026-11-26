@@ -1,0 +1,24 @@
+{
+  "name": "Nightfish",
+  "icon": "mariculture:nightfish",
+  "category": "mariculture:species",
+  "sortnum": 18,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:nightfish",
+      "title": "Nightfish",
+      "text": "Catchable live in wild:   yes$(br)$(l)Min Rod$(): Reed Fishing Rod$(br2)$(l)Specialty$(): When consumed at night, they will give you the strength effect."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Temperature Range, Salinity, Lifespan, Fertility, Work Ethic and Water requirements of the $(thing)Nightfish$() species.",
+      "title": "Fish Data"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Products that a working $(thing)Nightfish$() can produce in a Fish Feeder.",
+      "title": "Fish Products"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "category": "mariculture:aquamancy",
+  "name": "research.mariculture.molten_void.title",
+  "parents": [
+    "mariculture:molten_thaumium",
+    "thaumaturge:base_eldritch"
+  ],
+  "column": 1,
+  "row": 3,
+  "icons": [
+    "thaumaturge:ingot_void"
+  ],
+  "stages": [
+    {
+      "text": "research.mariculture.molten_void.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "mariculture:aquamancy",
+          "amount": 1
+        }
+      ],
+      "obtain": [
+        {
+          "items": [
+            "thaumaturge:ingot_void"
+          ],
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.mariculture.molten_void.stage_1",
+      "warp": 1
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 2
+    }
+  ],
+  "complexity": 2
+}

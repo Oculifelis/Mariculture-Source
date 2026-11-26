@@ -1,0 +1,122 @@
+{
+  "schema": 1,
+  "plugin": "biomesoplenty",
+  "biomes": {
+    "biomesoplenty:bayou": {
+      "salinity": "fresh",
+      "temperature": 15
+    },
+    "biomesoplenty:bog": {
+      "salinity": "fresh",
+      "temperature": 7
+    },
+    "biomesoplenty:coniferous_forest": {
+      "salinity": "fresh",
+      "temperature": 5
+    },
+    "biomesoplenty:crag": {
+      "salinity": "fresh",
+      "temperature": 40
+    },
+    "biomesoplenty:dead_forest": {
+      "salinity": "fresh",
+      "temperature": 40
+    },
+    "biomesoplenty:highland": {
+      "salinity": "fresh",
+      "temperature": 6
+    },
+    "biomesoplenty:jade_cliffs": {
+      "salinity": "brackish",
+      "temperature": 13
+    },
+    "biomesoplenty:lavender_field": {
+      "salinity": "fresh",
+      "temperature": 10
+    },
+    "biomesoplenty:lush_desert": {
+      "salinity": "fresh",
+      "temperature": 37
+    },
+    "biomesoplenty:maple_woods": {
+      "salinity": "fresh",
+      "temperature": 12
+    },
+    "biomesoplenty:marsh": {
+      "salinity": "fresh",
+      "temperature": 7
+    },
+    "biomesoplenty:moor": {
+      "salinity": "fresh",
+      "temperature": 3
+    },
+    "biomesoplenty:mystic_grove": {
+      "salinity": "fresh",
+      "temperature": 10
+    },
+    "biomesoplenty:ominous_woods": {
+      "salinity": "fresh",
+      "temperature": 8
+    },
+    "biomesoplenty:origin_valley": {
+      "salinity": "fresh",
+      "temperature": 11
+    },
+    "biomesoplenty:prairie": {
+      "salinity": "fresh",
+      "temperature": 20
+    },
+    "biomesoplenty:rainforest": {
+      "salinity": "fresh",
+      "temperature": 25
+    },
+    "biomesoplenty:redwood_forest": {
+      "salinity": "fresh",
+      "temperature": 5
+    },
+    "biomesoplenty:scrubland": {
+      "salinity": "fresh",
+      "temperature": 32
+    },
+    "biomesoplenty:seasonal_forest": {
+      "salinity": "fresh",
+      "temperature": 10
+    },
+    "biomesoplenty:shrubland": {
+      "salinity": "fresh",
+      "temperature": 17
+    },
+    "biomesoplenty:snowy_coniferous_forest": {
+      "salinity": "fresh",
+      "temperature": 2
+    },
+    "biomesoplenty:tropics": {
+      "salinity": "fresh",
+      "temperature": 27
+    },
+    "biomesoplenty:tundra": {
+      "salinity": "fresh",
+      "temperature": 1
+    },
+    "biomesoplenty:visceral_heap": {
+      "salinity": "fresh",
+      "temperature": 80
+    },
+    "biomesoplenty:volcano": {
+      "salinity": "fresh",
+      "temperature": 75
+    },
+    "biomesoplenty:wasteland": {
+      "salinity": "fresh",
+      "temperature": 40
+    },
+    "biomesoplenty:wetland": {
+      "salinity": "fresh",
+      "temperature": 8
+    },
+    "biomesoplenty:woodland": {
+      "salinity": "fresh",
+      "temperature": 10
+    }
+  }
+}

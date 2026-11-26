@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["TPT", "TST", "TBT"],
+  "key": {
+    "B": {
+      "item": "mariculture:sluice"
+    },
+    "P": {
+      "item": "mariculture:pressurised_water_bucket"
+    },
+    "S": {
+      "item": "mariculture:advanced_storage_upgrade"
+    },
+    "T": {
+      "item": "mariculture:titanium_ingot"
+    }
+  },
+  "result": {
+    "id": "mariculture:advanced_sluice",
+    "count": 1
+  }
+}

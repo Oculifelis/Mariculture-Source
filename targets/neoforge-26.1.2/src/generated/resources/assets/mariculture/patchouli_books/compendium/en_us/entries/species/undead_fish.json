@@ -1,0 +1,24 @@
+{
+  "name": "Undead Fish",
+  "icon": "mariculture:undead_fish",
+  "category": "mariculture:species",
+  "sortnum": 43,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:undead_fish",
+      "title": "Undead Fish",
+      "text": "Catchable live in wild:   no$(br)$(l)Min Rod$(): Titanium Fishing Rod$(br2)$(l)Specialty$(): Spawns zombies in the surround water."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Temperature Range, Salinity, Lifespan, Fertility, Work Ethic and Water requirements of the $(thing)Undead Fish$() species.",
+      "title": "Fish Data"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Products that a working $(thing)Undead Fish$() can produce in a Fish Feeder.",
+      "title": "Fish Products"
+    }
+  ]
+}

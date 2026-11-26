@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["###", "###", "###"],
+  "key": {
+    "#": {
+      "item": "mariculture:aluminum_ingot"
+    }
+  },
+  "result": {
+    "item": "mariculture:aluminum_block",
+    "count": 1
+  }
+}

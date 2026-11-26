@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["WWW", "WEW", "WWW"],
+  "key": {
+    "E": "mariculture:fish_eggs",
+    "W": "mariculture:wicker"
+  },
+  "result": {
+    "id": "mariculture:hatchery",
+    "count": 1
+  }
+}

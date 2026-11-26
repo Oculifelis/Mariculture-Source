@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "parents": [
+    "flux_lamprey",
+    "enderfish"
+  ],
+  "child": "eldritch_gulper",
+  "chance_percent": 10,
+  "conditions": [
+    {
+      "type": "fluid",
+      "is": [
+        "mariculture:brine_of_order"
+      ]
+    },
+    {
+      "type": "food",
+      "item": "thaumaturge:eldritch_eye"
+    },
+    {
+      "type": "research",
+      "entry": "mariculture:eldritch_gulper"
+    }
+  ],
+  "source": "Mariculture 0.8.0, Thaumaturge compat"
+}

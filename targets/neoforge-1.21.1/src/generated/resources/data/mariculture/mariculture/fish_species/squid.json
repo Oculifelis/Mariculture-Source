@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "legacy_name": "mariculture:squid",
+  "legacy_id": 21,
+  "since": "1.2.4",
+  "dominant": false,
+  "temperature": {
+    "base": 12,
+    "tolerance": 6
+  },
+  "salinity": {
+    "base": "saline",
+    "tolerance": 1
+  },
+  "lifespan_minutes": 5,
+  "fertility": 2500,
+  "productivity": 1,
+  "food_consumption": 1,
+  "requires_food": true,
+  "water_required": 20,
+  "valid_fluids": [
+    "minecraft:water"
+  ],
+  "ignores_salinity": false,
+  "lava": false,
+  "active_time": "any",
+  "light": 0,
+  "area_of_effect": {
+    "up": 0,
+    "down": 0,
+    "north": 0,
+    "east": 0,
+    "south": 0,
+    "west": 0
+  },
+  "catch": {
+    "rod": "dire",
+    "dimension": "overworld_like",
+    "chance_percent": 10,
+    "alive_percent": {
+      "cases": [
+        {
+          "percent": 85,
+          "any_of": [
+            {
+              "daytime": true
+            }
+          ]
+        },
+        {
+          "percent": 55
+        }
+      ]
+    }
+  },
+  "fish_oil_mb": 0,
+  "fish_meal": 0,
+  "food": {
+    "edible": true,
+    "hunger": 0,
+    "saturation": 0.0
+  },
+  "products": [
+    {
+      "item": "mariculture:droplet_water",
+      "chance_percent": 1.5,
+      "count": 1
+    },
+    {
+      "item": "minecraft:ink_sac",
+      "chance_percent": 15,
+      "count": 1
+    }
+  ],
+  "effects": [],
+  "source": "mariculture/fishery/fish/FishSquid.java (1.7.10-1.3.0)"
+}

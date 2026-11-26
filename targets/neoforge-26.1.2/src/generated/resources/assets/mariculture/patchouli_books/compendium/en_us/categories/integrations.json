@@ -1,0 +1,6 @@
+{
+  "name": "Integrations",
+  "description": "How Mariculture works together with other mods. Entries only appear when the other mod is installed.",
+  "icon": "minecraft:comparator",
+  "sortnum": 10.0
+}

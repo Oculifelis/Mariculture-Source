@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["PNP", "S S"],
+  "key": {
+    "N": "mariculture:fishing_net",
+    "P": "#minecraft:planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "mariculture:sifter",
+    "count": 2
+  }
+}

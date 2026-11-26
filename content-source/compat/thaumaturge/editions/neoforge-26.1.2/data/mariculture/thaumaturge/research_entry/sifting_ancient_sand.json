@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "category": "mariculture:aquamancy",
+  "name": "research.mariculture.sifting_ancient_sand.title",
+  "parents": [
+    "mariculture:sea_salts"
+  ],
+  "column": -3,
+  "row": 2,
+  "icons": [
+    "mariculture:ancient_sand"
+  ],
+  "stages": [
+    {
+      "text": "research.mariculture.sifting_ancient_sand.stage_0"
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 2
+    }
+  ],
+  "complexity": 1
+}

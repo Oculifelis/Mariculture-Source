@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["DFD", "CHC", "WBW"],
+  "key": {
+    "B": "mariculture:copper_battery",
+    "C": "minecraft:light_blue_terracotta",
+    "D": "minecraft:brown_dye",
+    "F": "#minecraft:fishes",
+    "H": "mariculture:heating_component",
+    "W": "minecraft:white_terracotta"
+  },
+  "result": {
+    "id": "mariculture:incubator",
+    "count": 1
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "legacy_name": "mariculture:redshroom",
+  "legacy_id": 41,
+  "since": "1.3.0",
+  "dominant": false,
+  "temperature": {
+    "base": 10,
+    "tolerance": 2
+  },
+  "salinity": {
+    "base": "fresh",
+    "tolerance": 2
+  },
+  "lifespan_minutes": 15,
+  "fertility": 500,
+  "productivity": 1,
+  "food_consumption": 1,
+  "requires_food": true,
+  "water_required": 55,
+  "valid_fluids": [
+    "minecraft:water"
+  ],
+  "ignores_salinity": false,
+  "lava": false,
+  "active_time": "any",
+  "light": 0,
+  "area_of_effect": {
+    "up": 0,
+    "down": 0,
+    "north": 0,
+    "east": 0,
+    "south": 0,
+    "west": 0
+  },
+  "catch": {
+    "rod": "dire",
+    "dimension": "overworld_like",
+    "chance_percent": 5,
+    "alive_percent": 0
+  },
+  "fish_oil_mb": 650,
+  "fish_meal": 3,
+  "food": {
+    "edible": true,
+    "hunger": 1,
+    "saturation": 0.065
+  },
+  "products": [
+    {
+      "item": "mariculture:droplet_earth",
+      "chance_percent": 5,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_plant",
+      "chance_percent": 3,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_poison",
+      "chance_percent": 7,
+      "count": 1
+    },
+    {
+      "item": "minecraft:red_mushroom",
+      "chance_percent": 10,
+      "count": 1
+    }
+  ],
+  "effects": [],
+  "source": "mariculture/fishery/fish/FishRedshroom.java (1.7.10-1.3.0)",
+  "liquified_product": {
+    "item": "minecraft:red_mushroom",
+    "one_in": 10
+  }
+}

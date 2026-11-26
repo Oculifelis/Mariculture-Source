@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "parents": [
+    "lamprey",
+    "nightfish"
+  ],
+  "child": "enderfish",
+  "chance_percent": 12,
+  "conditions": [],
+  "source": "mariculture/fishery/Fish.java:408"
+}

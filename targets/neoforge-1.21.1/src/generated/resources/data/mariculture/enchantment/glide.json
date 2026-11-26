@@ -1,0 +1,19 @@
+{
+  "description": {
+    "translate": "enchantment.mariculture.glide"
+  },
+  "supported_items": "#mariculture:pearls",
+  "weight": 1,
+  "max_level": 2,
+  "min_cost": {
+    "base": 2,
+    "per_level_above_first": 3
+  },
+  "max_cost": {
+    "base": 16,
+    "per_level_above_first": 3
+  },
+  "anvil_cost": 4,
+  "slots": ["any"],
+  "exclusive_set": "#mariculture:exclusive_set/jewelry"
+}

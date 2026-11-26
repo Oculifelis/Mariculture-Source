@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#mariculture:has_limestone_seabed",
+  "features": "mariculture:seabed",
+  "step": "raw_generation"
+}

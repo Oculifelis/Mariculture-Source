@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["DDD", "DHD", "DDD"],
+  "key": {
+    "D": "mariculture:gold_pearl",
+    "H": "#mariculture:bucket_hats"
+  },
+  "result": {
+    "id": "mariculture:gold_bucket_hat",
+    "count": 1
+  }
+}

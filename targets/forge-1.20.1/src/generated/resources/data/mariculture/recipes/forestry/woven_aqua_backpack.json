@@ -1,0 +1,38 @@
+{
+  "type": "forestry:carpenter",
+  "box": [],
+  "liquid": {
+    "Amount": 1000,
+    "FluidName": "minecraft:water"
+  },
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "key": {
+      "T": {
+        "item": "mariculture:aqua_backpack"
+      },
+      "W": {
+        "item": "forestry:woven_silk"
+      },
+      "X": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "pattern": ["WXW", "WTW", "WWW"],
+    "result": {
+      "item": "mariculture:woven_aqua_backpack"
+    }
+  },
+  "time": 200,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "mariculture:plugin",
+      "plugin": "forestry"
+    }
+  ]
+}

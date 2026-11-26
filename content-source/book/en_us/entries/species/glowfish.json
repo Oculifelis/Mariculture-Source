@@ -1,0 +1,24 @@
+{
+  "name": "Glowfish",
+  "icon": "mariculture:glowfish",
+  "category": "mariculture:species",
+  "sortnum": 42,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:glowfish",
+      "title": "Glowfish",
+      "text": "Catchable live in wild:   no$(br)$(l)Min Rod$(): Titanium Fishing Rod$(br2)$(l)Specialty$(): Converts any stone in the waters to glowstone."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Temperature Range, Salinity, Lifespan, Fertility, Work Ethic and Water requirements of the $(thing)Glowfish$() species.",
+      "title": "Fish Data"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Products that a working $(thing)Glowfish$() can produce in a Fish Feeder.",
+      "title": "Fish Products"
+    }
+  ]
+}

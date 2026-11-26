@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "mariculture:block/base_iron",
+    "up": "mariculture:block/base_iron",
+    "north": "mariculture:block/mechanized_sponge",
+    "south": "mariculture:block/mechanized_sponge",
+    "west": "mariculture:block/mechanized_sponge",
+    "east": "mariculture:block/mechanized_sponge",
+    "particle": "mariculture:block/mechanized_sponge"
+  }
+}

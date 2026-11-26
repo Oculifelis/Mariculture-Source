@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "mariculture:reed_fishing_rod"
+    },
+    "title": {
+      "translate": "advancements.mariculture.root.title"
+    },
+    "description": {
+      "translate": "advancements.mariculture.root.description"
+    },
+    "frame": "task",
+    "background": "minecraft:textures/block/prismarine_bricks.png",
+    "announce_to_chat": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "has_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "mariculture:fishing_rods"
+          }
+        ]
+      }
+    },
+    "has_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "mariculture:limestone"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_0", "has_1"]
+  ]
+}

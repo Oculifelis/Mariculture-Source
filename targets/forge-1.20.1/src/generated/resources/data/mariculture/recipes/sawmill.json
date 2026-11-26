@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" A ", "DWD", "IMI"],
+  "key": {
+    "A": {
+      "item": "minecraft:iron_axe"
+    },
+    "D": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "I": {
+      "item": "minecraft:copper_ingot"
+    },
+    "M": {
+      "item": "mariculture:base_wood"
+    },
+    "W": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "mariculture:sawmill",
+    "count": 1
+  }
+}

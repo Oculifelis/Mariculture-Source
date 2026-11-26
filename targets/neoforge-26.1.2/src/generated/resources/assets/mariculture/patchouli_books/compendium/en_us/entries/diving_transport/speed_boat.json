@@ -1,0 +1,22 @@
+{
+  "name": "Speed Boat",
+  "icon": "mariculture:speed_boat",
+  "category": "mariculture:diving_transport",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Speed Boat",
+      "text": "The speed boat is an aluminium motor boat that is much faster than a wooden one. Use it on water to put it down, use the boat to climb in, and hit it to pick it back up. It steers like a horse: it goes where you look, and strafing turns it sideways."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "It speeds up the longer you drive, up to about seven blocks a second. It floats back up when it sinks, runs over lily pads (breaking them), hurts any squid in its way badly and shoves wooden boats aside. An empty speed boat stops dead."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:speed_boat",
+      "title": "Recipe"
+    }
+  ]
+}

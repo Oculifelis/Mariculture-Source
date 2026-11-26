@@ -1,0 +1,37 @@
+{
+  "conditions": [
+    {
+      "type": "tide:dimension",
+      "dimensions": ["minecraft:overworld"]
+    },
+    {
+      "type": "tide:fluid",
+      "fluid": "water"
+    },
+    {
+      "type": "tide:saltwater"
+    },
+    {
+      "type": "tide:time_of_day",
+      "ranges": [
+        {
+          "min": 12700,
+          "max": 24000
+        }
+      ]
+    }
+  ],
+  "fish": "mariculture:raw_stargazer",
+  "journal_profile": {
+    "description": "journal.description.mariculture.stargazer",
+    "group": "saltwater",
+    "location": "journal.info.location.saltwater",
+    "rarity": "uncommon"
+  },
+  "selection_weight": 25.0,
+  "size": {
+    "record_high_cm": 70.0,
+    "typical_high_cm": 50.0,
+    "typical_low_cm": 25.0
+  }
+}

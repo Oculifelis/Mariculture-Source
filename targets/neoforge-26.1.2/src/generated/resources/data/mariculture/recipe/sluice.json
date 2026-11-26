@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" H ", "WBW", "IMI"],
+  "key": {
+    "B": "minecraft:iron_bars",
+    "H": "minecraft:hopper",
+    "I": "mariculture:aluminum_ingot",
+    "M": "mariculture:base_iron",
+    "W": "mariculture:iron_wheel"
+  },
+  "result": {
+    "id": "mariculture:sluice",
+    "count": 4
+  }
+}

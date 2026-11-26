@@ -1,0 +1,24 @@
+{
+  "name": "Dragonfish",
+  "icon": "mariculture:dragonfish",
+  "category": "mariculture:species",
+  "sortnum": 57,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:dragonfish",
+      "title": "Dragonfish",
+      "text": "Catchable live in wild:   no$(br)$(l)Min Rod$(): RF Fishing Rod$(br2)$(l)Specialty$(): Creates dragon eggs."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Temperature Range, Salinity, Lifespan, Fertility, Work Ethic and Water requirements of the $(thing)Dragonfish$() species.",
+      "title": "Fish Data"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Products that a working $(thing)Dragonfish$() can produce in a Fish Feeder.",
+      "title": "Fish Products"
+    }
+  ]
+}

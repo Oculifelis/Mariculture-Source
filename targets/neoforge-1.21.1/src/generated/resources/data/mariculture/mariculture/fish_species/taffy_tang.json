@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "since": "0.7.0",
+  "dominant": false,
+  "temperature": {
+    "base": 12,
+    "tolerance": 12
+  },
+  "salinity": {
+    "base": "fresh",
+    "tolerance": 1
+  },
+  "lifespan_minutes": 30,
+  "fertility": 900,
+  "productivity": 1,
+  "food_consumption": 1,
+  "requires_food": true,
+  "water_required": 40,
+  "valid_fluids": [
+    "minecraft:water"
+  ],
+  "ignores_salinity": false,
+  "lava": false,
+  "active_time": "any",
+  "light": 0,
+  "area_of_effect": {
+    "up": 0,
+    "down": 0,
+    "north": 0,
+    "east": 0,
+    "south": 0,
+    "west": 0
+  },
+  "catch": {
+    "rod": "old",
+    "dimension": "overworld_like",
+    "chance_percent": 12,
+    "alive_percent": 0,
+    "biomes": [
+      "alexscaves:candy_cavity"
+    ],
+    "fluid": "#mariculture:fishing/soda"
+  },
+  "fish_oil_mb": 600,
+  "fish_meal": 1,
+  "food": {
+    "edible": true,
+    "hunger": 2,
+    "saturation": 0.3
+  },
+  "products": [
+    {
+      "item": "minecraft:sugar",
+      "chance_percent": 18,
+      "count": 1
+    },
+    {
+      "item": "minecraft:pink_dye",
+      "chance_percent": 6,
+      "count": 1
+    },
+    {
+      "item": "minecraft:slime_ball",
+      "chance_percent": 3,
+      "count": 1
+    }
+  ],
+  "effects": [],
+  "requires_item_tag": "mariculture:present/alexscaves",
+  "source": "Mariculture 0.7.0, Alex's Caves compat",
+  "liquified_product": {
+    "item": "minecraft:sugar",
+    "one_in": 6
+  }
+}

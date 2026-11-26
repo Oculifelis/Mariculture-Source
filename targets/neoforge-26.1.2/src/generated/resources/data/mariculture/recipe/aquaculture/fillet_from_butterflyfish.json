@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": ["mariculture:raw_butterflyfish", "#c:dusts/salt"],
+  "result": {
+    "id": "aquaculture:fish_fillet_raw",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "aquaculture"
+    },
+    {
+      "type": "mariculture:plugin",
+      "plugin": "aquaculture"
+    }
+  ]
+}

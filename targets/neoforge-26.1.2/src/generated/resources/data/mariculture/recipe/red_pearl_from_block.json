@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": ["mariculture:red_pearl_block"],
+  "result": {
+    "id": "mariculture:red_pearl",
+    "count": 4
+  }
+}

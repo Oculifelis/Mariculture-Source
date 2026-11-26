@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "mariculture:scuba_tank"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "mariculture:scuba_tank"
+      }
+    ]
+  }
+}

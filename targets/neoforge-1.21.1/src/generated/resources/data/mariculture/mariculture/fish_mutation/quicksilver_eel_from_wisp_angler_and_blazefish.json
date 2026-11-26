@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "parents": [
+    "wisp_angler",
+    "blazefish"
+  ],
+  "child": "quicksilver_eel",
+  "chance_percent": 15,
+  "conditions": [
+    {
+      "type": "fluid",
+      "is": [
+        "mariculture:brine_of_order"
+      ]
+    },
+    {
+      "type": "food",
+      "item": "thaumaturge:quicksilver"
+    },
+    {
+      "type": "research",
+      "entry": "mariculture:quicksilver_eel"
+    }
+  ],
+  "source": "Mariculture 0.8.0, Thaumaturge compat"
+}

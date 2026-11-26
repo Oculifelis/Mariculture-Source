@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["PDP", "SUS", "HPH"],
+  "key": {
+    "D": "mariculture:raw_undead_fish",
+    "H": "mariculture:droplet_attack",
+    "P": "mariculture:droplet_poison",
+    "S": "mariculture:raw_blaasop",
+    "U": "mariculture:standard_impurity_upgrade"
+  },
+  "result": {
+    "id": "mariculture:advanced_impurity_upgrade",
+    "count": 1
+  }
+}

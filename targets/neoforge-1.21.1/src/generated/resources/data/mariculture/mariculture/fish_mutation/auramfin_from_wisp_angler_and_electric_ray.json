@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "parents": [
+    "wisp_angler",
+    "electric_ray"
+  ],
+  "child": "auramfin",
+  "chance_percent": 15,
+  "conditions": [
+    {
+      "type": "fluid",
+      "is": [
+        "mariculture:brine_of_order"
+      ]
+    },
+    {
+      "type": "food",
+      "tag": "thaumaturge:vis_crystals"
+    },
+    {
+      "type": "research",
+      "entry": "mariculture:auramfin"
+    }
+  ],
+  "source": "Mariculture 0.8.0, Thaumaturge compat"
+}

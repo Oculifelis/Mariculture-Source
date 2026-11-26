@@ -1,0 +1,21 @@
+{
+  "name": "DNA Injector",
+  "icon": "mariculture:dna_injector",
+  "category": "mariculture:breeding_genetics",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The DNA Injector writes DNA into fish. As well as a lot of energy (FE), it needs 5000 mB each of blood and liquid flux, one in each tank. Fill the tanks from buckets in the slots under them.$(br2)Liquid flux comes from Flux Droplets, which neon tetras, anglerfish and electric rays make in a fish tank. A droplet in a tank slot pours in 100 mB. Blood comes the same way from Regeneration Droplets.",
+      "title": "DNA Injector"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Place up to three Fish DNA in the slots at the top, then a fish in the fish slot. Every DNA is written into both sides of the fish, so it breeds true. Each Fish DNA lasts 32 injections. Species DNA turns the fish into that species."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:dna_injector"
+    }
+  ]
+}

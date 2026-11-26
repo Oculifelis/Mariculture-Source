@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "parents": [
+    "anglerfish",
+    "man_o_war"
+  ],
+  "child": "northern_pike",
+  "chance_percent": 20,
+  "conditions": [],
+  "source": "mariculture/fishery/Fish.java:378"
+}

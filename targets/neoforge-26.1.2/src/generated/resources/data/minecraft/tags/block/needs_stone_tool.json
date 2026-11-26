@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "mariculture:coral_rock",
+    "mariculture:bauxite_ore",
+    "mariculture:aluminum_block",
+    "mariculture:oyster",
+    "mariculture:base_iron",
+    "mariculture:air_pump",
+    "mariculture:geyser",
+    "mariculture:air_compressor",
+    "mariculture:generator",
+    "mariculture:copper_rotor_block",
+    "mariculture:aluminum_rotor_block",
+    "mariculture:titanium_rotor_block",
+    "mariculture:sluice",
+    "mariculture:incubator",
+    "mariculture:mechanized_sponge",
+    "mariculture:dna_extractor",
+    "mariculture:dna_injector",
+    "mariculture:pressure_vessel"
+  ]
+}

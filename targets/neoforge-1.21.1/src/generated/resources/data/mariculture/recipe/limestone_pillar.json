@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["X", "X"],
+  "key": {
+    "X": {
+      "item": "mariculture:smooth_limestone"
+    }
+  },
+  "result": {
+    "id": "mariculture:limestone_pillar",
+    "count": 2
+  }
+}

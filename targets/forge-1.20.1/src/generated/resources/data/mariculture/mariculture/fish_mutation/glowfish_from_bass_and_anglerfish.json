@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "parents": [
+    "bass",
+    "anglerfish"
+  ],
+  "child": "glowfish",
+  "chance_percent": 14,
+  "conditions": [],
+  "source": "mariculture/fishery/Fish.java:395"
+}

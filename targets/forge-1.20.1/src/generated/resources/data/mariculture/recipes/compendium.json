@@ -1,0 +1,16 @@
+{
+  "type": "patchouli:shapeless_book_recipe",
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "tag": "minecraft:fishes"
+    }
+  ],
+  "book": "mariculture:compendium",
+  "result": {
+    "item": "patchouli:guide_book",
+    "count": 1
+  }
+}

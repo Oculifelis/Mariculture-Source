@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "mariculture:block/base_wood",
+    "up": "mariculture:block/base_wood",
+    "north": "mariculture:block/sawmill",
+    "south": "mariculture:block/sawmill",
+    "west": "mariculture:block/sawmill",
+    "east": "mariculture:block/sawmill",
+    "particle": "mariculture:block/sawmill"
+  }
+}

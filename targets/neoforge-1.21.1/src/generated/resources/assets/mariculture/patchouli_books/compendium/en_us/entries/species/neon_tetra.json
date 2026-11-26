@@ -1,0 +1,28 @@
+{
+  "name": "Neon Tetra",
+  "icon": "mariculture:neon_tetra",
+  "category": "mariculture:species",
+  "sortnum": 16,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:neon_tetra",
+      "title": "Neon Tetra",
+      "text": "Catchable live in wild:   yes$(br)$(l)Min Rod$(): Fishing Rod$(br2)$(l)Specialty$(): Can use them to craft neon lamps."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Temperature Range, Salinity, Lifespan, Fertility, Work Ethic and Water requirements of the $(thing)Neon Tetra$() species.",
+      "title": "Fish Data"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Products that a working $(thing)Neon Tetra$() can produce in a Fish Feeder.",
+      "title": "Fish Products"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mariculture:blue_neon_lamp_from_tetra"
+    }
+  ]
+}

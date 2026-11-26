@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "parents": [
+    "brown_shroom_fish",
+    "bowfin"
+  ],
+  "child": "copperfish",
+  "chance_percent": 15,
+  "conditions": [
+    {
+      "type": "egg_tag",
+      "tag": "c:storage_blocks/copper"
+    },
+    {
+      "type": "config",
+      "option": "enable_metal_fish"
+    }
+  ],
+  "source": "mariculture/fishery/Fish.java:415"
+}

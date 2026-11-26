@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["PGP", "GFG", "PGP"],
+  "key": {
+    "F": "mariculture:droplet_electric",
+    "G": "minecraft:glass",
+    "P": "mariculture:pink_pearl"
+  },
+  "result": {
+    "id": "mariculture:pink_neon_lamp",
+    "count": 4
+  }
+}

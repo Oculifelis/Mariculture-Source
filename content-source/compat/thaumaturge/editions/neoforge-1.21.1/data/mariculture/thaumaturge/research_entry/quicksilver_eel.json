@@ -1,0 +1,71 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "category": "mariculture:aquamancy",
+  "name": "research.mariculture.quicksilver_eel.title",
+  "parents": [
+    "mariculture:brine_of_order",
+    "mariculture:pearl_alchemy"
+  ],
+  "column": 1,
+  "row": -3,
+  "meta": [
+    "hidden"
+  ],
+  "icons": [
+    "mariculture:quicksilver_eel"
+  ],
+  "stages": [
+    {
+      "text": "research.mariculture.quicksilver_eel.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "mariculture:aquamancy",
+          "amount": 1
+        }
+      ],
+      "required_research": [
+        "mariculture:scanned/quicksilver"
+      ],
+      "obtain": [
+        {
+          "items": [
+            "thaumaturge:quicksilver"
+          ],
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.mariculture.quicksilver_eel.stage_1",
+      "obtain": [
+        {
+          "items": [
+            "mariculture:quicksilver_eel"
+          ],
+          "amount": 1
+        }
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 2
+    }
+  ],
+  "complexity": 2
+}

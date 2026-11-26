@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" B ", "ENE", " B "],
+  "key": {
+    "B": "minecraft:bone",
+    "E": "minecraft:fermented_spider_eye",
+    "N": "minecraft:nether_wart"
+  },
+  "result": {
+    "id": "mariculture:basic_impurity_upgrade",
+    "count": 1
+  }
+}

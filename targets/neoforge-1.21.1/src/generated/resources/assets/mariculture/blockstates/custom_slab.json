@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mariculture:block/custom_slab"
+    },
+    "type=double": {
+      "model": "mariculture:block/custom_slab_double"
+    },
+    "type=top": {
+      "model": "mariculture:block/custom_slab_top"
+    }
+  }
+}

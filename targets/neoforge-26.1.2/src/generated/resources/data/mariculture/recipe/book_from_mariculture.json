@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["PP", "PW"],
+  "key": {
+    "P": "minecraft:paper",
+    "W": "mariculture:wicker"
+  },
+  "result": {
+    "id": "minecraft:book",
+    "count": 1
+  }
+}

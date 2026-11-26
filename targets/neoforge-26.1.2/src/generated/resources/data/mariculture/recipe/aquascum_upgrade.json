@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["DFD", "CTH", "DSD"],
+  "key": {
+    "C": "mariculture:ultimate_cooling_upgrade",
+    "D": "mariculture:golden_thread",
+    "F": "mariculture:advanced_filter_upgrade",
+    "H": "mariculture:ultimate_heating_upgrade",
+    "S": "mariculture:advanced_salinator_upgrade",
+    "T": "mariculture:temperature_control"
+  },
+  "result": {
+    "id": "mariculture:aquascum_upgrade",
+    "count": 1
+  }
+}

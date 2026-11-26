@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "parents": [
+    "spiderfish",
+    "blaasop"
+  ],
+  "child": "stargazer",
+  "chance_percent": 7.5,
+  "conditions": [
+    {
+      "type": "config",
+      "option": "extra_breeding_recipes"
+    }
+  ],
+  "source": "mariculture/fishery/Fish.java:336"
+}

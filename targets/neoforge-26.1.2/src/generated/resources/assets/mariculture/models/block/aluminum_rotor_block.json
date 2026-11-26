@@ -1,0 +1,159 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "mariculture:block/aluminum_rotor_block",
+    "rotor": "mariculture:block/aluminum_rotor_block"
+  },
+  "elements": [
+    {
+      "from": [2.24, 2.24, 0.0],
+      "to": [13.76, 13.76, 16.0],
+      "faces": {
+        "down": {
+          "texture": "#rotor",
+          "uv": [0.0, 10.0, 3.0, 13.0]
+        },
+        "up": {
+          "texture": "#rotor",
+          "uv": [0.0, 10.0, 3.0, 13.0]
+        },
+        "north": {
+          "texture": "#rotor",
+          "uv": [3.0, 10.0, 6.0, 13.0]
+        },
+        "south": {
+          "texture": "#rotor",
+          "uv": [3.0, 10.0, 6.0, 13.0]
+        },
+        "west": {
+          "texture": "#rotor",
+          "uv": [0.0, 10.0, 3.0, 13.0]
+        },
+        "east": {
+          "texture": "#rotor",
+          "uv": [0.0, 10.0, 3.0, 13.0]
+        }
+      }
+    },
+    {
+      "from": [2.24, 13.76, 7.5],
+      "to": [13.76, 32.0, 8.5],
+      "faces": {
+        "down": {
+          "texture": "#rotor",
+          "uv": [0.0, 5.0, 5.0, 5.25]
+        },
+        "up": {
+          "texture": "#rotor",
+          "uv": [0.0, 5.0, 5.0, 5.25]
+        },
+        "north": {
+          "texture": "#rotor",
+          "uv": [5.0, 0.0, 8.0, 5.0]
+        },
+        "south": {
+          "texture": "#rotor",
+          "uv": [5.0, 0.0, 8.0, 5.0]
+        },
+        "west": {
+          "texture": "#rotor",
+          "uv": [0.0, 5.0, 5.0, 5.25]
+        },
+        "east": {
+          "texture": "#rotor",
+          "uv": [0.0, 5.0, 5.0, 5.25]
+        }
+      }
+    },
+    {
+      "from": [2.24, -16.0, 7.5],
+      "to": [13.76, 2.24, 8.5],
+      "faces": {
+        "down": {
+          "texture": "#rotor",
+          "uv": [0.0, 5.0, 5.0, 5.25]
+        },
+        "up": {
+          "texture": "#rotor",
+          "uv": [0.0, 5.0, 5.0, 5.25]
+        },
+        "north": {
+          "texture": "#rotor",
+          "uv": [5.0, 0.0, 8.0, 5.0]
+        },
+        "south": {
+          "texture": "#rotor",
+          "uv": [5.0, 0.0, 8.0, 5.0]
+        },
+        "west": {
+          "texture": "#rotor",
+          "uv": [0.0, 5.0, 5.0, 5.25]
+        },
+        "east": {
+          "texture": "#rotor",
+          "uv": [0.0, 5.0, 5.0, 5.25]
+        }
+      }
+    },
+    {
+      "from": [-16.0, 2.24, 7.5],
+      "to": [2.24, 13.76, 8.5],
+      "faces": {
+        "down": {
+          "texture": "#rotor",
+          "uv": [0.0, 5.0, 5.0, 5.25]
+        },
+        "up": {
+          "texture": "#rotor",
+          "uv": [0.0, 5.0, 5.0, 5.25]
+        },
+        "north": {
+          "texture": "#rotor",
+          "uv": [5.0, 0.0, 8.0, 5.0]
+        },
+        "south": {
+          "texture": "#rotor",
+          "uv": [5.0, 0.0, 8.0, 5.0]
+        },
+        "west": {
+          "texture": "#rotor",
+          "uv": [0.0, 5.0, 5.0, 5.25]
+        },
+        "east": {
+          "texture": "#rotor",
+          "uv": [0.0, 5.0, 5.0, 5.25]
+        }
+      }
+    },
+    {
+      "from": [13.76, 2.24, 7.5],
+      "to": [32.0, 13.76, 8.5],
+      "faces": {
+        "down": {
+          "texture": "#rotor",
+          "uv": [0.0, 5.0, 5.0, 5.25]
+        },
+        "up": {
+          "texture": "#rotor",
+          "uv": [0.0, 5.0, 5.0, 5.25]
+        },
+        "north": {
+          "texture": "#rotor",
+          "uv": [5.0, 0.0, 8.0, 5.0]
+        },
+        "south": {
+          "texture": "#rotor",
+          "uv": [5.0, 0.0, 8.0, 5.0]
+        },
+        "west": {
+          "texture": "#rotor",
+          "uv": [0.0, 5.0, 5.0, 5.25]
+        },
+        "east": {
+          "texture": "#rotor",
+          "uv": [0.0, 5.0, 5.0, 5.25]
+        }
+      }
+    }
+  ]
+}

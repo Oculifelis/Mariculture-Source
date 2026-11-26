@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "since": "0.7.0",
+  "dominant": true,
+  "temperature": {
+    "base": 65,
+    "tolerance": 40
+  },
+  "salinity": {
+    "base": "fresh",
+    "tolerance": 1
+  },
+  "lifespan_minutes": 12,
+  "fertility": 500,
+  "productivity": 0,
+  "food_consumption": 1,
+  "requires_food": true,
+  "water_required": 55,
+  "valid_fluids": [
+    "minecraft:lava"
+  ],
+  "ignores_salinity": false,
+  "lava": true,
+  "active_time": "night",
+  "light": 0,
+  "area_of_effect": {
+    "up": 0,
+    "down": 0,
+    "north": 0,
+    "east": 0,
+    "south": 0,
+    "west": 0
+  },
+  "catch": {
+    "rod": "flux",
+    "dimension": "overworld_like",
+    "chance_percent": 0,
+    "alive_percent": 0
+  },
+  "fish_oil_mb": 0,
+  "fish_meal": 0,
+  "food": {
+    "edible": false,
+    "hunger": -1,
+    "saturation": 0.0
+  },
+  "products": [
+    {
+      "item": "mariculture:metal_droplet",
+      "fluid": "metallurgy:shadow_iron",
+      "amount": 10,
+      "color": "#5E5157",
+      "chance_percent": 14,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_nether",
+      "chance_percent": 10,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_poison",
+      "chance_percent": 5,
+      "count": 1
+    }
+  ],
+  "effects": [],
+  "abilities": [
+    {
+      "type": "potion",
+      "effect": "minecraft:night_vision"
+    }
+  ],
+  "breeding": [
+    {
+      "type": "light",
+      "max": 7
+    }
+  ],
+  "requires_item_tag": "c:ingots/shadow_iron",
+  "source": "Mariculture 0.7.0, Metallurgy: Recast compat"
+}

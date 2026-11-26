@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "face": "mariculture:block/sluice",
+    "particle": "mariculture:block/sluice",
+    "rear": "mariculture:block/sluice_back",
+    "side": "mariculture:block/base_iron"
+  },
+  "elements": [
+    {
+      "from": [0.0, 0.0, 0.0],
+      "to": [16.0, 16.0, 16.0],
+      "faces": {
+        "down": {
+          "texture": "#rear"
+        },
+        "up": {
+          "texture": "#face"
+        },
+        "north": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "west": {
+          "texture": "#side"
+        },
+        "east": {
+          "texture": "#side"
+        }
+      }
+    }
+  ]
+}

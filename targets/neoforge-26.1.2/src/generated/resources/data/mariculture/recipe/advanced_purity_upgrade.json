@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["RFR", "PUP", "ARA"],
+  "key": {
+    "A": "mariculture:droplet_aqua",
+    "F": "mariculture:raw_angelfish",
+    "P": "mariculture:white_pearl",
+    "R": "mariculture:droplet_health",
+    "U": "mariculture:standard_purity_upgrade"
+  },
+  "result": {
+    "id": "mariculture:advanced_purity_upgrade",
+    "count": 1
+  }
+}

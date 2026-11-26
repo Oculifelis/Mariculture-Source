@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "legacy_name": "mariculture:blaze",
+  "legacy_id": 5,
+  "since": "1.2.4",
+  "dominant": false,
+  "temperature": {
+    "base": 75,
+    "tolerance": 45
+  },
+  "salinity": {
+    "base": "fresh",
+    "tolerance": 1
+  },
+  "lifespan_minutes": 15,
+  "fertility": 350,
+  "productivity": 1,
+  "food_consumption": 1,
+  "requires_food": true,
+  "water_required": 125,
+  "valid_fluids": [
+    "mariculture:custard",
+    "minecraft:lava",
+    "mariculture:brine_of_order"
+  ],
+  "ignores_salinity": true,
+  "lava": true,
+  "active_time": "any",
+  "light": 1,
+  "area_of_effect": {
+    "up": 0,
+    "down": 0,
+    "north": 0,
+    "east": 0,
+    "south": 0,
+    "west": 0
+  },
+  "catch": {
+    "rod": "flux",
+    "dimension": "nether",
+    "chance_percent": 20,
+    "alive_percent": 0
+  },
+  "fish_oil_mb": 1000,
+  "fish_meal": 2,
+  "food": {
+    "edible": true,
+    "hunger": 1,
+    "saturation": 0.1
+  },
+  "products": [
+    {
+      "item": "mariculture:droplet_nether",
+      "chance_percent": 13.0,
+      "count": 1
+    },
+    {
+      "item": "minecraft:blaze_powder",
+      "chance_percent": 20.0,
+      "count": 1
+    },
+    {
+      "item": "minecraft:blaze_rod",
+      "chance_percent": 5.0,
+      "count": 1
+    }
+  ],
+  "effects": [
+    "onEaten",
+    "tankWorldEffect"
+  ],
+  "source": "mariculture/fishery/fish/FishBlaze.java (1.7.10-1.3.0)",
+  "liquified_product": {
+    "item": "minecraft:blaze_rod",
+    "one_in": 20
+  }
+}

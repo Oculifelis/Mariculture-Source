@@ -1,0 +1,13 @@
+{
+  "name": "Fish Food",
+  "icon": "mariculture:fish_food",
+  "category": "mariculture:breeding_genetics",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Fish food is made by melting down bait or fish meal(made from crafting raw fish with itself), or just chucking it in to water around a Fish Feeder.",
+      "title": "Fish Food"
+    }
+  ]
+}

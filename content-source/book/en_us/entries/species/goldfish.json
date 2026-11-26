@@ -1,0 +1,24 @@
+{
+  "name": "Goldfish",
+  "icon": "mariculture:goldfish",
+  "category": "mariculture:species",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:goldfish",
+      "title": "Goldfish",
+      "text": "Catchable live in wild:   yes$(br)$(l)Min Rod$(): Fishing Rod$(br2)$(l)Specialty$(): Chance of gold nuggets when melted down."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Temperature Range, Salinity, Lifespan, Fertility, Work Ethic and Water requirements of the $(thing)Goldfish$() species.",
+      "title": "Fish Data"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Products that a working $(thing)Goldfish$() can produce in a Fish Feeder.",
+      "title": "Fish Products"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "mariculture:white_neon_lamp",
+    "mariculture:green_neon_lamp",
+    "mariculture:yellow_neon_lamp",
+    "mariculture:orange_neon_lamp",
+    "mariculture:red_neon_lamp",
+    "mariculture:gold_neon_lamp",
+    "mariculture:brown_neon_lamp",
+    "mariculture:purple_neon_lamp",
+    "mariculture:blue_neon_lamp",
+    "mariculture:black_neon_lamp",
+    "mariculture:pink_neon_lamp",
+    "mariculture:silver_neon_lamp"
+  ]
+}

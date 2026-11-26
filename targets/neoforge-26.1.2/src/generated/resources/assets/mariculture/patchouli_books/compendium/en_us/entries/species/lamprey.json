@@ -1,0 +1,24 @@
+{
+  "name": "Lamprey",
+  "icon": "mariculture:lamprey",
+  "category": "mariculture:species",
+  "sortnum": 50,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:lamprey",
+      "title": "Lamprey",
+      "text": "Catchable live in wild:   no$(br)$(l)Min Rod$(): Titanium Fishing Rod$(br2)$(l)Specialty$(): Applies withering, and converts normal skeletons to wither skeletons."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Temperature Range, Salinity, Lifespan, Fertility, Work Ethic and Water requirements of the $(thing)Lamprey$() species.",
+      "title": "Fish Data"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Products that a working $(thing)Lamprey$() can produce in a Fish Feeder.",
+      "title": "Fish Products"
+    }
+  ]
+}

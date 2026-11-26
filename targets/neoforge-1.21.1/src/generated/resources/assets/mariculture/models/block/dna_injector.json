@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "mariculture:block/titanium_block",
+    "up": "mariculture:block/titanium_block",
+    "north": "mariculture:block/dna_injector",
+    "south": "mariculture:block/dna_injector",
+    "west": "mariculture:block/dna_injector",
+    "east": "mariculture:block/dna_injector",
+    "particle": "mariculture:block/dna_injector"
+  }
+}

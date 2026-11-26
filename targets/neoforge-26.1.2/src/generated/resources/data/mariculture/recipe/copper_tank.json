@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["CWC", "WGW", "CWC"],
+  "key": {
+    "C": "minecraft:copper_ingot",
+    "G": "minecraft:glass",
+    "W": "#minecraft:planks"
+  },
+  "result": {
+    "id": "mariculture:copper_tank",
+    "count": 1
+  }
+}

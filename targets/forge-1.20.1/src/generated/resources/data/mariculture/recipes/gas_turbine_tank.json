@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["ARA", "ATA", "ACA"],
+  "key": {
+    "A": {
+      "item": "mariculture:aluminum_block"
+    },
+    "C": {
+      "item": "mariculture:base_iron"
+    },
+    "R": {
+      "item": "mariculture:titanium_rotor"
+    },
+    "T": {
+      "item": "mariculture:titanium_tank"
+    }
+  },
+  "result": {
+    "item": "mariculture:gas_turbine_tank",
+    "count": 1
+  }
+}

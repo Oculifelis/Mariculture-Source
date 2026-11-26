@@ -1,0 +1,19 @@
+{
+  "description": {
+    "translate": "enchantment.mariculture.elemental"
+  },
+  "supported_items": "#mariculture:pearls",
+  "weight": 4,
+  "max_level": 1,
+  "min_cost": {
+    "base": 36,
+    "per_level_above_first": 3
+  },
+  "max_cost": {
+    "base": 51,
+    "per_level_above_first": 3
+  },
+  "anvil_cost": 4,
+  "slots": ["any"],
+  "exclusive_set": "#mariculture:exclusive_set/jewelry"
+}

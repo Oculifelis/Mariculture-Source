@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["WEW", "FRF", "DWD"],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "E": {
+      "tag": "c:storage_blocks/emerald"
+    },
+    "F": {
+      "item": "mariculture:raw_dragonfish"
+    },
+    "R": {
+      "item": "minecraft:dragon_egg"
+    },
+    "W": {
+      "item": "minecraft:light_blue_wool"
+    }
+  },
+  "result": {
+    "id": "mariculture:eternal_male_upgrade",
+    "count": 1
+  }
+}

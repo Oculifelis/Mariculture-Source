@@ -1,0 +1,37 @@
+{
+  "name": "Other Mods",
+  "icon": "minecraft:comparator",
+  "category": "mariculture:integrations",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Other Mods",
+      "text": "$(l)Aquaculture$(): its iron and gold rods fish like a good rod, its diamond rod like a dire rod and its neptunium rod like a better one. Its worms work as bait on dire and flux rods, a raw Mariculture fish and salt make Aquaculture fillets, and its fish melt into fish oil.$(br2)$(l)Biomes O' Plenty$(): its biomes have their own salinity and temperature, and its flowers crush into two dye on the anvil."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Alex's Caves$(): the Abyssal Chasm is cold salt water, and each cave biome has fish of its own (see Alex's Caves Fish).$(br2)Modded oceans count as salt water and modded beaches as brackish."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Railcraft$(): steel tools and armour melt back into molten steel, and coal coke and its blocks fuel the Crucible Furnace.$(br2)$(l)Thermal$(): redstone and glowstone melt into Thermal's fluids, and the Fluid Auto-Dictionary turns Thermal's ender into Liquid Ender.$(br2)$(l)Metallurgy$(): its metals melt in the Crucible Furnace into Metallurgy's own molten metals, which cast back into its nuggets, ingots and blocks. Each of its ore metals also has a metal fish that drops droplets of that molten metal.$(br2)$(l)Orbis Novus$(): its oceans and hills get limestone, rutile, oysters and bauxite like vanilla ones."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Forestry$(): its bioethanol works wherever Mariculture's does, raw fish squeeze into fish oil with a chance of their by-product, and drones, princesses and queens craft into 1, 5 and 7 bee bait. The $(item)Aquatic Backpack$() holds fish, pearls, bait and droplets; weave it in the Carpenter. Fish oil fuels the Biogas Engine and kelp the Fermenter."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Complicated Bees$(): its bees craft into bee bait the same way.$(br2)$(l)ProjectE$(): Mariculture items have EMC values, and anvil hammering counts as a conversion."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Other fishing mods$(): raw fish from Aquaculture 2, Upgrade Aquatic, Alex's Caves, Starcatcher and Tide make fish meal and sushi. The tag $(thing)mariculture:foreign_fish$() lists them, and data packs can add more.$(br2)$(l)Starcatcher$(): Mariculture fish bite in its minigame and show in its guide, in the same waters and hours as a Mariculture rod.$(br2)$(l)Stardew Fishing$(): Mariculture rods and fish start its minigame, and the fish in the minigame is the fish that bit.$(br2)$(l)Tide$(): Mariculture fish bite on Tide rods and fill pages in its journal. Mariculture rods keep Mariculture fishing.$(br2)$(l)Upgrade Aquatic$(): its kelps roll kelp wraps, and $(l)Alex's Caves$() pearls count as pearls."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Redstone Arsenal$(): its flux-infused fishing rod catches Mariculture fish and loot as well as a titanium rod, and in an autofisher it takes ant, maggot and bee bait or flux dust.$(br2)$(l)Pam's HarvestCraft$(): raw Mariculture fish count as raw fish in its recipes.$(br2)$(l)KubeJS$(): server scripts can change Mariculture's machines and fishing loot through $(thing)Mariculture.add$().$(br2)Each mod has a switch in the plugins section of the config. Data packs set biome salinity in $(thing)mariculture/biome_environment$() and other rods' tiers in $(thing)mariculture/rod_tiers$()."
+    }
+  ]
+}

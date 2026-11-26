@@ -1,0 +1,22 @@
+{
+  "name": "Creation and Repair",
+  "icon": "mariculture:anvil",
+  "category": "mariculture:sea_magic",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Jewelry is crafted, then worked. Put a pearl and its binding in the crafting grid in the piece's shape: you get an unworked piece. Place it on a Blacksmith's Anvil and hit it with the hammer (or let an Autohammer do it) until it is done. The pearl and binding set how many hits it takes.",
+      "title": "Creation"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Ring: seven bindings in a ring with the pearl at the top middle$(li)Bracelet: two bindings in the top corners above four pearls in a U$(li)Necklace: seven pearls in a ring with the binding at the top middle$(br2)Crafting a finished piece with one pearl of another colour changes it to that material and keeps its enchantments."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Jewelry is repaired on the Blacksmith's Anvil like any damaged item, at a cost in experience. Pieces whose durability runs out stay in the mirror but do nothing until repaired.",
+      "title": "Repair"
+    }
+  ]
+}

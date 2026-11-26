@@ -1,0 +1,7 @@
+{
+  "schema": 1,
+  "plugin": "redstone_arsenal",
+  "rods": {
+    "redstone_arsenal:flux_fishing_rod": "infused"
+  }
+}

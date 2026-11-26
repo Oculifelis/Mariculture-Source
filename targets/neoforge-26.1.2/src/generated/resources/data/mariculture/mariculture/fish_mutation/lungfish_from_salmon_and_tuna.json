@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "parents": [
+    "salmon",
+    "tuna"
+  ],
+  "child": "lungfish",
+  "chance_percent": 22,
+  "conditions": [],
+  "source": "mariculture/fishery/Fish.java:381"
+}

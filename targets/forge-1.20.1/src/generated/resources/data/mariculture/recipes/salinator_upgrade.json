@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["ASA", "SUS", "MAM"],
+  "key": {
+    "A": {
+      "item": "mariculture:aluminum_ingot"
+    },
+    "M": {
+      "item": "mariculture:magnesium_ingot"
+    },
+    "S": {
+      "item": "mariculture:salt"
+    },
+    "U": {
+      "item": "mariculture:basic_impurity_upgrade"
+    }
+  },
+  "result": {
+    "item": "mariculture:salinator_upgrade",
+    "count": 1
+  }
+}

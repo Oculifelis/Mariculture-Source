@@ -1,0 +1,29 @@
+{
+  "name": "Fish Traits",
+  "icon": "minecraft:egg",
+  "category": "mariculture:breeding_genetics",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "There are a few different traits that fish can inherit they are Species, Fertility, Food Usage, Lifespan, Tank Size and Work Ethic. Fish have two copies of each, one being dominant the other recessive, only the dominant one counts for how the fish operates. Here is just a little information about each trait.",
+      "title": "Fish Traits"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Species$()$(br)This determines a lot of things, such as which environments the fish can live in, how much fish oil or meal it produces and what products it produces.$(br2)$(l)Fertility$()$(br)This determines how many fish eggs will be in each in Fish Eggs item, with more fertile meaning more eggs."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Food Usage$()$(br)This determines how much fish food a fish will consume when it's the fish's turn to eat in the Fish Feeder"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Lifespan$()$(br)This is how long the fish will live, longer lives are good for keeping the perfect fish, and having it produce many products, while shorter lives are good for breeding$(br2)$(l)Tank Size$()$(br)This is the minimum tank size the fish will be happy in, aka how much water they need around the feeder to be happy"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Work Ethic$()$(br)This is how much of a hardworker the fish is, Lazy fish will produce no products whatsoever, while hardworkers create twice as much as other fish.$(br2)$(l)Area - UDNESW$()$(br)This is the area that this fish will work in, it's pretty much how far any special effects fish produce will go."
+    }
+  ]
+}

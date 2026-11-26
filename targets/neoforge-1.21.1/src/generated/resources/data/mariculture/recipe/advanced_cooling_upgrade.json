@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["CTC", "IUI", "TRT"],
+  "key": {
+    "C": {
+      "item": "mariculture:cooling_component"
+    },
+    "I": {
+      "item": "minecraft:ice"
+    },
+    "R": {
+      "item": "minecraft:iron_ingot"
+    },
+    "T": {
+      "item": "mariculture:aluminum_ingot"
+    },
+    "U": {
+      "item": "mariculture:standard_cooling_upgrade"
+    }
+  },
+  "result": {
+    "id": "mariculture:advanced_cooling_upgrade",
+    "count": 1
+  }
+}

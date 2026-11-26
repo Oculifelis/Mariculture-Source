@@ -1,0 +1,30 @@
+{
+  "name": "Jewelry",
+  "icon": "mariculture:necklace",
+  "category": "mariculture:sea_magic",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "There are three types of jewelry, rings, bracelets and necklaces, worn in your Curios ring, bracelet and necklace slots (or a mirror's slots). With extra slots, only the strongest piece of each type counts. Jewelry stays on you when you die. Each type has increasing durability as well as being able to hold more enchantments. Jewelry is made up of two components pearls and a binding.",
+      "title": "Jewelry"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Different colours of pearls affect various different things when creating jewelry, these are:$(li)Durability$(li)Max Level an Enchantment can be$(li)Max Enchantments on a piece of jewelry$(li)Bias towards an enchantment, in a mirror$(li)Special effect with Elemental Affinity$(li)Repair Cost$(li)Creation Cost"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The binding I talk of is different depending on the piece of jewelry you are making:$(li)Ring - Iron or Gold$(li)Bracelet - String or Golden Silk$(li)Necklace - Wool or Golden Thread$(br2)The binding is what holds your piece of jewelry together.",
+      "title": "Bindings"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "It is what determines how 'strong willed' it is. When attempting to place an enchanted pearl on to a piece of jewelry. There is a chance of success. This chance is much greater, and therefore the chance of loss is less, when using a better quality of binding.$(br2)Bindings also have an effect on:$(li)Durability"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Creation Cost$(li)Max Enchantments on a piece of jewelry"
+    }
+  ]
+}

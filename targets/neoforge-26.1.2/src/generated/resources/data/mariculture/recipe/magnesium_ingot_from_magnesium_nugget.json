@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["###", "###", "###"],
+  "key": {
+    "#": "mariculture:magnesium_nugget"
+  },
+  "result": {
+    "id": "mariculture:magnesium_ingot",
+    "count": 1
+  }
+}

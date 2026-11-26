@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "mariculture:block/coral/purple"
+  },
+  "render_type": "minecraft:cutout"
+}

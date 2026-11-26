@@ -1,0 +1,90 @@
+{
+  "schema": 1,
+  "legacy_name": "mariculture:glow",
+  "legacy_id": 4,
+  "since": "1.2.4",
+  "dominant": false,
+  "temperature": {
+    "base": 57,
+    "tolerance": 37
+  },
+  "salinity": {
+    "base": "fresh",
+    "tolerance": 0
+  },
+  "lifespan_minutes": 20,
+  "fertility": 450,
+  "productivity": 1,
+  "food_consumption": 3,
+  "requires_food": true,
+  "water_required": 120,
+  "valid_fluids": [
+    "mariculture:custard",
+    "minecraft:lava"
+  ],
+  "ignores_salinity": true,
+  "lava": true,
+  "active_time": "any",
+  "light": 15,
+  "area_of_effect": {
+    "up": 0,
+    "down": 0,
+    "north": 0,
+    "east": 0,
+    "south": 0,
+    "west": 0
+  },
+  "catch": {
+    "rod": "super",
+    "dimension": "nether",
+    "chance_percent": {
+      "cases": [
+        {
+          "percent": 50,
+          "any_of": [
+            {
+              "y_min": 96
+            }
+          ]
+        },
+        {
+          "percent": 25
+        }
+      ]
+    },
+    "alive_percent": 0
+  },
+  "fish_oil_mb": 2725,
+  "fish_meal": 5,
+  "food": {
+    "edible": true,
+    "hunger": 3,
+    "saturation": 0.4
+  },
+  "products": [
+    {
+      "item": "mariculture:droplet_nether",
+      "chance_percent": 15,
+      "count": 1
+    },
+    {
+      "item": "mariculture:droplet_electric",
+      "chance_percent": 10,
+      "count": 1
+    },
+    {
+      "item": "minecraft:glowstone_dust",
+      "chance_percent": 7.5,
+      "count": 1
+    }
+  ],
+  "effects": [
+    "onEaten",
+    "tankWorldEffect"
+  ],
+  "source": "mariculture/fishery/fish/FishGlow.java (1.7.10-1.3.0)",
+  "liquified_product": {
+    "item": "minecraft:glowstone_dust",
+    "one_in": 1
+  }
+}

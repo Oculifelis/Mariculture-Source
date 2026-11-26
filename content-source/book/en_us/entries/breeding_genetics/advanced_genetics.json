@@ -1,0 +1,17 @@
+{
+  "name": "Advanced Genetics",
+  "icon": "mariculture:dna_extractor",
+  "category": "mariculture:breeding_genetics",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Breeding the perfect fish can be very time consuming. What if there was a way you could speed up the process of breeding. Well there is. Mariculture introduces two more advanced that will allow you to genetically manipulate your fish, making that super fish much easier to obtain.",
+      "title": "Advanced Genetics"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "\n\nThe two machines are the DNA Extractor and the DNA Injector. Their names explain exactly what they do. But you probably need some guidance on what they do. So turn over the page and find out everything you need to know about them!"
+    }
+  ]
+}

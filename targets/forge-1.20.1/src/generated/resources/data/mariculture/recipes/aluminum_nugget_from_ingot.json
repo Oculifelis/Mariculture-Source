@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mariculture:aluminum_ingot"
+    }
+  ],
+  "result": {
+    "item": "mariculture:aluminum_nugget",
+    "count": 9
+  }
+}

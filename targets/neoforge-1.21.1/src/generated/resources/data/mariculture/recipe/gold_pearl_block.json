@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["##", "##"],
+  "key": {
+    "#": {
+      "item": "mariculture:gold_pearl"
+    }
+  },
+  "result": {
+    "id": "mariculture:gold_pearl_block",
+    "count": 1
+  }
+}

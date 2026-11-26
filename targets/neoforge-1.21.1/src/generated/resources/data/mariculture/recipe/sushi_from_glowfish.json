@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [" K ", "KFK", " K "],
+  "key": {
+    "F": {
+      "item": "mariculture:raw_glowfish"
+    },
+    "K": {
+      "item": "mariculture:kelp_wrap"
+    }
+  },
+  "result": {
+    "id": "mariculture:sushi",
+    "count": 4
+  }
+}

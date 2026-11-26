@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "thaumaturge:salis_mundus",
+      "required": false
+    }
+  ]
+}

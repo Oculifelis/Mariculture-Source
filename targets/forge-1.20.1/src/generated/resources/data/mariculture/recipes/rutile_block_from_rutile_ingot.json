@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["###", "###", "###"],
+  "key": {
+    "#": {
+      "item": "mariculture:rutile_ingot"
+    }
+  },
+  "result": {
+    "item": "mariculture:rutile_block",
+    "count": 1
+  }
+}

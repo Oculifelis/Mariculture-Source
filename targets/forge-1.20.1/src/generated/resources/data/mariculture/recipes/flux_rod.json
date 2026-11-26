@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["  R", " RS", "B S"],
+  "key": {
+    "B": {
+      "item": "mariculture:titanium_battery"
+    },
+    "R": {
+      "item": "mariculture:titanium_fishing_rod"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "mariculture:flux_rod",
+    "count": 1
+  }
+}

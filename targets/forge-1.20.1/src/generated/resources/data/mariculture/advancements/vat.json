@@ -1,0 +1,30 @@
+{
+  "parent": "mariculture:crucible",
+  "display": {
+    "icon": {
+      "item": "mariculture:vat"
+    },
+    "title": {
+      "translate": "advancements.mariculture.vat.title"
+    },
+    "description": {
+      "translate": "advancements.mariculture.vat.description"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "has_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["mariculture:vat"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_0"]
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Pickerel",
+  "icon": "mariculture:pickerel",
+  "category": "mariculture:species",
+  "sortnum": 49,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mariculture:pickerel",
+      "title": "Pickerel",
+      "text": "Catchable live in wild:   no$(br)$(l)Min Rod$(): Reed Fishing Rod$(br2)$(l)Specialty$(): Harvests crops."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Temperature Range, Salinity, Lifespan, Fertility, Work Ethic and Water requirements of the $(thing)Pickerel$() species.",
+      "title": "Fish Data"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Products that a working $(thing)Pickerel$() can produce in a Fish Feeder.",
+      "title": "Fish Products"
+    }
+  ]
+}

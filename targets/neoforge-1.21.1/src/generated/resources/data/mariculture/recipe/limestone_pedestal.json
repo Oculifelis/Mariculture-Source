@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["X", "Y"],
+  "key": {
+    "X": {
+      "item": "mariculture:limestone_pillar"
+    },
+    "Y": {
+      "item": "mariculture:bordered_limestone"
+    }
+  },
+  "result": {
+    "id": "mariculture:limestone_pedestal",
+    "count": 2
+  }
+}

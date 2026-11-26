@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "mariculture:block/generator"
+    },
+    "facing=west": {
+      "model": "mariculture:block/generator",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "mariculture:block/generator",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "mariculture:block/generator",
+      "y": 270
+    }
+  }
+}
